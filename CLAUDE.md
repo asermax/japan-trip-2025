@@ -10,6 +10,7 @@ japan-trip-2025/
       destinations/       # City/town research
       routes/            # Travel legs between destinations
       attractions/       # POI research organized by type
+      state/             # Intermediate state files for research workflow
       trusted-resources.md # Verified sources for research
    site/                  # Zola website with Anatole theme
       config.toml        # Site configuration with theme settings
@@ -274,10 +275,51 @@ Content weight determines ordering within sections:
 ## AI Research Integration
 
 ### Research Tools & Approach
-- **Gemini Research Agent**: Use `gemini -p` for specialized research tasks
+- **Location Scavenger Agent**: Discovers and catalogs locations/attractions with date-specific events and existing recommendations
+- **Location Researcher Agent**: Deep research on specific locations identified by scavenger
+- **Gemini Research Agent**: Use `gemini -p` for specialized cultural research, historical context, and local insights
 - **Context7 MCP Server**: For up-to-date library documentation
-- **Official Sources**: Japan tourism authorities and government resources
+- **Trusted Resources**: Verified sources from `research/trusted-resources.md` for authoritative information
+- **WebSearch Tool**: For current information and verification
 - **Source Tracking**: Maintain detailed citations for all information
+
+### Specialized Research Agents (`.claude/agents/`)
+
+**Location Scavenger Agent:**
+- Identifies information sources and related locations for destinations using WebSearch and trusted resources
+- Includes specific travel dates for event research
+- References existing recommendations from recommendations-base.md
+- Searches for seasonal/date-specific events and festivals
+- Cross-references base itinerary suggestions with current offerings
+- Provides foundation for detailed research by location researcher agents
+
+**Location Discovery Agent (Gemini-based):**
+- Performs the same discovery tasks as Location Scavenger Agent using gemini research capabilities
+- Identifies information sources and related locations for destinations
+- Searches for seasonal/date-specific events and cultural significance
+- References existing recommendations and discovers additional cultural context
+- Cross-references findings with authentic local perspectives
+- Provides complementary foundation for detailed research phase
+
+**Location Researcher Agent:**
+- Conducts detailed research on locations identified by scavenger
+- Uses multiple research tools in parallel when possible
+- Verifies practical information (hours, costs, accessibility, current status)
+- Researches cultural context and visitor experiences
+
+**Gemini Research Agent (`gemini -p`) Usage:**
+- Cultural and historical deep-dives beyond web search results
+- Local customs, etiquette, and cultural significance research
+- Traditional practices and their modern adaptations
+- Regional specialties and authentic local experiences
+- Cross-cultural context and travel tips from local perspectives
+
+**Trusted Resources Strategy:**
+- Prioritize official tourism boards and government sources
+- Use verified travel guides and established travel publications
+- Cross-reference multiple authoritative sources for accuracy
+- Maintain list of reliable sources in `research/trusted-resources.md`
+- Document source reliability and last verification dates
 
 ### Research Protocol
 1. Check multiple sources from trusted resources list
@@ -285,6 +327,145 @@ Content weight determines ordering within sections:
 3. Use AI tools to analyze and synthesize information
 4. Maintain source citations in proper format
 5. Update CLAUDE.md when workflows or tools change
+
+### Destination Research Methodology
+
+**Phase 1: Location Discovery (Parallel Agents)**
+1. Deploy Location Scavenger Agent and Location Discovery Agent (gemini-based) in parallel with identical location prompts
+2. Both agents work on the same discovery tasks: identifying sources, attractions, POIs, events, and related locations
+3. Each agent uses their available research tools (WebSearch/trusted resources vs. gemini research capabilities)
+4. Compare and merge results from both agents into unified comprehensive state file
+5. Prioritize locations based on consolidated findings from both research approaches
+6. Cross-reference findings between agents for validation and completeness
+7. Generate integrated list for detailed research phase
+
+**Phase 2: Detailed Research (Researcher)**
+1. Reference the state file research assignments and priority tiers
+2. Deploy Location Researcher Agents in parallel batches as defined in state file
+3. Each agent researches specific locations with context from state file
+4. Research practical information: hours, seasons, accessibility, costs, current status
+5. Gather cultural context and visitor experiences using Gemini when needed
+6. Document findings in structured format with priority tier and base recommendation status
+7. Cross-reference findings between related locations for integration insights
+
+**Phase 3: Content Organization**
+1. Create destination-specific research file in `/research/destinations/`
+2. Structure information by categories: attractions, food, logistics, culture
+3. Include source citations and last-updated dates
+4. Note seasonal considerations and booking requirements
+
+**Phase 4: Validation and Documentation**
+1. Cross-reference multiple sources for accuracy
+2. Verify current operating status and requirements
+3. Document research process and findings
+4. Update TODO list status to reflect progress
+
+## State Files Management (`/research/state/`)
+
+The state folder contains intermediate files used during the research workflow to coordinate between different research phases and agents.
+
+### State File Format
+
+State files follow this naming convention: `{destination}-{phase}-state.md`
+
+**Example:** `fujikawaguchiko-discovery-state.md`
+
+### State File Structure
+
+```markdown
+# {Destination} - Discovery State
+
+**Date:** {Creation date}
+**Visit Period:** {Travel dates}
+**Accommodation:** {Lodging details}
+**Status:** {Current phase status}
+
+## Comprehensive Research Findings
+
+### Information Sources Discovered
+- **Official Resources:** {Count and key sources from both agents}
+- **Travel Guides:** {Major coverage found across research methods}
+- **Community Resources:** {Forum/social platforms identified}
+- **Media Resources:** {Video/photo content discovered}
+
+### Cultural and Contextual Information
+- **Cultural Significance:** {Key cultural insights and context}
+- **Local Perspectives:** {Authentic experiences and recommendations}
+- **Historical Background:** {Relevant historical context}
+- **Regional Specialties:** {Local customs, traditions, and unique aspects}
+
+## Priority Locations for Research
+
+### Tier 1 - Essential
+- {Location name} - {Brief description and significance}
+
+### Tier 2 - Conditional
+- {Location name} - {Conditions for inclusion and context}
+
+### Tier 3 - Backup Options
+- {Location name} - {Alternative option context and considerations}
+
+## Date-Specific Events
+
+### {Event/Festival name}
+- **Period:** {Duration}
+- **Locations:** {Where it occurs}
+- **Features:** {What to expect}
+- **Cultural Context:** {Significance and background}
+
+## Base Recommendations Cross-Reference
+
+### Already in Base Recommendations
+- ✅ {Location name} - {Validation status and additional context}
+
+### New Discoveries
+- 🆕 {Location name} - {Significance and why it merits inclusion}
+
+## Research Assignments
+
+### Batch 1 - {Category}
+- Agent A: {Locations/tasks with comprehensive context}
+- Agent B: {Locations/tasks with integrated background}
+
+## Follow-up Research Topics for Detailed Phase
+
+### {Category}
+- {Topic identified from comprehensive research findings}
+```
+
+### State File Usage
+
+1. **Creation**: After parallel discovery agent research completion
+2. **Compilation**: Merge findings from both Location Scavenger Agent and Location Discovery Agent
+3. **Integration**: Combine complementary insights into unified comprehensive findings
+4. **Validation**: Cross-reference findings between both research approaches for completeness
+5. **Purpose**: Coordinate parallel research activities and provide context to researcher agents
+6. **Reference**: Used by location researcher agents for task assignment and priority understanding
+7. **Parallel Processing**: Research assignments enable multiple agents to work simultaneously
+8. **Updates**: Modified as research phases progress to track completion status
+9. **Cleanup**: Archived once final destination research is complete
+
+### Parallel Research Execution
+
+**Phase 1 - Discovery (Main Agent Orchestration):**
+1. **Execute in parallel**: Deploy Location Scavenger Agent AND Location Discovery Agent with identical location prompts
+2. **Wait for both results** before proceeding to compilation
+3. **Compare findings**: Identify overlaps, unique discoveries, and complementary insights
+4. **Compile state file**: Merge results into unified comprehensive findings without source differentiation
+5. **Prioritize locations**: Use integrated findings from both practical accessibility and cultural significance perspectives
+
+**Phase 2 - Detailed Research:**
+1. **Read the compiled state file** to understand the full context and research assignments
+2. **Deploy multiple Location Researcher Agents** simultaneously using the batch assignments
+3. **Provide each agent with**:
+   - Specific location(s) from their assigned batch
+   - Priority tier context (Essential/Conditional/Backup)
+   - Visit dates and accommodation information
+   - Base recommendation status (existing vs. new discovery)
+   - Cultural and contextual background from comprehensive discovery phase
+   - Integrated research context from both discovery approaches
+4. **Monitor parallel execution** and coordinate findings for integration insights
+5. **Compile results** from all agents into comprehensive destination research
 
 ## CLAUDE.md Maintenance Protocol
 
