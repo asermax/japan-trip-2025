@@ -1,0 +1,13 @@
+{% extends "basic.html" %}
+
+{% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
+
+{% block content %}
+<article class="post animated fadeInDown">
+  <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+  {% if page.extra.author %}
+  <div class="info">By {{ page.extra.author }}.</div>
+  {% endif %}
+  <div class="post-content">{{ page.content | safe }}</div>
+</article>
+{% endblock content %}

@@ -1,0 +1,125 @@
+{% extends "basic.html" %}
+
+{% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
+
+{% block content %}
+<article class="timeline-entry post animated fadeInDown">
+  <div class="timeline-header">
+    <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
+    {% if page.extra.date_range %}
+    <div class="timeline-date">{{ page.extra.date_range }}</div>
+    {% endif %}
+    {% if page.extra.type %}
+    <div class="timeline-type timeline-type-{{ page.extra.type }}">
+      {% if page.extra.type == "destination" %}🌸 Destination
+      {% elif page.extra.type == "journey" %}⛩️ Journey
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="post-content">{{ page.content | safe }}</div>
+
+  <div class="timeline-navigation">
+    {% if page.extra.previous_entry or page.extra.previous_leg %}
+      {% set prev = page.extra.previous_entry or page.extra.previous_leg %}
+      <div class="timeline-prev">
+        <a href="/timeline/{{ prev }}/">&larr; Previous</a>
+      </div>
+    {% endif %}
+    {% if page.extra.next_entry or page.extra.next_leg %}
+      {% set next = page.extra.next_entry or page.extra.next_leg %}
+      <div class="timeline-next">
+        <a href="/timeline/{{ next }}/">Next &rarr;</a>
+      </div>
+    {% endif %}
+  </div>
+
+</article>
+
+<style>
+.timeline-entry {
+  border-left: 4px dashed #e91e63;
+  border-image: repeating-linear-gradient(
+    to bottom,
+    #e91e63 0px,
+    #e91e63 8px,
+    transparent 8px,
+    transparent 16px
+  ) 1;
+  padding-left: 20px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #e91e63 0px,
+    #e91e63 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  border-radius: 1px;
+}
+
+.timeline-header {
+  margin-bottom: 20px;
+}
+
+.timeline-date {
+  font-size: 1.1em;
+  color: #666;
+  font-weight: 500;
+}
+
+.timeline-type {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.timeline-type-destination {
+  background-color: #fce4ec;
+  color: #ad1457;
+  border: 1px solid #f8bbd9;
+}
+
+.timeline-type-journey {
+  background-color: #fce4ec;
+  color: #ad1457;
+  border: 1px solid #f8bbd9;
+}
+
+.timeline-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  padding: 20px 0;
+  border-top: 1px solid #f8bbd9;
+}
+
+.timeline-prev, .timeline-next {
+  font-weight: 500;
+}
+
+.timeline-prev a, .timeline-next a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.timeline-prev a:hover, .timeline-next a:hover {
+  text-decoration: underline;
+  color: #ad1457;
+}
+</style>
+{% endblock content %}

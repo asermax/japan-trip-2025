@@ -1,7 +1,8 @@
 # The URL the site will be built for
 base_url = "https://japan-2025.asermax.com"
 title = "Japan Trip 2025"
-description = "Research and planning for our Japan 2025 adventure"
+description = "Our chronological journey through Japan - from Tokyo to cultural treasures"
+theme = "anatole-zola"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -23,7 +24,31 @@ highlight_code = true
 highlight_theme = "base16-ocean-dark"
 
 [extra]
-# Put all your custom variables here
+# Trip-specific metadata
 author = "Agus"
 trip_year = 2025
 trip_duration = "2-3 weeks"
+trip_start_date = "2025-04-01"
+
+# Anatole theme configuration
+[extra.social]
+github = ""
+twitter = ""
+instagram = ""
+linkedin = ""
+
+[extra.show]
+tags = true
+links = false
+
+# Custom translations for our Japan trip
+[languages.en.translations]
+language_name = "English"
+about = "About This Trip"
+home = "Timeline"
+tags = "Tags"
+archive = "All Places"
+links = "Resources"
+date_format = "%B %d"
+next_page = "Next"
+last_page = "Previous"

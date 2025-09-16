@@ -1,0 +1,191 @@
+{% extends "basic.html" %}
+
+{% block title %}{{ config.title }} • {{ section.title }}{% endblock title %}
+
+{% block content %}
+<article class="timeline-section post animated fadeInDown">
+  <h1>{{ section.title }}</h1>
+
+  <div class="post-content">{{ section.content | safe }}</div>
+
+  <div class="timeline">
+    {% for page in section.pages %}
+    <div class="timeline-item timeline-{{ page.extra.type | default(value="entry") }}">
+      <div class="timeline-marker">
+        {% if page.extra.type == "destination" %}
+        <span class="timeline-icon">🌸</span>
+        {% elif page.extra.type == "journey" %}
+        <span class="timeline-icon">⛩️</span>
+        {% else %}
+        <span class="timeline-icon">📝</span>
+        {% endif %}
+      </div>
+
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+          {% if page.extra.date_range %}
+          <div class="timeline-date">{{ page.extra.date_range }}</div>
+          {% endif %}
+        </div>
+
+        <div class="timeline-summary">
+          {{ page.description }}
+        </div>
+
+        {% if page.extra.highlights %}
+        <div class="timeline-highlights">
+          <strong>Highlights:</strong>
+          {% for highlight in page.extra.highlights %}
+          <span class="highlight-tag">{{ highlight }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div class="timeline-meta">
+          {% if page.extra.duration %}
+          <span class="duration">⏱️ {{ page.extra.duration }}</span>
+          {% endif %}
+          {% if page.extra.place %}
+          <span class="location">📍 <a href="/places/{{ page.extra.place }}/">{{ page.extra.place | title }}</a></span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+
+<style>
+.timeline {
+  position: relative;
+  margin: 40px 0;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #e91e63 0px,
+    #e91e63 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  border-radius: 1px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 80px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fce4ec;
+  border: 2px solid #e91e63;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.timeline-icon {
+  font-size: 14px;
+}
+
+.timeline-content {
+  background: #fce4ec;
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 4px solid #e91e63;
+  border: 1px solid #f8bbd9;
+}
+
+.timeline-destination .timeline-marker {
+  background: #fce4ec;
+  border-color: #e91e63;
+}
+
+.timeline-destination .timeline-content {
+  border-left-color: #e91e63;
+}
+
+.timeline-journey .timeline-marker {
+  background: #fce4ec;
+  border-color: #e91e63;
+}
+
+.timeline-journey .timeline-content {
+  border-left-color: #e91e63;
+}
+
+.timeline-header h3 {
+  margin: 0 0 5px 0;
+}
+
+.timeline-header h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.timeline-header h3 a:hover {
+  color: #e91e63;
+}
+
+.timeline-date {
+  color: #666;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.timeline-summary {
+  margin: 10px 0;
+  color: #555;
+}
+
+.timeline-highlights {
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.highlight-tag {
+  display: inline-block;
+  background: #f8bbd9;
+  color: #ad1457;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin: 0 4px 4px 0;
+  font-size: 0.8em;
+}
+
+.timeline-meta {
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.timeline-meta span {
+  margin-right: 15px;
+}
+
+.timeline-meta a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.timeline-meta a:hover {
+  text-decoration: underline;
+}
+</style>
+{% endblock content %}

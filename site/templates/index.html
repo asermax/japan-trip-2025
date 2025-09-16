@@ -2,6 +2,26 @@
 
 {% block content %}
 <div class="home">
-    {{ page.content | safe }}
+    {{ section.content | safe }}
+
+    <section class="overview">
+        <div class="section-preview">
+            <h2>Destinations</h2>
+            <p>Cities and towns where we'll stay</p>
+            <a href="/destinations/">Explore Destinations →</a>
+        </div>
+
+        <div class="section-preview">
+            <h2>Journey</h2>
+            <p>Travel routes between destinations</p>
+            <a href="/journey/">Plan the Journey →</a>
+        </div>
+
+        <div class="section-preview">
+            <h2>Discover</h2>
+            <p>Attractions and experiences</p>
+            <a href="/discover/">Discover Places →</a>
+        </div>
+    </section>
 </div>
 {% endblock content %}

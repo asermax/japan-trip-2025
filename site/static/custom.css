@@ -1,0 +1,17 @@
+/* Disable Anatole theme animations */
+.animated,
+.animated.fadeInDown {
+  animation: none !important;
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+}
+
+/* Remove all transitions */
+* {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+}

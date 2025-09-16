@@ -1,0 +1,25 @@
+# Zola build output
+site/public/
+
+# Generated content from research
+site/content/*.md
+site/content/places/
+site/content/attractions/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
