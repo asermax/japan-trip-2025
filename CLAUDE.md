@@ -330,142 +330,37 @@ Content weight determines ordering within sections:
 
 ### Destination Research Methodology
 
-**Phase 1: Location Discovery (Parallel Agents)**
-1. Deploy Location Scavenger Agent and Location Discovery Agent (gemini-based) in parallel with identical location prompts
-2. Both agents work on the same discovery tasks: identifying sources, attractions, POIs, events, and related locations
-3. Each agent uses their available research tools (WebSearch/trusted resources vs. gemini research capabilities)
-4. Compare and merge results from both agents into unified comprehensive state file
-5. Prioritize locations based on consolidated findings from both research approaches
-6. Cross-reference findings between agents for validation and completeness
-7. Generate integrated list for detailed research phase
+**Research Purpose:** Comprehensive cataloging of all available options, attractions, and experiences for each destination. This is **not** itinerary planning - the goal is to research and document everything worth knowing for later reference and decision-making.
 
-**Phase 2: Detailed Research (Researcher)**
-1. Reference the state file research assignments and priority tiers
-2. Deploy Location Researcher Agents in parallel batches as defined in state file
-3. Each agent researches specific locations with context from state file
-4. Research practical information: hours, seasons, accessibility, costs, current status
-5. Gather cultural context and visitor experiences using Gemini when needed
-6. Document findings in structured format with priority tier and base recommendation status
-7. Cross-reference findings between related locations for integration insights
+The research process consists of two main phases:
 
-**Phase 3: Content Organization**
-1. Create destination-specific research file in `/research/destinations/`
-2. Structure information by categories: attractions, food, logistics, culture
-3. Include source citations and last-updated dates
-4. Note seasonal considerations and booking requirements
+**Discovery Phase** (`/discovery [destination]`)
+- Deploy parallel agents to identify all information sources and potential attractions
+- Generate comprehensive state file with all discovered options organized by interest/significance
+- Cross-reference base recommendations with new discoveries
+- Create research assignments for detailed investigation of all options
 
-**Phase 4: Validation and Documentation**
-1. Cross-reference multiple sources for accuracy
-2. Verify current operating status and requirements
-3. Document research process and findings
-4. Update TODO list status to reflect progress
+**Detailed Research Phase** (`/research [destination]`)
+- Use discovery state file to coordinate parallel research agents
+- Research practical information, cultural context, and visitor experiences for all discovered options
+- Generate comprehensive destination research catalogs with complete information
+- Update TODO status and prepare research files for future itinerary planning
+
+**Commands Available:**
+- `/discovery [destination]` - Start discovery research for a destination
+- `/research [destination]` - Conduct detailed research using discovery state
+
+See `.claude/commands/` for detailed command specifications and workflows.
 
 ## State Files Management (`/research/state/`)
 
-The state folder contains intermediate files used during the research workflow to coordinate between different research phases and agents.
+State files coordinate research workflow between discovery and detailed research phases. They contain prioritized locations using todo format (`- [ ]`) and research assignments for parallel agent deployment.
 
-### State File Format
+**File naming:** `{destination-slug}-discovery-state.md`
+**Purpose:** Bridge between discovery and research phases with comprehensive findings and structured todo lists
+**Management:** Created by `/discovery` command, used by `/research` command
 
-State files follow this naming convention: `{destination}-{phase}-state.md`
-
-**Example:** `fujikawaguchiko-discovery-state.md`
-
-### State File Structure
-
-```markdown
-# {Destination} - Discovery State
-
-**Date:** {Creation date}
-**Visit Period:** {Travel dates}
-**Accommodation:** {Lodging details}
-**Status:** {Current phase status}
-
-## Comprehensive Research Findings
-
-### Information Sources Discovered
-- **Official Resources:** {Count and key sources from both agents}
-- **Travel Guides:** {Major coverage found across research methods}
-- **Community Resources:** {Forum/social platforms identified}
-- **Media Resources:** {Video/photo content discovered}
-
-### Cultural and Contextual Information
-- **Cultural Significance:** {Key cultural insights and context}
-- **Local Perspectives:** {Authentic experiences and recommendations}
-- **Historical Background:** {Relevant historical context}
-- **Regional Specialties:** {Local customs, traditions, and unique aspects}
-
-## Priority Locations for Research
-
-### Tier 1 - Essential
-- {Location name} - {Brief description and significance}
-
-### Tier 2 - Conditional
-- {Location name} - {Conditions for inclusion and context}
-
-### Tier 3 - Backup Options
-- {Location name} - {Alternative option context and considerations}
-
-## Date-Specific Events
-
-### {Event/Festival name}
-- **Period:** {Duration}
-- **Locations:** {Where it occurs}
-- **Features:** {What to expect}
-- **Cultural Context:** {Significance and background}
-
-## Base Recommendations Cross-Reference
-
-### Already in Base Recommendations
-- ✅ {Location name} - {Validation status and additional context}
-
-### New Discoveries
-- 🆕 {Location name} - {Significance and why it merits inclusion}
-
-## Research Assignments
-
-### Batch 1 - {Category}
-- Agent A: {Locations/tasks with comprehensive context}
-- Agent B: {Locations/tasks with integrated background}
-
-## Follow-up Research Topics for Detailed Phase
-
-### {Category}
-- {Topic identified from comprehensive research findings}
-```
-
-### State File Usage
-
-1. **Creation**: After parallel discovery agent research completion
-2. **Compilation**: Merge findings from both Location Scavenger Agent and Location Discovery Agent
-3. **Integration**: Combine complementary insights into unified comprehensive findings
-4. **Validation**: Cross-reference findings between both research approaches for completeness
-5. **Purpose**: Coordinate parallel research activities and provide context to researcher agents
-6. **Reference**: Used by location researcher agents for task assignment and priority understanding
-7. **Parallel Processing**: Research assignments enable multiple agents to work simultaneously
-8. **Updates**: Modified as research phases progress to track completion status
-9. **Cleanup**: Archived once final destination research is complete
-
-### Parallel Research Execution
-
-**Phase 1 - Discovery (Main Agent Orchestration):**
-1. **Execute in parallel**: Deploy Location Scavenger Agent AND Location Discovery Agent with identical location prompts
-2. **Wait for both results** before proceeding to compilation
-3. **Compare findings**: Identify overlaps, unique discoveries, and complementary insights
-4. **Compile state file**: Merge results into unified comprehensive findings without source differentiation
-5. **Prioritize locations**: Use integrated findings from both practical accessibility and cultural significance perspectives
-
-**Phase 2 - Detailed Research:**
-1. **Read the compiled state file** to understand the full context and research assignments
-2. **Deploy multiple Location Researcher Agents** simultaneously using the batch assignments
-3. **Provide each agent with**:
-   - Specific location(s) from their assigned batch
-   - Priority tier context (Essential/Conditional/Backup)
-   - Visit dates and accommodation information
-   - Base recommendation status (existing vs. new discovery)
-   - Cultural and contextual background from comprehensive discovery phase
-   - Integrated research context from both discovery approaches
-4. **Monitor parallel execution** and coordinate findings for integration insights
-5. **Compile results** from all agents into comprehensive destination research
+See `.claude/commands/` for detailed state file structure and usage specifications.
 
 ## CLAUDE.md Maintenance Protocol
 
