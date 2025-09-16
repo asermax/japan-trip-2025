@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="attraction">
+    <article>
+        <header>
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="description">{{ page.description }}</p>
+            {% endif %}
+
+            <div class="meta">
+                {% if page.extra.location %}
+                <div class="location">
+                    <strong>Location:</strong> {{ page.extra.location }}
+                </div>
+                {% endif %}
+
+                {% if page.extra.category %}
+                <div class="category">
+                    <strong>Category:</strong> {{ page.extra.category }}
+                </div>
+                {% endif %}
+
+                {% if page.extra.cost %}
+                <div class="cost">
+                    <strong>Cost:</strong> {{ page.extra.cost }}
+                </div>
+                {% endif %}
+
+                {% if page.extra.best_time %}
+                <div class="best-time">
+                    <strong>Best Time to Visit:</strong> {{ page.extra.best_time }}
+                </div>
+                {% endif %}
+            </div>
+        </header>
+
+        <div class="content">
+            {{ page.content | safe }}
+        </div>
+
+        {% if page.taxonomies.tags %}
+        <div class="tags">
+            <strong>Tags:</strong>
+            {% for tag in page.taxonomies.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </article>
+</div>
+{% endblock content %}

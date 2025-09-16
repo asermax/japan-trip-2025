@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="journey">
+    <article>
+        <header>
+            <h1>{{ page.title }}</h1>
+            {% if page.description %}
+            <p class="description">{{ page.description }}</p>
+            {% endif %}
+
+            <div class="meta">
+                {% if page.extra.from and page.extra.to %}
+                <div class="route">
+                    <strong>Route:</strong> {{ page.extra.from }} → {{ page.extra.to }}
+                </div>
+                {% endif %}
+
+                {% if page.extra.distance %}
+                <div class="distance">
+                    <strong>Distance:</strong> {{ page.extra.distance }}
+                </div>
+                {% endif %}
+
+                {% if page.extra.duration %}
+                <div class="duration">
+                    <strong>Travel Time:</strong> {{ page.extra.duration }}
+                </div>
+                {% endif %}
+            </div>
+        </header>
+
+        <div class="content">
+            {{ page.content | safe }}
+        </div>
+
+        {% if page.taxonomies.tags %}
+        <div class="tags">
+            <strong>Tags:</strong>
+            {% for tag in page.taxonomies.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </article>
+</div>
+{% endblock content %}

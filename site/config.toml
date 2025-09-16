@@ -1,0 +1,29 @@
+# The URL the site will be built for
+base_url = "https://japan-2025.asermax.com"
+title = "Japan Trip 2025"
+description = "Research and planning for our Japan 2025 adventure"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# Enable tags and categories
+taxonomies = [
+    {name = "tags", feed = true},
+    {name = "categories", feed = true},
+    {name = "regions", feed = true},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+[extra]
+# Put all your custom variables here
+author = "Agus"
+trip_year = 2025
+trip_duration = "2-3 weeks"
