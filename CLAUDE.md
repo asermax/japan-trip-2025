@@ -8,9 +8,11 @@ This project is designed to research, organize, and present information about ou
 japan-trip-2025/
    research/               # Raw research data and notes
       destinations/       # City/town research
-      routes/            # Travel legs between destinations
+      routes/            # Car route research between destinations
       attractions/       # POI research organized by type
       state/             # Intermediate state files for research workflow
+      destinations-todo.md # Destination research tracking
+      routes-todo.md     # Route research tracking
       trusted-resources.md # Verified sources for research
    site/                  # Zola website with Anatole theme
       config.toml        # Site configuration with theme settings
@@ -352,13 +354,50 @@ The research process consists of two main phases:
 
 See `.claude/commands/` for detailed command specifications and workflows.
 
+### Route Research Methodology
+
+**Research Purpose:** Comprehensive cataloging of all available stops, attractions, and experiences along car routes between destinations. This is **not** itinerary planning - the goal is to research and document everything worth knowing about route options for later reference and decision-making.
+
+The route research process consists of two main phases, parallel to destination research:
+
+**Route Discovery Phase** (`/discover-route [from] [to]`)
+- Deploy parallel agents to identify all driving route information sources and potential stops
+- Generate comprehensive state file with all discovered route options organized by detour level
+- Cross-reference base recommendations with new route discoveries
+- Create research assignments for detailed investigation of all route options
+
+**Detailed Route Research Phase** (`/research-route [from-to]`)
+- Use route discovery state file to coordinate parallel research agents
+- Research practical information, cultural context, and driving experiences for all discovered stops
+- Generate comprehensive route research catalogs with complete information
+- Update routes TODO status and prepare route files for future itinerary planning
+
+**Commands Available:**
+- `/discover-route [from] [to]` - Start discovery research for a car route
+- `/research-route [from-to]` - Conduct detailed research using route discovery state
+
+**Route Categories:**
+- **On-Route Stops**: No detour required, directly accessible from main route
+- **Short Detour Stops**: 15-30 minutes off main route
+- **Major Detour Stops**: 30+ minutes off main route, significant cultural/scenic value
+
+**Route TODO Management:** Track progress in `research/routes-todo.md` with all car journeys between destinations.
+
+See `.claude/commands/` for detailed route command specifications and workflows.
+
 ## State Files Management (`/research/state/`)
 
-State files coordinate research workflow between discovery and detailed research phases. They contain prioritized locations using todo format (`- [ ]`) and research assignments for parallel agent deployment.
+State files coordinate research workflow between discovery and detailed research phases. They contain prioritized locations/stops using todo format (`- [ ]`) and research assignments for parallel agent deployment.
 
-**File naming:** `{destination-slug}-discovery-state.md`
-**Purpose:** Bridge between discovery and research phases with comprehensive findings and structured todo lists
-**Management:** Created by `/discovery` command, used by `/research` command
+**Destination State Files:**
+- **File naming:** `{destination-slug}-discovery-state.md`
+- **Purpose:** Bridge between destination discovery and research phases with comprehensive findings and structured todo lists
+- **Management:** Created by `/discovery` command, used by `/research` command
+
+**Route State Files:**
+- **File naming:** `{origin-to-destination}-route-discovery-state.md`
+- **Purpose:** Bridge between route discovery and research phases with comprehensive route findings and structured stop todo lists
+- **Management:** Created by `/discover-route` command, used by `/research-route` command
 
 See `.claude/commands/` for detailed state file structure and usage specifications.
 
