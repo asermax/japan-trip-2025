@@ -9,7 +9,7 @@ japan-trip-2025/
    research/               # Raw research data and notes
       destinations/       # City/town research
       routes/            # Car route research between destinations
-      attractions/       # POI research organized by type
+      attractions/       # POI research organized by destination folder
       state/             # Intermediate state files for research workflow
       destinations-todo.md # Destination research tracking
       routes-todo.md     # Route research tracking
@@ -200,11 +200,47 @@ Attraction pages include:
 4. Save raw research in `/research/` folders organized by type
 
 ### Content Creation Phase
-1. Run `python scripts/generate_timeline.py` to generate content from research files
-2. Script automatically creates timeline entries, place guides, and attraction pages
-3. All content follows consistent frontmatter templates
-4. Cross-linking between timeline, places, and attractions handled automatically
-5. Source citations maintained from research files
+1. Structure research files according to timeline generator requirements (see Research File Structure below)
+2. Run `python scripts/generate_timeline.py` to generate content from research files
+3. Script automatically creates timeline entries, place guides, and attraction pages
+4. All content follows consistent frontmatter templates
+5. Cross-linking between timeline, places, and attractions handled automatically
+6. Source citations maintained from research files
+
+#### Research File Structure for Content Generation
+
+**Destination Research Files** (`research/destinations/[destination].md`)
+Must include these sections for proper timeline generation - **DESTINATIONS SHOULD BE SUMMARIES ONLY**:
+- `## Basic Information` - Overview and cultural significance (2-3 paragraphs max) **with source citations for cultural claims**
+- `## Key Districts & Neighborhoods` - Brief district summaries (1 sentence each) **with source references**
+- `## Food Culture` - Brief cuisine overview (1-2 sentences each category) **with cultural source attribution**
+- `## Day Trips from [destination]` - Brief day trip summaries (1-2 sentences each) **with source citations**
+
+**Individual Attraction Files** (`research/attractions/[destination]/[attraction-slug].md`)
+**ATTRACTIONS CONTAIN ALL DETAILED INFORMATION** - organized by destination folder:
+- `## Basic Information` - Detailed description, significance, and comprehensive overview **with inline source citations**
+- `## Cultural & Religious Significance` - Historical and cultural context with deep detail **with source references for historical claims**
+- `## Visiting Information` - Hours, costs, access details, operating information **with sources for practical details**
+- `## The Trail Experience` - Complete visitor experience description **with source attribution for experience details**
+- `## Practical Visiting Tips` - Detailed strategy, cultural preparation, logistics **with source citations for recommendations**
+
+**Attraction Categories** (all experiences should be individual attractions):
+- **Scenic locations** - Parks, viewpoints, districts, natural areas
+- **Cultural sites** - Temples, shrines, heritage centers, museums
+- **Culinary experiences** - Traditional cuisine, modern dining, food culture
+- **Transportation hubs** - Station areas, central districts with logistics
+- **Day trip destinations** - Extended cultural experiences, nearby locations
+- **Activity centers** - Observation facilities, craft workshops, cultural activities
+
+**Example Research Command Output:**
+The `/research [destination]` command should generate:
+1. Main destination file: `research/destinations/fujikawaguchiko.md` (summary only)
+2. Destination attractions folder: `research/attractions/fujikawaguchiko/`
+3. Individual attraction files: `research/attractions/fujikawaguchiko/chureito-pagoda.md`, etc.
+4. Updated state files with completion status
+5. Updated TODO tracking with research completion status
+
+**Key Principle**: Every specific place to visit, dining experience, district exploration, or activity should be a separate attraction file. Destinations provide only cultural context and brief overviews.
 
 ### Site Management
 1. Use Anatole theme for clean, blog-focused design
@@ -327,12 +363,39 @@ Content weight determines ordering within sections:
 1. Check multiple sources from trusted resources list
 2. Cross-reference information for accuracy
 3. Use AI tools to analyze and synthesize information
-4. Maintain source citations in proper format
-5. Update CLAUDE.md when workflows or tools change
+4. **Maintain source citations in proper format with inline references**
+5. **Include source links close to referenced content in final files**
+6. Update CLAUDE.md when workflows or tools change
+
+### Source Citation Requirements
+
+**Inline Source References:**
+- Include source links immediately after relevant content sections
+- Use format: `*Source: [Description](URL) - Accessed Date*`
+- Place citations at paragraph or section level, not just at document end
+- For multiple sources in one section, list all relevant sources
+
+**Citation Placement:**
+- **Destinations**: Source each cultural claim, historical fact, and practical detail
+- **Attractions**: Source visiting information, cultural significance, and practical tips separately
+- **Research Files**: Maintain source tracking throughout research process
+
+**Citation Format Examples:**
+```markdown
+The site achieved National Natural Monument status in 1934 and became part of the Mount Fuji UNESCO World Heritage Site in 2013. *Source: [UNESCO World Heritage Centre](https://whc.unesco.org/en/list/1418/) - Accessed 2024*
+
+**Operating Hours:** 9:00 AM - 5:00 PM daily *Source: [Official Tourism Board](https://example.com) - Accessed 2024*
+
+Traditional houtou noodles represent the region's mountain survival cuisine. *Source: [Yamanashi Prefecture Tourism](https://example.com) - Accessed 2024*
+```
 
 ### Destination Research Methodology
 
-**Research Purpose:** Comprehensive cataloging of all available options, attractions, and experiences for each destination. This is **not** itinerary planning - the goal is to research and document everything worth knowing for later reference and decision-making.
+**Research Purpose:** Comprehensive cataloging of all available options, attractions, and experiences for each destination with **strict separation of concerns**. This is **not** itinerary planning - the goal is to research and document everything worth knowing for later reference and decision-making.
+
+**CRITICAL STRUCTURE PRINCIPLE:**
+- **Destinations** = Cultural context and brief summaries only
+- **Attractions** = ALL specific places, experiences, districts, restaurants, activities, day trips
 
 The research process consists of two main phases:
 
@@ -344,8 +407,10 @@ The research process consists of two main phases:
 
 **Detailed Research Phase** (`/research [destination]`)
 - Use discovery state file to coordinate parallel research agents
-- Research practical information, cultural context, and visitor experiences for all discovered options
-- Generate comprehensive destination research catalogs with complete information
+- **Create destination summary file** (max 50 lines) with cultural overview only
+- **Create destination attractions folder** (`research/attractions/{destination}/`)
+- **Generate individual attraction files** for EVERY specific place, restaurant, district, activity, day trip
+- Research comprehensive practical information, cultural context, and visitor experiences for each attraction
 - Update TODO status and prepare research files for future itinerary planning
 
 **Commands Available:**

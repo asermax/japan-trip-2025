@@ -66,44 +66,69 @@ This is NOT about fitting into a specific itinerary - research and document ever
 {INFORMATION_SOURCES_DISCOVERED}
 
 ## Research Focus Areas
+
+**CRITICAL APPROACH**: Research each location as a SEPARATE ATTRACTION FILE. Every specific place to visit, dining experience, district exploration, or activity gets its own detailed file.
+
 For each assigned location, research:
 
-### Practical Information
-- Current operating hours and seasonal schedules
-- Admission costs and booking requirements
-- Accessibility information and transportation options
-- Current operational status (open/closed/renovations)
-- Best visiting times and crowd considerations
+### Destination Summary Creation
+- **Brief overview only** (2-3 paragraphs total for entire destination)
+- Cultural significance and timing context
+- One-sentence summaries for districts, food culture, day trips
+- **NO detailed information** in destination file
 
-### Cultural Context & Experience
-- Cultural significance and historical background
-- What to expect as a visitor
-- Photography guidelines and restrictions
-- Cultural etiquette and proper behavior
-- Local customs and traditions
+### Individual Attraction Research (DETAILED)
+For EVERY specific location discovered:
 
-### Visitor Experience
-- Recent visitor reviews and experiences
-- Duration recommendations and time considerations
-- What makes this location special or unique
-- Connections with nearby locations and attractions
-- Practical tips for international visitors
+**Practical Information**
+- Complete operating hours and seasonal schedules
+- Full admission costs and booking requirements
+- Detailed accessibility and transportation options
+- Current operational status and any restrictions
+- Optimal visiting times and crowd management strategies
+
+**Cultural Context & Experience**
+- Comprehensive cultural significance and historical background
+- Complete visitor experience expectations
+- Photography guidelines and cultural restrictions
+- Detailed cultural etiquette and proper behavior protocols
+- Local customs, traditions, and cultural preparation
+
+**Visitor Experience**
+- Recent visitor reviews and comprehensive experience reports
+- Detailed duration recommendations and time considerations
+- What makes this location special, unique, and worth visiting
+- Connections with nearby locations and integration opportunities
+- Comprehensive practical tips for international visitors
 
 ## Research Instructions
+- **SEPARATE FILES**: Create individual attraction files for EVERY specific location, restaurant, district area, day trip, activity
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
+- **SOURCE CITATION**: Include inline source references immediately after relevant content
+- **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format
 - Note seasonal considerations and optimal visiting conditions
 - Cross-reference with cultural context from discovery phase
 - Document all available information regardless of trip duration constraints
 - Use Gemini research for cultural deep-dives when needed
+- **Destination file**: Only summary information, all details go to attraction files
+- **CITATION PLACEMENT**: Source each practical detail, cultural claim, and recommendation separately
 
 ## Output Format
-Structure findings for each location with:
-- Complete practical visiting information
-- Cultural context and significance
-- Visitor experience expectations and recommendations
-- Connection notes with other regional attractions
-- Source citations and verification dates
+
+**Destination File**: Brief summary only with:
+- Cultural overview and significance (2-3 paragraphs) **with inline source citations**
+- One-sentence district summaries **with source references**
+- One-sentence food culture overview **with cultural source attribution**
+- One-sentence day trip summaries **with source citations**
+
+**Individual Attraction Files**: Comprehensive detail with:
+- Complete practical visiting information **with sources for hours, costs, access details**
+- Detailed cultural context and significance **with source references for historical claims**
+- Full visitor experience expectations and recommendations **with source attribution**
+- Integration notes with other regional attractions **with cross-reference sources**
+- Comprehensive logistics and cultural preparation **with source citations for recommendations**
+- **INLINE CITATIONS**: Source each section immediately after relevant content using `*Source: [Description](URL) - Accessed Date*` format
 ```
 
 ### 3. Research Coordination & Integration
@@ -132,9 +157,13 @@ Structure findings for each location with:
    ```
 
 **Detailed Research Output:**
-Create comprehensive research file: `research/destinations/{destination-slug}.md`
+Create research files structured for timeline generation following the new destination/attraction separation:
 
-**Required Research File Structure:**
+1. **Main destination file:** `research/destinations/{destination-slug}.md` (SUMMARY ONLY)
+2. **Destination attractions folder:** `research/attractions/{destination-slug}/` (CREATE DIRECTORY)
+3. **Individual attraction files:** `research/attractions/{destination-slug}/{attraction-slug}.md` (DETAILED INFORMATION)
+
+**Required Destination File Structure** (`research/destinations/[destination].md`):
 ```markdown
 # {Destination} Research
 
@@ -144,37 +173,64 @@ Create comprehensive research file: `research/destinations/{destination-slug}.md
 **Research Completed:** {Date}
 **Discovery State:** research/state/{destination-slug}-discovery-state.md
 
-## Essential Locations (Tier 1)
+## Basic Information
+{2-3 paragraph overview covering cultural significance and timing context - SUMMARY ONLY}
+*Source: [Cultural Source](URL) - Accessed Date*
 
-### {Location Name}
-- **Category:** {Temple/Market/District/etc}
-- **Cost:** {Free/¥XXX}
-- **Hours:** {Operating schedule}
-- **Best Time:** {Recommendations}
-- **Duration:** {Recommended visit time}
-- **Accessibility:** {Transportation and access info}
+## Key Districts & Neighborhoods
+{Brief district summaries - 1 sentence each, no detailed information}
+*Source: [District Source](URL) - Accessed Date*
 
-**Cultural Context:** {Significance and background}
+## Food Culture
+{Brief cuisine overview - 1-2 sentences each category, no detailed restaurant info}
+*Source: [Food Culture Source](URL) - Accessed Date*
 
-**Visitor Experience:** {What to expect, tips, etiquette}
+## Day Trips from {Destination}
+{Brief day trip summaries - 1-2 sentences each, no detailed logistics}
+*Source: [Day Trip Source](URL) - Accessed Date*
+```
 
-**Timeline Integration:** {How this fits with visit schedule}
+**Required Individual Attraction File Structure** (`research/attractions/[destination]/[attraction-slug].md`):
+```markdown
+# {Attraction Name} Research
 
-**Sources:** {Citations and verification dates}
+**Location:** {Specific location within destination}
+**Category:** {Attraction type}
+**Cost:** {Entry fees or cost range}
+**Best Time:** {Optimal visiting conditions}
+**Duration:** {Recommended time allocation}
+**Research Completed:** {Date}
 
----
+## Basic Information
+{DETAILED description, significance, and comprehensive overview}
+*Source: [Source Name](URL) - Accessed Date*
 
-## Conditional Locations (Tier 2)
-{Same format as Tier 1}
+## Cultural & Religious Significance
+{DETAILED historical context, spiritual importance, and cultural practices}
+*Source: [Cultural Source](URL) - Accessed Date*
 
-## Backup Options (Tier 3)
-{Same format as Tier 1}
+## Visiting Information
+{COMPLETE hours, costs, access, transportation, and current operational status}
+*Source: [Official Source](URL) - Accessed Date*
 
-## Date-Specific Events & Festivals
-{Events occurring during visit period}
+## The Trail Experience
+{DETAILED visitor experience, physical requirements, and complete journey description}
+*Source: [Experience Source](URL) - Accessed Date*
 
-## Cultural Context & Local Insights
-{Synthesized cultural information from all research}
+## Practical Visiting Tips
+{COMPREHENSIVE strategy, cultural preparation, optimal timing, and detailed logistics}
+*Source: [Tips Source](URL) - Accessed Date*
+```
+
+**Critical File Generation Requirements:**
+- **Destinations**: Summary-only files (max 50 lines total) **with inline source citations**
+- **Attractions folder**: Create `research/attractions/{destination-slug}/` directory
+- **Individual attractions**: EVERY specific place, restaurant, district, day trip, activity becomes a separate attraction file
+- **Comprehensive detail**: ALL practical and cultural information goes in attraction files, not destination files
+- **Attraction categories**: Include scenic locations, cultural sites, culinary experiences, transportation hubs, day trips, activity centers
+- **SOURCE REQUIREMENTS**: All files must include inline source citations immediately after relevant content
+- **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format throughout all sections
+- Structure must match `scripts/generate_timeline.py` expectations
 
 ## Logistics & Practical Information
 

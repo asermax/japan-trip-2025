@@ -39,33 +39,6 @@ duration = "{duration}"
 *Generated from research: {source_files}*
 """
 
-# Place guide template
-PLACE_TEMPLATE = """+++
-title = "{title}"
-description = "{description}"
-weight = {weight}
-regions = {regions}
-tags = {tags}
-
-[extra]
-duration = "{duration}"
-best_season = "{best_season}"
-timeline_entries = {timeline_entries}
-featured_attractions = {featured_attractions}
-+++
-
-# {title}
-
-{content}
-
----
-
-**Timeline Navigation**:
-{timeline_links}
-
-*Source: {source_file}*
-"""
-
 # Attraction template
 ATTRACTION_TEMPLATE = """+++
 title = "{title}"
@@ -85,13 +58,10 @@ difficulty = "{difficulty}"
 duration = "{visit_duration}"
 +++
 
-# {title}
-
 {content}
 
 **Navigation**:
 - **Timeline**: {timeline_link}
-- **Place Guide**: {place_link}
 
 *Source: {source_file}*
 """
@@ -130,6 +100,15 @@ class TimelineGenerator:
         """Extract major sections from markdown content."""
         sections = {}
 
+        # Extract metadata from top of file (Visit Period, Duration, etc.)
+        visit_period_match = re.search(r'\*\*Visit Period:\*\*\s*(.+)', content)
+        if visit_period_match:
+            sections['visit_period'] = visit_period_match.group(1).strip()
+
+        duration_match = re.search(r'\*\*Duration:\*\*\s*(.+)', content)
+        if duration_match:
+            sections['duration'] = duration_match.group(1).strip()
+
         # Split content into sections
         section_pattern = r'^## (.+)$'
         parts = re.split(section_pattern, content, flags=re.MULTILINE)
@@ -143,14 +122,50 @@ class TimelineGenerator:
 
         return sections
 
+    def find_destination_attractions(self, destination_slug: str) -> List[str]:
+        """Find attractions for a destination using the folder structure."""
+        attractions = []
+        attraction_dir = self.research_dir / "attractions" / destination_slug
+
+        if not attraction_dir.exists():
+            return attractions
+
+        for attraction_file in attraction_dir.glob("*.md"):
+            # Parse the attraction file to get the title
+            attraction_data = self.parse_research_file(attraction_file)
+            attraction_title = attraction_data.get('title', attraction_file.stem.replace('-', ' ').title())
+            attractions.append(attraction_title)
+
+        return attractions
+
     def generate_timeline_entry(self, data: Dict, entry_type: str, order: int,
                               date: datetime) -> str:
         """Generate a timeline entry from research data."""
 
         if entry_type == "destination":
-            title = f"Days {order}-{order+3}: {data['title']}"
-            duration = data.get('duration', '4 days')
-            extra_fields = f'place = "{data["title"].lower()}"'
+            # Extract visit period and duration from research data
+            visit_period = data.get('visit_period', '').replace('**', '').replace('Visit Period:', '').strip()
+            duration_raw = data.get('duration', '').replace('**', '').replace('Duration:', '').strip()
+
+            # Use actual dates and duration from research, with fallbacks
+            if visit_period:
+                title = f"{visit_period}: {data['title']}"
+                date_range_display = visit_period
+            else:
+                title = f"Days {order}-{order+3}: {data['title']}"
+                date_range_display = f"April {order}-{order+3}"
+
+            duration = duration_raw if duration_raw else '4 days'
+
+            # Find related attractions for this destination
+            destination_slug = data["title"].lower()
+            attractions = self.find_destination_attractions(destination_slug)
+
+            # Build extra fields with place and highlights
+            extra_fields = f'place = "{destination_slug}"'
+            if attractions:
+                highlights_str = ', '.join(f'"{attraction}"' for attraction in attractions)
+                extra_fields += f'\nhighlights = [{highlights_str}]'
 
             # Generate content from research sections
             content = self.generate_destination_content(data)
@@ -175,7 +190,7 @@ class TimelineGenerator:
             weight=order,
             order=order,
             entry_type=entry_type,
-            date_range=f"April {order}-{order+3}" if entry_type == "destination" else f"April {order}",
+            date_range=date_range_display if entry_type == "destination" else f"April {order}",
             duration=duration,
             extra_fields=extra_fields,
             content=content,
@@ -185,11 +200,23 @@ class TimelineGenerator:
 
     def generate_destination_content(self, data: Dict) -> str:
         """Generate destination timeline content from research."""
+        # Find attractions for this destination
+        destination_slug = data["title"].lower()
+        attractions = self.find_destination_attractions(destination_slug)
+
+        # Build attractions section
+        attractions_section = ""
+        if attractions:
+            attractions_section = "\n## Featured Attractions\n\n"
+            for attraction in attractions:
+                attraction_slug = attraction.lower().replace(' ', '-').replace('ō', 'o')
+                attractions_section += f"- **[{attraction}](/attractions/{attraction_slug}/)** - {attraction} detailed guide\n"
+
         content = f"""
 ## Overview
 
 {data.get('basic_information', 'Information about this destination.')}
-
+{attractions_section}
 ## Key Districts & Experiences
 
 {data.get('key_districts_&_neighborhoods', 'Various districts and neighborhoods to explore.')}
@@ -251,107 +278,50 @@ class TimelineGenerator:
 
         print("🧹 Cleared existing timeline content")
 
-        # Generate timeline entries
+        # Generate timeline entries dynamically from all destination files
         timeline_order = 1
         start_date = datetime(2025, 4, 1)
 
-        # 1. Tokyo (destination)
-        if (self.research_dir / "destinations" / "tokyo.md").exists():
-            tokyo_data = self.parse_research_file(self.research_dir / "destinations" / "tokyo.md")
-            entry = self.generate_timeline_entry(tokyo_data, "destination", timeline_order, start_date)
+        # Process all destination files
+        destination_files = sorted((self.research_dir / "destinations").glob("*.md"))
+        for research_file in destination_files:
+            # Skip non-destination files
+            if research_file.name in ['destinations-todo.md', '_index.md']:
+                continue
 
-            output_file = self.output_dir / f"{timeline_order:02d}-tokyo.md"
+            destination_data = self.parse_research_file(research_file)
+            entry = self.generate_timeline_entry(destination_data, "destination", timeline_order,
+                                               start_date + timedelta(days=(timeline_order-1)*4))
+
+            # Create timeline filename from destination name
+            destination_slug = research_file.stem
+            output_file = self.output_dir / f"{timeline_order:02d}-{destination_slug}.md"
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(entry)
-            print(f"✅ Generated: {output_file}")
+            print(f"✅ Generated timeline entry: {output_file}")
             timeline_order += 1
 
-        # 2. Tokyo to Kyoto (journey)
-        if (self.research_dir / "routes" / "tokyo-to-kyoto.md").exists():
-            route_data = self.parse_research_file(self.research_dir / "routes" / "tokyo-to-kyoto.md")
-            route_data['from'] = 'Tokyo'
-            route_data['to'] = 'Kyoto'
-            entry = self.generate_timeline_entry(route_data, "journey", timeline_order,
-                                               start_date + timedelta(days=timeline_order-1))
-
-            output_file = self.output_dir / f"{timeline_order:02d}-tokyo-to-kyoto.md"
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(entry)
-            print(f"✅ Generated: {output_file}")
-            timeline_order += 1
-
-        # 3. Generate place guides
-        self.generate_place_guides()
-
-        # 4. Generate attraction pages
+        # 3. Generate attraction pages
         self.generate_attraction_pages()
 
         # 5. Generate index file
         self.generate_index_file()
 
-        print(f"\n🎉 Generated {timeline_order-1} timeline entries plus place guides and attractions!")
-
-    def generate_place_guides(self):
-        """Generate place guide pages from destination research."""
-        places_dir = self.output_dir / "places"
-        places_dir.mkdir(exist_ok=True)
-
-        for research_file in (self.research_dir / "destinations").glob("*.md"):
-            data = self.parse_research_file(research_file)
-
-            place_content = f"""
-{data.get('basic_information', '')}
-
-## Timeline Context
-
-**Our {data['title']} Experience**: [View in Timeline](/{data['title'].lower()}/)
-
-## Logistics
-
-{data.get('practical_information', '')}
-
-## Districts & Areas
-
-{data.get('key_districts_&_neighborhoods', '')}
-
-## Food & Dining
-
-{data.get('food_culture', '')}
-
-## Day Trips
-
-{data.get('day_trips_from_' + data['title'].lower(), '')}
-"""
-
-            place_file = places_dir / f"{data['title'].lower()}.md"
-            content = PLACE_TEMPLATE.format(
-                title=data['title'],
-                description=f"Comprehensive guide to {data['title']}",
-                weight=10,
-                regions='["Unknown"]',
-                tags='["destination"]',
-                duration="4-5 days",
-                best_season="Spring/Fall",
-                timeline_entries='[]',
-                featured_attractions='[]',
-                content=place_content.strip(),
-                timeline_links=f"- **Our {data['title']} stay**: [Timeline Entry](/{data['title'].lower()}/)",
-                source_file=str(research_file.relative_to(self.research_dir))
-            )
-
-            with open(place_file, 'w', encoding='utf-8') as f:
-                f.write(content)
-            print(f"✅ Generated place guide: {place_file}")
+        print(f"\n🎉 Generated {timeline_order-1} timeline entries and attractions!")
 
     def generate_attraction_pages(self):
         """Generate attraction pages from research files."""
         attractions_dir = self.output_dir / "attractions"
         attractions_dir.mkdir(exist_ok=True)
 
-        for research_file in (self.research_dir / "attractions").glob("*.md"):
-            data = self.parse_research_file(research_file)
+        # Process attractions from all destination folders
+        attractions_research_dir = self.research_dir / "attractions"
+        for destination_folder in attractions_research_dir.glob("*/"):
+            if destination_folder.is_dir():
+                for research_file in destination_folder.glob("*.md"):
+                    data = self.parse_research_file(research_file)
 
-            attraction_content = f"""
+                    attraction_content = f"""
 ## About
 
 {data.get('basic_information', '')}
@@ -372,32 +342,31 @@ class TimelineGenerator:
 {data.get('practical_visiting_tips', '')}
 """
 
-            slug = data['title'].lower().replace(' ', '-').replace('ō', 'o')
-            attraction_file = attractions_dir / f"{slug}.md"
+                    slug = data['title'].lower().replace(' ', '-').replace('ō', 'o')
+                    attraction_file = attractions_dir / f"{slug}.md"
 
-            content = ATTRACTION_TEMPLATE.format(
-                title=data['title'],
-                description=f"Detailed guide to {data['title']}",
-                weight=10,
-                categories='["temples"]',
-                tags='["historic", "cultural"]',
-                location="Kyoto, Japan",
-                category="Temple",
-                cost="Free",
-                best_time="Early morning",
-                place="kyoto",
-                timeline_entries='["03-kyoto"]',
-                difficulty="Easy",
-                visit_duration="2-3 hours",
-                content=attraction_content.strip(),
-                timeline_link="[Kyoto Timeline](/03-kyoto/)",
-                place_link="[Kyoto Guide](/places/kyoto/)",
-                source_file=str(research_file.relative_to(self.research_dir))
-            )
+                    content = ATTRACTION_TEMPLATE.format(
+                        title=data['title'],
+                        description=f"Detailed guide to {data['title']}",
+                        weight=10,
+                        categories='["temples"]',
+                        tags='["historic", "cultural"]',
+                        location=destination_folder.name.title() + ", Japan",
+                        category="Temple",
+                        cost="Free",
+                        best_time="Early morning",
+                        place=destination_folder.name,
+                        timeline_entries=f'["01-{destination_folder.name}"]',
+                        difficulty="Easy",
+                        visit_duration="2-3 hours",
+                        content=attraction_content.strip(),
+                        timeline_link=f"[{destination_folder.name.title()} Timeline](/01-{destination_folder.name}/)",
+                        source_file=str(research_file.relative_to(self.research_dir))
+                    )
 
-            with open(attraction_file, 'w', encoding='utf-8') as f:
-                f.write(content)
-            print(f"✅ Generated attraction: {attraction_file}")
+                    with open(attraction_file, 'w', encoding='utf-8') as f:
+                        f.write(content)
+                    print(f"✅ Generated attraction: {attraction_file}")
 
     def generate_index_file(self):
         """Generate the main index file for the timeline."""
