@@ -32,19 +32,24 @@ If no destination is provided, the command will automatically select the destina
 
 3. **Extract Context from State File**:
    - Visit dates and accommodation details
-   - Priority locations organized by tier
-   - Cultural and contextual background
-   - Research batch assignments
+   - TODO list organized by category
+   - Cultural research topics and seasonal considerations
    - Date-specific events and festivals
 
-### 2. Parallel Research Agent Deployment
+### 2. Simplified Batch Processing with File Updates
 
-Deploy **multiple Location Researcher Agents simultaneously** based on state file batch assignments:
+Process research using predefined 5-agent batches with **immediate file creation/updates after each batch**:
 
-**Agent Assignment Strategy:**
-- **Batch 1**: Essential locations (Tier 1) - Deploy 2 agents in parallel
-- **Batch 2**: Conditional locations (Tier 2) - Deploy 2 agents in parallel
-- **Batch 3**: Backup options (Tier 3) - Deploy 1-2 agents based on list size
+**Batch Processing Strategy:**
+- **Automatic Batch Creation**: Research command automatically divides TODO list items across 5-agent batches
+- **Category-Based Selection**: Pick items from high-priority categories first (Cultural/Historic, Natural/Scenic, Traditional) then other categories
+- **Batch Size**: Each batch contains up to 5 locations assigned to 5 agents running in parallel
+- **Sequential Batches**: Complete one batch before starting the next
+
+**File Update Points:**
+- After each batch completion, immediately create/update destination and attraction files
+- Update state file with batch completion status and findings
+- Maintain continuous availability of research progress
 
 **Per-Agent Context Package:**
 ```
@@ -61,9 +66,9 @@ This is NOT about fitting into a specific itinerary - research and document ever
 {SPECIFIC_LOCATIONS_FROM_BATCH}
 
 ## Background Context (from Discovery)
-{CULTURAL_CONTEXT_FROM_STATE_FILE}
+{CULTURAL_RESEARCH_TOPICS}
 {DATE_SPECIFIC_EVENTS}
-{INFORMATION_SOURCES_DISCOVERED}
+{PRACTICAL_CONSIDERATIONS}
 
 ## Research Focus Areas
 
@@ -107,6 +112,9 @@ For EVERY specific location discovered:
 - Verify information across multiple sources
 - **SOURCE CITATION**: Include inline source references immediately after relevant content
 - **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format
+- **PHOTO REQUIREMENTS**: Include at least one representative photo for each destination and attraction file using markdown format `![Alt text](image_url)`
+- **LOCATION PINS**: Add Google Maps location link at the end of each file: `**Location:** [View on Google Maps](google_maps_url)`
+- **PHOTO SOURCING**: Search for official tourism photos, Wikipedia commons, or other freely available images that represent the location
 - Note seasonal considerations and optimal visiting conditions
 - Cross-reference with cultural context from discovery phase
 - Document all available information regardless of trip duration constraints
@@ -117,61 +125,81 @@ For EVERY specific location discovered:
 ## Output Format
 
 **Destination File**: Brief summary only with:
+- **Representative photo** of the destination integrated into the content
 - Cultural overview and significance (2-3 paragraphs) **with inline source citations**
 - One-sentence district summaries **with source references**
 - One-sentence food culture overview **with cultural source attribution**
 - One-sentence day trip summaries **with source citations**
+- **Google Maps location link** at the end of the file
 
 **Individual Attraction Files**: Comprehensive detail with:
+- **Representative photo** of the attraction integrated appropriately into the content
 - Complete practical visiting information **with sources for hours, costs, access details**
 - Detailed cultural context and significance **with source references for historical claims**
 - Full visitor experience expectations and recommendations **with source attribution**
 - Integration notes with other regional attractions **with cross-reference sources**
 - Comprehensive logistics and cultural preparation **with source citations for recommendations**
 - **INLINE CITATIONS**: Source each section immediately after relevant content using `*Source: [Description](URL) - Accessed Date*` format
+- **Google Maps location link** at the end of the file
 ```
 
-### 3. Research Coordination & Integration
+### 3. Automated Batch Execution & File Management
 
-**Parallel Execution Management:**
-1. Launch all agent batches with their specific assignments
-2. Monitor progress and coordinate cross-references between agents
-3. Ensure agents can reference each other's findings for integration insights
-4. Compile results maintaining priority tier context and base recommendation status
+**Batch Creation Logic:**
+1. **Parse TODO List**: Extract all `- [ ]` items from state file by category
+2. **Category Order**: Process categories in the order they appear in the state file
+3. **Sequential Selection**: Pick items from first category, then second category, etc., maintaining state file order within each category
+4. **Agent Assignment**: Assign up to 5 locations per batch to 5 agents running in parallel
+5. **Batch Sequence**: Complete each batch fully before starting the next
 
-**Integration Points:**
-- Cross-reference findings between related locations
-- Identify timeline integration opportunities
-- Note transportation connections and logical groupings
-- Highlight seasonal considerations specific to visit dates
+**Per-Batch Execution:**
+1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments
+2. **Process Results**: Compile findings from completed agents
+3. **Update Files**:
+   - Create/update destination summary file: `research/destinations/{destination-slug}.md`
+   - Create/update attractions directory: `research/attractions/{destination-slug}/`
+   - Create/update attraction files for current batch locations
+4. **Update State**: Mark batch locations as completed `[x]` in state file
+5. **Checkpoint**: Confirm files created/updated and available for use
 
-### 4. Results Compilation & Documentation
+**Integration Points (Applied Per Batch):**
+- Cross-reference findings between related locations discovered in current and previous batches
+- Identify timeline integration opportunities as information becomes available
+- Note transportation connections and logical groupings emerging from research
+- Highlight seasonal considerations specific to visit dates in each batch
 
-**State File Updates:**
-1. Update existing state file with research completion status
-2. Check off completed todo items in priority location lists:
-   ```markdown
-   ### Tier 1 - Essential
-   - [x] {Location name} - {Research completed with key findings summary}
-   - [ ] {Location name} - {Still pending research}
-   ```
+### 4. Incremental File Management & Updates
 
-**Detailed Research Output:**
-Create research files structured for timeline generation following the new destination/attraction separation:
+**Per-Batch State File Updates:**
+After each batch completion, update the state file to reflect progress:
+```markdown
+### {Category Name}
+- [x] {Location name} - Research completed, attraction file created
+- [x] {Location name} - Research completed, attraction file created
+- [ ] {Location name} - Pending next batch research
+```
 
-1. **Main destination file:** `research/destinations/{destination-slug}.md` (SUMMARY ONLY)
-2. **Destination attractions folder:** `research/attractions/{destination-slug}/` (CREATE DIRECTORY)
-3. **Individual attraction files:** `research/attractions/{destination-slug}/{attraction-slug}.md` (DETAILED INFORMATION)
+**Incremental File Creation:**
+Files are created and updated throughout the process:
+
+**After Each Batch:**
+1. **Update destination file:** `research/destinations/{destination-slug}.md` - Add any new context discovered
+2. **Create/update attractions directory:** `research/attractions/{destination-slug}/`
+3. **Create attraction files:** `research/attractions/{destination-slug}/{attraction-slug}.md` for each researched location
+4. **Cross-reference updates:** Add connections discovered between current and previous batch locations
 
 **Required Destination File Structure** (`research/destinations/[destination].md`):
 ```markdown
 # {Destination} Research
 
+![Destination overview image](image_url)
+*Caption: {Brief description of the image}*
+
 **Visit Period:** {Visit dates}
 **Duration:** {Stay duration}
 **Accommodation:** {Name and address}
 **Research Completed:** {Date}
-**Discovery State:** research/state/{destination-slug}-discovery-state.md
+**Discovery State:** research/state/{destination-slug}-state.md
 
 ## Basic Information
 {2-3 paragraph overview covering cultural significance and timing context - SUMMARY ONLY}
@@ -188,11 +216,16 @@ Create research files structured for timeline generation following the new desti
 ## Day Trips from {Destination}
 {Brief day trip summaries - 1-2 sentences each, no detailed logistics}
 *Source: [Day Trip Source](URL) - Accessed Date*
+
+**Location:** [View on Google Maps](google_maps_url)
 ```
 
 **Required Individual Attraction File Structure** (`research/attractions/[destination]/[attraction-slug].md`):
 ```markdown
 # {Attraction Name} Research
+
+![Attraction image](image_url)
+*Caption: {Brief description of the image}*
 
 **Location:** {Specific location within destination}
 **Category:** {Attraction type}
@@ -213,21 +246,25 @@ Create research files structured for timeline generation following the new desti
 {COMPLETE hours, costs, access, transportation, and current operational status}
 *Source: [Official Source](URL) - Accessed Date*
 
-## The Trail Experience
+## The Experience
 {DETAILED visitor experience, physical requirements, and complete journey description}
 *Source: [Experience Source](URL) - Accessed Date*
 
 ## Practical Visiting Tips
 {COMPREHENSIVE strategy, cultural preparation, optimal timing, and detailed logistics}
 *Source: [Tips Source](URL) - Accessed Date*
+
+**Location:** [View on Google Maps](google_maps_url)
 ```
 
 **Critical File Generation Requirements:**
-- **Destinations**: Summary-only files (max 50 lines total) **with inline source citations**
+- **Destinations**: Summary-only files (max 50 lines total) **with inline source citations, representative photo, and Google Maps link**
 - **Attractions folder**: Create `research/attractions/{destination-slug}/` directory
 - **Individual attractions**: EVERY specific place, restaurant, district, day trip, activity becomes a separate attraction file
 - **Comprehensive detail**: ALL practical and cultural information goes in attraction files, not destination files
 - **Attraction categories**: Include scenic locations, cultural sites, culinary experiences, transportation hubs, day trips, activity centers
+- **PHOTO REQUIREMENTS**: Every destination and attraction file must include at least one representative photo using markdown format
+- **LOCATION REQUIREMENTS**: Every file must include Google Maps location link at the end
 - **SOURCE REQUIREMENTS**: All files must include inline source citations immediately after relevant content
 - **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format throughout all sections
 - Structure must match `scripts/generate_timeline.py` expectations
@@ -257,25 +294,32 @@ Create research files structured for timeline generation following the new desti
 - **Status:** Research completed, ready for future itinerary planning
 ```
 
-### 5. TODO Status Update
+### 5. Per-Batch Progress Updates
 
-Update destination status in `research/destinations-todo.md`:
-- Change from "🔍 Research in progress" to "✅ Research completed"
-- Add reference to completed research file
+**After Each Batch:**
+1. **Update State File**: Mark completed locations with `- [x]` and note files created
+2. **Update Progress Status**: Indicate which batch is completed and files available
+3. **Checkpoint Confirmation**: Confirm files are accessible and properly structured
 
-### 6. State File Completion
+**TODO Status Updates:**
+- **After Final Batch**: Update status to "✅ Research completed"
 
-Update the discovery state file to reflect research completion:
+### 6. Final State File Completion
+
+After all batches complete, finalize the discovery state file:
 - Mark all priority locations as researched: `- [x]`
 - Add completion date and research file reference
 - Update status to "Research completed"
+- Add summary of all files created throughout the process
 
 ## Success Criteria
-- All priority locations researched by assigned agents
-- Comprehensive destination research catalog created
-- State file updated with completion status
-- TODO file updated to reflect completed research
-- Ready for future content generation and itinerary planning
+- **Per-Batch Success**: After each batch, files are created/updated and available for use
+- **Incremental Progress**: Research findings accessible throughout the process
+- **State File Tracking**: Continuous updates showing completed vs. pending research
+- **File Availability**: Destination and attraction files updated after each batch
+- **Final Completion**: All priority locations researched and comprehensive catalog created
+- **TODO Tracking**: Granular progress updates showing batch completion status
+- **Ready for Use**: Research files available for content generation and itinerary planning throughout process
 
 ## Error Handling
 
@@ -297,11 +341,20 @@ Please re-run discovery to generate complete state file.
 ```
 
 ## Output
-The command should conclude with:
-1. Summary of locations researched across all tiers
-2. Path to comprehensive research file created
-3. Confirmation that destination research is complete
-4. Next recommended action: Research catalog ready for future itinerary planning and content generation
+
+**Per-Batch Output:**
+After each batch completion, provide:
+1. **Batch Summary**: Locations researched in current batch
+2. **Files Created/Updated**: Specific file paths created or modified
+3. **Progress Status**: Which tiers completed, which remain
+4. **Next Batch**: Preview of upcoming research batch
+
+**Final Output:**
+After all batches complete, provide:
+1. **Complete Summary**: All locations researched across all tiers
+2. **Full File Catalog**: All destination and attraction files created
+3. **Research Completion**: Confirmation that destination research is complete
+4. **Availability**: Research catalog ready for immediate use in content generation and itinerary planning
 
 ## Integration with Content Generation
 The detailed research catalog serves as input for:

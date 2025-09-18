@@ -75,19 +75,25 @@ After both agents complete their research:
 
 1. **Merge findings** from both agents into unified comprehensive state
 2. **Eliminate source differentiation** - present integrated findings
-3. **Create unified catalog list** using todo markdown format:
+3. **Create unified catalog list** using todo markdown format organized by type:
    ```markdown
-   ## Priority Locations for Research
+   ## Research TODO List
 
-   ### Tier 1 - Essential
+   ### {Category Name - e.g., Cultural & Historic Sites}
    - [ ] {Location name} - {Brief description and significance}
 
-   ### Tier 2 - Conditional
-   - [ ] {Location name} - {Context and considerations for visiting}
+   ### {Category Name - e.g., Natural & Scenic Attractions}
+   - [ ] {Location name} - {Context and key features}
 
-   ### Tier 3 - Backup Options
-   - [ ] {Location name} - {Alternative experiences and context}
+   ### {Category Name - e.g., Traditional Experiences}
+   - [ ] {Location name} - {Experience type and cultural context}
    ```
+
+   **Category Guidelines:**
+   - Organize by attraction type, not priority tiers
+   - Common categories include: Cultural & Historic Sites, Natural & Scenic Attractions, Traditional Experiences, Entertainment & Museums, Dining Experiences
+   - New categories can be created as needed based on discoveries
+   - Within each category, order by importance/significance
 
 ### 5. State File Generation
 Create state file: `research/state/{destination-slug}-discovery-state.md`
@@ -99,53 +105,41 @@ Create state file: `research/state/{destination-slug}-discovery-state.md`
 **Date:** {Creation date}
 **Visit Period:** {Visit dates}
 **Accommodation:** {Accommodation name and address}
-**Status:** Discovery completed
+**Status:** Discovery completed - ready for detailed research
 
-## Comprehensive Research Findings
+## Research TODO List
 
-### Information Sources Discovered
-- **Official Resources:** {Count and key sources}
-- **Travel Guides:** {Major coverage found}
-- **Community Resources:** {Forum/social platforms}
-- **Media Resources:** {Video/photo content}
-
-### Cultural and Contextual Information
-- **Cultural Significance:** {Key insights and context}
-- **Local Perspectives:** {Authentic experiences}
-- **Historical Background:** {Relevant context}
-- **Regional Specialties:** {Local customs and traditions}
-
-## Priority Locations for Research
-
-### Tier 1 - Essential
+### {Category Name - e.g., Cultural & Historic Sites}
 - [ ] {Location name} - {Brief description and significance}
 
-### Tier 2 - Conditional
-- [ ] {Location name} - {Conditions for inclusion and context}
+### {Category Name - e.g., Natural & Scenic Attractions}
+- [ ] {Location name} - {Context and key features}
 
-### Tier 3 - Backup Options
-- [ ] {Location name} - {Alternative option context and considerations}
+### {Category Name - e.g., Traditional Experiences}
+- [ ] {Location name} - {Experience type and cultural context}
 
-## Date-Specific Events
+### {Category Name - e.g., Entertainment & Museums}
+- [ ] {Location name} - {Activity type and highlights}
 
-### {Event/Festival name}
-- **Period:** {Duration}
-- **Locations:** {Where it occurs}
-- **Features:** {What to expect}
-- **Cultural Context:** {Significance and background}
+### {Category Name - e.g., Dining Experiences}
+- [ ] {Location name} - {Cuisine type and specialties}
 
-## Research Assignments for Detailed Research
+## Extras
 
-### Batch 1 - Priority Locations
-- Agent A: [Essential locations with context]
-- Agent B: [Essential locations with context]
+### Seasonal Events & Festivals
+- **{Event/Festival name}** ({Duration})
+  - Locations: {Where it occurs}
+  - Features: {What to expect}
 
-### Batch 2 - Conditional Research
-- Agent C: [Conditional locations with context]
-- Agent D: [Conditional locations with context]
+### Cultural Research Topics
+- {Cultural significance topics identified}
+- {Historical background areas for deeper research}
+- {Local customs and traditions to explore}
 
-## Follow-up Research Topics for Detailed Phase
-- {Topic identified from comprehensive research findings}
+### Practical Considerations
+- {Seasonal and weather considerations}
+- {Transportation and logistics notes}
+- {Crowd management and timing tips}
 ```
 
 ### 6. Update TODO Status

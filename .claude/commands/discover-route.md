@@ -69,62 +69,50 @@ Focus on building a complete catalog of route possibilities for comprehensive re
 - Identify cultural practices and traditional travel experiences
 - Provide traditional context beyond typical tourist driving information
 
-### 4. Results Compilation
+### 4. Results Compilation & Route Separation
 After both agents complete their research:
 
-1. **Merge findings** from both agents into unified comprehensive state
+1. **Merge findings** from both agents into unified comprehensive discoveries
 2. **Eliminate source differentiation** - present integrated findings
-3. **Create unified route catalog list** using todo markdown format:
-   ```markdown
-   ## Priority Stops for Research
+3. **Identify distinct route options** discovered during research (main highway, scenic alternatives, etc.)
+4. **Create separate state files for each route option** with individual TODO lists:
 
-   ### On-Route (No Detour)
-   - [ ] {Stop name} - {Brief description and route significance}
-
-   ### Short Detour (15-30 minutes)
-   - [ ] {Stop name} - {Context and considerations for visiting}
-
-   ### Major Detour (30+ minutes)
-   - [ ] {Stop name} - {Significance and why worth the extra time}
-   ```
-
-### 5. State File Generation
-Create state file: `research/state/{origin-to-destination}-route-discovery-state.md`
-
-**Required State File Structure:**
+**Per-Route State File Creation:**
+For each distinct route discovered, create individual state files with route-specific stops:
 ```markdown
-# {Origin} to {Destination} Route - Discovery State
+## Research TODO List (Route-Specific)
+
+### On-Route (No Detour)
+- [ ] {Stop name} - {Brief description and route significance for THIS route}
+
+### Short Detour (15-30 minutes)
+- [ ] {Stop name} - {Context and considerations for visiting from THIS route}
+
+### Major Detour (30+ minutes)
+- [ ] {Stop name} - {Significance and why worth the extra time on THIS route}
+```
+
+**Route Naming Convention:**
+- **Main Route:** `{origin-to-destination}-main-route-state.md`
+- **Alternative Routes:** `{origin-to-destination}-{route-name}-route-state.md`
+  - Examples: `tokyo-to-kyoto-coastal-route-state.md`, `tokyo-to-kyoto-mountain-route-state.md`
+
+### 5. Multiple State File Generation
+Create separate state files for each route option discovered:
+- `research/state/{origin-to-destination}-main-route-state.md`
+- `research/state/{origin-to-destination}-{route-name}-route-state.md` (for each alternative)
+
+**Required State File Structure (Per Route):**
+```markdown
+# {Origin} to {Destination} - {Route Name} Route State
 
 **Date:** {Creation date}
 **Travel Date:** {Route travel date}
 **Transportation:** Car/driving
-**Status:** Discovery completed
+**Route Type:** {Main/Scenic/Coastal/Mountain/etc.}
+**Status:** Discovery completed - ready for detailed research
 
-## Comprehensive Route Research Findings
-
-### Route Information Sources Discovered
-- **Official Driving Resources:** {Count and key sources}
-- **Navigation & Highway Info:** {Primary navigation sources}
-- **Scenic Drive Guides:** {Route-specific guides found}
-- **Community Resources:** {Forum/social platforms for driving}
-
-### Cultural and Route Context Information
-- **Route Historical Significance:** {Key insights and context}
-- **Regional Cultural Transitions:** {Cultural changes along route}
-- **Traditional Travel Patterns:** {Historical route context}
-- **Seasonal Route Considerations:** {Weather, road conditions}
-
-## Primary Route Options
-
-### Main Highway Route
-- **Route:** {Primary highway/road} - {Estimated drive time}
-- **Characteristics:** {Fastest, most direct, etc.}
-
-### Alternative Scenic Routes
-- **Route:** {Scenic route description} - {Drive time difference}
-- **Highlights:** {Scenic features and characteristics}
-
-## Priority Stops for Research
+## Research TODO List
 
 ### On-Route (No Detour)
 - [ ] {Stop name} - {Brief description and route significance}
@@ -135,35 +123,27 @@ Create state file: `research/state/{origin-to-destination}-route-discovery-state
 ### Major Detour (30+ minutes)
 - [ ] {Stop name} - {Detour time and significance justifying extra time}
 
-## Route-Specific Considerations
+## Extras
 
-### Travel Date Factors
-- **Weather Conditions:** {Expected conditions for travel date}
-- **Traffic Patterns:** {Peak times and congestion considerations}
-- **Seasonal Road Conditions:** {Any seasonal restrictions or considerations}
+### Route Options
+- **Main Highway Route:** {Primary highway/road} - {Estimated drive time}
+- **Alternative Scenic Routes:** {Scenic route descriptions with time differences}
 
-### Cultural Events Along Route
-- **Events/Festivals:** {Any cultural events during travel period}
-- **Seasonal Attractions:** {Date-specific attractions or experiences}
+### Route-Specific Events & Considerations
+- **Travel Date Factors:** {Weather, traffic, seasonal road conditions}
+- **Cultural Events Along Route:** {Events/festivals during travel period}
 - **Regional Specialties:** {Food, crafts, traditions along route}
 
-## Research Assignments for Detailed Research
-
-### Batch 1 - On-Route Stops
-- Agent A: [On-route stops with context]
-- Agent B: [On-route stops with context]
-
-### Batch 2 - Short Detour Research
-- Agent C: [Short detour stops with context]
-- Agent D: [Short detour stops with context]
-
-### Batch 3 - Major Detour Options
-- Agent E: [Major detour stops with context]
-
-## Follow-up Research Topics for Detailed Phase
-- {Route-specific cultural/historical topics for deeper research}
+### Cultural Research Topics
+- {Route historical significance and cultural context}
+- {Regional cultural transitions along the route}
+- {Traditional travel patterns and route significance}
 - {Local specialties and regional experiences to investigate}
-- {Seasonal attractions and route-specific considerations}
+
+### Practical Route Considerations
+- {Weather conditions and seasonal factors for travel date}
+- {Traffic patterns and optimal timing}
+- {Fuel stations, service areas, and facilities along route}
 ```
 
 ### 6. Update TODO Status
