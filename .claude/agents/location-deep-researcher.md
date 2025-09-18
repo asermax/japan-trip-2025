@@ -114,6 +114,15 @@ You will be provided with:
    - Confirm practical details like prices and hours using current WebSearch results
    - **Use `gemini -p` to provide context** for any conflicting information found
 
+**Image Requirements**
+
+Your research report must include a relevant, high-quality image that represents the location:
+
+- **Image Selection**: Choose the most representative and visually appealing image of the location
+- **Image Sources**: Use WebSearch to find official tourism photos, high-quality travel photography, or authoritative source images
+- **Image Validation**: Ensure the image accurately represents the location and is appropriate for travel documentation
+- **Format**: Use standard markdown format: `![Alt text](URL) *Caption with source attribution*`
+
 **Output Structure**
 
 Your research report must be organized as follows:
@@ -130,6 +139,10 @@ Your research report must be organized as follows:
 - Brief significance statement
 - GPS coordinates/precise location
 - Relevance to visit dates: [Specific context for the provided travel dates]
+
+## Image
+
+![Location Name](image-url) *Caption describing the image and source attribution*
 
 ## Description
 [Comprehensive narrative about the location, its history, and significance]

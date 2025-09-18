@@ -19,6 +19,7 @@ title = "{title}"
 description = "{description}"
 date = {date}
 weight = {weight}
+template = "timeline-entry.html"
 
 [extra]
 timeline_order = {order}
@@ -27,8 +28,6 @@ date_range = "{date_range}"
 duration = "{duration}"
 {extra_fields}
 +++
-
-**{date_range}** | **Duration: {duration}**
 
 {content}
 
@@ -71,6 +70,27 @@ class TimelineGenerator:
         self.research_dir = Path(research_dir)
         self.output_dir = Path(output_dir)
         self.timeline_config = []
+
+    def format_date_range(self, date_string: str) -> str:
+        """Convert date format to shorter month format (e.g., 'October 23-24, 2025' -> 'Oct 23-24')"""
+        import re
+
+        # Handle formats like "October 23-24, 2025"
+        month_map = {
+            'January': 'Jan', 'February': 'Feb', 'March': 'Mar', 'April': 'Apr',
+            'May': 'May', 'June': 'Jun', 'July': 'Jul', 'August': 'Aug',
+            'September': 'Sep', 'October': 'Oct', 'November': 'Nov', 'December': 'Dec'
+        }
+
+        # Replace full month names with abbreviated ones and remove year
+        for full_month, short_month in month_map.items():
+            if full_month in date_string:
+                # Remove year and replace month
+                formatted = re.sub(r',?\s*20\d{2}', '', date_string)  # Remove year
+                formatted = formatted.replace(full_month, short_month)
+                return formatted
+
+        return date_string  # Return as-is if no transformation needed
 
     def parse_research_file(self, file_path: Path) -> Dict[str, Any]:
         """Parse a markdown research file and extract structured data."""
@@ -148,12 +168,8 @@ class TimelineGenerator:
             duration_raw = data.get('duration', '').replace('**', '').replace('Duration:', '').strip()
 
             # Use actual dates and duration from research, with fallbacks
-            if visit_period:
-                title = f"{visit_period}: {data['title']}"
-                date_range_display = visit_period
-            else:
-                title = f"Days {order}-{order+3}: {data['title']}"
-                date_range_display = f"April {order}-{order+3}"
+            title = data['title']  # Always use just the destination name
+            date_range_display = self.format_date_range(visit_period) if visit_period else ""
 
             duration = duration_raw if duration_raw else '4 days'
 
@@ -190,7 +206,7 @@ class TimelineGenerator:
             weight=order,
             order=order,
             entry_type=entry_type,
-            date_range=date_range_display if entry_type == "destination" else f"April {order}",
+            date_range=date_range_display,
             duration=duration,
             extra_fields=extra_fields,
             content=content,
@@ -200,7 +216,19 @@ class TimelineGenerator:
 
     def generate_destination_content(self, data: Dict) -> str:
         """Generate destination timeline content from research."""
-        # Find attractions for this destination
+        # Get the original content and extract everything after the metadata section
+        original_content = data.get('content', '')
+
+        # Find the start of the actual content (after title and metadata)
+        content_start_match = re.search(r'\n## Basic Information', original_content)
+        if content_start_match:
+            # Extract content from Basic Information onward
+            main_content = original_content[content_start_match.start():]
+        else:
+            # Fallback to basic information section
+            main_content = f"## Overview\n\n{data.get('basic_information', 'Information about this destination.')}"
+
+        # Find attractions for this destination and add them
         destination_slug = data["title"].lower()
         attractions = self.find_destination_attractions(destination_slug)
 
@@ -212,28 +240,13 @@ class TimelineGenerator:
                 attraction_slug = attraction.lower().replace(' ', '-').replace('ō', 'o')
                 attractions_section += f"- **[{attraction}](/attractions/{attraction_slug}/)** - {attraction} detailed guide\n"
 
-        content = f"""
-## Overview
+        # Insert attractions section after overview if it exists
+        if "## Basic Information" in main_content:
+            main_content = main_content.replace("## Basic Information", "## Overview") + attractions_section
+        else:
+            main_content = main_content + attractions_section
 
-{data.get('basic_information', 'Information about this destination.')}
-{attractions_section}
-## Key Districts & Experiences
-
-{data.get('key_districts_&_neighborhoods', 'Various districts and neighborhoods to explore.')}
-
-## Cultural Immersion Plan
-
-{data.get('food_culture', 'Local food culture and dining experiences.')}
-
-## Practical Planning
-
-{data.get('practical_information', 'Transportation and logistics information.')}
-
-## Day Trip Options
-
-{data.get('day_trips_from_' + data['title'].lower(), 'Nearby attractions for day trips.')}
-"""
-        return content.strip()
+        return main_content.strip()
 
     def generate_journey_content(self, data: Dict) -> str:
         """Generate journey timeline content from research."""
@@ -321,26 +334,18 @@ class TimelineGenerator:
                 for research_file in destination_folder.glob("*.md"):
                     data = self.parse_research_file(research_file)
 
-                    attraction_content = f"""
-## About
+                    # Get the original content and extract everything after the metadata section
+                    original_content = data.get('content', '')
 
-{data.get('basic_information', '')}
-
-{data.get('cultural_&_religious_significance', '')}
-
-## Visiting Information
-
-{data.get('visiting_information', '')}
-
-## What to Expect
-
-{data.get('the_trail_experience', '')}
-{data.get('cultural_&_religious_significance', '')}
-
-## Practical Tips
-
-{data.get('practical_visiting_tips', '')}
-"""
+                    # Find the start of the actual content (after title and metadata)
+                    content_start_match = re.search(r'\n## Basic Information', original_content)
+                    if content_start_match:
+                        # Extract content from Basic Information onward
+                        attraction_content = original_content[content_start_match.start():]
+                        # Replace first section header for consistency
+                        attraction_content = attraction_content.replace("## Basic Information", "## About", 1)
+                    else:
+                        attraction_content = "## About\n\nAttraction information not available."
 
                     slug = data['title'].lower().replace(' ', '-').replace('ō', 'o')
                     attraction_file = attractions_dir / f"{slug}.md"

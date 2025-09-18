@@ -121,7 +121,7 @@ For each assigned item, research:
 - **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively and integrate into route overview and stop visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
-- **PHOTO REQUIREMENTS**: Include at least one representative photo for each route overview and attraction file using markdown format `![Alt text](image_url)`
+- **IMAGE REQUIREMENTS**: Each research agent must include a representative image in their research report's Image section. The command will validate the image URL and integrate it into the final files
 - **LOCATION PINS**: Add Google Maps location link at the end of each file: `**Location:** [View on Google Maps](google_maps_url)`
 - **PHOTO SOURCING**: Search for official tourism photos, Wikipedia commons, or other freely available images that represent the route/stop
 - Note seasonal considerations and optimal visiting conditions for route
@@ -132,7 +132,7 @@ For each assigned item, research:
 
 ## Output Format
 Structure findings for each route and stop with:
-- **Representative photos** integrated into content for route overview and individual stops
+- **Image Integration**: Extract images from research agent reports and validate URLs
 - Complete practical visiting information for car travelers
 - Route-specific context and significance
 - Driving visitor experience expectations and recommendations
@@ -323,23 +323,23 @@ Create comprehensive research files:
 
 ## Basic Information
 {DETAILED description, significance, and comprehensive overview from route perspective}
-*Source: [Source Name](URL) - Accessed Date*
+[🔗](URL)
 
 ## Route Context & Accessibility
 {DETAILED route-specific context, parking, accessibility from route}
-*Source: [Route Source](URL) - Accessed Date*
+[🔗](URL)
 
 ## Driving Visitor Experience
 {COMPLETE visitor experience for car travelers, facilities, what to expect}
-*Source: [Experience Source](URL) - Accessed Date*
+[🔗](URL)
 
 ## Route Integration
 {How this stop fits into overall route, connections with other stops, timing considerations}
-*Source: [Integration Source](URL) - Accessed Date*
+[🔗](URL)
 
 ## Practical Driving Tips
 {COMPREHENSIVE strategy for car travelers, parking, optimal timing, route impact}
-*Source: [Tips Source](URL) - Accessed Date*
+[🔗](URL)
 
 **Location:** [View on Google Maps](google_maps_url)
 ```

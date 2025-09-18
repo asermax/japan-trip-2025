@@ -376,7 +376,7 @@ Content weight determines ordering within sections:
 
 **Inline Source References:**
 - Include source links immediately after relevant content sections
-- Use format: `*Source: [Description](URL) - Accessed Date*`
+- Use format: `[🔗](URL)` for subtle, clickable source links
 - Place citations at paragraph or section level, not just at document end
 - For multiple sources in one section, list all relevant sources
 
@@ -387,11 +387,11 @@ Content weight determines ordering within sections:
 
 **Citation Format Examples:**
 ```markdown
-The site achieved National Natural Monument status in 1934 and became part of the Mount Fuji UNESCO World Heritage Site in 2013. *Source: [UNESCO World Heritage Centre](https://whc.unesco.org/en/list/1418/) - Accessed 2024*
+The site achieved National Natural Monument status in 1934 and became part of the Mount Fuji UNESCO World Heritage Site in 2013. [🔗](https://whc.unesco.org/en/list/1418/)
 
-**Operating Hours:** 9:00 AM - 5:00 PM daily *Source: [Official Tourism Board](https://example.com) - Accessed 2024*
+**Operating Hours:** 9:00 AM - 5:00 PM daily [🔗](https://example.com)
 
-Traditional houtou noodles represent the region's mountain survival cuisine. *Source: [Yamanashi Prefecture Tourism](https://example.com) - Accessed 2024*
+Traditional houtou noodles represent the region's mountain survival cuisine. [🔗](https://example.com)
 ```
 
 ### Destination Research Methodology

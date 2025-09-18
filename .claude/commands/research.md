@@ -118,8 +118,8 @@ For EVERY specific location discovered:
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
 - **SOURCE CITATION**: Include inline source references immediately after relevant content
-- **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format
-- **PHOTO REQUIREMENTS**: Include at least one representative photo for each destination and attraction file using markdown format `![Alt text](image_url)`
+- **CITATION FORMAT**: Use subtle `[🔗](URL)` format at the end of relevant paragraphs
+- **IMAGE REQUIREMENTS**: Each research agent must include a representative image in their research report's Image section. The command will validate the image URL and integrate it into the final files
 - **LOCATION PINS**: Add Google Maps location link at the end of each file: `**Location:** [View on Google Maps](google_maps_url)`
 - **PHOTO SOURCING**: Search for official tourism photos, Wikipedia commons, or other freely available images that represent the location
 - Note seasonal considerations and optimal visiting conditions
@@ -130,26 +130,26 @@ For EVERY specific location discovered:
 - **Event/Festival Research**: When assigned event/festival topics, research current details, cultural significance, and visitor impact for integration into destination context
 - **Practical Topic Research**: When assigned practical topics (e.g., "transportation etiquette"), research comprehensively and integrate into destination practical sections and relevant attraction visiting tips
 - **Destination file**: Only summary information, all details go to attraction files
-- **CITATION PLACEMENT**: Source each practical detail, cultural claim, and recommendation separately
+- **CITATION PLACEMENT**: Source each practical detail, cultural claim, and recommendation separately using `[🔗](URL)` format
 
 ## Output Format
 
 **Destination File**: Brief summary only with:
-- **Representative photo** of the destination integrated into the content
-- Cultural overview and significance (2-3 paragraphs) **with inline source citations**
-- One-sentence district summaries **with source references**
-- One-sentence food culture overview **with cultural source attribution**
-- One-sentence day trip summaries **with source citations**
+- **Image Integration**: Extract image from research agent reports and validate URL
+- Cultural overview and significance (2-3 paragraphs) **with inline citations using [🔗](URL)**
+- One-sentence district summaries **with citations using [🔗](URL)**
+- One-sentence food culture overview **with citations using [🔗](URL)**
+- One-sentence day trip summaries **with citations using [🔗](URL)**
 - **Google Maps location link** at the end of the file
 
 **Individual Attraction Files**: Comprehensive detail with:
-- **Representative photo** of the attraction integrated appropriately into the content
-- Complete practical visiting information **with sources for hours, costs, access details**
-- Detailed cultural context and significance **with source references for historical claims**
-- Full visitor experience expectations and recommendations **with source attribution**
-- Integration notes with other regional attractions **with cross-reference sources**
-- Comprehensive logistics and cultural preparation **with source citations for recommendations**
-- **INLINE CITATIONS**: Source each section immediately after relevant content using `*Source: [Description](URL) - Accessed Date*` format
+- **Image Integration**: Extract image from research agent reports and validate URL
+- Complete practical visiting information **with citations using [🔗](URL)**
+- Detailed cultural context and significance **with citations using [🔗](URL)**
+- Full visitor experience expectations and recommendations **with citations using [🔗](URL)**
+- Integration notes with other regional attractions **with citations using [🔗](URL)**
+- Comprehensive logistics and cultural preparation **with citations using [🔗](URL)**
+- **INLINE CITATIONS**: Source each section immediately after relevant content using `[🔗](URL)` format
 - **Google Maps location link** at the end of the file
 ```
 
@@ -202,9 +202,6 @@ Files are created and updated throughout the process:
 ```markdown
 # {Destination} Research
 
-![Destination overview image](image_url)
-*Caption: {Brief description of the image}*
-
 **Visit Period:** {Visit dates}
 **Duration:** {Stay duration}
 **Accommodation:** {Name and address}
@@ -212,6 +209,10 @@ Files are created and updated throughout the process:
 **Discovery State:** research/state/{destination-slug}-state.md
 
 ## Basic Information
+
+![Destination overview image](image_url)
+*Caption: {Brief description of the image}*
+
 {2-3 paragraph overview covering cultural significance and timing context - SUMMARY ONLY}
 *Source: [Cultural Source](URL) - Accessed Date*
 
@@ -234,9 +235,6 @@ Files are created and updated throughout the process:
 ```markdown
 # {Attraction Name} Research
 
-![Attraction image](image_url)
-*Caption: {Brief description of the image}*
-
 **Location:** {Specific location within destination}
 **Category:** {Attraction type}
 **Cost:** {Entry fees or cost range}
@@ -245,6 +243,10 @@ Files are created and updated throughout the process:
 **Research Completed:** {Date}
 
 ## Basic Information
+
+![Attraction image](image_url)
+*Caption: {Brief description of the image}*
+
 {DETAILED description, significance, and comprehensive overview}
 *Source: [Source Name](URL) - Accessed Date*
 

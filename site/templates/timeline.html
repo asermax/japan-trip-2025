@@ -24,13 +24,14 @@
       <div class="timeline-content">
         <div class="timeline-header">
           <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-          {% if page.extra.date_range %}
-          <div class="timeline-date">{{ page.extra.date_range }}</div>
-          {% endif %}
-        </div>
-
-        <div class="timeline-summary">
-          {{ page.description }}
+          <div class="timeline-meta">
+            {% if page.extra.date_range %}
+            <div class="timeline-date">{{ page.extra.date_range }}</div>
+            {% endif %}
+            {% if page.extra.duration %}
+            <div class="timeline-duration">⏱️ {{ page.extra.duration }}</div>
+            {% endif %}
+          </div>
         </div>
 
         {% if page.extra.highlights %}
@@ -41,15 +42,6 @@
           {% endfor %}
         </div>
         {% endif %}
-
-        <div class="timeline-meta">
-          {% if page.extra.duration %}
-          <span class="duration">⏱️ {{ page.extra.duration }}</span>
-          {% endif %}
-          {% if page.extra.place %}
-          <span class="location">📍 <a href="/places/{{ page.extra.place }}/">{{ page.extra.place | title }}</a></span>
-          {% endif %}
-        </div>
       </div>
     </div>
     {% endfor %}
@@ -170,22 +162,18 @@
 }
 
 .timeline-meta {
-  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 10px 0;
   font-size: 0.9em;
   color: #666;
 }
 
-.timeline-meta span {
-  margin-right: 15px;
-}
-
-.timeline-meta a {
-  color: #e91e63;
-  text-decoration: none;
-}
-
-.timeline-meta a:hover {
-  text-decoration: underline;
+.timeline-duration {
+  font-size: 0.95em;
+  color: #888;
+  font-weight: 400;
 }
 </style>
 {% endblock content %}
