@@ -41,9 +41,9 @@ If no destination is provided, the command will automatically select the destina
 Process research using predefined 5-agent batches with **immediate file creation/updates after each batch**:
 
 **Batch Processing Strategy:**
-- **Automatic Batch Creation**: Research command automatically divides TODO list items across 5-agent batches
-- **Category-Based Selection**: Pick items from high-priority categories first (Cultural/Historic, Natural/Scenic, Traditional) then other categories
-- **Batch Size**: Each batch contains up to 5 locations assigned to 5 agents running in parallel
+- **Automatic Batch Creation**: Research command automatically divides ALL TODO list items across 5-agent batches
+- **Category-Based Selection**: Pick items from high-priority categories first (Cultural/Historic, Natural/Scenic, Traditional) then process extra topic categories (Cultural Research & Context, Events & Festivals, Practical Research Topics)
+- **Mixed Batches**: Each batch contains up to 5 items total (locations + extra topics) assigned to 5 agents running in parallel
 - **Sequential Batches**: Complete one batch before starting the next
 
 **File Update Points:**
@@ -53,17 +53,17 @@ Process research using predefined 5-agent batches with **immediate file creation
 
 **Per-Agent Context Package:**
 ```
-Research comprehensive information for your assigned locations in: {DESTINATION}
+Research comprehensive information for your assigned items in: {DESTINATION}
 
 Visit Period: {VISIT_DATES} (for seasonal context and events reference)
 Duration: {STAY_DURATION} (for planning context only)
 Accommodation: {ACCOMMODATION_NAME} - {ACCOMMODATION_ADDRESS}
 
-RESEARCH PURPOSE: Complete cataloging of all information about each assigned location.
+RESEARCH PURPOSE: Complete cataloging of all information about each assigned item (locations + cultural/practical topics).
 This is NOT about fitting into a specific itinerary - research and document everything useful.
 
 ## Your Research Assignment
-{SPECIFIC_LOCATIONS_FROM_BATCH}
+{SPECIFIC_ITEMS_FROM_BATCH} (Mix of locations and cultural/practical research topics)
 
 ## Background Context (from Discovery)
 {CULTURAL_RESEARCH_TOPICS}
@@ -72,17 +72,21 @@ This is NOT about fitting into a specific itinerary - research and document ever
 
 ## Research Focus Areas
 
-**CRITICAL APPROACH**: Research each location as a SEPARATE ATTRACTION FILE. Every specific place to visit, dining experience, district exploration, or activity gets its own detailed file.
+**CRITICAL APPROACH**:
+- **Locations**: Research each location as a SEPARATE ATTRACTION FILE. Every specific place to visit, dining experience, district exploration, or activity gets its own detailed file.
+- **Cultural/Practical Topics**: Research topics are integrated into destination summary and relevant attraction files as contextual information.
 
-For each assigned location, research:
+For each assigned item, research:
 
-### Destination Summary Creation
+### Destination Summary Creation (Enhanced with Research Topics)
 - **Brief overview only** (2-3 paragraphs total for entire destination)
-- Cultural significance and timing context
-- One-sentence summaries for districts, food culture, day trips
-- **NO detailed information** in destination file
+- Cultural significance and timing context **incorporating researched cultural topics**
+- One-sentence summaries for districts, food culture, day trips **with researched context**
+- **Cultural Research Integration**: Weave findings from cultural research topics into appropriate sections
+- **Practical Context Integration**: Include relevant practical research findings in destination context
+- **NO detailed information** in destination file - details go to attraction files
 
-### Individual Attraction Research (DETAILED)
+### Individual Attraction Research (DETAILED + Enhanced Context)
 For EVERY specific location discovered:
 
 **Practical Information**
@@ -92,12 +96,12 @@ For EVERY specific location discovered:
 - Current operational status and any restrictions
 - Optimal visiting times and crowd management strategies
 
-**Cultural Context & Experience**
-- Comprehensive cultural significance and historical background
-- Complete visitor experience expectations
-- Photography guidelines and cultural restrictions
-- Detailed cultural etiquette and proper behavior protocols
-- Local customs, traditions, and cultural preparation
+**Cultural Context & Experience (Enhanced with Research Topics)**
+- Comprehensive cultural significance and historical background **enhanced with researched cultural topics**
+- Complete visitor experience expectations **informed by cultural research findings**
+- Photography guidelines and cultural restrictions **with proper etiquette from practical research**
+- Detailed cultural etiquette and proper behavior protocols **from researched customs and traditions**
+- Local customs, traditions, and cultural preparation **incorporating relevant research topic findings**
 
 **Visitor Experience**
 - Recent visitor reviews and comprehensive experience reports
@@ -108,6 +112,9 @@ For EVERY specific location discovered:
 
 ## Research Instructions
 - **SEPARATE FILES**: Create individual attraction files for EVERY specific location, restaurant, district area, day trip, activity
+- **TOPIC INTEGRATION**: Research topics enhance destination and attraction context but don't create separate files
+- **Cultural Topics**: Integrate findings into destination cultural overview and relevant attraction cultural context
+- **Practical Topics**: Integrate findings into destination practical considerations and attraction visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
 - **SOURCE CITATION**: Include inline source references immediately after relevant content
@@ -119,6 +126,9 @@ For EVERY specific location discovered:
 - Cross-reference with cultural context from discovery phase
 - Document all available information regardless of trip duration constraints
 - Use Gemini research for cultural deep-dives when needed
+- **Research Topic Handling**: When assigned cultural research topics (e.g., "Mount Fuji worship traditions"), research the topic thoroughly and integrate findings into relevant destination/attraction sections
+- **Event/Festival Research**: When assigned event/festival topics, research current details, cultural significance, and visitor impact for integration into destination context
+- **Practical Topic Research**: When assigned practical topics (e.g., "transportation etiquette"), research comprehensively and integrate into destination practical sections and relevant attraction visiting tips
 - **Destination file**: Only summary information, all details go to attraction files
 - **CITATION PLACEMENT**: Source each practical detail, cultural claim, and recommendation separately
 
@@ -146,20 +156,20 @@ For EVERY specific location discovered:
 ### 3. Automated Batch Execution & File Management
 
 **Batch Creation Logic:**
-1. **Parse TODO List**: Extract all `- [ ]` items from state file by category
+1. **Parse TODO List**: Extract all `- [ ]` items from state file by category (locations AND research topics)
 2. **Category Order**: Process categories in the order they appear in the state file
 3. **Sequential Selection**: Pick items from first category, then second category, etc., maintaining state file order within each category
-4. **Agent Assignment**: Assign up to 5 locations per batch to 5 agents running in parallel
+4. **Mixed Item Assignment**: Assign up to 5 items total (mix of locations and research topics) per batch to 5 agents running in parallel
 5. **Batch Sequence**: Complete each batch fully before starting the next
 
 **Per-Batch Execution:**
-1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments
-2. **Process Results**: Compile findings from completed agents
+1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments (mix of locations and research topics)
+2. **Process Results**: Compile findings from completed agents, integrating research topic findings into appropriate destination/attraction context
 3. **Update Files**:
-   - Create/update destination summary file: `research/destinations/{destination-slug}.md`
+   - Create/update destination summary file: `research/destinations/{destination-slug}.md` (incorporating research topic findings)
    - Create/update attractions directory: `research/attractions/{destination-slug}/`
-   - Create/update attraction files for current batch locations
-4. **Update State**: Mark batch locations as completed `[x]` in state file
+   - Create/update attraction files for current batch locations (enhanced with relevant research topic context)
+4. **Update State**: Mark batch items (locations AND research topics) as completed `[x]` in state file
 5. **Checkpoint**: Confirm files created/updated and available for use
 
 **Integration Points (Applied Per Batch):**

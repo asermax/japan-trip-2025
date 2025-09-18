@@ -46,9 +46,9 @@ If no route is provided, the command will list all available route state files a
 Process research using predefined 5-agent batches with **immediate file creation/updates after each batch**:
 
 **Batch Processing Strategy:**
-- **Automatic Batch Creation**: Research command automatically divides TODO list items across 5-agent batches
-- **Detour-Based Selection**: Pick items from categories in state file order (On-Route → Short Detour → Major Detour)
-- **Batch Size**: Each batch contains up to 5 stops assigned to 5 agents running in parallel
+- **Automatic Batch Creation**: Research command automatically divides ALL TODO list items across 5-agent batches
+- **Detour-Based Selection**: Pick items from categories in state file order (On-Route → Short Detour → Major Detour → Cultural Research & Context → Route Events & Seasonal Factors → Practical Route Research Topics)
+- **Mixed Batches**: Each batch contains up to 5 items total (stops + research topics) assigned to 5 agents running in parallel
 - **Sequential Batches**: Complete one batch before starting the next
 
 **File Update Points:**
@@ -58,17 +58,17 @@ Process research using predefined 5-agent batches with **immediate file creation
 
 **Per-Agent Context Package:**
 ```
-Research comprehensive information for your assigned stops along the route: {ORIGIN} to {DESTINATION}
+Research comprehensive information for your assigned items along the route: {ORIGIN} to {DESTINATION}
 
 Travel Date: {TRAVEL_DATE} (for seasonal context and route conditions)
 Transportation: Car/driving
 Route Context: {ROUTE_DESCRIPTION_FROM_STATE}
 
-RESEARCH PURPOSE: Complete cataloging of all information about each assigned stop.
+RESEARCH PURPOSE: Complete cataloging of all information about each assigned item (stops + cultural/practical topics).
 This is NOT about fitting into a specific itinerary - research and document everything useful.
 
 ## Your Research Assignment
-{SPECIFIC_STOPS_FROM_BATCH}
+{SPECIFIC_ITEMS_FROM_BATCH} (Mix of stops and cultural/practical research topics)
 
 ## Background Context (from Route Discovery)
 {CULTURAL_RESEARCH_TOPICS}
@@ -76,7 +76,12 @@ This is NOT about fitting into a specific itinerary - research and document ever
 {PRACTICAL_ROUTE_CONSIDERATIONS}
 
 ## Research Focus Areas
-For each assigned stop, research:
+
+**CRITICAL APPROACH**:
+- **Route Stops**: Research each stop as a SEPARATE ATTRACTION FILE. Every specific place to visit, rest area, scenic point gets its own detailed file.
+- **Cultural/Practical Topics**: Research topics are integrated into route overview and relevant stop files as contextual information.
+
+For each assigned item, research:
 
 ### Practical Route Information
 - Current operating hours and seasonal schedules
@@ -86,12 +91,12 @@ For each assigned stop, research:
 - Time needed for visit and route impact
 - Distance from main route and detour time
 
-### Route-Specific Context & Experience
-- Why this stop is significant for this specific route
-- What to expect as a driving visitor
-- Photography opportunities and scenic viewpoints
-- Route-specific cultural significance
-- Connection with route's overall journey narrative
+### Route-Specific Context & Experience (Enhanced with Research Topics)
+- Why this stop is significant for this specific route **enhanced with researched cultural topics**
+- What to expect as a driving visitor **informed by cultural research findings**
+- Photography opportunities and scenic viewpoints **with cultural context from research**
+- Route-specific cultural significance **incorporating relevant research topic findings**
+- Connection with route's overall journey narrative **enhanced by cultural and practical research**
 
 ### Driving Visitor Experience
 - Recent visitor reviews focusing on route travelers
@@ -107,6 +112,13 @@ For each assigned stop, research:
 - Alternative options if stop is unavailable
 
 ## Research Instructions
+- **SEPARATE FILES**: Create individual attraction files for EVERY specific stop, rest area, scenic point along route
+- **TOPIC INTEGRATION**: Research topics enhance route overview and stop context but don't create separate files
+- **Cultural Topics**: Integrate findings into route cultural overview and relevant stop cultural context
+- **Practical Topics**: Integrate findings into route practical considerations and stop driving tips
+- **Route Research Topic Handling**: When assigned route cultural research topics (e.g., "traditional travel patterns"), research thoroughly and integrate findings into relevant route/stop sections
+- **Event/Festival Research**: When assigned route event/festival topics, research current details and visitor impact for integration into route context
+- **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively and integrate into route overview and stop visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
 - **PHOTO REQUIREMENTS**: Include at least one representative photo for each route overview and attraction file using markdown format `![Alt text](image_url)`
@@ -132,21 +144,21 @@ Structure findings for each route and stop with:
 ### 3. Automated Batch Execution & File Management
 
 **Batch Creation Logic:**
-1. **Parse TODO List**: Extract all `- [ ]` items from state file by detour category
-2. **Detour Order**: Process categories in state file order (On-Route → Short Detour → Major Detour)
+1. **Parse TODO List**: Extract all `- [ ]` items from state file by category (stops AND research topics)
+2. **Category Order**: Process categories in state file order (On-Route → Short Detour → Major Detour → Cultural Research & Context → Route Events & Seasonal Factors → Practical Route Research Topics)
 3. **Sequential Selection**: Pick items from first category, then second category, etc., maintaining state file order within each category
-4. **Agent Assignment**: Assign up to 5 stops per batch to 5 agents running in parallel
+4. **Mixed Item Assignment**: Assign up to 5 items total (mix of stops and research topics) per batch to 5 agents running in parallel
 5. **Batch Sequence**: Complete each batch fully before starting the next
 
 **Per-Batch Execution:**
-1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments
-2. **Process Results**: Compile findings from completed agents
+1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments (mix of stops and research topics)
+2. **Process Results**: Compile findings from completed agents, integrating research topic findings into appropriate route/stop context
 3. **Update Files**:
-   - Create/update route research file: `research/routes/{route-name}/{origin-to-destination}-{route-name}.md`
+   - Create/update route research file: `research/routes/{route-name}/{origin-to-destination}-{route-name}.md` (incorporating research topic findings)
    - Create/update route attractions folder: `research/attractions/{route-name}/`
-   - Create attraction files for route-specific stops: `research/attractions/{route-name}/{stop-slug}.md`
+   - Create attraction files for route-specific stops: `research/attractions/{route-name}/{stop-slug}.md` (enhanced with relevant research topic context)
    - Update state file with batch completion status
-4. **Update State**: Mark batch stops as completed `[x]` in state file
+4. **Update State**: Mark batch items (stops AND research topics) as completed `[x]` in state file
 5. **Checkpoint**: Confirm files created/updated and available for use
 
 **Route Integration Points (Applied Per Batch):**

@@ -123,27 +123,24 @@ Create separate state files for each route option discovered:
 ### Major Detour (30+ minutes)
 - [ ] {Stop name} - {Detour time and significance justifying extra time}
 
-## Extras
+### Cultural Research & Context
+- [ ] {Route historical significance} - {Cultural and historical importance}
+- [ ] {Regional cultural transitions} - {Cultural changes along the route}
+- [ ] {Traditional travel patterns} - {Historical route significance and traditions}
+- [ ] {Local specialties research} - {Regional food, crafts, traditions to explore}
+- [ ] {Regional architecture/landscape} - {Cultural significance of changing scenery}
 
-### Route Options
-- **Main Highway Route:** {Primary highway/road} - {Estimated drive time}
-- **Alternative Scenic Routes:** {Scenic route descriptions with time differences}
+### Route Events & Seasonal Factors (Date-Specific)
+- [ ] {Travel date weather patterns} - {Seasonal conditions and preparation}
+- [ ] {Cultural events along route} - {Festivals/events during travel period}
+- [ ] {Seasonal route attractions} - {Date-specific scenic or cultural highlights}
 
-### Route-Specific Events & Considerations
-- **Travel Date Factors:** {Weather, traffic, seasonal road conditions}
-- **Cultural Events Along Route:** {Events/festivals during travel period}
-- **Regional Specialties:** {Food, crafts, traditions along route}
-
-### Cultural Research Topics
-- {Route historical significance and cultural context}
-- {Regional cultural transitions along the route}
-- {Traditional travel patterns and route significance}
-- {Local specialties and regional experiences to investigate}
-
-### Practical Route Considerations
-- {Weather conditions and seasonal factors for travel date}
-- {Traffic patterns and optimal timing}
-- {Fuel stations, service areas, and facilities along route}
+### Practical Route Research Topics
+- [ ] {Navigation and route options} - {Highway vs scenic route comparison}
+- [ ] {Traffic patterns research} - {Optimal timing and route efficiency}
+- [ ] {Service facilities along route} - {Fuel, rest areas, facilities mapping}
+- [ ] {Emergency considerations} - {Road conditions, services, safety factors}
+- [ ] {Regional driving customs} - {Local traffic etiquette and considerations}
 ```
 
 ### 6. Update TODO Status

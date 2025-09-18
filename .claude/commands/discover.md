@@ -124,22 +124,22 @@ Create state file: `research/state/{destination-slug}-discovery-state.md`
 ### {Category Name - e.g., Dining Experiences}
 - [ ] {Location name} - {Cuisine type and specialties}
 
-## Extras
+### Cultural Research & Context
+- [ ] {Cultural significance topic} - {Research scope and importance}
+- [ ] {Historical background area} - {Background and cultural relevance}
+- [ ] {Local customs topic} - {Tradition and modern practice context}
+- [ ] {Regional specialty research} - {Cultural and historical significance}
+- [ ] {Seasonal tradition topic} - {Cultural practice and visitor relevance}
 
-### Seasonal Events & Festivals
-- **{Event/Festival name}** ({Duration})
-  - Locations: {Where it occurs}
-  - Features: {What to expect}
+### Events & Festivals (Date-Specific)
+- [ ] {Event/Festival name} - {Duration, locations, cultural significance}
+- [ ] {Seasonal celebration} - {Cultural context and visitor experience}
 
-### Cultural Research Topics
-- {Cultural significance topics identified}
-- {Historical background areas for deeper research}
-- {Local customs and traditions to explore}
-
-### Practical Considerations
-- {Seasonal and weather considerations}
-- {Transportation and logistics notes}
-- {Crowd management and timing tips}
+### Practical Research Topics
+- [ ] {Transportation topic} - {System details and visitor navigation}
+- [ ] {Cultural etiquette topic} - {Proper behavior and cultural sensitivity}
+- [ ] {Seasonal consideration} - {Weather, timing, and practical preparation}
+- [ ] {Regional logistics topic} - {Local systems and visitor integration}
 ```
 
 ### 6. Update TODO Status

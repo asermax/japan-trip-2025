@@ -411,10 +411,11 @@ The research process consists of two main phases:
 - Create research assignments for detailed investigation of all options
 
 **Detailed Research Phase** (`/research [destination]`)
-- **Simplified Batch Processing**: Research using predefined 5-agent batches
-- **Automatic Batch Creation**: Command divides TODO list items across 5-agent batches based on state file order
-- **Sequential Processing**: Process categories in state file order, up to 5 locations per batch
-- **Immediate File Updates**: Create/update destination and attraction files after each batch completion
+- **Enhanced Batch Processing**: Research using predefined 5-agent batches processing both attractions AND research topics
+- **Automatic Batch Creation**: Command divides ALL TODO list items (attractions + cultural/practical topics) across 5-agent batches based on state file order
+- **Sequential Processing**: Process categories in state file order, up to 5 items total (mixed attractions and research topics) per batch
+- **Topic Integration**: Cultural and practical research topics enhance destination and attraction context rather than creating separate files
+- **Immediate File Updates**: Create/update destination and attraction files after each batch completion with integrated research topic findings
 - **Continuous Availability**: Research files accessible throughout the process for immediate use
 - Update TODO status and state file after each batch completion
 
@@ -439,10 +440,11 @@ The route research process consists of two main phases, parallel to destination 
 
 **Detailed Route Research Phase** (`/research-route [route-state-file]`)
 - **Individual Route Processing**: Research one specific route at a time using its state file
-- **Simplified Batch Processing**: Research using predefined 5-agent batches per route
+- **Enhanced Batch Processing**: Research using predefined 5-agent batches per route processing both stops AND research topics
 - **Route-Specific File Structure**: Create separate folders and files for each route
-- **Detour-Based Processing**: Process categories in state file order (On-Route → Short Detour → Major Detour)
-- **Per-Route Output**: Generate route-specific research files and attraction catalogs
+- **Detour-Based Processing**: Process categories in state file order (On-Route → Short Detour → Major Detour → Cultural Research & Context → Route Events & Seasonal Factors → Practical Route Research Topics)
+- **Topic Integration**: Cultural and practical research topics enhance route overview and stop context rather than creating separate files
+- **Per-Route Output**: Generate route-specific research files and attraction catalogs with integrated research topic findings
 
 **Commands Available:**
 - `/discover-route [from] [to]` - Start discovery research for a car route (creates multiple route state files)
@@ -459,16 +461,18 @@ See `.claude/commands/` for detailed route command specifications and workflows.
 
 ## State Files Management (`/research/state/`)
 
-State files coordinate research workflow between discovery and detailed research phases. They contain a simple TODO list organized by category using todo format (`- [ ]`) for 5-agent batch processing.
+State files coordinate research workflow between discovery and detailed research phases. They contain a comprehensive TODO list organized by category using todo format (`- [ ]`) for 5-agent batch processing, including both attractions/stops AND research topics.
 
 **Destination State Files:**
 - **File naming:** `{destination-slug}-discovery-state.md`
-- **Purpose:** Bridge between destination discovery and research phases with simple TODO list organized by category
+- **Purpose:** Bridge between destination discovery and research phases with TODO list organized by category (attractions + cultural/practical research topics)
+- **Content:** Attraction locations AND cultural research topics, events/festivals, practical research topics
 - **Management:** Created by `/discovery` command, used by `/research` command
 
 **Route State Files:**
 - **File naming:** `{origin-to-destination}-{route-name}-route-state.md`
-- **Purpose:** Individual state files per route option with TODO list organized by detour level
+- **Purpose:** Individual state files per route option with TODO list organized by detour level AND research topics
+- **Content:** Route stops AND cultural research topics, route events/seasonal factors, practical route research topics
 - **Multiple Files:** Discovery creates separate files for each route discovered (main, coastal, mountain, etc.)
 - **Management:** Created by `/discover-route` command, individually used by `/research-route` command
 
