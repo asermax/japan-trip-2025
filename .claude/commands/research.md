@@ -62,6 +62,8 @@ Accommodation: {ACCOMMODATION_NAME} - {ACCOMMODATION_ADDRESS}
 RESEARCH PURPOSE: Complete cataloging of all information about each assigned item (locations + cultural/practical topics).
 This is NOT about fitting into a specific itinerary - research and document everything useful.
 
+**CRITICAL**: You will RETURN a detailed research report. You do NOT create files. The main command will process your report and create the appropriate destination and attraction files.
+
 ## Your Research Assignment
 {SPECIFIC_ITEMS_FROM_BATCH} (Mix of locations and cultural/practical research topics)
 
@@ -73,8 +75,8 @@ This is NOT about fitting into a specific itinerary - research and document ever
 ## Research Focus Areas
 
 **CRITICAL APPROACH**:
-- **Locations**: Research each location as a SEPARATE ATTRACTION FILE. Every specific place to visit, dining experience, district exploration, or activity gets its own detailed file.
-- **Cultural/Practical Topics**: Research topics are integrated into destination summary and relevant attraction files as contextual information.
+- **Locations**: Research each location thoroughly and provide comprehensive details in your report that will become individual attraction files
+- **Cultural/Practical Topics**: Research topics thoroughly and provide findings that will be integrated into destination summaries and relevant attraction context
 
 For each assigned item, research:
 
@@ -111,31 +113,40 @@ For EVERY specific location discovered:
 - Comprehensive practical tips for international visitors
 
 ## Research Instructions
-- **SEPARATE FILES**: Create individual attraction files for EVERY specific location, restaurant, district area, day trip, activity
-- **TOPIC INTEGRATION**: Research topics enhance destination and attraction context but don't create separate files
-- **Cultural Topics**: Integrate findings into destination cultural overview and relevant attraction cultural context
-- **Practical Topics**: Integrate findings into destination practical considerations and attraction visiting tips
+- **RETURN COMPREHENSIVE REPORTS**: Provide detailed findings for all assigned items in your research report
+- **LOCATION RESEARCH**: For every specific location, restaurant, district area, day trip, activity - provide comprehensive details that will become individual attraction files
+- **TOPIC INTEGRATION**: Research topics should be thoroughly researched with findings that will enhance destination and attraction context
+- **Cultural Topics**: Provide comprehensive findings that will be integrated into destination cultural overview and relevant attraction cultural context
+- **Practical Topics**: Provide detailed research that will be integrated into destination practical considerations and attraction visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
-- **SOURCE CITATION**: Include inline source references immediately after relevant content
-- **CITATION FORMAT**: Use subtle `[🔗](URL)` format at the end of relevant paragraphs
-- **IMAGE REQUIREMENTS**: Each research agent must include a representative image in their research report's Image section. The command will validate the image URL and integrate it into the final files
-- **LOCATION PINS**: Add Google Maps location link at the end of each file: `**Location:** [View on Google Maps](google_maps_url)`
-- **PHOTO SOURCING**: Search for official tourism photos, Wikipedia commons, or other freely available images that represent the location
+- **SOURCE CITATION**: Include source references and URLs in your research report
+- **IMAGE REQUIREMENTS**: Include a representative image URL and description in your research report for each location researched
+- **LOCATION PINS**: Include Google Maps location links in your research report
+- **PHOTO SOURCING**: Find official tourism photos, Wikipedia commons, or other freely available images that represent the location
 - Note seasonal considerations and optimal visiting conditions
 - Cross-reference with cultural context from discovery phase
 - Document all available information regardless of trip duration constraints
 - Use Gemini research for cultural deep-dives when needed
-- **Research Topic Handling**: When assigned cultural research topics (e.g., "Mount Fuji worship traditions"), research the topic thoroughly and integrate findings into relevant destination/attraction sections
-- **Event/Festival Research**: When assigned event/festival topics, research current details, cultural significance, and visitor impact for integration into destination context
-- **Practical Topic Research**: When assigned practical topics (e.g., "transportation etiquette"), research comprehensively and integrate into destination practical sections and relevant attraction visiting tips
-- **Destination file**: Only summary information, all details go to attraction files
-- **CITATION PLACEMENT**: Source each practical detail, cultural claim, and recommendation separately using `[🔗](URL)` format
+- **Research Topic Handling**: When assigned cultural research topics (e.g., "Mount Fuji worship traditions"), research the topic thoroughly and provide findings for integration into relevant destination/attraction sections
+- **Event/Festival Research**: When assigned event/festival topics, research current details, cultural significance, and visitor impact
+- **Practical Topic Research**: When assigned practical topics (e.g., "transportation etiquette"), research comprehensively for integration into destination practical sections and relevant attraction visiting tips
+- **COMPREHENSIVE REPORTING**: Provide all findings in your research report - the main command will organize information into destination summaries and detailed attraction files
 
-## Output Format
+## Agent Report Processing
 
-**Destination File**: Brief summary only with:
-- **Image Integration**: Extract image from research agent reports and validate URL
+**Agent Reports**: Agents return comprehensive research reports containing:
+- Detailed findings for all assigned locations and research topics
+- Source citations and URLs for all information
+- Representative images and descriptions for locations
+- Google Maps location links
+- Cultural context and practical information
+- Integration suggestions and connections
+
+**Main Command File Creation**: The research command processes agent reports to create:
+
+**Destination Files**: Brief summary only with:
+- **Image Integration**: Extract image from agent reports and validate URL
 - Cultural overview and significance (2-3 paragraphs) **with inline citations using [🔗](URL)**
 - One-sentence district summaries **with citations using [🔗](URL)**
 - One-sentence food culture overview **with citations using [🔗](URL)**
@@ -143,7 +154,7 @@ For EVERY specific location discovered:
 - **Google Maps location link** at the end of the file
 
 **Individual Attraction Files**: Comprehensive detail with:
-- **Image Integration**: Extract image from research agent reports and validate URL
+- **Image Integration**: Extract image from agent reports and validate URL
 - Complete practical visiting information **with citations using [🔗](URL)**
 - Detailed cultural context and significance **with citations using [🔗](URL)**
 - Full visitor experience expectations and recommendations **with citations using [🔗](URL)**
@@ -164,11 +175,18 @@ For EVERY specific location discovered:
 
 **Per-Batch Execution:**
 1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments (mix of locations and research topics)
-2. **Process Results**: Compile findings from completed agents, integrating research topic findings into appropriate destination/attraction context
-3. **Update Files**:
+   - **Agent Role**: Research thoroughly and return detailed reports (agents do NOT create files)
+   - **Main Command Role**: Process agent reports and create/update files based on findings
+2. **Process Agent Reports**:
+   - Receive detailed research reports from each agent
+   - Integrate research topic findings into appropriate destination/attraction context
+   - Extract images and source citations from agent reports
+   - Validate URLs and practical information
+3. **Create/Update Files** (Main Command Responsibility):
    - Create/update destination summary file: `research/destinations/{destination-slug}.md` (incorporating research topic findings)
    - Create/update attractions directory: `research/attractions/{destination-slug}/`
    - Create/update attraction files for current batch locations (enhanced with relevant research topic context)
+   - Add proper source citations, images, and Google Maps links to all files
 4. **Update State**: Mark batch items (locations AND research topics) as completed `[x]` in state file
 5. **Checkpoint**: Confirm files created/updated and available for use
 

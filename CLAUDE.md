@@ -345,10 +345,11 @@ Content weight determines ordering within sections:
 - Provides complementary foundation for detailed research phase
 
 **Location Researcher Agent:**
-- Conducts detailed research on locations identified by scavenger
+- Conducts detailed research on locations identified by scavenger and returns comprehensive reports
 - Uses multiple research tools in parallel when possible
 - Verifies practical information (hours, costs, accessibility, current status)
 - Researches cultural context and visitor experiences
+- **Returns detailed reports** that the main research command processes to create destination and attraction files
 
 **Gemini Research Agent (`gemini -p`) Usage:**
 - Cultural and historical deep-dives beyond web search results
@@ -412,6 +413,8 @@ The research process consists of two main phases:
 
 **Detailed Research Phase** (`/research [destination]`)
 - **Enhanced Batch Processing**: Research using predefined 5-agent batches processing both attractions AND research topics
+- **Agent Role**: Agents conduct research and return comprehensive reports (do NOT create files directly)
+- **Main Command Role**: Processes agent reports and creates/updates destination and attraction files
 - **Automatic Batch Creation**: Command divides ALL TODO list items (attractions + cultural/practical topics) across 5-agent batches based on state file order
 - **Sequential Processing**: Process categories in state file order, up to 5 items total (mixed attractions and research topics) per batch
 - **Topic Integration**: Cultural and practical research topics enhance destination and attraction context rather than creating separate files
@@ -441,6 +444,8 @@ The route research process consists of two main phases, parallel to destination 
 **Detailed Route Research Phase** (`/research-route [route-state-file]`)
 - **Individual Route Processing**: Research one specific route at a time using its state file
 - **Enhanced Batch Processing**: Research using predefined 5-agent batches per route processing both stops AND research topics
+- **Agent Role**: Agents conduct research and return comprehensive reports (do NOT create files directly)
+- **Main Command Role**: Processes agent reports and creates/updates route and attraction files
 - **Route-Specific File Structure**: Create separate folders and files for each route
 - **Detour-Based Processing**: Process categories in state file order (On-Route → Short Detour → Major Detour → Cultural Research & Context → Route Events & Seasonal Factors → Practical Route Research Topics)
 - **Topic Integration**: Cultural and practical research topics enhance route overview and stop context rather than creating separate files

@@ -67,6 +67,8 @@ Route Context: {ROUTE_DESCRIPTION_FROM_STATE}
 RESEARCH PURPOSE: Complete cataloging of all information about each assigned item (stops + cultural/practical topics).
 This is NOT about fitting into a specific itinerary - research and document everything useful.
 
+**CRITICAL**: You will RETURN a detailed research report. You do NOT create files. The main command will process your report and create the appropriate route and attraction files.
+
 ## Your Research Assignment
 {SPECIFIC_ITEMS_FROM_BATCH} (Mix of stops and cultural/practical research topics)
 
@@ -78,8 +80,8 @@ This is NOT about fitting into a specific itinerary - research and document ever
 ## Research Focus Areas
 
 **CRITICAL APPROACH**:
-- **Route Stops**: Research each stop as a SEPARATE ATTRACTION FILE. Every specific place to visit, rest area, scenic point gets its own detailed file.
-- **Cultural/Practical Topics**: Research topics are integrated into route overview and relevant stop files as contextual information.
+- **Route Stops**: Research each stop thoroughly and provide comprehensive details in your report that will become individual attraction files
+- **Cultural/Practical Topics**: Research topics thoroughly and provide findings that will be integrated into route overview and relevant stop context
 
 For each assigned item, research:
 
@@ -112,33 +114,37 @@ For each assigned item, research:
 - Alternative options if stop is unavailable
 
 ## Research Instructions
-- **SEPARATE FILES**: Create individual attraction files for EVERY specific stop, rest area, scenic point along route
-- **TOPIC INTEGRATION**: Research topics enhance route overview and stop context but don't create separate files
-- **Cultural Topics**: Integrate findings into route cultural overview and relevant stop cultural context
-- **Practical Topics**: Integrate findings into route practical considerations and stop driving tips
-- **Route Research Topic Handling**: When assigned route cultural research topics (e.g., "traditional travel patterns"), research thoroughly and integrate findings into relevant route/stop sections
-- **Event/Festival Research**: When assigned route event/festival topics, research current details and visitor impact for integration into route context
-- **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively and integrate into route overview and stop visiting tips
+- **RETURN COMPREHENSIVE REPORTS**: Provide detailed findings for all assigned items in your research report
+- **ROUTE STOP RESEARCH**: For every specific stop, rest area, scenic point along route - provide comprehensive details that will become individual attraction files
+- **TOPIC INTEGRATION**: Research topics should be thoroughly researched with findings that will enhance route overview and stop context
+- **Cultural Topics**: Provide comprehensive findings that will be integrated into route cultural overview and relevant stop cultural context
+- **Practical Topics**: Provide detailed research that will be integrated into route practical considerations and stop driving tips
+- **Route Research Topic Handling**: When assigned route cultural research topics (e.g., "traditional travel patterns"), research thoroughly and provide findings for integration into relevant route/stop sections
+- **Event/Festival Research**: When assigned route event/festival topics, research current details and visitor impact
+- **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively for integration into route overview and stop visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
-- **IMAGE REQUIREMENTS**: Each research agent must include a representative image in their research report's Image section. The command will validate the image URL and integrate it into the final files
-- **LOCATION PINS**: Add Google Maps location link at the end of each file: `**Location:** [View on Google Maps](google_maps_url)`
-- **PHOTO SOURCING**: Search for official tourism photos, Wikipedia commons, or other freely available images that represent the route/stop
+- **IMAGE REQUIREMENTS**: Include a representative image URL and description in your research report for each route/stop researched
+- **LOCATION PINS**: Include Google Maps location links in your research report
+- **PHOTO SOURCING**: Find official tourism photos, Wikipedia commons, or other freely available images that represent the route/stop
 - Note seasonal considerations and optimal visiting conditions for route
 - Cross-reference with route context from discovery phase
 - Document all available information regardless of detour time constraints
 - Focus on car accessibility and driving visitor experience
 - Use existing location researcher capabilities adapted for route context
+- **COMPREHENSIVE REPORTING**: Provide all findings in your research report - the main command will organize information into route overviews and detailed stop files
 
-## Output Format
-Structure findings for each route and stop with:
-- **Image Integration**: Extract images from research agent reports and validate URLs
-- Complete practical visiting information for car travelers
-- Route-specific context and significance
-- Driving visitor experience expectations and recommendations
-- Connection notes with other route stops and attractions
-- Source citations and verification dates
-- **Google Maps location links** for route overview and each stop
+## Agent Report Processing
+
+**Agent Reports**: Agents return comprehensive research reports containing:
+- Detailed findings for all assigned stops and research topics
+- Source citations and URLs for all information
+- Representative images and descriptions for route/stops
+- Google Maps location links
+- Route-specific context and practical information
+- Integration suggestions and connections
+
+**Main Command File Creation**: The research command processes agent reports to create route and stop files with proper formatting and citations.
 ```
 
 ### 3. Automated Batch Execution & File Management
@@ -152,12 +158,18 @@ Structure findings for each route and stop with:
 
 **Per-Batch Execution:**
 1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments (mix of stops and research topics)
-2. **Process Results**: Compile findings from completed agents, integrating research topic findings into appropriate route/stop context
-3. **Update Files**:
+   - **Agent Role**: Research thoroughly and return detailed reports (agents do NOT create files)
+   - **Main Command Role**: Process agent reports and create/update files based on findings
+2. **Process Agent Reports**:
+   - Receive detailed research reports from each agent
+   - Integrate research topic findings into appropriate route/stop context
+   - Extract images and source citations from agent reports
+   - Validate URLs and practical information
+3. **Create/Update Files** (Main Command Responsibility):
    - Create/update route research file: `research/routes/{route-name}/{origin-to-destination}-{route-name}.md` (incorporating research topic findings)
    - Create/update route attractions folder: `research/attractions/{route-name}/`
    - Create attraction files for route-specific stops: `research/attractions/{route-name}/{stop-slug}.md` (enhanced with relevant research topic context)
-   - Update state file with batch completion status
+   - Add proper source citations, images, and Google Maps links to all files
 4. **Update State**: Mark batch items (stops AND research topics) as completed `[x]` in state file
 5. **Checkpoint**: Confirm files created/updated and available for use
 
