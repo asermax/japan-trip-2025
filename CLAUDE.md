@@ -395,6 +395,26 @@ The site achieved National Natural Monument status in 1934 and became part of th
 Traditional houtou noodles represent the region's mountain survival cuisine. [🔗](https://example.com)
 ```
 
+### Image Validation Requirements
+
+**Image Source Validation:**
+- Agents must extract valid image URLs from websites they research OR perform separate image searches
+- Agents must NOT construct or guess image URLs themselves
+- All images must be from legitimate sources visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
+- Research commands validate image URLs from agent reports before including in final files
+
+**Acceptable Image Sources:**
+- Official tourism sites and government pages
+- Wikipedia and Wikimedia Commons
+- Established travel websites with proper image sourcing
+- Official venue/attraction websites
+
+**Image Requirements in Research Reports:**
+- Extract images directly from researched sources
+- Verify image URLs are valid and accessible
+- Provide source attribution in image captions
+- Include representative images that accurately depict the location/attraction
+
 ### Destination Research Methodology
 
 **Research Purpose:** Comprehensive cataloging of all available options, attractions, and experiences for each destination with **strict separation of concerns**. This is **not** itinerary planning - the goal is to research and document everything worth knowing for later reference and decision-making.

@@ -121,9 +121,10 @@ For EVERY specific location discovered:
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
 - **SOURCE CITATION**: Include source references and URLs in your research report
-- **IMAGE REQUIREMENTS**: Include a representative image URL and description in your research report for each location researched
+- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself - only use images you have actually found from your research sources
+- **IMAGE VALIDATION**: All images must be extracted from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
 - **LOCATION PINS**: Include Google Maps location links in your research report
-- **PHOTO SOURCING**: Find official tourism photos, Wikipedia commons, or other freely available images that represent the location
+- **PHOTO SOURCING**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
 - Note seasonal considerations and optimal visiting conditions
 - Cross-reference with cultural context from discovery phase
 - Document all available information regardless of trip duration constraints
@@ -146,7 +147,7 @@ For EVERY specific location discovered:
 **Main Command File Creation**: The research command processes agent reports to create:
 
 **Destination Files**: Brief summary only with:
-- **Image Integration**: Extract image from agent reports and validate URL
+- **Image Integration**: Extract and validate image URL from agent reports - verify image is from legitimate source found during research
 - Cultural overview and significance (2-3 paragraphs) **with inline citations using [🔗](URL)**
 - One-sentence district summaries **with citations using [🔗](URL)**
 - One-sentence food culture overview **with citations using [🔗](URL)**
@@ -154,7 +155,7 @@ For EVERY specific location discovered:
 - **Google Maps location link** at the end of the file
 
 **Individual Attraction Files**: Comprehensive detail with:
-- **Image Integration**: Extract image from agent reports and validate URL
+- **Image Integration**: Extract and validate image URL from agent reports - verify image is from legitimate source found during research
 - Complete practical visiting information **with citations using [🔗](URL)**
 - Detailed cultural context and significance **with citations using [🔗](URL)**
 - Full visitor experience expectations and recommendations **with citations using [🔗](URL)**

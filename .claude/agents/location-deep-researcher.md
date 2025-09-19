@@ -120,9 +120,10 @@ You will be provided with:
 
 Your research report must include a relevant, high-quality image that represents the location:
 
-- **Image Selection**: Choose the most representative and visually appealing image of the location
-- **Image Sources**: Use WebSearch to find official tourism photos, high-quality travel photography, or authoritative source images
-- **Image Validation**: Ensure the image accurately represents the location and is appropriate for travel documentation
+- **CRITICAL**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct or guess image URLs yourself
+- **Image Sources**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
+- **Image Validation**: All images must be from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
+- **Verification**: Test that image URLs are valid and accessible before including in your report
 - **Format**: Use standard markdown format: `![Alt text](URL) *Caption with source attribution*`
 
 **Output Structure**

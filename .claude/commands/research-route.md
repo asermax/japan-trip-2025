@@ -124,9 +124,10 @@ For each assigned item, research:
 - **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively for integration into route overview and stop visiting tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
-- **IMAGE REQUIREMENTS**: Include a representative image URL and description in your research report for each route/stop researched
+- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself - only use images you have actually found from your research sources
+- **IMAGE VALIDATION**: All images must be extracted from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
 - **LOCATION PINS**: Include Google Maps location links in your research report
-- **PHOTO SOURCING**: Find official tourism photos, Wikipedia commons, or other freely available images that represent the route/stop
+- **PHOTO SOURCING**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
 - Note seasonal considerations and optimal visiting conditions for route
 - Cross-reference with route context from discovery phase
 - Document all available information regardless of detour time constraints
