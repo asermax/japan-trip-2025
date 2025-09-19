@@ -23,3 +23,8 @@ Thumbs.db
 .Trashes
 ehthumbs.db
 Desktop.ini
+
+# Claude's nights watch
+logs
+task.md
+rules.md
