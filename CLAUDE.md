@@ -432,11 +432,11 @@ The research process consists of two main phases:
 - Create research assignments for detailed investigation of all options
 
 **Detailed Research Phase** (`/research [destination]`)
-- **Enhanced Batch Processing**: Research using predefined 5-agent batches processing both attractions AND research topics
+- **Enhanced Batch Processing**: Research using predefined 3-agent batches processing both attractions AND research topics
 - **Agent Role**: Agents conduct research and return comprehensive reports (do NOT create files directly)
 - **Main Command Role**: Processes agent reports and creates/updates destination and attraction files
-- **Automatic Batch Creation**: Command divides ALL TODO list items (attractions + cultural/practical topics) across 5-agent batches based on state file order
-- **Sequential Processing**: Process categories in state file order, up to 5 items total (mixed attractions and research topics) per batch
+- **Automatic Batch Creation**: Command divides ALL TODO list items (attractions + cultural/practical topics) across 3-agent batches based on state file order
+- **Sequential Processing**: Process categories in state file order, up to 3 items total (mixed attractions and research topics) per batch
 - **Topic Integration**: Cultural and practical research topics enhance destination and attraction context rather than creating separate files
 - **Immediate File Updates**: Create/update destination and attraction files after each batch completion with integrated research topic findings
 - **Continuous Availability**: Research files accessible throughout the process for immediate use
@@ -463,7 +463,7 @@ The route research process consists of two main phases, parallel to destination 
 
 **Detailed Route Research Phase** (`/research-route [route-state-file]`)
 - **Individual Route Processing**: Research one specific route at a time using its state file
-- **Enhanced Batch Processing**: Research using predefined 5-agent batches per route processing both stops AND research topics
+- **Enhanced Batch Processing**: Research using predefined 3-agent batches per route processing both stops AND research topics
 - **Agent Role**: Agents conduct research and return comprehensive reports (do NOT create files directly)
 - **Main Command Role**: Processes agent reports and creates/updates route and attraction files
 - **Route-Specific File Structure**: Create separate folders and files for each route
@@ -486,7 +486,7 @@ See `.claude/commands/` for detailed route command specifications and workflows.
 
 ## State Files Management (`/research/state/`)
 
-State files coordinate research workflow between discovery and detailed research phases. They contain a comprehensive TODO list organized by category using todo format (`- [ ]`) for 5-agent batch processing, including both attractions/stops AND research topics.
+State files coordinate research workflow between discovery and detailed research phases. They contain a comprehensive TODO list organized by category using todo format (`- [ ]`) for 3-agent batch processing, including both attractions/stops AND research topics.
 
 **Destination State Files:**
 - **File naming:** `{destination-slug}-discovery-state.md`

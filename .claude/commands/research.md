@@ -38,12 +38,12 @@ If no destination is provided, the command will automatically select the destina
 
 ### 2. Simplified Batch Processing with File Updates
 
-Process research using predefined 5-agent batches with **immediate file creation/updates after each batch**:
+Process research using predefined 3-agent batches with **immediate file creation/updates after each batch**:
 
 **Batch Processing Strategy:**
-- **Automatic Batch Creation**: Research command automatically divides ALL TODO list items across 5-agent batches
+- **Automatic Batch Creation**: Research command automatically divides ALL TODO list items across 3-agent batches
 - **Category-Based Selection**: Pick items from high-priority categories first (Cultural/Historic, Natural/Scenic, Traditional) then process extra topic categories (Cultural Research & Context, Events & Festivals, Practical Research Topics)
-- **Mixed Batches**: Each batch contains up to 5 items total (locations + extra topics) assigned to 5 agents running in parallel
+- **Mixed Batches**: Each batch contains up to 3 items total (locations + extra topics) assigned to 3 agents running in parallel
 - **Sequential Batches**: Complete one batch before starting the next
 
 **File Update Points:**
@@ -171,11 +171,11 @@ For EVERY specific location discovered:
 1. **Parse TODO List**: Extract all `- [ ]` items from state file by category (locations AND research topics)
 2. **Category Order**: Process categories in the order they appear in the state file
 3. **Sequential Selection**: Pick items from first category, then second category, etc., maintaining state file order within each category
-4. **Mixed Item Assignment**: Assign up to 5 items total (mix of locations and research topics) per batch to 5 agents running in parallel
+4. **Mixed Item Assignment**: Assign up to 3 items total (mix of locations and research topics) per batch to 3 agents running in parallel
 5. **Batch Sequence**: Complete each batch fully before starting the next
 
 **Per-Batch Execution:**
-1. **Deploy Agents**: Launch 5 Location Researcher Agents with current batch assignments (mix of locations and research topics)
+1. **Deploy Agents**: Launch 3 Location Researcher Agents with current batch assignments (mix of locations and research topics)
    - **Agent Role**: Research thoroughly and return detailed reports (agents do NOT create files)
    - **Main Command Role**: Process agent reports and create/update files based on findings
 2. **Process Agent Reports**:
