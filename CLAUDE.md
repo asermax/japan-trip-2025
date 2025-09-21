@@ -282,6 +282,19 @@ git add .
 git commit -m "description"
 ```
 
+### Task Automation
+```bash
+# Automated task processing
+./run_tasks.sh           # Start task processing immediately
+./run_tasks.sh 30        # Start with 30-minute delay
+
+# Task management
+# Place .md files with claude commands in tasks/pending/
+# Completed tasks automatically moved to tasks/completed/ with results
+# Failed tasks retried up to 3 times before skipping
+# Cycles run every 5 hours with accurate timing
+```
+
 ## Taxonomies & Organization
 
 The site uses taxonomies for content organization:
