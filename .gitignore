@@ -6,6 +6,9 @@ site/content/*.md
 site/content/places/
 site/content/attractions/
 
+# Research state files (temporary workflow coordination)
+research/state/
+
 # Temporary files
 .DS_Store
 Thumbs.db
