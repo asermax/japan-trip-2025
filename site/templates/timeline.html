@@ -34,14 +34,6 @@
           </div>
         </div>
 
-        {% if page.extra.highlights %}
-        <div class="timeline-highlights">
-          <strong>Highlights:</strong>
-          {% for highlight in page.extra.highlights %}
-          <span class="highlight-tag">{{ highlight }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
     </div>
     {% endfor %}
@@ -146,20 +138,6 @@
   color: #555;
 }
 
-.timeline-highlights {
-  margin: 10px 0;
-  font-size: 0.9em;
-}
-
-.highlight-tag {
-  display: inline-block;
-  background: #f8bbd9;
-  color: #ad1457;
-  padding: 2px 6px;
-  border-radius: 3px;
-  margin: 0 4px 4px 0;
-  font-size: 0.8em;
-}
 
 .timeline-meta {
   display: flex;
