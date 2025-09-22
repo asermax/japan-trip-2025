@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kawaguchi Asama Shrine ancient cedars](https://kawaguchiko.net/wp-content/uploads/2014/10/0211.jpg)
+![Kawaguchi Asama Shrine ancient cedars](https://upload.wikimedia.org/wikipedia/commons/8/8b/Kawaguchi-asama-jinja_sugi_%282%2C3%29.JPG)
 *Caption: The ancient cedar trees at Kawaguchi Asama Shrine, some over 1,200 years old, creating a sacred atmosphere at this UNESCO World Heritage site*
 
 Kawaguchi Asama Shrine represents one of Japan's most spiritually significant UNESCO World Heritage sites, uniquely offering all three traditional forms of Mount Fuji worship within a single sacred complex. Founded in 865 CE to calm Mount Fuji's volcanic activity, this shrine has served as a spiritual guardian for over 1,150 years, featuring seven sacred cedar trees over 1,200 years old designated as natural monuments. [🔗](https://www.yamanashi-kankou.jp/english/explore-by-area/fujisan-fujigoko/kawaguchiko-asama-shrine.html)

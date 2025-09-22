@@ -260,6 +260,10 @@ The `/research [destination]` command should generate:
 # Generate content from research files
 python scripts/generate_timeline.py --research research --output site/content
 
+# Validate and fix broken images
+python scripts/find_broken_images.py  # Check for broken images
+/fix-images                           # Automated image fixing with parallel agents
+
 # Local development
 cd site
 zola serve          # Local development server (default port 1111)
@@ -415,18 +419,35 @@ Traditional houtou noodles represent the region's mountain survival cuisine. [ðŸ
 - Agents must NOT construct or guess image URLs themselves
 - All images must be from legitimate sources visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
 - Research commands validate image URLs from agent reports before including in final files
+- **PRIORITY ORDER**: Wikipedia Commons > Official tourism sites > Government pages > Established travel sites
 
 **Acceptable Image Sources:**
+- **Wikipedia and Wikimedia Commons** (highest priority - always public domain/CC licensed)
 - Official tourism sites and government pages
-- Wikipedia and Wikimedia Commons
 - Established travel websites with proper image sourcing
 - Official venue/attraction websites
 
+**Image URL Patterns to AVOID:**
+- Social media platforms (Instagram, Facebook, Twitter)
+- Personal blogs or temporary hosting sites
+- Image URLs with complex query parameters
+- URLs from photo galleries or slideshow sites
+- Flickr, Pinterest, or other social photo sharing
+- Stock photo sites requiring licenses
+
 **Image Requirements in Research Reports:**
 - Extract images directly from researched sources
-- Verify image URLs are valid and accessible
+- Verify image URLs are valid and accessible before including
+- **Test image URLs**: Check that they return actual images, not HTML pages
 - Provide source attribution in image captions
 - Include representative images that accurately depict the location/attraction
+- **Prefer direct file URLs**: Avoid gallery pages or indirect links
+
+**Image Validation Protocol:**
+1. **Source Verification**: Ensure image comes from approved source list
+2. **URL Testing**: Verify URL returns image content-type (not HTML)
+3. **File Format Check**: Confirm standard image formats (JPEG, PNG, WebP)
+4. **Accessibility**: Test that image loads properly and isn't behind authentication
 
 ### Destination Research Methodology
 

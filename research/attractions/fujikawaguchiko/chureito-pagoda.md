@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Chureito Pagoda with Mount Fuji](https://fujiyoshida.net/cms/wp-content/uploads/2019/02/arakura-fujisengen-shrine-13.jpg)
+![Chureito Pagoda with Mount Fuji](https://upload.wikimedia.org/wikipedia/commons/7/71/12-Chureito-pagoda-and-Mount-Fuji-Japan_%2829677439878%29.jpg)
 *Caption: The iconic five-story Chureito Pagoda with Mount Fuji backdrop, representing Japan's most photographed cultural landscape composition*
 
 Chureito Pagoda stands as Japan's most iconic Mount Fuji viewpoint, offering the classic composition that defines Japanese aesthetic traditions. Built in 1963 as a peace memorial pagoda, this five-story structure is part of the historic Arakura Fuji Sengen Shrine complex dating to 705 AD. The site combines over 1,300 years of Mount Fuji worship traditions with modern memorial significance, creating a unique spiritual and visual experience. [🔗](https://fujiyoshida.net/en/see-and-do/27)
