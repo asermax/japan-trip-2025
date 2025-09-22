@@ -2,6 +2,14 @@
 
 {% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
 
+{% block extra_head %}
+<style>
+.back_btn {
+  display: none !important;
+}
+</style>
+{% endblock extra_head %}
+
 {% block content %}
 <article class="post animated fadeInDown">
   <div class="post-title">

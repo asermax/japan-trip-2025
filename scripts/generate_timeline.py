@@ -93,9 +93,6 @@ next_title = "{next_title}"
 
 {content}
 
-**Navigation**:
-- **Timeline**: {timeline_link}
-
 *Source: {source_file}*
 """
 
@@ -404,15 +401,16 @@ class TimelineGenerator:
                 f.write(entry)
             print(f"✅ Generated timeline entry: {output_file}")
 
-        # 3. Generate attraction pages
-        self.generate_attraction_pages()
+        # 3. Generate attraction pages with timeline order mapping
+        destination_order_map = {entry['slug']: entry['order'] for entry in timeline_entries}
+        self.generate_attraction_pages(destination_order_map)
 
         # 5. Generate index file
         self.generate_index_file()
 
         print(f"\n🎉 Generated {timeline_order-1} timeline entries and attractions!")
 
-    def generate_attraction_pages(self):
+    def generate_attraction_pages(self, destination_order_map: Dict[str, int]):
         """Generate attraction pages from research files."""
         attractions_dir = self.output_dir / "attractions"
         attractions_dir.mkdir(exist_ok=True)
@@ -502,7 +500,7 @@ class TimelineGenerator:
                     cost="Free",
                     best_time="Early morning",
                     place=destination_name,
-                    timeline_entries=f'["01-{destination_name}"]',
+                    timeline_entries=f'["{destination_order_map.get(destination_name, 1):02d}-{destination_name}"]',
                     difficulty="Easy",
                     visit_duration="2-3 hours",
                     previous_attraction=previous_attraction,
