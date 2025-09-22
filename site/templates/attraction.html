@@ -1,53 +1,90 @@
-{% extends "base.html" %}
+{% extends "basic.html" %}
+
+{% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
 
 {% block content %}
-<div class="attraction">
-    <article>
-        <header>
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <p class="description">{{ page.description }}</p>
-            {% endif %}
+<article class="post animated fadeInDown">
+  <div class="post-title">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <div class="description">{{ page.description }}</div>
+    {% endif %}
+  </div>
 
-            <div class="meta">
-                {% if page.extra.location %}
-                <div class="location">
-                    <strong>Location:</strong> {{ page.extra.location }}
-                </div>
-                {% endif %}
+  <div class="post-content">
+    {% if page.extra.location or page.extra.category or page.extra.cost or page.extra.best_time %}
+    <div class="meta">
+      {% if page.extra.location %}
+      <div><strong>📍 Location:</strong> {{ page.extra.location }}</div>
+      {% endif %}
 
-                {% if page.extra.category %}
-                <div class="category">
-                    <strong>Category:</strong> {{ page.extra.category }}
-                </div>
-                {% endif %}
+      {% if page.extra.category %}
+      <div><strong>🏷️ Category:</strong> {{ page.extra.category }}</div>
+      {% endif %}
 
-                {% if page.extra.cost %}
-                <div class="cost">
-                    <strong>Cost:</strong> {{ page.extra.cost }}
-                </div>
-                {% endif %}
+      {% if page.extra.cost %}
+      <div><strong>💰 Cost:</strong> {{ page.extra.cost }}</div>
+      {% endif %}
 
-                {% if page.extra.best_time %}
-                <div class="best-time">
-                    <strong>Best Time to Visit:</strong> {{ page.extra.best_time }}
-                </div>
-                {% endif %}
-            </div>
-        </header>
+      {% if page.extra.best_time %}
+      <div><strong>⏰ Best Time:</strong> {{ page.extra.best_time }}</div>
+      {% endif %}
 
-        <div class="content">
-            {{ page.content | safe }}
-        </div>
+      {% if page.extra.duration %}
+      <div><strong>⏱️ Duration:</strong> {{ page.extra.duration }}</div>
+      {% endif %}
 
-        {% if page.taxonomies.tags %}
-        <div class="tags">
-            <strong>Tags:</strong>
-            {% for tag in page.taxonomies.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-    </article>
-</div>
+      {% if page.extra.difficulty %}
+      <div><strong>🚶 Difficulty:</strong> {{ page.extra.difficulty }}</div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {{ page.content | safe }}
+  </div>
+
+  <div class="post-footer">
+    {% if page.taxonomies.tags %}
+    <div class="tags">
+      <ul>
+        {% for tag in page.taxonomies.tags %}
+        <li><a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% if page.taxonomies.categories %}
+    <div class="tags">
+      <ul>
+        {% for category in page.taxonomies.categories %}
+        <li><a href="/categories/{{ category | slugify }}/">{{ category }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if page.extra.previous_attraction or page.extra.next_attraction %}
+  <div class="pagination">
+    <ul>
+      {% if page.extra.previous_attraction %}
+      <li class="pre">
+        <a href="/attractions/{{ page.extra.previous_attraction }}/">
+          ← {% if page.extra.previous_title %}{{ page.extra.previous_title }}{% else %}Previous{% endif %}
+        </a>
+      </li>
+      {% endif %}
+
+      {% if page.extra.next_attraction %}
+      <li class="next">
+        <a href="/attractions/{{ page.extra.next_attraction }}/">
+          {% if page.extra.next_title %}{{ page.extra.next_title }}{% else %}Next{% endif %} →
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
+</article>
 {% endblock content %}

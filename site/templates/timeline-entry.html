@@ -3,128 +3,67 @@
 {% block title %}{{ config.title }} • {{ page.title }}{% endblock title %}
 
 {% block content %}
-<article class="timeline-entry post animated fadeInDown">
-  <div class="timeline-header">
-    <div class="timeline-title-row">
-      <h1><a href="{{ page.permalink }}">{{ page.title }}</a></h1>
-      {% if page.extra.type %}
-      <div class="timeline-type timeline-type-{{ page.extra.type }}">
-        {% if page.extra.type == "destination" %}🌸 Destination
-        {% elif page.extra.type == "journey" %}⛩️ Journey
-        {% endif %}
-      </div>
+<article class="post animated fadeInDown">
+  <div class="post-title">
+    <h1>{{ page.title }}</h1>
+    {% if page.extra.type %}
+    <div class="timeline-type timeline-type-{{ page.extra.type }}">
+      {% if page.extra.type == "destination" %}🌸 Destination
+      {% elif page.extra.type == "journey" %}⛩️ Journey
       {% endif %}
     </div>
-    <div class="timeline-meta-header">
+    {% endif %}
+  </div>
+
+  <div class="post-content">
+    {% if page.extra.date_range or page.extra.duration %}
+    <div class="meta">
       {% if page.extra.date_range %}
-      <div class="timeline-date">{{ page.extra.date_range }}</div>
+      <div><strong>📅 Date:</strong> {{ page.extra.date_range }}</div>
       {% endif %}
       {% if page.extra.duration %}
-      <div class="timeline-duration">⏱️ {{ page.extra.duration }}</div>
+      <div><strong>⏱️ Duration:</strong> {{ page.extra.duration }}</div>
       {% endif %}
     </div>
+    {% endif %}
+
+    {{ page.content | safe }}
   </div>
 
-  <div class="post-content">{{ page.content | safe }}</div>
-
-  <div class="timeline-navigation">
-    {% if page.extra.previous_entry %}
-      <div class="timeline-prev">
-        <a href="/{{ page.extra.previous_entry }}/">&larr; {% if page.extra.previous_title %}{{ page.extra.previous_title }}{% else %}Previous{% endif %}</a>
-      </div>
-    {% else %}
-      <div></div>
-    {% endif %}
-    {% if page.extra.next_entry %}
-      <div class="timeline-next">
-        <a href="/{{ page.extra.next_entry }}/">{% if page.extra.next_title %}{{ page.extra.next_title }}{% else %}Next{% endif %} &rarr;</a>
-      </div>
+  <div class="post-footer">
+    {% if page.taxonomies.tags %}
+    <div class="tags">
+      <ul>
+        {% for tag in page.taxonomies.tags %}
+        <li><a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
     {% endif %}
   </div>
+
+  {% if page.extra.previous_entry or page.extra.next_entry %}
+  <div class="pagination">
+    <ul>
+      {% if page.extra.previous_entry %}
+      <li class="pre">
+        <a href="/{{ page.extra.previous_entry }}/">
+          ← {% if page.extra.previous_title %}{{ page.extra.previous_title }}{% else %}Previous{% endif %}
+        </a>
+      </li>
+      {% endif %}
+
+      {% if page.extra.next_entry %}
+      <li class="next">
+        <a href="/{{ page.extra.next_entry }}/">
+          {% if page.extra.next_title %}{{ page.extra.next_title }}{% else %}Next{% endif %} →
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
 
 </article>
 
-<style>
-.timeline-entry {
-  /* Removed dashed border styling */
-}
-
-.timeline-header {
-  margin-bottom: 20px;
-}
-
-.timeline-title-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.timeline-title-row h1 {
-  margin: 0;
-  flex: 1;
-}
-
-.timeline-meta-header {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  margin: 10px 0;
-}
-
-.timeline-date {
-  font-size: 1.1em;
-  color: #666;
-  font-weight: 500;
-}
-
-.timeline-duration {
-  font-size: 0.95em;
-  color: #888;
-  font-weight: 400;
-}
-
-.timeline-type {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 8px;
-  font-size: 0.9em;
-  margin-top: 5px;
-  font-weight: 500;
-}
-
-.timeline-type-destination {
-  background-color: #fce4ec;
-  color: #ad1457;
-  border: 1px solid #f8bbd9;
-}
-
-.timeline-type-journey {
-  background-color: #fce4ec;
-  color: #ad1457;
-  border: 1px solid #f8bbd9;
-}
-
-.timeline-navigation {
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 0;
-  padding: 20px 0;
-  border-top: 1px solid #f8bbd9;
-}
-
-.timeline-prev, .timeline-next {
-  font-weight: 500;
-}
-
-.timeline-prev a, .timeline-next a {
-  color: #e91e63;
-  text-decoration: none;
-}
-
-.timeline-prev a:hover, .timeline-next a:hover {
-  text-decoration: underline;
-  color: #ad1457;
-}
-</style>
 {% endblock content %}

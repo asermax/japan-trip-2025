@@ -1,0 +1,102 @@
+/* Custom overrides for Anatole theme */
+
+/* Reduce sidebar width and increase content width */
+#sidebar {
+  width: 25%; // Reduced from 40%
+}
+
+.content {
+  width: 75%; // Increased from 60%
+}
+
+.page-top {
+  width: 75%; // Match content width
+}
+
+/* Hide description when empty */
+.description:empty {
+  display: none;
+}
+
+/* Disable animations (moved from old custom.css) */
+.animated,
+.animated.fadeInDown {
+  animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+}
+
+/* Remove all transitions */
+* {
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+}
+
+/* Images and Captions */
+.post-content img,
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto 0.5rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.post-content p img + em,
+.content p img + em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin: 0.5rem auto 1.5rem auto;
+  line-height: 1.4;
+  max-width: 90%;
+}
+
+/* Remove separator/border from pagination for both light and dark themes */
+.pagination {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+html.theme--light .pagination {
+  border-bottom: none !important;
+}
+
+html.theme--dark .pagination {
+  border-bottom: none !important;
+}
+
+/* Timeline type badges */
+.timeline-type {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9em;
+  margin-top: 5px;
+  font-weight: 500;
+  background-color: #fce4ec;
+  color: #ad1457;
+  border: 1px solid #f8bbd9;
+}
+
+/* Responsive adjustments for mobile remain unchanged */
+@media screen and (max-width: 960px) {
+  #sidebar {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .page-top {
+    width: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+/* Main stylesheet that imports theme and custom styles */
+
+/* Import the theme's main stylesheet */
+@import "../themes/anatole-zola/sass/style";
+
+/* Import our custom overrides */
+@import "custom";

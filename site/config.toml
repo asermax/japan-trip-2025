@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://japan-2025.asermax.com"
 title = "Japan Trip 2025"
-description = "Our chronological journey through Japan - from Tokyo to cultural treasures"
+description = ""
 theme = "anatole-zola"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -42,7 +42,7 @@ tags = true
 links = false
 
 # Custom translations for our Japan trip
-[languages.en.translations]
+[translations]
 language_name = "English"
 about = "About This Trip"
 home = "Timeline"
