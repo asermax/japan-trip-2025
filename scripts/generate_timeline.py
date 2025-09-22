@@ -74,6 +74,7 @@ description = "{description}"
 weight = {weight}
 categories = {categories}
 tags = {tags}
+template = "attraction.html"
 
 [extra]
 location = "{location}"
@@ -84,6 +85,10 @@ place = "{place}"
 timeline_entries = {timeline_entries}
 difficulty = "{difficulty}"
 duration = "{visit_duration}"
+previous_attraction = "{previous_attraction}"
+next_attraction = "{next_attraction}"
+previous_title = "{previous_title}"
+next_title = "{next_title}"
 +++
 
 {content}
@@ -414,49 +419,104 @@ class TimelineGenerator:
 
         # Process attractions from all destination folders
         attractions_research_dir = self.research_dir / "attractions"
+
+        # First pass: collect all attractions by destination and get highlights order
+        attractions_by_destination = {}
+
         for destination_folder in attractions_research_dir.glob("*/"):
             if destination_folder.is_dir():
+                destination_name = destination_folder.name
+                attractions_dict = {}
+
+                # Collect all attractions from files
                 for research_file in destination_folder.glob("*.md"):
                     data = self.parse_research_file(research_file)
-
-                    # Get the original content and extract everything after the metadata section
-                    original_content = data.get('content', '')
-
-                    # Find the start of the actual content (after title and metadata)
-                    content_start_match = re.search(r'\n## Basic Information', original_content)
-                    if content_start_match:
-                        # Extract content from Basic Information onward
-                        attraction_content = original_content[content_start_match.start():]
-                        # Replace first section header for consistency
-                        attraction_content = attraction_content.replace("## Basic Information", "## About", 1)
-                    else:
-                        attraction_content = "## About\n\nAttraction information not available."
-
                     slug = create_url_slug(data['title'])
-                    attraction_file = attractions_dir / f"{slug}.md"
+                    attractions_dict[data['title']] = {
+                        'title': data['title'],
+                        'slug': slug,
+                        'file': research_file,
+                        'data': data
+                    }
 
-                    content = ATTRACTION_TEMPLATE.format(
-                        title=data['title'],
-                        description=f"Detailed guide to {data['title']}",
-                        weight=10,
-                        categories='["temples"]',
-                        tags='["historic", "cultural"]',
-                        location=destination_folder.name.title() + ", Japan",
-                        category="Temple",
-                        cost="Free",
-                        best_time="Early morning",
-                        place=destination_folder.name,
-                        timeline_entries=f'["01-{destination_folder.name}"]',
-                        difficulty="Easy",
-                        visit_duration="2-3 hours",
-                        content=attraction_content.strip(),
-                        timeline_link=f"[{destination_folder.name.title()} Timeline](/01-{destination_folder.name}/)",
-                        source_file=str(research_file.relative_to(self.research_dir))
-                    )
+                # Get the highlights order from the timeline entry to match the timeline list order
+                highlights_order = self.find_destination_attractions(destination_name)
 
-                    with open(attraction_file, 'w', encoding='utf-8') as f:
-                        f.write(content)
-                    print(f"✅ Generated attraction: {attraction_file}")
+                # Create ordered list based on highlights order, with any missing attractions at the end
+                attractions_list = []
+                for highlight in highlights_order:
+                    if highlight in attractions_dict:
+                        attractions_list.append(attractions_dict[highlight])
+                        del attractions_dict[highlight]
+
+                # Add any remaining attractions (not in highlights) at the end
+                for remaining_attraction in attractions_dict.values():
+                    attractions_list.append(remaining_attraction)
+
+                attractions_by_destination[destination_name] = attractions_list
+
+        # Second pass: generate attraction files with navigation
+        for destination_name, attractions_list in attractions_by_destination.items():
+            for i, attraction in enumerate(attractions_list):
+                data = attraction['data']
+                slug = attraction['slug']
+                research_file = attraction['file']
+
+                # Calculate navigation
+                previous_attraction = ""
+                next_attraction = ""
+                previous_title = ""
+                next_title = ""
+
+                if i > 0:
+                    previous_attraction = attractions_list[i-1]['slug']
+                    previous_title = attractions_list[i-1]['title']
+
+                if i < len(attractions_list) - 1:
+                    next_attraction = attractions_list[i+1]['slug']
+                    next_title = attractions_list[i+1]['title']
+
+                # Get the original content and extract everything after the metadata section
+                original_content = data.get('content', '')
+
+                # Find the start of the actual content (after title and metadata)
+                content_start_match = re.search(r'\n## Basic Information', original_content)
+                if content_start_match:
+                    # Extract content from Basic Information onward
+                    attraction_content = original_content[content_start_match.start():]
+                    # Replace first section header for consistency
+                    attraction_content = attraction_content.replace("## Basic Information", "## About", 1)
+                else:
+                    attraction_content = "## About\n\nAttraction information not available."
+
+                attraction_file = attractions_dir / f"{slug}.md"
+
+                content = ATTRACTION_TEMPLATE.format(
+                    title=data['title'],
+                    description=f"Detailed guide to {data['title']}",
+                    weight=10,
+                    categories='["temples"]',
+                    tags='["historic", "cultural"]',
+                    location=destination_name.title() + ", Japan",
+                    category="Temple",
+                    cost="Free",
+                    best_time="Early morning",
+                    place=destination_name,
+                    timeline_entries=f'["01-{destination_name}"]',
+                    difficulty="Easy",
+                    visit_duration="2-3 hours",
+                    previous_attraction=previous_attraction,
+                    next_attraction=next_attraction,
+                    previous_title=previous_title,
+                    next_title=next_title,
+                    content=attraction_content.strip(),
+                    timeline_link=f"[{destination_name.title()} Timeline](/01-{destination_name}/)",
+                    source_file=str(research_file.relative_to(self.research_dir))
+                )
+
+                with open(attraction_file, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"✅ Generated attraction: {attraction_file} (nav: {previous_title or 'none'} ← {data['title']} → {next_title or 'none'})")
 
     def generate_index_file(self):
         """Generate the main index file for the timeline."""
