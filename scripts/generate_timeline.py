@@ -14,6 +14,28 @@ import argparse
 import markdown
 from typing import Dict, List, Any, Optional
 
+# Category mapping for organizing attractions
+CATEGORY_GROUPS = {
+    "Cultural & Historic Sites": ["museum", "heritage", "historic", "cultural", "folk", "government", "exhibition"],
+    "Temples & Shrines": ["temple", "shrine", "buddhist", "shinto", "religious"],
+    "Traditional Experiences": ["craft", "workshop", "brewery", "sake", "traditional", "lacquerware"],
+    "Natural & Scenic": ["park", "mountain", "forest", "cave", "natural", "scenic", "viewpoint", "observation", "deck", "ropeway", "tramway"],
+    "Culinary Experiences": ["restaurant", "cuisine", "dining", "coffee", "cafe", "food", "culinary", "cutlet", "beef", "premium"],
+    "Entertainment & Modern": ["amusement", "music", "modern", "highland"],
+    "Wellness & Relaxation": ["onsen", "hot spring", "spa", "relaxation"]
+}
+
+# Order for displaying categories
+CATEGORY_ORDER = [
+    "Cultural & Historic Sites",
+    "Temples & Shrines",
+    "Traditional Experiences",
+    "Natural & Scenic",
+    "Culinary Experiences",
+    "Entertainment & Modern",
+    "Wellness & Relaxation"
+]
+
 def create_url_slug(text: str) -> str:
     """Convert text to URL-friendly slug using Unicode normalization."""
     # Normalize Unicode characters (convert accented chars to base + combining chars)
@@ -167,6 +189,9 @@ class TimelineGenerator:
         # Extract sections
         data.update(self.extract_sections(content))
 
+        # Extract metadata fields (like **Category:** etc.)
+        data.update(self.extract_metadata(content))
+
         # Parse visit date for sorting
         if 'visit_period' in data:
             data['visit_date'] = self.parse_visit_date(data['visit_period'])
@@ -206,6 +231,20 @@ class TimelineGenerator:
 
         return sections
 
+    def extract_metadata(self, content: str) -> Dict[str, str]:
+        """Extract metadata fields like **Category:** from content."""
+        metadata = {}
+
+        # Pattern to match **Field:** value
+        metadata_pattern = r'\*\*([^:]+):\*\*\s*(.+?)(?=\n|\*\*|$)'
+        matches = re.findall(metadata_pattern, content)
+
+        for field, value in matches:
+            field_key = field.lower().replace(' ', '_').replace('&', 'and')
+            metadata[field_key] = value.strip()
+
+        return metadata
+
     def find_destination_attractions(self, destination_slug: str) -> List[str]:
         """Find attractions for a destination using the folder structure."""
         attractions = []
@@ -221,6 +260,73 @@ class TimelineGenerator:
             attractions.append(attraction_title)
 
         return attractions
+
+    def categorize_attraction(self, category_text: str) -> str:
+        """Categorize an attraction based on its category text."""
+        if not category_text:
+            return "Other"
+
+        category_lower = category_text.lower()
+
+        for group_name, keywords in CATEGORY_GROUPS.items():
+            if any(keyword in category_lower for keyword in keywords):
+                return group_name
+
+        return "Other"
+
+    def get_attraction_data(self, destination_slug: str) -> List[Dict]:
+        """Get attraction data with category information for a destination."""
+        attractions_data = []
+        attraction_dir = self.research_dir / "attractions" / destination_slug
+
+        if not attraction_dir.exists():
+            return attractions_data
+
+        for attraction_file in attraction_dir.glob("*.md"):
+            attraction_data = self.parse_research_file(attraction_file)
+
+            if attraction_data:
+                attraction_title = attraction_data.get('title', attraction_file.stem.replace('-', ' ').title())
+                category_text = attraction_data.get('category', '')
+                category_group = self.categorize_attraction(category_text)
+
+                attractions_data.append({
+                    'title': attraction_title,
+                    'slug': create_url_slug(attraction_title),
+                    'category': category_group,
+                    'original_category': category_text,
+                    'file_path': str(attraction_file)
+                })
+
+        return attractions_data
+
+    def organize_attractions_by_category(self, attractions_data: List[Dict]) -> Dict[str, List[Dict]]:
+        """Organize attractions by category in display order."""
+        categorized = {}
+
+        # Group attractions by category
+        for attraction in attractions_data:
+            category = attraction['category']
+            if category not in categorized:
+                categorized[category] = []
+            categorized[category].append(attraction)
+
+        # Sort attractions within each category alphabetically
+        for category in categorized:
+            categorized[category].sort(key=lambda x: x['title'])
+
+        # Return in specified category order
+        ordered_categories = {}
+        for category in CATEGORY_ORDER:
+            if category in categorized:
+                ordered_categories[category] = categorized[category]
+
+        # Add any remaining categories not in the predefined order
+        for category, attractions in categorized.items():
+            if category not in ordered_categories:
+                ordered_categories[category] = attractions
+
+        return ordered_categories
 
     def generate_timeline_entry(self, data: Dict, entry_type: str, order: int,
                               date: datetime, timeline_entries: List[Dict]) -> str:
@@ -297,15 +403,21 @@ class TimelineGenerator:
 
         # Find attractions for this destination and add them
         destination_slug = create_url_slug(data["title"])
-        attractions = self.find_destination_attractions(destination_slug)
+        attractions_data = self.get_attraction_data(destination_slug)
 
-        # Build attractions section
+        # Build categorized attractions section
         attractions_section = ""
-        if attractions:
-            attractions_section = "\n## Featured Attractions\n\n"
-            for attraction in attractions:
-                attraction_slug = create_url_slug(attraction)
-                attractions_section += f"- **[{attraction}](/attractions/{attraction_slug}/)** - {attraction} detailed guide\n"
+        if attractions_data:
+            categorized_attractions = self.organize_attractions_by_category(attractions_data)
+
+            for category, attractions in categorized_attractions.items():
+                if attractions:  # Only add categories that have attractions
+                    attractions_section += f"\n## {category}\n\n"
+                    for attraction in attractions:
+                        title = attraction['title']
+                        slug = attraction['slug']
+                        original_category = attraction['original_category']
+                        attractions_section += f"- **[{title}](/attractions/{slug}/)** - {original_category}\n"
 
         # Insert attractions section after overview if it exists
         if "## Basic Information" in main_content:
