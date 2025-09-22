@@ -28,16 +28,16 @@
   <div class="post-content">{{ page.content | safe }}</div>
 
   <div class="timeline-navigation">
-    {% if page.extra.previous_entry or page.extra.previous_leg %}
-      {% set prev = page.extra.previous_entry or page.extra.previous_leg %}
+    {% if page.extra.previous_entry %}
       <div class="timeline-prev">
-        <a href="/timeline/{{ prev }}/">&larr; Previous</a>
+        <a href="/{{ page.extra.previous_entry }}/">&larr; {% if page.extra.previous_title %}{{ page.extra.previous_title }}{% else %}Previous{% endif %}</a>
       </div>
+    {% else %}
+      <div></div>
     {% endif %}
-    {% if page.extra.next_entry or page.extra.next_leg %}
-      {% set next = page.extra.next_entry or page.extra.next_leg %}
+    {% if page.extra.next_entry %}
       <div class="timeline-next">
-        <a href="/timeline/{{ next }}/">Next &rarr;</a>
+        <a href="/{{ page.extra.next_entry }}/">{% if page.extra.next_title %}{{ page.extra.next_title }}{% else %}Next{% endif %} &rarr;</a>
       </div>
     {% endif %}
   </div>

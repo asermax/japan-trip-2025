@@ -31,8 +31,6 @@ duration = "{duration}"
 
 {content}
 
-{navigation}
-
 ---
 
 *Generated from research: {source_files}*
@@ -192,7 +190,7 @@ class TimelineGenerator:
         return attractions
 
     def generate_timeline_entry(self, data: Dict, entry_type: str, order: int,
-                              date: datetime) -> str:
+                              date: datetime, timeline_entries: List[Dict]) -> str:
         """Generate a timeline entry from research data."""
 
         if entry_type == "destination":
@@ -229,8 +227,12 @@ class TimelineGenerator:
             # Generate content from route research
             content = self.generate_journey_content(data)
 
-        # Navigation links
-        navigation = self.generate_navigation(order, entry_type)
+        # Get navigation data for template
+        nav_data = self.get_navigation_data(order, timeline_entries)
+
+        # Add navigation data to extra fields
+        for key, value in nav_data.items():
+            extra_fields += f'\n{key} = "{value}"'
 
         return TIMELINE_ENTRY_TEMPLATE.format(
             title=title,
@@ -243,7 +245,6 @@ class TimelineGenerator:
             duration=duration,
             extra_fields=extra_fields,
             content=content,
-            navigation=navigation,
             source_files=str(data['file_path'].relative_to(self.research_dir))
         )
 
@@ -302,18 +303,20 @@ class TimelineGenerator:
 """
         return content.strip()
 
-    def generate_navigation(self, order: int, entry_type: str) -> str:
-        """Generate navigation links for timeline entries."""
-        nav_parts = []
+    def get_navigation_data(self, order: int, timeline_entries: List[Dict]) -> Dict:
+        """Get navigation data for timeline entries to pass to template."""
+        nav_data = {}
 
-        if order > 1:
-            prev_order = f"{order-1:02d}"
-            nav_parts.append(f"## Previous: [Previous Entry](/{prev_order}-*/)")
+        # Find previous and next entries
+        for entry in timeline_entries:
+            if entry['order'] == order - 1:
+                nav_data['previous_entry'] = entry['filename']
+                nav_data['previous_title'] = entry['title']
+            elif entry['order'] == order + 1:
+                nav_data['next_entry'] = entry['filename']
+                nav_data['next_title'] = entry['title']
 
-        next_order = f"{order+1:02d}"
-        nav_parts.append(f"## Next: [Next Entry](/{next_order}-*/)")
-
-        return "\n".join(nav_parts)
+        return nav_data
 
     def generate_all_content(self):
         """Generate all timeline content from research files."""
@@ -341,18 +344,29 @@ class TimelineGenerator:
         # Sort destinations by visit date
         destination_data_list.sort(key=lambda x: x[1].get('visit_date') or datetime.min)
 
+        # Build complete timeline entries list for navigation
+        timeline_entries = []
+        for i, (research_file, destination_data) in enumerate(destination_data_list, 1):
+            destination_slug = research_file.stem
+            filename = f"{i:02d}-{destination_slug}"
+            timeline_entries.append({
+                'order': i,
+                'filename': filename,
+                'title': destination_data['title'],
+                'slug': destination_slug
+            })
+
         # Process destinations in chronological order
-        for research_file, destination_data in destination_data_list:
-            entry = self.generate_timeline_entry(destination_data, "destination", timeline_order,
-                                               start_date + timedelta(days=(timeline_order-1)*4))
+        for i, (research_file, destination_data) in enumerate(destination_data_list, 1):
+            entry = self.generate_timeline_entry(destination_data, "destination", i,
+                                               start_date + timedelta(days=(i-1)*4), timeline_entries)
 
             # Create timeline filename from destination name
             destination_slug = research_file.stem
-            output_file = self.output_dir / f"{timeline_order:02d}-{destination_slug}.md"
+            output_file = self.output_dir / f"{i:02d}-{destination_slug}.md"
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(entry)
             print(f"✅ Generated timeline entry: {output_file}")
-            timeline_order += 1
 
         # 3. Generate attraction pages
         self.generate_attraction_pages()
