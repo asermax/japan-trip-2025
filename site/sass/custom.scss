@@ -39,7 +39,7 @@
 /* Images and Captions */
 .post-content img,
 .content img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   display: block;
   margin: 1.5rem auto 0.5rem auto;
@@ -98,5 +98,11 @@ html.theme--dark .pagination {
 
   .page-top {
     width: 100%;
+  }
+
+  /* Full width images on mobile */
+  .post-content img,
+  .content img {
+    max-width: 100%;
   }
 }
