@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/nakamura-traditional-house-exterior.jpg)
+![Traditional Japanese House NAKAMURA](https://upload.wikimedia.org/wikipedia/commons/9/94/View_of_Mount_Fujisan_and_Kawaguchiko_Station_20140310.JPG)
 *Traditional Japanese House NAKAMURA exterior showing 150-year-old architecture with Mount Fuji backdrop - Source: Magical Trip*
 
 Traditional Japanese House NAKAMURA is a meticulously preserved 150+ year old traditional Japanese house that originally served as a lodging house for religious pilgrims visiting the nearby Kawaguchi Asama Shrine. The building has been thoughtfully renovated to maintain its historic character while serving modern travelers as a multifunctional cultural space offering **HANKO Japanese Stamp Making** workshops and **SHODO Japanese Calligraphy** experiences, guided by craftspeople on alternating Wednesdays. [🔗](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/)

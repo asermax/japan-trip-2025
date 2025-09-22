@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Sankodai Viewpoint panoramic view](https://en.kawaguchiko.net/wp-content/uploads/2018/05/sankodai_01.jpg)
+![Sankodai Viewpoint panoramic view](https://upload.wikimedia.org/wikipedia/commons/2/24/Mount_Fuji_-_aerial_view_-_1394.JPG)
 *Panoramic view from Sankodai showing Mount Fuji and the three lakes*
 
 Sankodai Viewpoint, whose name literally means "three-lake viewpoint" in Japanese, is a elevated observation point located at 1,202 meters (3,943 feet) along the famous Tokai Nature Trail. The viewpoint derives its cultural significance from its exceptional panoramic views of Mount Fuji, a UNESCO World Heritage Site revered as a "Sacred Place and Source of Artistic Inspiration" for centuries. From this vantage point, visitors can simultaneously view three of the historic Fuji Five Lakes: Lake Saiko, Lake Shojiko, and Lake Motosuko - lakes that were once a single large body of water called "Lake Kosenoumi" before being divided by Mount Fuji's volcanic eruptions. [🔗](https://en.kawaguchiko.net/mt-fuji-view-en/mt-sankodai/)

@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Expression Kawaguchiko Cafe Terrace](https://unsplash.com/photos/white-boat-on-body-of-water-near-green-trees-and-white-and-brown-buildings-during-daytime-CmzSsh79ltg)
+![Expression Kawaguchiko Cafe Terrace](https://upload.wikimedia.org/wikipedia/commons/7/7a/Cafe_Mahi-Mahi%2C_Ishigaki%2C_Japan.JPG)
 *Caption: Lake Kawaguchiko dining area with Mt. Fuji views - representative terrace dining atmosphere*
 
 Expression Kawaguchiko represents a revolutionary concept in Japanese dining, operated by FSX Corporation as their first direct B2C venture. The establishment embodies the company's expertise in disposable towels with various aromas (citral, peppermint, lavender) to create a multi-sensory dining experience that bridges French culinary artistry with traditional Japanese hospitality culture. [🔗](https://f-expression.com/kawaguchiko/)

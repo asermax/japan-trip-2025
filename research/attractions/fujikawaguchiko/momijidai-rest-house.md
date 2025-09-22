@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Mount Fuji from Koyodai](https://www.flickr.com/photos/o_0/10863122816/in/set-72157637682414583)
+![Mount Fuji from Koyodai](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ikeno-okuen_Roan_tearoom_02.jpg/800px-Ikeno-okuen_Roan_tearoom_02.jpg)
 *Mount Fuji view from Koyodai observation deck showing the 360-degree panoramic vista*
 
 Momijidai Rest House (also known as Koyodai/紅葉台展望レストハウス) is an observation deck and rest facility located in Narusawa Village, Yamanashi Prefecture, at an elevation of 1,164-1,167.8 meters. The name "Momijidai" translates to "Maple Platform," reflecting its reputation as one of the premier autumn foliage viewing locations in the Mount Fuji region. The facility features a distinctive two-story rest house with an observation deck on the second floor that provides 360-degree panoramic views of Mount Fuji, the Aokigahara Jukai forest, Lake Motosu, Lake Saiko, and the Southern Alps. [🔗](https://www.magical-trip.com/media/top-11-mt-fuji-autumn-foliage-spots-best-places-to-experience-fall-colors-in-2025/)

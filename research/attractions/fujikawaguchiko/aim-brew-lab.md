@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![AIM Brew LAB](https://brew.aim-lab.jp/static/images/brewery.jpg)
+![AIM Brew LAB](https://upload.wikimedia.org/wikipedia/commons/5/5a/Tazawako_Craft_Beer_brewery_and_restaurant.jpg)
 *Caption: Craft brewery taproom interior showing traditional architecture with modern brewing equipment*
 
 AIM Brew LAB is a craft brewery that opened on June 29, 2024, making it one of the newest additions to the Fujikawaguchiko craft beverage scene. Located near Lake Saiko, one of the Fuji Five Lakes and part of the UNESCO World Heritage Site "Fujisan - Sacred Place and Source of Artistic Inspiration," the brewery was established with a three-year development process by head brewer Junichi Nishimura. [🔗](https://www.porta-y.jp/en/170950)

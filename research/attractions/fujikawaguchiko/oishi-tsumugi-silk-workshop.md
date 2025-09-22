@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Oishi Tsumugi Traditional Craft Museum](https://www.mt-fuji.gr.jp/images/experience-facility/experience-facility_01.jpg)
+![Oishi Tsumugi Traditional Craft Museum](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chiiori_House_Winter.jpg/250px-Chiiori_House_Winter.jpg)
 *Traditional looms and weaving demonstrations at the Oishi Tsumugi Traditional Craft Museum with Mount Fuji in the background*
 
 The Oishi Tsumugi Traditional Craft Museum (大石紬伝統工芸館) stands as a living testament to one of Japan's most refined textile traditions, preserving the ancient art of Oishi Tsumugi silk weaving that has flourished in the shadow of Mount Fuji since the Edo period (1603-1868). This traditional handcraft center serves dual purposes as both a museum showcasing the region's textile heritage and an active workshop where visitors can experience firsthand the sophisticated techniques that have been passed down through generations. [🔗](https://www.mt-fuji.gr.jp/en/experience-facility/)

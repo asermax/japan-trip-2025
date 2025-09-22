@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Aokigahara Forest dense canopy](https://www.yamanashi-kankou.jp/english/recover/aokigahara-forest.html)
+![Aokigahara Forest dense canopy](https://upload.wikimedia.org/wikipedia/commons/b/b6/Aokigahara_Forest_%2810863169686%29.jpg)
 *Dense primeval forest canopy showcasing the "Sea of Trees" appearance*
 
 Aokigahara Forest, known as "Jukai" (樹海 - Sea of Trees), is a 30-square-kilometer dense primeval forest of mixed coniferous and broadleaf trees located at the northwestern base of Mount Fuji. The forest was formed in 864 CE when Mount Fuji's Jōgan eruption created the lava fields that became the foundation for this unique ecosystem. [🔗](https://fujisan.ne.jp/en/pages/215/)

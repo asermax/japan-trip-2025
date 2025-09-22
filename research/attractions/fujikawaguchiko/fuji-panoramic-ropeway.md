@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Mt. Fuji Panoramic Ropeway with Mount Fuji View](https://www.mtfujiropeway.jp/en/)
+![Mt. Fuji Panoramic Ropeway with Mount Fuji View](https://upload.wikimedia.org/wikipedia/commons/d/d5/Mount_Fuji_from_Sankodai.jpg)
 *Aerial tramway ascending Mount Tenjo with panoramic views of Mount Fuji and Lake Kawaguchi*
 
 The Mt. Fuji Panoramic Ropeway (also known as Kachi Kachi Ropeway) is a cable car system that transports visitors 400 meters up Mount Tenjo from the eastern shore of Lake Kawaguchi to an observation deck at 1,075 meters above sea level. The ropeway is named after the famous Japanese folktale "Kachi-kachi Yama" (Fire-Crackle Mountain), where a rabbit seeks revenge on a thieving tanuki (raccoon dog) - represented by cute sculptures atop each of the two cable cars. [🔗](https://www.mtfujiropeway.jp/en/)

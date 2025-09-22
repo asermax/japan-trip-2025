@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Mount Fuji view](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Views_of_Mount_Fuji_from_Shin-Okubo.jpg/1200px-Views_of_Mount_Fuji_from_Shin-Okubo.jpg)
+![Mount Fuji view](https://upload.wikimedia.org/wikipedia/commons/c/ca/Tsurunoyu_onsen_rotenburo.JPG)
 *Mount Fuji panoramic view representative of the spectacular vistas available from Fuji Yurari onsen outdoor baths*
 
 Fuji Viewing Hot Spring Yurari (Fuji Chobo no Yu Yurari) is a modern, beautifully designed day-trip hot spring facility located at the foot of Mount Fuji in Narusawa Village. The facility represents the pinnacle of the Japanese onsen experience, combining therapeutic natural hot springs with unparalleled views of Japan's sacred mountain. [🔗](https://www.fuji-yurari.jp/english.html)

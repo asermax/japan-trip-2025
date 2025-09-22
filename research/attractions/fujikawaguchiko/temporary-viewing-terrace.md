@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kawaguchiko Station Mount Fuji View](https://www.japan-guide.com/g20/6916_01.jpg)
+![Kawaguchiko Station Mount Fuji View](https://upload.wikimedia.org/wikipedia/commons/9/94/View_of_Mount_Fujisan_and_Kawaguchiko_Station_20140310.JPG)
 *View of Mount Fuji from Kawaguchiko Station area showing the direct line of sight to the mountain from the transportation hub*
 
 The "Temporary Viewing Terrace" at Kawaguchiko Station refers to special viewing facilities and platforms that provide direct Mount Fuji observation opportunities at the main transportation gateway to the Fuji Five Lakes region. Kawaguchiko Station serves as both a transportation hub and a scenic viewing location, with magnificent Mount Fuji rising directly in front of the station building upon arrival. The station provides immediate views of Mount Fuji, making it a popular first photo opportunity for visitors, though power lines can interfere with clean shots from ground level. [🔗](https://e.fujikyu-railway.jp/mtfuji-view-spot/info.php?point=1)

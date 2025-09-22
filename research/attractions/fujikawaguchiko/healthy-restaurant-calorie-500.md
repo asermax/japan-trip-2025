@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Healthy Restaurant Calorie 500](https://tabelog.com/en/yamanashi/A1903/A190303/19013884/)
+![Healthy Restaurant Calorie 500](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/230728_Kissako_Jugemu_Hiraizumi_Iwate_pref_Japan06s3.jpg/800px-230728_Kissako_Jugemu_Hiraizumi_Iwate_pref_Japan06s3.jpg)
 *Caption: Health-focused restaurant specializing in low-carb cuisine under 500 calories*
 
 Healthy Restaurant Calorie 500 (健康レストラン かろり500) is a revolutionary dining concept that opened in Fujikawaguchiko in December 2024, bringing scientifically designed healthy cuisine to the Mt. Fuji region. Operated by Kazuyoshi Harayama, an Athlete Food Meister, the restaurant operates under the philosophy "good for your body and delicious!" focusing on building healthy bodies through proper carbohydrate control rather than restrictive dieting. [🔗](https://www.porta-y.jp/175734)

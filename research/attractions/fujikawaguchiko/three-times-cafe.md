@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![THREE TIMES CAFE](https://porta-y.jp/uploads/gourmet/180768/photo/1724305923_1.jpg)
+![THREE TIMES CAFE](https://upload.wikimedia.org/wikipedia/commons/e/e0/Ueshima_Coffee.JPG)
 *Caption: Stylish glass-walled design with soft lighting and solid wood furnishings*
 
 THREE TIMES CAFE opened on May 18, 2025, as a unique establishment within Forest Mall Fujikawaguchiko that combines a stylish cafe with an attached coin laundry facility. The name reflects their three distinct service periods throughout the day, each offering different healthy menu options designed to "invigorate both the body and mind." [🔗](https://porta-y.jp/en/180823)
