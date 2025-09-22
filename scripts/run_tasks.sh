@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Determine script and project directories
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# If script is in root (current behavior), use current directory
+if [[ "$(basename "$SCRIPT_DIR")" != "scripts" ]]; then
+    PROJECT_ROOT="$SCRIPT_DIR"
+fi
+
 # Function to execute a task with retry logic
 execute_task() {
     local task_file="$1"
@@ -20,7 +29,7 @@ execute_task() {
             echo "Task completed successfully on attempt $attempt"
 
             # Move task to completed folder and append result
-            local completed_file="tasks/completed/$(basename "$task_file")"
+            local completed_file="$PROJECT_ROOT/tasks/completed/$(basename "$task_file")"
             mv "$task_file" "$completed_file"
 
             # Append separator and result to completed task file
@@ -67,7 +76,7 @@ while true; do
     echo "Checking for tasks at $(date)..."
 
     # Check if there are any pending tasks
-    for task_file in tasks/pending/*.md; do
+    for task_file in "$PROJECT_ROOT"/tasks/pending/*.md; do
         echo "Processing task: $(basename "$task_file")"
 
         # Execute task with retry logic
