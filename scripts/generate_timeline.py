@@ -7,11 +7,42 @@ This script reads structured research files and generates timeline entries, plac
 import os
 import sys
 import re
+import unicodedata
 from pathlib import Path
 from datetime import datetime, timedelta
 import argparse
 import markdown
 from typing import Dict, List, Any, Optional
+
+def create_url_slug(text: str) -> str:
+    """Convert text to URL-friendly slug using Unicode normalization."""
+    # Normalize Unicode characters (convert accented chars to base + combining chars)
+    text = unicodedata.normalize('NFKD', text)
+
+    # Encode to ASCII bytes, ignoring non-ASCII chars, then decode back to string
+    text = text.encode('ascii', 'ignore').decode('ascii')
+
+    # Convert to lowercase
+    slug = text.lower()
+
+    # Replace common special cases
+    slug = slug.replace('&', 'and')  # Convert & to and
+    slug = slug.replace('+', 'plus') # Convert + to plus
+    slug = slug.replace('@', 'at')   # Convert @ to at
+
+    # Replace spaces and other separators with hyphens
+    slug = re.sub(r'[\s\-_\.]+', '-', slug)
+
+    # Remove any characters that aren't letters, numbers, or hyphens
+    slug = re.sub(r'[^a-z0-9\-]', '', slug)
+
+    # Remove multiple consecutive hyphens
+    slug = re.sub(r'-+', '-', slug)
+
+    # Remove leading/trailing hyphens
+    slug = slug.strip('-')
+
+    return slug
 
 # Timeline entry template
 TIMELINE_ENTRY_TEMPLATE = """+++
@@ -205,7 +236,7 @@ class TimelineGenerator:
             duration = duration_raw if duration_raw else '4 days'
 
             # Find related attractions for this destination
-            destination_slug = data["title"].lower()
+            destination_slug = create_url_slug(data["title"])
             attractions = self.find_destination_attractions(destination_slug)
 
             # Build extra fields with place and highlights
@@ -263,7 +294,7 @@ class TimelineGenerator:
             main_content = f"## Overview\n\n{data.get('basic_information', 'Information about this destination.')}"
 
         # Find attractions for this destination and add them
-        destination_slug = data["title"].lower()
+        destination_slug = create_url_slug(data["title"])
         attractions = self.find_destination_attractions(destination_slug)
 
         # Build attractions section
@@ -271,7 +302,7 @@ class TimelineGenerator:
         if attractions:
             attractions_section = "\n## Featured Attractions\n\n"
             for attraction in attractions:
-                attraction_slug = attraction.lower().replace(' ', '-').replace('ō', 'o')
+                attraction_slug = create_url_slug(attraction)
                 attractions_section += f"- **[{attraction}](/attractions/{attraction_slug}/)** - {attraction} detailed guide\n"
 
         # Insert attractions section after overview if it exists
@@ -401,7 +432,7 @@ class TimelineGenerator:
                     else:
                         attraction_content = "## About\n\nAttraction information not available."
 
-                    slug = data['title'].lower().replace(' ', '-').replace('ō', 'o')
+                    slug = create_url_slug(data['title'])
                     attraction_file = attractions_dir / f"{slug}.md"
 
                     content = ATTRACTION_TEMPLATE.format(
