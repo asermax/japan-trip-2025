@@ -27,33 +27,57 @@ execute_task() {
     # Read task content
     task_content=$(cat "$task_file")
 
+    # Create log file path
+    local log_file="$PROJECT_ROOT/tasks/logs/$(basename "$task_file")"
+
+    # Initialize log file with task prompt if it doesn't exist
+    if [ ! -f "$log_file" ]; then
+        echo "Creating log file for task: $(basename "$task_file")"
+        # Ensure logs directory exists
+        mkdir -p "$PROJECT_ROOT/tasks/logs"
+        # Copy task prompt to log file
+        cp "$task_file" "$log_file"
+    fi
+
     while [ $attempt -le $max_retries ]; do
         echo "Attempt $attempt of $max_retries for task: $(basename "$task_file")"
 
         # Create temporary file for output
         local temp_output=$(mktemp)
 
+        # Add attempt header to log
+        echo "" >> "$log_file"
+        echo "=== EXECUTION ATTEMPT $attempt ===" >> "$log_file"
+        echo "Started at: $(date)" >> "$log_file"
+        echo "" >> "$log_file"
+
         # Run the command with task content as query
         if claude -p "$task_content" --permission-mode acceptEdits > "$temp_output" 2>&1; then
             echo "Task completed successfully on attempt $attempt"
 
-            # Move task to completed folder and append result
-            local completed_file="$PROJECT_ROOT/tasks/completed/$(basename "$task_file")"
-            mv "$task_file" "$completed_file"
+            # Append success result to log file
+            echo "=== EXECUTION RESULT (SUCCESS) ===" >> "$log_file"
+            echo "Completed at: $(date)" >> "$log_file"
+            echo "Attempt: $attempt" >> "$log_file"
+            echo "" >> "$log_file"
+            cat "$temp_output" >> "$log_file"
 
-            # Append separator and result to completed task file
-            echo "" >> "$completed_file"
-            echo "=== EXECUTION RESULT ===" >> "$completed_file"
-            echo "Completed at: $(date)" >> "$completed_file"
-            echo "Attempt: $attempt" >> "$completed_file"
-            echo "" >> "$completed_file"
-            cat "$temp_output" >> "$completed_file"
+            # Remove task from pending folder after successful completion
+            rm "$task_file"
 
             # Clean up temp file
             rm "$temp_output"
             return 0
         else
             echo "Task failed on attempt $attempt"
+
+            # Append failure result to log file
+            echo "=== EXECUTION RESULT (FAILURE) ===" >> "$log_file"
+            echo "Failed at: $(date)" >> "$log_file"
+            echo "Attempt: $attempt" >> "$log_file"
+            echo "" >> "$log_file"
+            cat "$temp_output" >> "$log_file"
+
             attempt=$((attempt + 1))
 
             if [ $attempt -le $max_retries ]; then
@@ -62,11 +86,14 @@ execute_task() {
             fi
         fi
 
-        # Clean up temp file on failure
+        # Clean up temp file
         rm "$temp_output"
     done
 
     echo "Task failed after $max_retries attempts. Skipping..."
+    echo "" >> "$log_file"
+    echo "=== FINAL STATUS ===" >> "$log_file"
+    echo "Task failed after $max_retries attempts at: $(date)" >> "$log_file"
     return 1
 }
 
