@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime, timedelta
 import argparse
 import markdown
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 # Timeline entry template
 TIMELINE_ENTRY_TEMPLATE = """+++
@@ -71,6 +71,35 @@ class TimelineGenerator:
         self.output_dir = Path(output_dir)
         self.timeline_config = []
 
+    def parse_visit_date(self, visit_period: str) -> Optional[datetime]:
+        """Parse visit period string into datetime object for sorting."""
+        if not visit_period:
+            return None
+
+        # Handle formats like "October 23-24, 2025" or "Oct 23-24, 2025"
+        month_map = {
+            'January': 1, 'Jan': 1, 'February': 2, 'Feb': 2, 'March': 3, 'Mar': 3,
+            'April': 4, 'Apr': 4, 'May': 5, 'June': 6, 'Jun': 6,
+            'July': 7, 'Jul': 7, 'August': 8, 'Aug': 8, 'September': 9, 'Sep': 9,
+            'October': 10, 'Oct': 10, 'November': 11, 'Nov': 11, 'December': 12, 'Dec': 12
+        }
+
+        # Extract month, start day, and year
+        # Patterns: "October 23-24, 2025" or "Oct 28-30, 2025"
+        pattern = r'(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d+)(?:-\d+)?,?\s*(\d{4})'
+        match = re.search(pattern, visit_period, re.IGNORECASE)
+
+        if match:
+            month_name = match.group(1)
+            start_day = int(match.group(2))
+            year = int(match.group(3))
+            month_num = month_map.get(month_name.capitalize()) or month_map.get(month_name[:3].capitalize())
+
+            if month_num:
+                return datetime(year, month_num, start_day)
+
+        return None
+
     def format_date_range(self, date_string: str) -> str:
         """Convert date format to shorter month format (e.g., 'October 23-24, 2025' -> 'Oct 23-24')"""
         import re
@@ -106,6 +135,10 @@ class TimelineGenerator:
 
         # Extract sections
         data.update(self.extract_sections(content))
+
+        # Parse visit date for sorting
+        if 'visit_period' in data:
+            data['visit_date'] = self.parse_visit_date(data['visit_period'])
 
         return data
 
@@ -295,14 +328,21 @@ class TimelineGenerator:
         timeline_order = 1
         start_date = datetime(2025, 4, 1)
 
-        # Process all destination files
-        destination_files = sorted((self.research_dir / "destinations").glob("*.md"))
-        for research_file in destination_files:
+        # Collect all destination files and their data
+        destination_data_list = []
+        for research_file in (self.research_dir / "destinations").glob("*.md"):
             # Skip non-destination files
             if research_file.name in ['destinations-todo.md', '_index.md']:
                 continue
 
             destination_data = self.parse_research_file(research_file)
+            destination_data_list.append((research_file, destination_data))
+
+        # Sort destinations by visit date
+        destination_data_list.sort(key=lambda x: x[1].get('visit_date') or datetime.min)
+
+        # Process destinations in chronological order
+        for research_file, destination_data in destination_data_list:
             entry = self.generate_timeline_entry(destination_data, "destination", timeline_order,
                                                start_date + timedelta(days=(timeline_order-1)*4))
 
