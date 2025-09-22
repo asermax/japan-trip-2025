@@ -9,6 +9,15 @@ if [[ "$(basename "$SCRIPT_DIR")" != "scripts" ]]; then
     PROJECT_ROOT="$SCRIPT_DIR"
 fi
 
+# Function to handle script interruption for graceful shutdown
+cleanup_and_exit() {
+    echo -e "\nCaught Ctrl+C. Shutting down the task runner."
+    exit 0
+}
+
+# Trap SIGINT (Ctrl+C) to ensure the script exits cleanly
+trap cleanup_and_exit SIGINT
+
 # Function to execute a task with retry logic
 execute_task() {
     local task_file="$1"
