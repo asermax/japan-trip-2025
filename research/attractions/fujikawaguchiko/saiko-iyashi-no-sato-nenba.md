@@ -14,17 +14,13 @@
 
 Saiko Iyashi-no-Sato Nenba stands as a poignant testament to Japanese cultural preservation and resilience. The original village of Nenba, once reverently known as "the most beautiful village in Japan," thrived for centuries as a farming community famous for its picturesque Kabuto-zukuri thatched-roof houses. In September 1966, Typhoon Ida brought devastating landslides that completely destroyed the village, wiping out 37 of its 41 traditional houses and claiming lives.
 
-Four decades later, in 2006, the village was meticulously reconstructed with 20 authentic thatched-roof houses using traditional local techniques. The reconstruction aimed to revive the beautiful scenery lost to disaster while creating a living tourism exchange center highlighting local history, culture, and natural environment.
-
-*Source: [Official Saiko Iyashi-no-Sato Nenba Website](https://saikoiyashinosatonenba.jp/en/) - Accessed September 19, 2025*
+Four decades later, in 2006, the village was meticulously reconstructed with 20 authentic thatched-roof houses using traditional local techniques. The reconstruction aimed to revive the beautiful scenery lost to disaster while creating a living tourism exchange center highlighting local history, culture, and natural environment. [🔗](https://saikoiyashinosatonenba.jp/en/)
 
 ## Cultural & Historical Significance
 
 Each building serves specific purposes as workshops, museums, galleries, restaurants, or souvenir shops, creating an immersive cultural experience rather than a static museum. The Kabuto-zukuri architectural style, characterized by roofs shaped like samurai helmets, was historically used for sericulture (silk farming), with upper floors providing well-ventilated spaces for raising silkworms.
 
-The village represents both cultural preservation and memorial significance, honoring the memory of the original community while maintaining traditional Japanese village life for future generations. UNESCO recognition of Mount Fuji includes cultural landscapes like this, demonstrating the interconnection between human culture and sacred natural environments.
-
-*Source: [Japan-Guide.com](https://www.japan-guide.com/e/e6923.html) - Accessed September 19, 2025*
+The village represents both cultural preservation and memorial significance, honoring the memory of the original community while maintaining traditional Japanese village life for future generations. UNESCO recognition of Mount Fuji includes cultural landscapes like this, demonstrating the interconnection between human culture and sacred natural environments. [🔗](https://www.japan-guide.com/e/e6923.html)
 
 ## Visiting Information
 
@@ -42,9 +38,7 @@ The village represents both cultural preservation and memorial significance, hon
 **Admission Fees:**
 - **Adults**: 500 yen
 - **Elementary/Junior High Students**: 250 yen
-- **Workshops**: 600-1,100 yen each
-
-*Source: [Accessible Japan Guide](https://www.accessible-japan.com/places/japan/yamanashi/fujikawaguchiko/attractions/saiko-iyashi-no-sato-nenba/) - Accessed September 19, 2025*
+- **Workshops**: 600-1,100 yen each [🔗](https://www.accessible-japan.com/places/japan/yamanashi/fujikawaguchiko/attractions/saiko-iyashi-no-sato-nenba/)
 
 ## The Experience
 
@@ -64,9 +58,7 @@ The village represents both cultural preservation and memorial significance, hon
 - Vibrant maple leaves in red and yellow surrounding thatched houses
 - Clear autumn air providing optimal Mount Fuji visibility
 - Traditional harvest atmosphere with seasonal decorations
-- Comfortable temperatures for extended outdoor exploration
-
-*Source: [Travel Yes Please Blog](https://www.travelyesplease.com/travel-blog-saiko-iyashi-no-sato-nenba/) - Accessed September 19, 2025*
+- Comfortable temperatures for extended outdoor exploration [🔗](https://www.travelyesplease.com/travel-blog-saiko-iyashi-no-sato-nenba/)
 
 ## Visit-Specific Information for October 23-24, 2025
 
@@ -76,9 +68,7 @@ The village represents both cultural preservation and memorial significance, hon
 - **Enhanced Photography**: Excellent lighting conditions with clear autumn air enhancing Mount Fuji visibility
 - **Traditional Atmosphere**: Harvest season decorations and autumn cultural activities
 
-**Crowd Management**: Moderate autumn tourist season - arrive at opening (9:00 AM) for optimal experience with fewer visitors and best lighting conditions.
-
-*Source: [Official Saiko Iyashi-no-Sato Nenba Website](https://saikoiyashinosatonenba.jp/en/) - Accessed September 19, 2025*
+**Crowd Management**: Moderate autumn tourist season - arrive at opening (9:00 AM) for optimal experience with fewer visitors and best lighting conditions. [🔗](https://saikoiyashinosatonenba.jp/en/)
 
 ## Practical Visiting Tips
 
@@ -98,8 +88,6 @@ The village represents both cultural preservation and memorial significance, hon
 - Maintain respectful behavior in memorial areas acknowledging 1966 disaster
 - Handle traditional costume rentals with care and respect
 - Follow photography guidelines - restrictions may apply in certain areas
-- Appreciate the village as living cultural heritage, not just tourist attraction
-
-*Source: [TripAdvisor Reviews](https://www.tripadvisor.com/Attraction_Review-g1165976-d1886940-Reviews-Saiko_Iyashi_no_Sato_Nemba-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefe.html) - Accessed September 19, 2025*
+- Appreciate the village as living cultural heritage, not just tourist attraction [🔗](https://www.tripadvisor.com/Attraction_Review-g1165976-d1886940-Reviews-Saiko_Iyashi_no_Sato_Nemba-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefe.html)
 
 **Location:** [View on Google Maps](https://www.google.com/maps/place/2710+Saiko+Nenba,+Fujikawaguchiko,+Minamitsuru+District,+Yamanashi+401-0332,+Japan)

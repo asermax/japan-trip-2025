@@ -18,9 +18,7 @@
 
 Japanese bamboo weaving (竹編み, takeami) represents a sophisticated traditional craft with over 600 bamboo species available in Japan. The art combines technical mastery with artistic expression, using techniques like kagome (籠目) weaving patterns. Master craftsmen require years of apprenticeship, with some exhibition pieces taking 1-2 years to complete.
 
-Katsuyama bamboo crafts (勝山竹細工) are specifically renowned traditional crafts from Okayama Prefecture, designated as a national traditional craft in 1979. These involve intricate weaving techniques using local bamboo varieties.
-
-*Source: [Katsuyama bamboo crafts - KOGEI JAPAN](https://kogeijapan.com/locale/en_US/katsuyamatakezaiku/) - Accessed September 19, 2025*
+Katsuyama bamboo crafts (勝山竹細工) are specifically renowned traditional crafts from Okayama Prefecture, designated as a national traditional craft in 1979. These involve intricate weaving techniques using local bamboo varieties. [🔗](https://kogeijapan.com/locale/en_US/katsuyamatakezaiku/)
 
 ## Current Status Information
 
@@ -29,17 +27,13 @@ Katsuyama bamboo crafts (勝山竹細工) are specifically renowned traditional 
 2. A private or seasonal workshop not widely advertised online
 3. A planned or proposed activity not yet operational
 
-**Verification Required**: Direct contact with Fujikawaguchiko tourism office recommended (phone: 0555-83-2111).
-
-*Source: [Fujikawaguchiko Tourism Information](https://fujisan.ne.jp/en/) - Accessed September 19, 2025*
+**Verification Required**: Direct contact with Fujikawaguchiko tourism office recommended (phone: 0555-83-2111). [🔗](https://fujisan.ne.jp/en/)
 
 ## Alternative Traditional Craft Experiences
 
 **Confirmed Options in Fujikawaguchiko Area**:
 - **Kawaguchiko Craft Park**: Multiple traditional crafts including glass beading, stained glass, silver accessories
-- **Oishi Tsumugi Traditional Crafts Museum**: Edo period textile traditions with hands-on herb dyeing classes
-
-*Source: [Kawaguchiko Craft Park - TripAdvisor](https://www.tripadvisor.com/Attraction_Review-g1165976-d10005605-Reviews-Kawaguchiko_Craft_Park-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefectu.html) - Accessed September 19, 2025*
+- **Oishi Tsumugi Traditional Crafts Museum**: Edo period textile traditions with hands-on herb dyeing classes [🔗](https://www.tripadvisor.com/Attraction_Review-g1165976-d10005605-Reviews-Kawaguchiko_Craft_Park-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefectu.html)
 
 ## Practical Visiting Tips
 

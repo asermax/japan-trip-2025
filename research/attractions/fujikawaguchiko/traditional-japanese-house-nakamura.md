@@ -12,17 +12,13 @@
 ![Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/nakamura-traditional-house-exterior.jpg)
 *Traditional Japanese House NAKAMURA exterior showing 150-year-old architecture with Mount Fuji backdrop - Source: Magical Trip*
 
-Traditional Japanese House NAKAMURA is a meticulously preserved 150+ year old traditional Japanese house that originally served as a lodging house for religious pilgrims visiting the nearby Kawaguchi Asama Shrine. The building has been thoughtfully renovated to maintain its historic character while serving modern travelers as a multifunctional cultural space offering **HANKO Japanese Stamp Making** workshops and **SHODO Japanese Calligraphy** experiences, guided by craftspeople on alternating Wednesdays.
-
-*Source: [Magical Trip - Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/) - Accessed September 19, 2025*
+Traditional Japanese House NAKAMURA is a meticulously preserved 150+ year old traditional Japanese house that originally served as a lodging house for religious pilgrims visiting the nearby Kawaguchi Asama Shrine. The building has been thoughtfully renovated to maintain its historic character while serving modern travelers as a multifunctional cultural space offering **HANKO Japanese Stamp Making** workshops and **SHODO Japanese Calligraphy** experiences, guided by craftspeople on alternating Wednesdays. [🔗](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/)
 
 ## Cultural & Historical Significance
 
 Traditional Japanese House NAKAMURA represents 150 years of architectural heritage, originally serving as a lodging house for religious pilgrims visiting the sacred Mount Fuji area. The building maintains its original architectural features including aged walls, tatami mats, and traditional wooden staircase accessed via stepped tansu (traditional chest).
 
-The venue embodies the philosophy of "A Traveler's Haven in a Quiet Village Where Nature and Culture Intersect at the Foot of Mt. Fuji," preserving the connection between Mount Fuji pilgrimage traditions and modern cultural exchange.
-
-*Source: [Magical Trip - Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/) - Accessed September 19, 2025*
+The venue embodies the philosophy of "A Traveler's Haven in a Quiet Village Where Nature and Culture Intersect at the Foot of Mt. Fuji," preserving the connection between Mount Fuji pilgrimage traditions and modern cultural exchange. [🔗](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/)
 
 ## Visiting Information
 
@@ -35,9 +31,7 @@ The venue embodies the philosophy of "A Traveler's Haven in a Quiet Village Wher
 - **Hours**: Information not specified in sources - requires direct contact
 - **Admission**: Free entry to café; food and beverage purchases required
 - **Tax-free Shopping**: Implementation ongoing for traditional crafts
-- **Current Status**: Operational as of 2025
-
-*Source: [Magical Trip - Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/) - Accessed September 19, 2025*
+- **Current Status**: Operational as of 2025 [🔗](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/)
 
 ## The Experience
 
@@ -45,9 +39,7 @@ The venue embodies the philosophy of "A Traveler's Haven in a Quiet Village Wher
 
 **Cultural Shopping**: Browse traditional crafts from Yamanashi Prefecture and Mount Fuji region, personally selected by the manager displaying "delicate beauty and craftsman's warmth" connected to local culture.
 
-**Historical Architecture**: Explore the 150-year-old building's preserved features including traditional tatami mats, wooden staircases, and authentic structural elements.
-
-*Source: [Magical Trip - Traditional Japanese House NAKAMURA](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/) - Accessed September 19, 2025*
+**Historical Architecture**: Explore the 150-year-old building's preserved features including traditional tatami mats, wooden staircases, and authentic structural elements. [🔗](https://www.magical-trip.com/media/experience-traditional-japanese-house-nakamura-vegan-friendly-cafe-and-historic-coworking-space-near-kawaguchi-asama-shrine/)
 
 ## Workshop Experiences
 
@@ -55,9 +47,7 @@ The venue embodies the philosophy of "A Traveler's Haven in a Quiet Village Wher
 
 **SHODO (Calligraphy)**: Practice writing favorite Kanji characters using traditional brushes and ink, engaging with the meditative "way of writing" that embodies Japanese aesthetic principles and Zen Buddhist principles of spiritual discipline.
 
-**Scheduling**: Cultural workshops held on alternating Wednesdays - advance confirmation essential for October 23-24 availability. Contact venue directly to secure workshop participation during stay period.
-
-*Source: [Traditional Japanese House NAKAMURA Official](https://kawaguchiko-nakamura.com/) - Accessed September 20, 2025*
+**Scheduling**: Cultural workshops held on alternating Wednesdays - advance confirmation essential for October 23-24 availability. Contact venue directly to secure workshop participation during stay period. [🔗](https://kawaguchiko-nakamura.com/)
 
 ## Practical Visiting Tips
 

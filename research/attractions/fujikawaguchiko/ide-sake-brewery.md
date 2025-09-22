@@ -14,17 +14,13 @@
 
 Ide Sake Brewery stands as the sole sake producer in the Fuji Five Lakes region, representing an unbroken 21-generation family tradition dating back to the mid-Edo period. Originally established as a soy sauce and miso brewery around 1700, the facility transitioned to sake production in 1850 when the 16th generation owner recognized the exceptional potential of Mt. Fuji's pure spring water.
 
-Located at 850 meters above sea level, the brewery benefits from ideal brewing conditions: cool mountain climate and abundant spring water from Mt. Fuji at 1,100 meters elevation. These natural advantages, combined with traditional kan-zukuri (cold-weather brewing) methods, produce the brewery's signature Kai no Kaiun sake.
-
-*Source: [Magical Trip - Ide Sake Brewery Guide](https://www.magical-trip.com/media/explore-ide-sake-brewery-traditional-sake-craftsmanship-with-mt-fujis-pure-spring-water/) - Accessed September 19, 2025*
+Located at 850 meters above sea level, the brewery benefits from ideal brewing conditions: cool mountain climate and abundant spring water from Mt. Fuji at 1,100 meters elevation. These natural advantages, combined with traditional kan-zukuri (cold-weather brewing) methods, produce the brewery's signature Kai no Kaiun sake. [🔗](https://www.magical-trip.com/media/explore-ide-sake-brewery-traditional-sake-craftsmanship-with-mt-fujis-pure-spring-water/)
 
 ## Cultural & Historical Significance
 
 The brewery represents 21 generations of continuous family operation, demonstrating exceptional cultural continuity in traditional Japanese craftsmanship. The facility encompasses traditional Edo-period architecture, including the original family residence and a 300-year-old Japanese garden, providing authentic glimpses into historic Japanese brewery culture.
 
-In 2020, the brewery expanded into whiskey production under the Daijukai brand, demonstrating how traditional methods adapt to modern craftsmanship while maintaining core cultural values.
-
-*Source: [Visit Greater Tokyo Area - Ide Sake Brewery](https://visitgreatertokyoarea.org/yamanashi/spots/spot6/) - Accessed September 19, 2025*
+In 2020, the brewery expanded into whiskey production under the Daijukai brand, demonstrating how traditional methods adapt to modern craftsmanship while maintaining core cultural values. [🔗](https://visitgreatertokyoarea.org/yamanashi/spots/spot6/)
 
 ## Visiting Information
 
@@ -38,9 +34,7 @@ In 2020, the brewery expanded into whiskey production under the Daijukai brand, 
 - **Distance**: Approximately 550 meters southeast of Kawaguchiko Station
 - **Public Transit**: Accessible via JR Chuo Line to Otsuki, then Fujikyu Railway
 
-**Reservations**: Essential for English tours; call by 4:00 PM the day before (TEL. 0555-72-0006)
-
-*Source: [Ide Sake Brewery Official Website](https://www.kainokaiun.jp/en-index.html) - Accessed September 19, 2025*
+**Reservations**: Essential for English tours; call by 4:00 PM the day before (TEL. 0555-72-0006) [🔗](https://www.kainokaiun.jp/en-index.html)
 
 ## The Experience
 
@@ -48,9 +42,7 @@ The comprehensive brewery experience includes guided tours through all productio
 
 Following the production tour, visitors explore the historic Edo-period family residence and 300-year-old traditional Japanese garden. The experience concludes with guided sake tasting featuring multiple varieties including signature Kai no Kaiun sake, plum wine, and new whiskey offerings, with detailed explanations of flavor profiles and brewing techniques.
 
-Visitors receive a commemorative tasting glass and can create custom handwritten labels for purchased bottles. Additional tastings are available via token system (¥550 per selection).
-
-*Source: [GaijinPot Travel - Ide Sake Brewery](https://travel.gaijinpot.com/ide-sake-brewery/) - Accessed September 19, 2025*
+Visitors receive a commemorative tasting glass and can create custom handwritten labels for purchased bottles. Additional tastings are available via token system (¥550 per selection). [🔗](https://travel.gaijinpot.com/ide-sake-brewery/)
 
 ## October Seasonal Significance
 
@@ -60,9 +52,7 @@ October 2025 visit considerations:
 - Autumn temperatures average 10-15°C (50-59°F) with potential for cool mornings
 - The brewery's 850-meter elevation may feel cooler than lake level
 - Traditional brewing season preparation provides unique insights into seasonal cycles
-- Clear autumn air enhances Mt. Fuji viewing opportunities from the brewery
-
-*Source: [The Sake Company - Seasonal Brewing Cycles](https://www.thesakecompany.com/blogs/sake-drops/natural-sake-brewing-in-seasonal-cycles) - Accessed September 19, 2025*
+- Clear autumn air enhances Mt. Fuji viewing opportunities from the brewery [🔗](https://www.thesakecompany.com/blogs/sake-drops/natural-sake-brewing-in-seasonal-cycles)
 
 ## Practical Visiting Tips
 
@@ -78,8 +68,6 @@ October 2025 visit considerations:
 - Handle commemorative tasting glass with care
 - Ask permission before photographing production areas
 
-**Purchase Recommendations**: Signature Kai no Kaiun sake makes excellent souvenir, especially with custom labeling. New whiskey offerings represent innovative expansion of traditional methods.
-
-*Source: [TripAdvisor - Ide Sake Brewery Reviews](https://www.tripadvisor.com/Attraction_Review-g1165976-d7170471-Reviews-Ide_Sake_Brewery-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefecture_Kosh.html) - Accessed September 19, 2025*
+**Purchase Recommendations**: Signature Kai no Kaiun sake makes excellent souvenir, especially with custom labeling. New whiskey offerings represent innovative expansion of traditional methods. [🔗](https://www.tripadvisor.com/Attraction_Review-g1165976-d7170471-Reviews-Ide_Sake_Brewery-Fujikawaguchiko_machi_Minamitsuru_gun_Yamanashi_Prefecture_Kosh.html)
 
 **Location:** [View on Google Maps](https://www.google.com/maps/place/41+Funatsu,+Fujikawaguchiko,+Minamitsuru+District,+Yamanashi+401-0301,+Japan)

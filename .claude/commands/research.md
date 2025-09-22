@@ -232,20 +232,16 @@ Files are created and updated throughout the process:
 ![Destination overview image](image_url)
 *Caption: {Brief description of the image}*
 
-{2-3 paragraph overview covering cultural significance and timing context - SUMMARY ONLY}
-*Source: [Cultural Source](URL) - Accessed Date*
+{2-3 paragraph overview covering cultural significance and timing context - SUMMARY ONLY} [🔗](URL)
 
 ## Key Districts & Neighborhoods
-{Brief district summaries - 1 sentence each, no detailed information}
-*Source: [District Source](URL) - Accessed Date*
+{Brief district summaries - 1 sentence each, no detailed information} [🔗](URL)
 
 ## Food Culture
-{Brief cuisine overview - 1-2 sentences each category, no detailed restaurant info}
-*Source: [Food Culture Source](URL) - Accessed Date*
+{Brief cuisine overview - 1-2 sentences each category, no detailed restaurant info} [🔗](URL)
 
 ## Day Trips from {Destination}
-{Brief day trip summaries - 1-2 sentences each, no detailed logistics}
-*Source: [Day Trip Source](URL) - Accessed Date*
+{Brief day trip summaries - 1-2 sentences each, no detailed logistics} [🔗](URL)
 
 **Location:** [View on Google Maps](google_maps_url)
 ```
@@ -266,24 +262,19 @@ Files are created and updated throughout the process:
 ![Attraction image](image_url)
 *Caption: {Brief description of the image}*
 
-{DETAILED description, significance, and comprehensive overview}
-*Source: [Source Name](URL) - Accessed Date*
+{DETAILED description, significance, and comprehensive overview} [🔗](URL)
 
 ## Cultural & Religious Significance
-{DETAILED historical context, spiritual importance, and cultural practices}
-*Source: [Cultural Source](URL) - Accessed Date*
+{DETAILED historical context, spiritual importance, and cultural practices} [🔗](URL)
 
 ## Visiting Information
-{COMPLETE hours, costs, access, transportation, and current operational status}
-*Source: [Official Source](URL) - Accessed Date*
+{COMPLETE hours, costs, access, transportation, and current operational status} [🔗](URL)
 
 ## The Experience
-{DETAILED visitor experience, physical requirements, and complete journey description}
-*Source: [Experience Source](URL) - Accessed Date*
+{DETAILED visitor experience, physical requirements, and complete journey description} [🔗](URL)
 
 ## Practical Visiting Tips
-{COMPREHENSIVE strategy, cultural preparation, optimal timing, and detailed logistics}
-*Source: [Tips Source](URL) - Accessed Date*
+{COMPREHENSIVE strategy, cultural preparation, optimal timing, and detailed logistics} [🔗](URL)
 
 **Location:** [View on Google Maps](google_maps_url)
 ```
@@ -297,7 +288,7 @@ Files are created and updated throughout the process:
 - **PHOTO REQUIREMENTS**: Every destination and attraction file must include at least one representative photo using markdown format
 - **LOCATION REQUIREMENTS**: Every file must include Google Maps location link at the end
 - **SOURCE REQUIREMENTS**: All files must include inline source citations immediately after relevant content
-- **CITATION FORMAT**: Use `*Source: [Description](URL) - Accessed Date*` format throughout all sections
+- **CITATION FORMAT**: Use `[🔗](URL)` inline citation format immediately after relevant content
 - Structure must match `scripts/generate_timeline.py` expectations
 
 ## Logistics & Practical Information
