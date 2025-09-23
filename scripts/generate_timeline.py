@@ -530,38 +530,48 @@ class TimelineGenerator:
         # Process attractions from all destination folders
         attractions_research_dir = self.research_dir / "attractions"
 
-        # First pass: collect all attractions by destination and get highlights order
+        # First pass: collect all attractions by destination and get category order
         attractions_by_destination = {}
 
         for destination_folder in attractions_research_dir.glob("*/"):
             if destination_folder.is_dir():
                 destination_name = destination_folder.name
-                attractions_dict = {}
 
-                # Collect all attractions from files
-                for research_file in destination_folder.glob("*.md"):
-                    data = self.parse_research_file(research_file)
-                    slug = create_url_slug(data['title'])
-                    attractions_dict[data['title']] = {
-                        'title': data['title'],
-                        'slug': slug,
-                        'file': research_file,
-                        'data': data
-                    }
+                # Get attraction data with category information for this destination
+                attractions_data = self.get_attraction_data(destination_name)
 
-                # Get the highlights order from the timeline entry to match the timeline list order
-                highlights_order = self.find_destination_attractions(destination_name)
+                # Organize attractions by category in display order (same as timeline entry)
+                categorized_attractions = self.organize_attractions_by_category(attractions_data)
 
-                # Create ordered list based on highlights order, with any missing attractions at the end
+                # Create flat ordered list following the category order used in timeline entries
                 attractions_list = []
-                for highlight in highlights_order:
-                    if highlight in attractions_dict:
-                        attractions_list.append(attractions_dict[highlight])
-                        del attractions_dict[highlight]
+                for category in CATEGORY_ORDER:
+                    if category in categorized_attractions:
+                        for attraction_data in categorized_attractions[category]:
+                            # Load the full research file data for each attraction
+                            attraction_file = self.research_dir / "attractions" / destination_name / f"{attraction_data['slug']}.md"
+                            if attraction_file.exists():
+                                full_data = self.parse_research_file(attraction_file)
+                                attractions_list.append({
+                                    'title': attraction_data['title'],
+                                    'slug': attraction_data['slug'],
+                                    'file': attraction_file,
+                                    'data': full_data
+                                })
 
-                # Add any remaining attractions (not in highlights) at the end
-                for remaining_attraction in attractions_dict.values():
-                    attractions_list.append(remaining_attraction)
+                # Add any remaining categories not in the predefined order
+                for category, attractions in categorized_attractions.items():
+                    if category not in CATEGORY_ORDER:
+                        for attraction_data in attractions:
+                            attraction_file = self.research_dir / "attractions" / destination_name / f"{attraction_data['slug']}.md"
+                            if attraction_file.exists():
+                                full_data = self.parse_research_file(attraction_file)
+                                attractions_list.append({
+                                    'title': attraction_data['title'],
+                                    'slug': attraction_data['slug'],
+                                    'file': attraction_file,
+                                    'data': full_data
+                                })
 
                 attractions_by_destination[destination_name] = attractions_list
 
