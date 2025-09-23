@@ -41,13 +41,17 @@ def is_broken_image(url):
         return True, str(e)
 
 def main():
-    research_dir = Path('research/attractions')
-    attraction_files = list(research_dir.rglob('*.md'))
+    attractions_dir = Path('research/attractions')
+    destinations_dir = Path('research/destinations')
 
-    print(f"Checking {len(attraction_files)} attraction files...")
+    attraction_files = list(attractions_dir.rglob('*.md'))
+    destination_files = list(destinations_dir.rglob('*.md'))
+    all_files = attraction_files + destination_files
+
+    print(f"Checking {len(attraction_files)} attraction files and {len(destination_files)} destination files...")
 
     all_images = []
-    for file_path in attraction_files:
+    for file_path in all_files:
         images = extract_image_urls_from_file(file_path)
         all_images.extend(images)
 
