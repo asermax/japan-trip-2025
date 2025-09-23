@@ -41,9 +41,38 @@ If no route is provided, the command will list all available route state files a
    - Route options and cultural research topics
    - Route-specific considerations and seasonal factors
 
-### 2. Simplified Batch Processing with File Updates
+### 2. Duplicate Detection & Pre-Processing
 
-Process research using predefined 3-agent batches with **immediate file creation/updates after each batch**:
+Before conducting new research, check for existing attractions that might already be researched:
+
+**Per-Batch Duplicate Detection Strategy:**
+For each batch of 3 items, before deploying research agents:
+
+1. **Pre-Batch Item Check**: For each item in the current batch:
+   - Search existing attractions across all folders:
+     - `research/attractions/{destination}/` folders (for destination attractions)
+     - `research/attractions/{other-route-name}/` folders (for other route attractions)
+   - Use fuzzy matching for potential duplicates:
+     - Exact name matches (case-insensitive)
+     - Location similarity (same city/prefecture)
+     - Landmark proximity (within same general area)
+
+2. **Duplication Handling**:
+   - **If match found**:
+     - Copy existing file to route folder: `research/attractions/{current-route-name}/{stop-slug}.md`
+     - Adapt content to route template structure
+     - Mark as completed in state file: `- [x] {Stop name} - Copied from {source_folder}, route context needed`
+     - **Replace in current batch**: Replace this item with route-specific research task
+   - **If no match**: Keep item for full research by agent
+
+3. **Batch Composition After Check**:
+   - **Full Research Items**: New attractions requiring complete research
+   - **Route Research Items**: Route-specific research for copied attractions (access, parking, route integration)
+   - **Mixed Batches**: Each batch can contain both types, assigned to 3 agents in parallel
+
+### 3. Simplified Batch Processing with File Updates
+
+Process remaining research using predefined 3-agent batches with **immediate file creation/updates after each batch**:
 
 **Batch Processing Strategy:**
 - **Automatic Batch Creation**: Research command automatically divides ALL TODO list items across 3-agent batches
@@ -64,13 +93,18 @@ Travel Date: {TRAVEL_DATE} (for seasonal context and route conditions)
 Transportation: Car/driving
 Route Context: {ROUTE_DESCRIPTION_FROM_STATE}
 
-RESEARCH PURPOSE: Complete cataloging of all information about each assigned item (stops + cultural/practical topics).
+RESEARCH PURPOSE: Complete cataloging of all information about each assigned item.
 This is NOT about fitting into a specific itinerary - research and document everything useful.
 
 **CRITICAL**: You will RETURN a detailed research report. You do NOT create files. The main command will process your report and create the appropriate route and attraction files.
 
 ## Your Research Assignment
-{SPECIFIC_ITEMS_FROM_BATCH} (Mix of stops and cultural/practical research topics)
+{SPECIFIC_ITEMS_FROM_BATCH}
+
+**Assignment Types:**
+- **Full Research**: New attractions requiring complete investigation
+- **Route Research**: Route-specific information for attractions already researched (focus on access, parking, route integration)
+- **Cultural/Practical Topics**: Research topics for integration into route context
 
 ## Background Context (from Route Discovery)
 {CULTURAL_RESEARCH_TOPICS}
@@ -114,14 +148,25 @@ For each assigned item, research:
 - Alternative options if stop is unavailable
 
 ## Research Instructions
-- **RETURN COMPREHENSIVE REPORTS**: Provide detailed findings for all assigned items in your research report
-- **ROUTE STOP RESEARCH**: For every specific stop, rest area, scenic point along route - provide comprehensive details that will become individual attraction files
-- **TOPIC INTEGRATION**: Research topics should be thoroughly researched with findings that will enhance route overview and stop context
-- **Cultural Topics**: Provide comprehensive findings that will be integrated into route cultural overview and relevant stop cultural context
-- **Practical Topics**: Provide detailed research that will be integrated into route practical considerations and stop driving tips
-- **Route Research Topic Handling**: When assigned route cultural research topics (e.g., "traditional travel patterns"), research thoroughly and provide findings for integration into relevant route/stop sections
-- **Event/Festival Research**: When assigned route event/festival topics, research current details and visitor impact
-- **Practical Route Topic Research**: When assigned practical topics (e.g., "driving customs"), research comprehensively for integration into route overview and stop visiting tips
+
+**For Full Research Items (New Attractions):**
+- **COMPLETE ATTRACTION RESEARCH**: Provide comprehensive details for all sections of the attraction template
+- **Cultural & Historical Context**: Research significance, background, and cultural importance
+- **Visiting Information**: Hours, costs, accessibility, seasonal considerations
+- **Experience Details**: What visitors can expect, activities, facilities
+- **Practical Tips**: Etiquette, timing, budgeting, photography
+
+**For Route Research Items (Copied Attractions):**
+- **ROUTE-SPECIFIC FOCUS**: Research only missing route-related information
+- **Access Research**: Driving directions from route, parking availability, route detour details
+- **Route Integration**: How this fits with other route stops, timing considerations
+- **Driving Considerations**: Route-specific parking, timing, and practical tips for car travelers
+- **Route Context**: Distance/time from main route, detour level classification
+
+**For Cultural/Practical Topics:**
+- **Route Integration Focus**: Research for integration into route overview and stop context
+- **Cultural Topics**: Findings for route cultural overview and relevant stop cultural context
+- **Practical Topics**: Research for route practical considerations and stop driving tips
 - Use multiple research tools in parallel when possible
 - Verify information across multiple sources
 - **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself - only use images you have actually found from your research sources
@@ -321,37 +366,47 @@ Create comprehensive research files:
 
 **Required Route Stop/Attraction File Structure** (`research/attractions/{route-name}/{stop-slug}.md`):
 ```markdown
-# {Stop Name} - {Route Name} Route Research
+# {Stop Name} Research
+
+**Location:** {Specific location with address}
+**Category:** {Rest area/town/attraction/scenic viewpoint/etc.}
+**Cost:** {Entry fees or cost range}
+**Best Time:** {Optimal timing for route travelers}
+**Duration:** {Recommended time for stop}
+**Research Completed:** {Date}
+
+## Basic Information
 
 ![Stop image](image_url)
 *Caption: {Brief description of the stop image}*
 
-**Route:** {Origin} to {Destination} - {Route Name}
-**Detour Level:** {On-Route/Short Detour/Major Detour}
-**Location:** {Specific location details}
-**Type:** {Rest area/town/attraction/scenic viewpoint}
-**Cost:** {Entry fees or cost range}
-**Visit Duration:** {Recommended time for stop}
-**Research Completed:** {Date}
-
-## Basic Information
-{DETAILED description, significance, and comprehensive overview from route perspective}
+{DETAILED description, significance, and comprehensive overview with cultural context and background}
 [🔗](URL)
 
-## Route Context & Accessibility
-{DETAILED route-specific context, parking, accessibility from route}
+## Cultural & Historical Significance
+
+{Cultural context, historical background, and significance - adapted from destination research if copied}
 [🔗](URL)
 
-## Driving Visitor Experience
-{COMPLETE visitor experience for car travelers, facilities, what to expect}
+## Visiting Information
+
+**Access:** {How to reach from route, parking details, accessibility}
+**Hours:** {Operating schedule}
+**Route Context:** {Distance/time from main route, detour level}
+**Seasonal Considerations:** {Weather, seasonal factors for travel date}
 [🔗](URL)
 
-## Route Integration
-{How this stop fits into overall route, connections with other stops, timing considerations}
+## The Experience
+
+{COMPLETE visitor experience description, what to expect, activities, facilities}
 [🔗](URL)
 
-## Practical Driving Tips
-{COMPREHENSIVE strategy for car travelers, parking, optimal timing, route impact}
+## Practical Visiting Tips
+
+**Driving Considerations:** {Parking, route access, timing for car travelers}
+**Route Integration:** {How this fits with other stops, timing in overall journey}
+**Cultural Etiquette:** {Respectful visiting practices}
+**Budget Considerations:** {Costs, time investment, practical tips}
 [🔗](URL)
 
 **Location:** [View on Google Maps](google_maps_url)

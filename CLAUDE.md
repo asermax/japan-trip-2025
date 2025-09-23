@@ -497,12 +497,15 @@ The route research process consists of two main phases:
 
 **Detailed Route Research Phase** (`/research-route [route-state-file]`)
 - **Individual Route Processing**: Research one specific route at a time using its state file
-- **Simple Batch Processing**: Research using 3-agent batches focused on stops and attractions only
+- **Duplicate Detection**: Per-batch checking for existing attractions to avoid redundant research
+- **Smart Copy & Adapt**: Copy existing attractions from other destinations/routes and adapt to route template
+- **Mixed Batch Processing**: Research using 3-agent batches with full research and route-specific tasks
 - **Agent Role**: Agents conduct research and return comprehensive reports (do NOT create files directly)
 - **Main Command Role**: Processes agent reports and creates/updates route and attraction files
+- **Unified Template Structure**: Route stops use same template as destination attractions with route-specific additions
 - **Route-Specific File Structure**: Create separate folders and files for each route
 - **Detour-Based Processing**: Process categories in state file order (On-Route → Short Detour → Major Detour)
-- **Stop Focus**: Research focuses on specific stops, attractions, and experiences along the route
+- **Focus Research Efficiency**: Full research for new attractions, route-specific research for copied attractions
 - **Per-Route Output**: Generate route-specific research files and attraction catalogs
 
 **Commands Available:**
