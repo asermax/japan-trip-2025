@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Keya no Oto Basalt Cave](https://ja.wikipedia.org/wiki/芥屋の大門#/media/ファイル:芥屋の大門.jpg)
+![Keya no Oto Basalt Cave](https://upload.wikimedia.org/wikipedia/commons/7/76/Keya_no_Oto.jpg)
 *Keya no Oto basalt cave showing distinctive hexagonal columnar formations - Wikipedia Japan*
 
 Keya no Oto (芥屋の大門) stands as one of Japan's most spectacular geological formations, representing the largest basalt cave in the country. Located at Cape Oto on the northwest tip of Itoshima Peninsula within Genkai Quasi-National Park, this National Natural Monument showcases the extraordinary power of geological forces and marine erosion. The cave was formed through millennia of wave action against basalt rock, creating distinctive hexagonal and octagonal columnar joints so perfectly geometric they appear almost artificial. [🔗](https://www.japan.travel/en/japans-local-treasures/keya-no-oto-boat-tour-2022/)

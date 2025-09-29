@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Nakasu Festival Oiran Procession](https://upload.wikimedia.org/wikipedia/commons/5/5e/Night_Oiran_Parade_in_Osu_Kannon_-_1.jpg)
+![Nakasu Festival Oiran Procession](https://upload.wikimedia.org/wikipedia/commons/f/ff/Oiran_Dochu_Procession_in_SUSUKINO._%2836001184600%29.jpg)
 *Caption: Traditional oiran procession during Nakasu Festival, showcasing elaborate costumes and cultural preservation efforts in Fukuoka's premier entertainment district*
 
 The Nakasu Festival is a significant cultural celebration that began in 1976 with the express purpose of revitalizing the Nakasu district in Fukuoka. Now established as an "autumn tradition of Hakata," this festival takes place in Nakasu, which is Kyushu's largest entertainment district and the largest red-light district in western Japan after Osaka. [🔗](https://www.fukuoka-now.com/en/event/nakasu-festival-2024/) The festival serves as a bridge between Fukuoka's historical entertainment culture and its modern identity, particularly through the preservation and celebration of geisha and oiran traditions.
