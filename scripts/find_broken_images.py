@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Quick broken image finder for Japan Trip 2025 attractions."""
 
+import argparse
 import os
 import re
 import requests
@@ -41,14 +42,27 @@ def is_broken_image(url):
         return True, str(e)
 
 def main():
+    parser = argparse.ArgumentParser(description='Find broken images in research files')
+    parser.add_argument('destination', nargs='?', help='Specific destination to check (optional)')
+    args = parser.parse_args()
+
     attractions_dir = Path('research/attractions')
     destinations_dir = Path('research/destinations')
 
-    attraction_files = list(attractions_dir.rglob('*.md'))
-    destination_files = list(destinations_dir.rglob('*.md'))
-    all_files = attraction_files + destination_files
+    if args.destination:
+        # Check specific destination
+        attraction_files = list((attractions_dir / args.destination).glob('*.md')) if (attractions_dir / args.destination).exists() else []
+        destination_file = destinations_dir / f'{args.destination}.md'
+        destination_files = [destination_file] if destination_file.exists() else []
+        print(f"Checking {args.destination}...")
+    else:
+        # Check all files
+        attraction_files = list(attractions_dir.rglob('*.md'))
+        destination_files = list(destinations_dir.rglob('*.md'))
+        print(f"Checking all files...")
 
-    print(f"Checking {len(attraction_files)} attraction files and {len(destination_files)} destination files...")
+    all_files = attraction_files + destination_files
+    print(f"Found {len(attraction_files)} attraction files and {len(destination_files)} destination files")
 
     all_images = []
     for file_path in all_files:

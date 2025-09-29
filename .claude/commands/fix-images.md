@@ -1,13 +1,18 @@
 # Fix Images Command
 
-**Usage:** `/fix-images`
+**Usage:** `/fix-images [destination]`
 
-**Purpose:** Validate all attraction images and fix broken ones using parallel agents to find replacements from Wikipedia Commons.
+**Arguments:**
+- `destination` (optional): Specific destination slug to check (e.g., `tokyo`, `kyoto`). Omit to check all files.
+
+**Purpose:** Validate attraction images and fix broken ones using parallel agents to find replacements from Wikipedia Commons.
 
 ## Command Workflow
 
 ### Phase 1: Quick Validation
-1. Run `python scripts/find_broken_images.py` to identify broken images
+1. Run `python scripts/find_broken_images.py [destination]` to identify broken images
+   - Omit `[destination]` to check all files
+   - Specify destination slug (e.g., `tokyo`) to check only that destination
 2. Generate list of broken image URLs with file locations
 
 ### Phase 2: Parallel Agent Replacement
