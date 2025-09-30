@@ -552,28 +552,43 @@ class TimelineGenerator:
         return main_content.strip()
 
     def generate_journey_content(self, routes_data: List[Dict]) -> str:
-        """Generate journey timeline content consolidating multiple route options."""
+        """Generate journey timeline content with links to route option pages and attraction lists."""
         if not routes_data:
             return "## The Journey\n\nRoute information not yet available."
 
-        content = "## Journey Overview\n\n"
+        content = "## Route Options\n\n"
 
-        # If only one route, simpler presentation
+        # If only one route
         if len(routes_data) == 1:
             route = routes_data[0]
-            content += f"**Route:** {route['title']}\n\n"
+            route_folder = route.get('route_folder', '')
+            route_title = route['title'].replace(' Research', '')
             metadata = route.get('metadata', {})
 
-            if metadata:
-                content += "**Journey Details:**\n"
-                if 'route_type' in metadata:
-                    content += f"- **Type:** {metadata['route_type']}\n"
-                if 'route_distance' in metadata:
-                    content += f"- **Distance:** {metadata['route_distance']}\n"
-                if 'base_drive_time' in metadata:
-                    content += f"- **Drive Time:** {metadata['base_drive_time']}\n"
-                content += "\n"
+            content += f"**[{route_title}](/routes/{route_folder}/)**\n\n"
 
+            if metadata:
+                details = []
+                if 'route_distance' in metadata:
+                    details.append(f"Distance: {metadata['route_distance']}")
+                if 'base_drive_time' in metadata:
+                    details.append(f"Drive Time: {metadata['base_drive_time']}")
+                if details:
+                    content += f"*{' | '.join(details)}*\n\n"
+
+                if 'route_type' in metadata:
+                    content += f"Type: {metadata['route_type']}\n\n"
+
+            # Extract first paragraph from route overview
+            route_content = route.get('content', '')
+            overview_match = re.search(r'## Route Overview\s*\n(.*?)(?=\n## |\Z)', route_content, re.DOTALL)
+            if overview_match:
+                overview_text = overview_match.group(1).strip()
+                first_para = overview_text.split('\n\n')[0] if overview_text else ''
+                if first_para:
+                    content += f"{first_para}\n\n"
+
+            # Add attraction lists organized by detour level
             content += self.generate_single_route_content(route)
 
         else:
@@ -581,21 +596,38 @@ class TimelineGenerator:
             content += f"This journey offers {len(routes_data)} route alternatives:\n\n"
 
             for i, route in enumerate(routes_data, 1):
-                route_name = route['title'].replace(' Research', '')
-                content += f"### Route Option {i}: {route_name}\n\n"
-
+                route_folder = route.get('route_folder', '')
+                route_title = route['title'].replace(' Research', '')
                 metadata = route.get('metadata', {})
-                if metadata:
-                    if 'route_type' in metadata:
-                        content += f"**Type:** {metadata['route_type']}  \n"
-                    if 'route_distance' in metadata:
-                        content += f"**Distance:** {metadata['route_distance']}  \n"
-                    if 'base_drive_time' in metadata:
-                        content += f"**Drive Time:** {metadata['base_drive_time']}  \n"
-                    content += "\n"
 
+                content += f"### **[{route_title}](/routes/{route_folder}/)**\n\n"
+
+                if metadata:
+                    details = []
+                    if 'route_distance' in metadata:
+                        details.append(f"Distance: {metadata['route_distance']}")
+                    if 'base_drive_time' in metadata:
+                        details.append(f"Drive Time: {metadata['base_drive_time']}")
+                    if details:
+                        content += f"*{' | '.join(details)}*\n\n"
+
+                    if 'route_type' in metadata:
+                        content += f"Type: {metadata['route_type']}\n\n"
+
+                # Extract first paragraph from route overview
+                route_content = route.get('content', '')
+                overview_match = re.search(r'## Route Overview\s*\n(.*?)(?=\n## |\Z)', route_content, re.DOTALL)
+                if overview_match:
+                    overview_text = overview_match.group(1).strip()
+                    first_para = overview_text.split('\n\n')[0] if overview_text else ''
+                    if first_para:
+                        content += f"{first_para}\n\n"
+
+                # Add attraction lists organized by detour level
                 content += self.generate_single_route_content(route)
-                content += "\n---\n\n"
+
+                if i < len(routes_data):
+                    content += "\n---\n\n"
 
         return content.strip()
 
@@ -604,16 +636,6 @@ class TimelineGenerator:
         content = ""
         sections = route_data.get('sections', {})
         route_folder = route_data.get('route_folder', '')
-
-        # Extract route overview from original content if available
-        route_content = route_data.get('content', '')
-        overview_match = re.search(r'## Route Overview\s*\n(.*?)(?=\n## |\Z)', route_content, re.DOTALL)
-        if overview_match:
-            overview = overview_match.group(1).strip()
-            # Take first paragraph only for brevity
-            first_para = overview.split('\n\n')[0] if overview else ''
-            if first_para:
-                content += f"{first_para}\n\n"
 
         # Display attractions by detour level
         detour_sections = [
@@ -866,11 +888,37 @@ class TimelineGenerator:
 
                 attractions_by_folder[folder_name] = attractions_list
 
-        # Generate _index.md files for all route sections
+        # Build a map of route data by folder name for route page generation
+        route_data_by_folder = {}
+        journey_refs_by_folder = {}
+
+        for entry in timeline_entries:
+            if entry['type'] == 'journey' and 'routes_data' in entry:
+                journey_ref = entry['filename']
+                journey_title = entry['title']
+                for route_data in entry['routes_data']:
+                    folder_name = route_data.get('route_folder', '')
+                    if folder_name:
+                        route_data_by_folder[folder_name] = route_data
+                        journey_refs_by_folder[folder_name] = (journey_ref, journey_title)
+
+        # Generate _index.md files for all route sections with full route content
         for route_name in route_folders:
             route_output_dir = routes_dir / route_name
             route_output_dir.mkdir(exist_ok=True)
-            self.generate_route_section_index(route_output_dir, route_name)
+
+            # Get route data and journey reference for this route
+            route_data = route_data_by_folder.get(route_name)
+            journey_info = journey_refs_by_folder.get(route_name, ("", ""))
+            journey_ref, journey_title = journey_info
+
+            self.generate_route_section_index(
+                route_output_dir,
+                route_name,
+                route_data=route_data,
+                journey_entry_ref=journey_ref,
+                journey_title=journey_title
+            )
             print(f"✅ Generated route section index: {route_output_dir / '_index.md'}")
 
         # Second pass: generate attraction files with navigation
@@ -970,16 +1018,70 @@ sort_by = "weight"
             f.write(index_content)
         print(f"✅ Generated index file: {index_file}")
 
-    def generate_route_section_index(self, route_dir: Path, route_name: str):
-        """Generate an _index.md file for a route section."""
-        # Convert route folder name to readable title
-        title = route_name.replace('-', ' ').title()
-        title = title.replace(' Route', ' Route').replace(' To ', ' to ')
+    def generate_route_page(self, route_data: Dict, journey_entry_ref: str, journey_title: str) -> str:
+        """Generate a comprehensive route page from route research file."""
+        # Read the full route research file
+        route_content = route_data.get('content', '')
+        route_title = route_data.get('title', 'Route')
+        metadata = route_data.get('metadata', {})
 
-        index_content = f"""+++
+        # Extract route overview paragraph (first paragraph after Route Overview heading)
+        overview_match = re.search(r'## Route Overview\s*\n(.*?)(?=\n## |\Z)', route_content, re.DOTALL)
+        overview_paragraph = ''
+        if overview_match:
+            overview_text = overview_match.group(1).strip()
+            # Take first paragraph only
+            overview_paragraph = overview_text.split('\n\n')[0] if overview_text else ''
+
+        # Extract main content starting from Route Overview section
+        content_start_match = re.search(r'\n## Route Overview', route_content)
+        if content_start_match:
+            main_content = route_content[content_start_match.start():]
+        else:
+            main_content = "## Route Information\n\nDetailed route information will be available soon."
+
+        # Build frontmatter
+        route_type = metadata.get('route_type', 'Scenic')
+        transportation = metadata.get('transportation', 'Car')
+        distance = metadata.get('route_distance', 'N/A')
+        drive_time = metadata.get('base_drive_time', 'N/A')
+
+        route_page_content = f"""+++
+title = "{escape_toml_string(route_title)}"
+description = "Complete guide for {escape_toml_string(route_title)}"
+template = "route.html"
+weight = 10
+
+[extra]
+journey_entry = "{journey_entry_ref}"
+journey_title = "{escape_toml_string(journey_title)}"
+route_type = "{escape_toml_string(route_type)}"
+transportation = "{escape_toml_string(transportation)}"
+distance = "{escape_toml_string(distance)}"
+drive_time = "{escape_toml_string(drive_time)}"
++++
+
+{main_content.strip()}
+
+---
+
+*Source: {str(route_data['file_path'].relative_to(self.research_dir))}*
+"""
+        return route_page_content
+
+    def generate_route_section_index(self, route_dir: Path, route_name: str, route_data: Dict = None, journey_entry_ref: str = "", journey_title: str = ""):
+        """Generate an _index.md file for a route section with full route research content."""
+        if route_data and journey_entry_ref:
+            # Generate comprehensive route page
+            index_content = self.generate_route_page(route_data, journey_entry_ref, journey_title)
+        else:
+            # Fallback to simple placeholder (shouldn't happen in normal flow)
+            title = route_name.replace('-', ' ').title()
+            title = title.replace(' Route', ' Route').replace(' To ', ' to ')
+            index_content = f"""+++
 title = "{title}"
 description = "Attractions and stops along the {title}"
-template = "section.html"
+template = "route.html"
 sort_by = "weight"
 +++
 

@@ -121,14 +121,14 @@ previous_entry = "01-origin"
 next_entry = "03-destination"
 +++
 
-## Journey Overview
+## Route Options
 
-**Route:** Route Name
+For single route:
+**[Route Title](/routes/route-name/)**
 
-**Journey Details:**
-- **Type:** Route type description
-- **Distance:** ~XXX km
-- **Drive Time:** X-Y hours
+*Distance: XXX km | Drive Time: X-Y hours*
+
+Type: Route type description
 
 Route overview paragraph.
 
@@ -141,6 +141,57 @@ Route overview paragraph.
 
 **Major Detour Stops** *(30+ minutes detour, significant attractions)*
 - **[Attraction 4](/routes/route-name/stop4/)**
+
+---
+
+For multiple routes:
+This journey offers X route alternatives:
+
+### **[Route Title 1](/routes/route-name-1/)**
+
+*Distance: XXX km | Drive Time: X-Y hours*
+
+Type: Route type description
+
+Route overview paragraph.
+
+**On-Route Stops**, **Short Detour Stops**, **Major Detour Stops** (same format as above)
+
+---
+
+### **[Route Title 2](/routes/route-name-2/)**
+
+(Same format for each route option)
+```
+
+**Route Page Template:**
+```markdown
++++
+title = "Route Title"
+description = "Complete guide for Route Title"
+template = "route.html"
+weight = 10
+
+[extra]
+journey_entry = "01-origin-to-destination"
+journey_title = "Origin to Destination"
+route_type = "Scenic/Highway/Coastal"
+transportation = "Car"
+distance = "~XXX km"
+drive_time = "X-Y hours"
++++
+
+# Route Title
+
+## Route Overview
+
+Route overview and characteristics...
+
+## [Additional sections from route research file]
+
+---
+
+*Source: routes/route-folder/route-file.md*
 ```
 
 ### Place Guide Template
@@ -214,11 +265,17 @@ Detailed guide with:
 
 ## Cross-Linking System
 
-### Timeline → Places → Attractions
-Each timeline entry links to:
-- Detailed place guides for comprehensive information
-- Specific attractions mentioned in the timeline
+### Timeline → Places → Attractions → Routes
+Journey entries link to:
+- Route option pages with comprehensive route research
+- Specific attractions along each route (organized by detour level)
 - Previous/next timeline entries for navigation
+
+Route pages include:
+- Full route research content from markdown files
+- Metadata (type, transportation, distance, drive time)
+- Back-navigation to journey timeline entry
+- Section index (`_index.md`) using `route.html` template
 
 ### Places ↔ Attractions
 Place guides include:
@@ -247,12 +304,14 @@ Attraction pages include:
 
 ### Content Creation Phase
 1. Structure research files according to timeline generator requirements (see Research File Structure below)
-2. Run `python scripts/generate_timeline.py` to generate content from research files
-3. Script automatically creates timeline entries (destinations and journeys), place guides, and attraction pages
+2. Run `uv run python scripts/generate_timeline.py` to generate content from research files
+3. Script automatically creates timeline entries (destinations and journeys), route pages, and attraction pages
 4. Journey entries consolidate multiple route options between destination pairs
-5. All content follows consistent frontmatter templates
-6. Cross-linking between timeline, places, routes, and attractions handled automatically
-7. Source citations maintained from research files
+5. Each route option links to a comprehensive route page with full research content
+6. Route pages display metadata, full route overview, and all stops organized by detour level
+7. All content follows consistent frontmatter templates
+8. Cross-linking between timeline, places, routes, and attractions handled automatically
+9. Source citations maintained from research files
 
 #### Research File Structure for Content Generation
 
