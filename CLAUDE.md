@@ -253,16 +253,29 @@ The `/research [destination]` command should generate:
 3. Build and test locally with `zola serve`
 4. Deploy using `zola build`
 
+## Python Environment
+
+This project uses **uv** for Python dependency management. All Python scripts should be run using `uv run`.
+
+### Setup
+```bash
+# uv is installed automatically in CI/CD
+# For local development, install uv: https://docs.astral.sh/uv/
+
+# Install dependencies (runs automatically on first uv run command)
+uv sync
+```
+
 ## Commands
 
 ### Content Generation & Development
 ```bash
 # Generate content from research files
-python scripts/generate_timeline.py --research research --output site/content
+uv run python scripts/generate_timeline.py --research research --output site/content
 
 # Validate and fix broken images
-python scripts/find_broken_images.py  # Check for broken images
-/fix-images                           # Automated image fixing with parallel agents
+uv run python scripts/find_broken_images.py  # Check for broken images
+/fix-images                                   # Automated image fixing with parallel agents
 
 # Local development
 cd site
