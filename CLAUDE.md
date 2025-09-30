@@ -54,11 +54,15 @@ japan-trip-2025/
    - **Integration**: Links to timeline entries and specific attractions
    - **Scope**: Cities, towns, and regions we'll visit
 
-3. **Attractions** (`/attractions/`)
+3. **Attractions** (`/attractions/` for destinations, `/routes/{route-name}/` for routes)
    - **Purpose**: Detailed guides to specific experiences
    - **Content**: Cultural context, visiting info, practical tips
    - **Integration**: Links back to places and timeline entries
    - **Categories**: Temples, markets, districts, natural beauty
+   - **URL Structure**:
+     - Destination attractions: `/attractions/{attraction-slug}/`
+     - Route attractions: `/routes/{route-name}/{attraction-slug}/`
+   - **Note**: The same physical location may have both a destination page and route page with different contexts
 
 ### Content Generation:
 
@@ -70,36 +74,73 @@ The site uses automated content generation from research files:
 
 ## Content Templates
 
-### Timeline Entry Template
+### Timeline Entry Templates
+
+**Destination Entry:**
 ```markdown
 +++
-title = "Days X-Y: Destination" or "Day X: Origin to Destination"
-description = "Brief description of this timeline segment"
+title = "Destination Name"
+description = "Brief description"
 date = 2025-04-01
 weight = 1
 
 [extra]
 timeline_order = 1
-type = "destination" or "journey"
-date_range = "April 1-5"
-duration = "5 days" or "Travel day"
-place = "tokyo" # for destinations
-from = "tokyo" # for journeys
-to = "kyoto" # for journeys
-highlights = ["attraction1", "attraction2"]
-previous_entry/previous_leg = "previous-timeline-slug"
-next_entry/next_leg = "next-timeline-slug"
+type = "destination"
+date_range = "Oct 23-24"
+duration = "1 night stay"
+place = "fujikawaguchiko"
+previous_entry = "01-previous-destination"
+next_entry = "02-journey-slug"
 +++
 
-# Timeline Entry Title
+# Destination Name
 
-**Date Range** | **Duration**
+Destination content with attraction categories and links.
 
-Content with links to [place guides](/places/place-name/) and [attractions](/attractions/attraction-name/).
+## Category Name
+- **[Attraction Name](/attractions/attraction-slug/)** - Brief description
+```
 
-## Navigation
-Previous: [Previous Entry](/timeline/previous/)
-Next: [Next Entry](/timeline/next/)
+**Journey Entry:**
+```markdown
++++
+title = "Origin to Destination"
+description = "Journey description"
+date = 2025-04-01
+weight = 2
+
+[extra]
+timeline_order = 2
+type = "journey"
+date_range = ""
+duration = "Travel day"
+from = "origin-slug"
+to = "destination-slug"
+previous_entry = "01-origin"
+next_entry = "03-destination"
++++
+
+## Journey Overview
+
+**Route:** Route Name
+
+**Journey Details:**
+- **Type:** Route type description
+- **Distance:** ~XXX km
+- **Drive Time:** X-Y hours
+
+Route overview paragraph.
+
+**On-Route Stops** *(Stops directly on the route with no detour)*
+- **[Attraction 1](/routes/route-name/stop1/)**
+- **[Attraction 2](/routes/route-name/stop2/)**
+
+**Short Detour Stops** *(15-30 minutes off the main route)*
+- **[Attraction 3](/routes/route-name/stop3/)**
+
+**Major Detour Stops** *(30+ minutes detour, significant attractions)*
+- **[Attraction 4](/routes/route-name/stop4/)**
 ```
 
 ### Place Guide Template
@@ -207,10 +248,11 @@ Attraction pages include:
 ### Content Creation Phase
 1. Structure research files according to timeline generator requirements (see Research File Structure below)
 2. Run `python scripts/generate_timeline.py` to generate content from research files
-3. Script automatically creates timeline entries, place guides, and attraction pages
-4. All content follows consistent frontmatter templates
-5. Cross-linking between timeline, places, and attractions handled automatically
-6. Source citations maintained from research files
+3. Script automatically creates timeline entries (destinations and journeys), place guides, and attraction pages
+4. Journey entries consolidate multiple route options between destination pairs
+5. All content follows consistent frontmatter templates
+6. Cross-linking between timeline, places, routes, and attractions handled automatically
+7. Source citations maintained from research files
 
 #### Research File Structure for Content Generation
 
@@ -246,6 +288,53 @@ The `/research [destination]` command should generate:
 5. Updated TODO tracking with research completion status
 
 **Key Principle**: Every specific place to visit, dining experience, district exploration, or activity should be a separate attraction file. Destinations provide only cultural context and brief overviews.
+
+**Route Research Files** (`research/routes/[origin-to-destination]-[route-type]-route/[route-file].md`)
+**ROUTES DOCUMENT JOURNEY OPTIONS** - organized by route folder (may have multiple routes per destination pair):
+- Folder naming: `{origin}-to-{destination}-{route-type}-route` (e.g., `tokyo-to-fujikawaguchiko-scenic-route`)
+- Route file metadata:
+  - `**Travel Date:**` - When the journey takes place
+  - `**Transportation:**` - Mode of transport (car, train, etc.)
+  - `**Route Type:**` - Description of route character (scenic, highway, coastal, etc.)
+  - `**Route Distance:**` - Approximate distance
+  - `**Base Drive Time:**` - Estimated travel time without stops
+- Route sections:
+  - `## Route Overview` - Overview and route characteristics
+  - `## On-Route Stops (No Detour)` - Stops directly on the route
+  - `## Short Detour Stops (15-30 minutes)` - Brief detours off main route
+  - `## Major Detour Stops (30+ minutes)` - Significant attractions requiring detours
+
+**CRITICAL NAMING REQUIREMENT:**
+Subsection titles (### headings) within route stops sections **MUST exactly match** the attraction file names after slugification. This is essential for timeline generation to properly link attractions inline.
+
+**Correct Example:**
+- Attraction file: `chureito-pagoda.md`
+- Route subsection: `### Chureito Pagoda` ✓
+
+**Incorrect Example:**
+- Attraction file: `chureito-pagoda.md`
+- Route subsection: `### Chureito Pagoda Scenic Approach` ✗ (won't link)
+
+The timeline generator uses the subsection title to locate the corresponding attraction file. Mismatches result in attractions not appearing in the generated journey timeline entry.
+
+**Route Attraction Files** (`research/attractions/[route-folder-name]/[attraction-slug].md`)
+Route-specific attractions follow the same structure as destination attractions but are linked to journey timeline entries instead of destination entries. The timeline generator automatically processes these and links them to the appropriate journey entry.
+
+**Timeline Generation Behavior:**
+- The script discovers all routes between consecutive destinations
+- Multiple route files for the same destination pair are consolidated into a single journey timeline entry
+- Each route option is presented with its specific attractions organized by detour level
+- Journey entries show inline attraction links under each route option (no separate sections)
+- Attractions are displayed as: **On-Route Stops**, **Short Detour Stops**, **Major Detour Stops**
+
+**Generated URL Structure:**
+- **Destination attractions**: Generated to `site/content/attractions/{slug}.md` → accessible at `/attractions/{slug}/`
+- **Route attractions**: Generated to `site/content/routes/{route-name}/{slug}.md` → accessible at `/routes/{route-name}/{slug}/`
+- **Route sections**: Each route gets an `_index.md` file making it a proper Zola section
+- **Duplicate handling**: The same physical location can have both a destination page and a route page with different contexts
+  - Example: `/attractions/chureito-pagoda/` (Fujikawaguchiko destination context)
+  - Example: `/routes/tokyo-to-fujikawaguchiko-scenic-route/chureito-pagoda/` (route stop context)
+- **Navigation**: Route attractions navigate only to other route attractions within the same route; destination attractions navigate only to other destination attractions
 
 ### Site Management
 1. Use Anatole theme for clean, blog-focused design
