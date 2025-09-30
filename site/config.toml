@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://japan-2025.asermax.com"
+base_url = "https://japan2025.asermax.com"
 title = "Japan Trip 2025"
 description = ""
 theme = "anatole-zola"
