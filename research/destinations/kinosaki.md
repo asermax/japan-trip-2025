@@ -2,7 +2,6 @@
 
 **Visit Period:** Oct 28-30, 2025
 **Duration:** 2-3 days
-***REMOVED***
 **Research Completed:** September 21, 2025
 **Discovery State:** research/state/kinosaki-discovery-state.md
 

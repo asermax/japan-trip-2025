@@ -2,7 +2,6 @@
 
 **Visit Period:** October 24-26, 2025
 **Duration:** 3 days
-***REMOVED***
 **Research Completed:** September 23, 2025 (All research completed including final practical topics)
 **Discovery State:** research/state/takayama-discovery-state.md
 

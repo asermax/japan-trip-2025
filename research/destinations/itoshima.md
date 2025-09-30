@@ -2,7 +2,6 @@
 
 **Visit Period:** November 1-2, 2025
 **Duration:** 2-day stay
-***REMOVED***
 **Research Completed:** September 29, 2025
 **Discovery State:** research/state/itoshima-discovery-state.md
 

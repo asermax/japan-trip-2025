@@ -2,7 +2,6 @@
 
 **Visit Period:** October 31 - November 1, 2025
 **Duration:** 2 days
-***REMOVED***
 **Research Completed:** September 27, 2025
 **Discovery State:** research/state/fukuoka-discovery-state.md
 

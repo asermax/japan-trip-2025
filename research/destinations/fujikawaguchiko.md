@@ -2,7 +2,6 @@
 
 **Visit Period:** October 23-24, 2025
 **Duration:** 1 night stay
-***REMOVED***
 **Research Completed:** September 20, 2025 (Final update with cultural, practical, and regulatory research)
 **Discovery State:** research/state/fujikawaguchiko-discovery-state.md
 
