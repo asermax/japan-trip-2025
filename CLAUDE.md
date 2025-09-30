@@ -409,6 +409,36 @@ This project uses **uv** for Python dependency management. All Python scripts sh
 uv sync
 ```
 
+## Privacy Policy
+
+**Sensitive Information Handling:**
+
+This project maintains a separation between private trip logistics (kept local) and public research content (tracked in git):
+
+**Private Information (Local Only, Gitignored):**
+- Accommodation names, addresses, and confirmation numbers
+- Personal trip costs and budget information
+- Car rental confirmation numbers
+- Flight booking details
+
+**Public Research Content (Git Tracked):**
+- Cultural context and destination information
+- Attraction details, hours, and public pricing
+- Transportation logistics (general access, not personal bookings)
+- Seasonal considerations and visiting tips
+
+**Files Excluded from Repository:**
+- `research/destinations-todo.md` - Contains accommodation and cost details
+- `research/routes-todo.md` - Contains accommodation addresses and booking confirmations
+- `research/recommendations-base.md` - Contains personal budget information
+
+**Research File Requirements:**
+- Research files (`research/destinations/`, `research/attractions/`, `research/routes/`) must NOT contain accommodation details or personal costs
+- Public attraction pricing and practical visiting costs are acceptable
+- Commands and agents receive accommodation context internally but must not output it to research files
+
+**Purpose:** TODO files remain useful locally for research coordination while keeping the git repository clean and suitable for public sharing.
+
 ## Commands
 
 ### Content Generation & Development

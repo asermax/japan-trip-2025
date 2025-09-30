@@ -98,6 +98,8 @@ This is NOT about fitting into a specific itinerary - research and document ever
 
 **CRITICAL**: You will RETURN a detailed research report. You do NOT create files. The main command will process your report and create the appropriate route and attraction files.
 
+**PRIVACY REQUIREMENT**: Do NOT include accommodation details (names, addresses, confirmation numbers) or personal trip costs in your research reports. This information is provided for context only to help you understand timing and logistics.
+
 ## Your Research Assignment
 {SPECIFIC_ITEMS_FROM_BATCH}
 

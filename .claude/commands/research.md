@@ -64,6 +64,8 @@ This is NOT about fitting into a specific itinerary - research and document ever
 
 **CRITICAL**: You will RETURN a detailed research report. You do NOT create files. The main command will process your report and create the appropriate destination and attraction files.
 
+**PRIVACY REQUIREMENT**: Do NOT include accommodation details (names, addresses, confirmation numbers) or personal trip costs in your research reports. This information is provided for context only to help you understand timing and logistics.
+
 ## Your Research Assignment
 {SPECIFIC_ITEMS_FROM_BATCH} (Mix of locations and cultural/practical research topics)
 
@@ -223,7 +225,6 @@ Files are created and updated throughout the process:
 
 **Visit Period:** {Visit dates}
 **Duration:** {Stay duration}
-**Accommodation:** {Name and address}
 **Research Completed:** {Date}
 **Discovery State:** research/state/{destination-slug}-state.md
 

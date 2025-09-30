@@ -32,3 +32,8 @@ rules.md
 
 # Task automation
 tasks/
+
+# Sensitive trip information (not for public repo)
+research/destinations-todo.md
+research/routes-todo.md
+research/recommendations-base.md
