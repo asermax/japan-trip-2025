@@ -245,22 +245,6 @@ class TimelineGenerator:
 
         return metadata
 
-    def find_destination_attractions(self, destination_slug: str) -> List[str]:
-        """Find attractions for a destination using the folder structure."""
-        attractions = []
-        attraction_dir = self.research_dir / "attractions" / destination_slug
-
-        if not attraction_dir.exists():
-            return attractions
-
-        for attraction_file in attraction_dir.glob("*.md"):
-            # Parse the attraction file to get the title
-            attraction_data = self.parse_research_file(attraction_file)
-            attraction_title = attraction_data.get('title', attraction_file.stem.replace('-', ' ').title())
-            attractions.append(attraction_title)
-
-        return attractions
-
     def categorize_attraction(self, category_text: str) -> str:
         """Categorize an attraction based on its category text."""
         if not category_text:
@@ -343,15 +327,9 @@ class TimelineGenerator:
 
             duration = duration_raw if duration_raw else '4 days'
 
-            # Find related attractions for this destination
+            # Build extra fields with place
             destination_slug = create_url_slug(data["title"])
-            attractions = self.find_destination_attractions(destination_slug)
-
-            # Build extra fields with place and highlights
             extra_fields = f'place = "{destination_slug}"'
-            if attractions:
-                highlights_str = ', '.join(f'"{attraction}"' for attraction in attractions)
-                extra_fields += f'\nhighlights = [{highlights_str}]'
 
             # Generate content from research sections
             content = self.generate_destination_content(data)
