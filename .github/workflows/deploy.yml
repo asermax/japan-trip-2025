@@ -14,6 +14,14 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate timeline content
+        run: python scripts/generate_timeline.py --research research --output site/content
+
       - name: Install Zola
         run: sudo snap install --edge zola
 
