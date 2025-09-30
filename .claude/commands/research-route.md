@@ -271,8 +271,6 @@ Create comprehensive research files:
 
 ## On-Route Stops (No Detour)
 
-**CRITICAL NAMING REQUIREMENT**: The `### {Stop Name}` subsection title MUST exactly match the attraction file name after slugification. For example, if the attraction file is `chureito-pagoda.md`, the subsection must be `### Chureito Pagoda` (NOT "### Chureito Pagoda Scenic Approach"). This is essential for timeline generation to properly link attractions inline.
-
 ### {Stop Name}
 - **Type:** {Rest area/town/attraction/scenic viewpoint}
 - **Location:** {Highway/road marker or town name}

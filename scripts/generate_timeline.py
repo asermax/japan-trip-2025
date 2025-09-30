@@ -66,6 +66,22 @@ def create_url_slug(text: str) -> str:
 
     return slug
 
+
+def escape_toml_string(text: str) -> str:
+    """Escape special characters for TOML basic strings."""
+    if text is None:
+        return ""
+    # Escape backslashes first (must be first!)
+    text = text.replace('\\', '\\\\')
+    # Then escape double quotes
+    text = text.replace('"', '\\"')
+    # Escape control characters
+    text = text.replace('\n', '\\n')
+    text = text.replace('\r', '\\r')
+    text = text.replace('\t', '\\t')
+    return text
+
+
 # Timeline entry template
 TIMELINE_ENTRY_TEMPLATE = """+++
 title = "{title}"
@@ -386,13 +402,15 @@ class TimelineGenerator:
             attraction_data = self.parse_research_file(attraction_file)
 
             if attraction_data:
-                attraction_title = attraction_data.get('title', attraction_file.stem.replace('-', ' ').title())
+                # Use filename as source of truth for slug
+                slug = attraction_file.stem
+                attraction_title = attraction_data.get('title', slug.replace('-', ' ').title())
                 category_text = attraction_data.get('category', '')
                 category_group = self.categorize_attraction(category_text)
 
                 attractions_data.append({
                     'title': attraction_title,
-                    'slug': create_url_slug(attraction_title),
+                    'slug': slug,
                     'category': category_group,
                     'original_category': category_text,
                     'file_path': str(attraction_file)
@@ -913,8 +931,8 @@ class TimelineGenerator:
                     attraction_file = attractions_dir / f"{slug}.md"
 
                 content = ATTRACTION_TEMPLATE.format(
-                    title=data['title'],
-                    description=f"Detailed guide to {data['title']}",
+                    title=escape_toml_string(data['title']),
+                    description=escape_toml_string(f"Detailed guide to {data['title']}"),
                     weight=10,
                     categories='["temples"]',
                     tags='["historic", "cultural"]',
@@ -928,8 +946,8 @@ class TimelineGenerator:
                     visit_duration="Varies",
                     previous_attraction=previous_attraction,
                     next_attraction=next_attraction,
-                    previous_title=previous_title,
-                    next_title=next_title,
+                    previous_title=escape_toml_string(previous_title),
+                    next_title=escape_toml_string(next_title),
                     content=attraction_content.strip(),
                     source_file=str(research_file.relative_to(self.research_dir))
                 )

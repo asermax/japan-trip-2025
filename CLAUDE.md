@@ -271,6 +271,13 @@ Must include these sections for proper timeline generation - **DESTINATIONS SHOU
 - `## The Trail Experience` - Complete visitor experience description **with source attribution for experience details**
 - `## Practical Visiting Tips` - Detailed strategy, cultural preparation, logistics **with source citations for recommendations**
 
+**IMPORTANT - Filename as Source of Truth:**
+The attraction filename (without `.md`) is used as the URL slug. The title in the markdown (`# Title`) can be different and more descriptive. The generator uses the filename to create the URL and the title for display purposes. This allows flexibility in titles while maintaining consistent URLs.
+
+**Examples:**
+- File: `roadside-station-narusawa.md` → URL: `/routes/.../roadside-station-narusawa/`
+- Title: `# Roadside Station Narusawa (Michi-no-Eki Narusawa)` → Display: "Roadside Station Narusawa (Michi-no-Eki Narusawa)"
+
 **Attraction Categories** (all experiences should be individual attractions):
 - **Scenic locations** - Parks, viewpoints, districts, natural areas
 - **Cultural sites** - Temples, shrines, heritage centers, museums
@@ -304,18 +311,6 @@ The `/research [destination]` command should generate:
   - `## Short Detour Stops (15-30 minutes)` - Brief detours off main route
   - `## Major Detour Stops (30+ minutes)` - Significant attractions requiring detours
 
-**CRITICAL NAMING REQUIREMENT:**
-Subsection titles (### headings) within route stops sections **MUST exactly match** the attraction file names after slugification. This is essential for timeline generation to properly link attractions inline.
-
-**Correct Example:**
-- Attraction file: `chureito-pagoda.md`
-- Route subsection: `### Chureito Pagoda` ✓
-
-**Incorrect Example:**
-- Attraction file: `chureito-pagoda.md`
-- Route subsection: `### Chureito Pagoda Scenic Approach` ✗ (won't link)
-
-The timeline generator uses the subsection title to locate the corresponding attraction file. Mismatches result in attractions not appearing in the generated journey timeline entry.
 
 **Route Attraction Files** (`research/attractions/[route-folder-name]/[attraction-slug].md`)
 Route-specific attractions follow the same structure as destination attractions but are linked to journey timeline entries instead of destination entries. The timeline generator automatically processes these and links them to the appropriate journey entry.
