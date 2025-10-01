@@ -186,6 +186,8 @@ October timing ensures peak apple selection at Nagano stations (famous varieties
 
 **Sources:** [🔗](https://www.japan.travel/en/guide/michi-no-eki/) [🔗](https://arigatojapan.co.jp/discovering-michi-no-eki/) [🔗](https://www.snowmonkeyresorts.com/activities/fruits-of-nagano/) [🔗](https://en.japantravel.com/nagano/fruit-harvest-and-picking-season/23866)
 
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/michi-no-eki-stations.md]
+
 ---
 
 ### Matsumoto Castle
@@ -346,6 +348,8 @@ Each stop offers progressive regional immersion:
 
 **Sources:** [🔗](https://www.japan.travel/en/guide/michi-no-eki/) [🔗](https://en.wikipedia.org/wiki/Japan_National_Route_158) [🔗](https://fu-ketsu.com/wp/) [🔗](https://www.nouhibus.co.jp/alps/en/) [🔗](https://okuhida-camp.com/michinoeki/index.html/) [🔗](http://www.kancycling.com/Features/Cycling_Route_158_(10_2018).html)
 
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/route-158-services.md]
+
 ---
 
 ## Short Detour Stops (15-30 minutes)
@@ -447,6 +451,50 @@ Festival Exhibition Hall features three ornate yatai floats on rotating display,
 - Budget options: Canal walking (free), sake tasting (free), free parking, temple grounds (free)
 
 **Sources:** [🔗](https://allabout-japan.com/en/article/6757/) [🔗](https://www.japan-guide.com/e/e5975.html) [🔗](https://hida.travel/destination/moving-the-seto-canal-carp/51) [🔗](https://hietsuno-japan.com/en/thingstodo/seto-gawa/)
+
+---
+
+## Major Detour Stops (30+ minutes)
+
+### Kamikochi Alpine Valley
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/kamikochi-alpine-valley.md]
+
+### Shinhotaka Ropeway
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/shinhotaka-ropeway.md]
+
+### Norikura Skyline
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/norikura-skyline.md]
+
+### Venus Line
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/venus-line.md]
+
+### Tateishi Park
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/tateishi-park.md]
+
+### Suwa Taisha Shrines
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/suwa-taisha-shrines.md]
+
+### Lake Suwa Rest Stop
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/lake-suwa-rest-stop.md]
+
+### Shosenkyo Gorge
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/shosenkyo-gorge.md]
+
+### Ena Gorge Overlooks
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/ena-gorge-overlooks.md]
+
+### Hida Folk Village
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/hida-folk-village.md]
 
 ---
 

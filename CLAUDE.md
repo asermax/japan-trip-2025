@@ -368,8 +368,19 @@ The `/research [destination]` command should generate:
 - Route sections:
   - `## Route Overview` - Overview and route characteristics
   - `## On-Route Stops (No Detour)` - Stops directly on the route
+    - Each attraction under this section MUST have a `### Attraction Name` heading followed by `[Research File: research/attractions/.../attraction-slug.md]` reference
+    - Can also contain detailed content inline, but the ### heading and research file reference are required for the parser to discover the attraction
   - `## Short Detour Stops (15-30 minutes)` - Brief detours off main route
+    - Same structure: `### Attraction Name` heading + research file reference required
   - `## Major Detour Stops (30+ minutes)` - Significant attractions requiring detours
+    - Same structure: `### Attraction Name` heading + research file reference required
+
+**CRITICAL REQUIREMENT**: All route attractions must appear under one of these three section headings with a `### Attraction Name` subheading. The parser identifies attractions by:
+1. Scanning all attraction files in `research/attractions/{route-folder}/`
+2. Searching for each attraction (by slug, slug with spaces, or title) within the content between `## On-Route Stops`, `## Short Detour Stops`, and `## Major Detour Stops` section boundaries
+3. Only including attractions that are mentioned within these defined sections
+
+Attractions mentioned elsewhere in the file (like "Cultural Context", "Seasonal Factors", etc.) will NOT be included in the timeline generation unless they also appear under one of the three required sections.
 
 
 **Route Attraction Files** (`research/attractions/[route-folder-name]/[attraction-slug].md`)

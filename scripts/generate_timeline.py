@@ -384,58 +384,90 @@ class TimelineGenerator:
         return route_data
 
     def extract_route_sections(self, content: str, route_folder_name: str) -> Dict[str, List[Dict]]:
-        """Extract attraction sections organized by detour level from route content."""
+        """Extract attraction sections organized by detour level from route content.
+
+        Uses actual attraction files as source of truth, determining which section
+        each file belongs to based on the position of its ### heading in the route file.
+        """
         sections = {
             'on_route': [],
             'short_detour': [],
             'major_detour': []
         }
 
-        # Define section headers to look for
+        # Get all attraction files for this route
+        attractions_dir = self.research_dir / "attractions" / route_folder_name
+        if not attractions_dir.exists():
+            return sections
+
+        # Build a map of section positions in the content
+        section_ranges = []
         section_patterns = [
             (r'## On-Route Stops.*?\n', 'on_route'),
             (r'## Short Detour Stops.*?\n', 'short_detour'),
             (r'## Major Detour Stops.*?\n', 'major_detour')
         ]
 
-        # Find each section and extract subsections (### headings)
         for pattern, section_key in section_patterns:
             section_match = re.search(pattern, content, re.IGNORECASE)
-            if not section_match:
+            if section_match:
+                section_start = section_match.end()
+                # Find the end of this section (next ## heading or end of file)
+                next_section = re.search(r'\n## ', content[section_start:])
+                section_end = section_start + next_section.start() if next_section else len(content)
+                section_ranges.append((section_start, section_end, section_key))
+
+        # Process each attraction file
+        for attraction_file in attractions_dir.glob("*.md"):
+            # Use filename as slug (source of truth)
+            slug = attraction_file.stem
+
+            # Read the attraction file to get title and coordinates
+            with open(attraction_file, 'r', encoding='utf-8') as f:
+                file_content = f.read()
+                # Extract title from first # heading
+                title_match = re.search(r'^#\s+(.+)$', file_content, re.MULTILINE)
+                attraction_title = title_match.group(1).strip() if title_match else slug.replace('-', ' ').title()
+
+                # Extract coordinates
+                coordinates = extract_coordinates(file_content)
+
+            # Find which section this attraction belongs to by searching for references to the slug
+            # in the route content (either in heading or in text)
+            attraction_section = None
+
+            # Try to find the attraction mentioned in the route file
+            # Look for the slug pattern in various forms
+            search_patterns = [
+                slug,  # exact slug
+                slug.replace('-', ' '),  # spaces instead of hyphens
+                attraction_title  # actual title
+            ]
+
+            for start, end, section_key in section_ranges:
+                section_text = content[start:end].lower()
+                for pattern in search_patterns:
+                    if pattern.lower() in section_text:
+                        attraction_section = section_key
+                        break
+                if attraction_section:
+                    break
+
+            # If not found in any section, skip this attraction
+            if not attraction_section:
                 continue
 
-            # Find the start of this section
-            section_start = section_match.end()
+            attraction_info = {
+                'title': attraction_title,
+                'slug': slug,
+                'file_path': attraction_file
+            }
 
-            # Find the end of this section (next ## heading or end of file)
-            next_section = re.search(r'\n## ', content[section_start:])
-            section_end = section_start + next_section.start() if next_section else len(content)
-            section_content = content[section_start:section_end]
+            if coordinates:
+                attraction_info['lat'] = coordinates[0]
+                attraction_info['lng'] = coordinates[1]
 
-            # Extract ### subsections (individual attractions)
-            subsection_pattern = r'### (.+?)\n'
-            for subsection_match in re.finditer(subsection_pattern, section_content):
-                attraction_title = subsection_match.group(1).strip()
-                attraction_slug = create_url_slug(attraction_title)
-
-                # Check if attraction file exists
-                attraction_file = self.research_dir / "attractions" / route_folder_name / f"{attraction_slug}.md"
-                if attraction_file.exists():
-                    attraction_info = {
-                        'title': attraction_title,
-                        'slug': attraction_slug,
-                        'file_path': attraction_file
-                    }
-
-                    # Extract coordinates from attraction file
-                    with open(attraction_file, 'r', encoding='utf-8') as f:
-                        file_content = f.read()
-                        coordinates = extract_coordinates(file_content)
-                        if coordinates:
-                            attraction_info['lat'] = coordinates[0]
-                            attraction_info['lng'] = coordinates[1]
-
-                    sections[section_key].append(attraction_info)
+            sections[attraction_section].append(attraction_info)
 
         return sections
 
@@ -1120,6 +1152,30 @@ sort_by = "weight"
             f.write(index_content)
         print(f"✅ Generated index file: {index_file}")
 
+    def generate_route_stops_section(self, sections: Dict, route_folder: str) -> str:
+        """Generate a section with links to all route attraction pages."""
+        if not sections:
+            return ""
+
+        content = "\n## Route Attractions\n\n"
+
+        # Display attractions by detour level
+        detour_sections = [
+            ('on_route', 'On-Route Stops', 'Stops directly on the route with no detour'),
+            ('short_detour', 'Short Detour Stops', '15-30 minutes off the main route'),
+            ('major_detour', 'Major Detour Stops', '30+ minutes detour, significant attractions')
+        ]
+
+        for section_key, section_title, section_desc in detour_sections:
+            attractions = sections.get(section_key, [])
+            if attractions:
+                content += f"### {section_title}\n\n*{section_desc}*\n\n"
+                for attraction in attractions:
+                    content += f"- **[{attraction['title']}](/routes/{route_folder}/{attraction['slug']}/)**\n"
+                content += "\n"
+
+        return content
+
     def generate_route_page(self, route_data: Dict, journey_entry_ref: str, journey_title: str) -> str:
         """Generate a comprehensive route page from route research file."""
         # Read the full route research file
@@ -1158,6 +1214,9 @@ sort_by = "weight"
         # Build map data for route attractions
         map_data = self.build_map_data(all_attractions, f"/routes/{route_folder}")
 
+        # Build route stops section with links to attraction pages
+        stops_section = self.generate_route_stops_section(sections, route_folder)
+
         route_page_content = f"""+++
 title = "{escape_toml_string(route_title)}"
 description = "Complete guide for {escape_toml_string(route_title)}"
@@ -1175,6 +1234,8 @@ map_data = '''{map_data}'''
 +++
 
 {main_content.strip()}
+
+{stops_section}
 
 ---
 

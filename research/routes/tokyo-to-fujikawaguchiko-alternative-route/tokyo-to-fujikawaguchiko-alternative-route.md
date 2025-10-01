@@ -44,7 +44,7 @@ The Tomei Expressway service area network exemplifies Japanese highway culture, 
 - **One-stop:** Choose either Ebina SA (comprehensive facilities, early break) or Ashigara SA (Mount Fuji views, relaxed atmosphere)
 - **Two-stop:** Brief stop at Ebina SA + Extended break at Ashigara SA for meal and mountain photography
 
-[Full details: Tomei Expressway Service Areas](/routes/tokyo-to-fujikawaguchiko-alternative-route/tomei-expressway-service-areas/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/tomei-expressway-service-areas.md]
 
 ---
 
@@ -72,7 +72,7 @@ Gotemba Interchange marks the pivotal moment where your journey transitions from
 - Mid-to-late October peak autumn foliage
 - Reduced weekend traffic (Thursday timing advantageous)
 
-[Full details: Gotemba IC Area](/routes/tokyo-to-fujikawaguchiko-alternative-route/gotemba-ic-area/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/gotemba-ic-area.md]
 
 ---
 
@@ -108,7 +108,7 @@ The complex functions as a small town with open-air layout, allowing shoppers to
 **Shopping Strategy:**
 Start at East Zone (luxury brands) when energy is highest, work through Hill Side mid-visit, save West Zone for final browsing. Use on-site lockers or return to car periodically to drop off purchases.
 
-[Full details: Gotemba Premium Outlets](/routes/tokyo-to-fujikawaguchiko-alternative-route/gotemba-premium-outlets/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/gotemba-premium-outlets.md]
 
 ---
 
@@ -132,7 +132,7 @@ The eastern approach provides unique perspectives on Mount Fuji's massive base a
 - Significantly fewer visitors than summer climbing season
 - Authentic mountain atmosphere without tourist crowds
 
-[Full details: Subashiri Trail Area](/routes/tokyo-to-fujikawaguchiko-alternative-route/subashiri-trail-area/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/subashiri-trail-area.md]
 
 ---
 
@@ -160,7 +160,7 @@ Appears naturally along Route 138 approximately 20km from Gotemba, providing the
 - Clear October air for excellent photography
 - Calm morning waters for perfect reflections
 
-[Full details: Lake Yamanaka Access](/routes/tokyo-to-fujikawaguchiko-alternative-route/yamanaka-ko-lake-access/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/yamanaka-ko-lake-access.md]
 
 ---
 
@@ -190,7 +190,7 @@ Three strategic Michi-no-Eki stations along the route combine essential rest fac
 - Dual experience: Fuji Oyama (early, 30 min) + Subashiri (mid-route, 30 min)
 - Premium experience: Narusawa as featured destination (1.5-2 hours) with best Mount Fuji viewing
 
-[Full details: Regional Roadside Stations](/routes/tokyo-to-fujikawaguchiko-alternative-route/regional-roadside-stations/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/regional-roadside-stations.md]
 
 ---
 
@@ -221,7 +221,7 @@ Built to pacify volcanic forces and enshrine Konohanasakuya-hime, the shrine bec
 - Different perspective on Mount Fuji's multifaceted cultural role
 - Authentic pilgrimage site experience, not tourist attraction
 
-[Full details: Subashiri Fuji Sengen Shrine](/routes/tokyo-to-fujikawaguchiko-alternative-route/subashiri-fuji-sengen-shrine/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/subashiri-fuji-sengen-shrine.md]
 
 ---
 
@@ -245,7 +245,7 @@ Built to pacify volcanic forces and enshrine Konohanasakuya-hime, the shrine bec
 
 **Recommendation:** Add 1-2 hours to lake viewing for cultural sites OR dedicate separate time for Oshino Hakkai pilgrimage ponds.
 
-[Full details: Lake Yamanaka Cultural Sites](/routes/tokyo-to-fujikawaguchiko-alternative-route/yamanaka-ko-cultural-sites/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/yamanaka-ko-cultural-sites.md]
 
 ---
 
@@ -277,7 +277,7 @@ Gotemba sits midway on the Tokyo to Fujikawaguchiko route. Visiting 2-3 attracti
 - **Time Efficiency:** Skip major cultural detour - focus on Fujikawaguchiko
 - **Balanced Approach:** Visit 1-2 sites (Peace Park + brewery OR distillery) - limit to 2-3 hours
 
-[Full details: Gotemba Regional Attractions](/routes/tokyo-to-fujikawaguchiko-alternative-route/gotemba-regional-attractions/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/gotemba-regional-attractions.md]
 
 ---
 
@@ -305,7 +305,7 @@ Eastern approach views are **naturally integrated into the route** - no addition
 - **Northern = Iconic Aesthetics:** Lake reflections, classic symmetrical compositions
 - **Value:** Eastern views complement rather than replace northern perspectives
 
-[Full details: Eastern Fuji Views - Route 138](/routes/tokyo-to-fujikawaguchiko-alternative-route/eastern-fuji-views-route-138/)
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-alternative-route/eastern-fuji-views-route-138.md]
 
 ---
 

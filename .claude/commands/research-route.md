@@ -274,6 +274,11 @@ Create comprehensive research files:
 ## On-Route Stops (No Detour)
 
 ### {Stop Name}
+
+[Research File: research/attractions/{route-name}/{stop-slug}.md]
+
+**CRITICAL**: Each attraction MUST have a `### Attraction Name` heading followed by the research file reference. The parser uses these headings to identify which attractions belong to this section. Attractions can also include detailed content inline.
+
 - **Type:** {Rest area/town/attraction/scenic viewpoint}
 - **Location:** {Highway/road marker or town name}
 - **Facilities:** {Parking, restrooms, food, etc.}
@@ -293,6 +298,11 @@ Create comprehensive research files:
 ## Short Detour Stops (15-30 minutes)
 
 ### {Stop Name}
+
+[Research File: research/attractions/{route-name}/{stop-slug}.md]
+
+**CRITICAL**: Each attraction MUST have a `### Attraction Name` heading followed by the research file reference for the parser to identify it.
+
 - **Detour Time:** {Additional time from main route}
 - **Type:** {Attraction/cultural site/scenic area}
 - **Cost:** {Free/¥XXX}
@@ -313,6 +323,11 @@ Create comprehensive research files:
 ## Major Detour Stops (30+ minutes)
 
 ### {Stop Name}
+
+[Research File: research/attractions/{route-name}/{stop-slug}.md]
+
+**CRITICAL**: Each attraction MUST have a `### Attraction Name` heading followed by the research file reference for the parser to identify it.
+
 - **Detour Time:** {Additional time from main route}
 - **Significance:** {Why this justifies major detour}
 - **Type:** {Major attraction/cultural center/natural site}
@@ -330,6 +345,13 @@ Create comprehensive research files:
 **Sources:** {Citations and verification dates}
 
 ---
+
+**IMPORTANT STRUCTURE NOTE**: The timeline generator identifies attractions by:
+1. Scanning all files in `research/attractions/{route-name}/`
+2. Searching for each attraction within the content boundaries of these three sections
+3. Only including attractions that appear under one of these section headings with a `### Attraction Name` subheading
+
+Attractions mentioned in other sections (like "Cultural Route Context", "Seasonal Factors", etc.) will NOT be included in the timeline unless they also appear under one of the three required sections above.
 
 ## Route-Specific Considerations
 
