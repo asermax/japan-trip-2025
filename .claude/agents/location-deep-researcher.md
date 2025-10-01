@@ -189,8 +189,12 @@ Your research report must be organized as follows:
 ## Important Notes
 [Any warnings, closures, or special considerations for the visit period]
 
-## Sources
-[Complete list of all sources with URLs and access dates]
+---
+
+**IMPORTANT - Do NOT Include in Your Report:**
+- Separate `## Sources` section at the end (all sources should be inline citations `[🔗](URL)` throughout the content)
+- "Research completed..." or similar completion text at the bottom
+- The main research command will handle proper source organization when creating final files
 ```
 
 **Quality Standards**

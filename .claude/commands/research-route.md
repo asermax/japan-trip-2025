@@ -412,6 +412,12 @@ Create comprehensive research files:
 [🔗](URL)
 
 **Location:** [View on Google Maps](google_maps_url)
+
+---
+
+**IMPORTANT - Do NOT Include:**
+- Separate `## Sources` section at the end (use inline citations `[🔗](URL)` instead)
+- "Research completed..." text at the bottom
 ```
 
 ### 5. TODO Status Update
