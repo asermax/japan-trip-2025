@@ -1,4 +1,4 @@
-# Dangozaka Service Area (EXPASA Facility) Research
+# Dangozaka Service Area (EXPASA Facility)
 
 **Location:** 4943 Ono, Uenohara City, Yamanashi Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.62825180000001,139.0458322)

@@ -1,4 +1,4 @@
-# Gotemba Regional Attractions Research
+# Gotemba Regional Attractions
 
 **Location:** Gotemba City, Shizuoka Prefecture (southeastern Mount Fuji)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3087683,138.9347872)

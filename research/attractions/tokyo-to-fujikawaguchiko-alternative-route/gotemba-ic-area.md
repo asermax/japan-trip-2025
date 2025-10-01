@@ -1,4 +1,4 @@
-# Gotemba IC Area Research
+# Gotemba IC Area
 
 **Location:** 35.3° North, 138.933° East | 1097 Higashitanaka, Gotemba, Shizuoka 412-0026
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.2949949,138.9455744)

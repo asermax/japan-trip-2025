@@ -1,4 +1,4 @@
-# Kawaguchi Asama Shrine Research
+# Kawaguchi Asama Shrine
 
 **Location:** Lake Kawaguchi, Fujikawaguchiko, Yamanashi
 **Category:** UNESCO World Heritage Shrine

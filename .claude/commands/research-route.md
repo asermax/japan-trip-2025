@@ -390,7 +390,7 @@ Attractions mentioned in other sections (like "Cultural Route Context", "Seasona
 
 **Required Route Stop/Attraction File Structure** (`research/attractions/{route-name}/{stop-slug}.md`):
 ```markdown
-# {Stop Name} Research
+# {Stop Name}
 
 **Location:** {Specific location with address}
 **Category:** {Rest area/town/attraction/scenic viewpoint/etc.}

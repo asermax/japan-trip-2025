@@ -1,4 +1,4 @@
-# Oshino Hakkai Springs Research
+# Oshino Hakkai Springs
 
 **Location:** Oshino Village, Minamitsuru District, Yamanashi
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4597881,138.8471938)

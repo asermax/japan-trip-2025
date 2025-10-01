@@ -1,4 +1,4 @@
-# Arakura Fuji Sengen Shrine Research
+# Arakura Fuji Sengen Shrine
 
 **Location:** Fujiyoshida City, Yamanashi
 **Category:** Historic Shinto Shrine and Scenic Viewpoint

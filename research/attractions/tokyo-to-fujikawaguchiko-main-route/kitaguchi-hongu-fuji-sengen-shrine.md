@@ -1,4 +1,4 @@
-# Kitaguchi Hongu Fuji Sengen Shrine Research
+# Kitaguchi Hongu Fuji Sengen Shrine
 
 **Location:** 5558 Kamiyoshida, Fujiyoshida City, Yamanashi Prefecture 403-0005
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.47074670000001,138.7923711)

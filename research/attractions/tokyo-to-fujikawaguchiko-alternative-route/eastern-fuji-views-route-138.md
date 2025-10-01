@@ -1,4 +1,4 @@
-# Eastern Fuji Views - Route 138 Approach Research
+# Eastern Fuji Views - Route 138 Approach
 
 **Location:** Kagosaka Pass and Route 138 corridor, Shizuoka/Yamanashi border
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4363375,138.8268582)

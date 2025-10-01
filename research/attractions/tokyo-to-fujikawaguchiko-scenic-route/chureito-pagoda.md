@@ -1,4 +1,4 @@
-# Chureito Pagoda Research
+# Chureito Pagoda
 
 **Location:** Arakurayama Sengen Park, Fujiyoshida City, Yamanashi
 **Category:** Cultural/Scenic Viewpoint

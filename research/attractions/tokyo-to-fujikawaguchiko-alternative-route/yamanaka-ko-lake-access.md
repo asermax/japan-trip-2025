@@ -1,4 +1,4 @@
-# Lake Yamanaka (Yamanaka-ko) Research
+# Lake Yamanaka (Yamanaka-ko)
 
 **Location:** 35.41667°N, 138.87500°E | Yamanakako Village, Minamitsuru District, Yamanashi Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4106457,138.8611439)

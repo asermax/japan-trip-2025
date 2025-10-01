@@ -1,4 +1,4 @@
-# Gotemba Premium Outlets Research
+# Gotemba Premium Outlets
 
 **Location:** 35.3550° N, 138.9356° E | 1312 Fukasawa, Gotemba-shi, Shizuoka 412-0023
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.31291849999999,138.9566778)

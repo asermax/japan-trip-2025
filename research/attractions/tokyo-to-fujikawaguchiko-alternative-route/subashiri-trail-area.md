@@ -1,4 +1,4 @@
-# Subashiri Trail Area Access Research
+# Subashiri Trail Area Access
 
 **Location:** 35.3756° N, 138.8089° E | Subashiri 5th Station, Oyama-cho, Shizuoka Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3657,138.778769)

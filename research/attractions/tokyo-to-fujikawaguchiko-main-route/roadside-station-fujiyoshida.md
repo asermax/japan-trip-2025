@@ -1,4 +1,4 @@
-# Roadside Station Fujiyoshida Research
+# Roadside Station Fujiyoshida
 
 **Location:** 1936-6 Araya, Fujiyoshida City, Yamanashi Prefecture 403-0006
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4593459,138.8019867)

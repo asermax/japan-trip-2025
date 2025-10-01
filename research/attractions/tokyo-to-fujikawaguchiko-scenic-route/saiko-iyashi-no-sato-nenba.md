@@ -1,4 +1,4 @@
-# Saiko Iyashi-no-Sato Nenba Research
+# Saiko Iyashi-no-Sato Nenba
 
 **Location:** 2710 Saiko Nenba, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0332
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5050023,138.6614772)

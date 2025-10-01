@@ -1,4 +1,4 @@
-# Momiji Corridor Research
+# Momiji Corridor
 
 **Location:** 2-1 Kamiyoshidahigashi, Fujiyoshida City, Yamanashi Prefecture 403-0031
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4740921,138.8020256)

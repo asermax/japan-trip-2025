@@ -1,4 +1,4 @@
-# Lake Kawaguchi Shoreline Research
+# Lake Kawaguchi Shoreline
 
 **Location:** 35.514999° N, 138.756668° E, Fujikawaguchiko Town, Yamanashi Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4973138,138.7551994)

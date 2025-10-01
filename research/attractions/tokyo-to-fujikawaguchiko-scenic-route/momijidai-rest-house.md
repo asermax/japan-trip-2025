@@ -1,4 +1,4 @@
-# Momijidai Rest House Research
+# Momijidai Rest House
 
 **Location:** 8527 Narusawa, Narusawa-mura, Minamitsuru-gun, Yamanashi 401-0320
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.480071,138.70133)

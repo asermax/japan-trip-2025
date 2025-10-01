@@ -1,4 +1,4 @@
-# Regional Roadside Stations - Gotemba and Subashiri Area Research
+# Regional Roadside Stations - Gotemba and Subashiri Area
 
 **Location:** Multiple Michi-no-Eki along Route 138, Route 246, and Route 139
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4636722,138.8033518)

@@ -1,4 +1,4 @@
-# Tomei Expressway Service Areas Research
+# Tomei Expressway Service Areas
 
 **Location:** Multiple service areas along Tomei Expressway from Tokyo to Gotemba IC
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6764225,139.650027)

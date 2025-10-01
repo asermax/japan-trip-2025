@@ -1,4 +1,4 @@
-# Lake Yamanaka Cultural Sites Research
+# Lake Yamanaka Cultural Sites
 
 **Location:** Yamanakako Village, Minamitsuru District, Yamanashi Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4106457,138.8611439)

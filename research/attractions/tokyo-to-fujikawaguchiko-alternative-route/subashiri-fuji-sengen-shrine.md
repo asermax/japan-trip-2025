@@ -1,4 +1,4 @@
-# Subashiri Fuji Sengen Shrine (Fujisan Higashiguchi Hongu Fuji Sengen Shrine) Research
+# Subashiri Fuji Sengen Shrine (Fujisan Higashiguchi Hongu Fuji Sengen Shrine)
 
 **Location:** 126 Subashiri, Oyama-cho, Sunto-gun, Shizuoka Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3625496,138.8643113)
