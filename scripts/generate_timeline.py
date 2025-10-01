@@ -165,7 +165,7 @@ duration = "{visit_duration}"
 previous_attraction = "{previous_attraction}"
 next_attraction = "{next_attraction}"
 previous_title = "{previous_title}"
-next_title = "{next_title}"{coordinates}
+next_title = "{next_title}"{coordinates}{route_name}
 +++
 
 {content}
@@ -977,40 +977,57 @@ class TimelineGenerator:
                 # Get attraction data with category information
                 attractions_data = self.get_attraction_data(folder_name)
 
-                # Organize attractions by category in display order
-                categorized_attractions = self.organize_attractions_by_category(attractions_data)
-
-                # Create flat ordered list following the category order
+                # For route folders, we'll reorder based on route sections later
+                # For now, just collect all attractions
                 attractions_list = []
-                for category in CATEGORY_ORDER:
-                    if category in categorized_attractions:
-                        for attraction_data in categorized_attractions[category]:
-                            # Load the full research file data for each attraction
-                            attraction_file = self.research_dir / "attractions" / folder_name / f"{attraction_data['slug']}.md"
-                            if attraction_file.exists():
-                                full_data = self.parse_research_file(attraction_file)
-                                attractions_list.append({
-                                    'title': attraction_data['title'],
-                                    'slug': attraction_data['slug'],
-                                    'file': attraction_file,
-                                    'data': full_data,
-                                    'is_route': is_route
-                                })
 
-                # Add any remaining categories not in the predefined order
-                for category, attractions in categorized_attractions.items():
-                    if category not in CATEGORY_ORDER:
-                        for attraction_data in attractions:
-                            attraction_file = self.research_dir / "attractions" / folder_name / f"{attraction_data['slug']}.md"
-                            if attraction_file.exists():
-                                full_data = self.parse_research_file(attraction_file)
-                                attractions_list.append({
-                                    'title': attraction_data['title'],
-                                    'slug': attraction_data['slug'],
-                                    'file': attraction_file,
-                                    'data': full_data,
-                                    'is_route': is_route
-                                })
+                if is_route:
+                    # For routes, create list from all attractions (will be reordered later)
+                    for attraction_data in attractions_data:
+                        attraction_file = self.research_dir / "attractions" / folder_name / f"{attraction_data['slug']}.md"
+                        if attraction_file.exists():
+                            full_data = self.parse_research_file(attraction_file)
+                            attractions_list.append({
+                                'title': attraction_data['title'],
+                                'slug': attraction_data['slug'],
+                                'file': attraction_file,
+                                'data': full_data,
+                                'is_route': is_route
+                            })
+                else:
+                    # For destinations, use category order
+                    categorized_attractions = self.organize_attractions_by_category(attractions_data)
+
+                    # Create flat ordered list following the category order
+                    for category in CATEGORY_ORDER:
+                        if category in categorized_attractions:
+                            for attraction_data in categorized_attractions[category]:
+                                # Load the full research file data for each attraction
+                                attraction_file = self.research_dir / "attractions" / folder_name / f"{attraction_data['slug']}.md"
+                                if attraction_file.exists():
+                                    full_data = self.parse_research_file(attraction_file)
+                                    attractions_list.append({
+                                        'title': attraction_data['title'],
+                                        'slug': attraction_data['slug'],
+                                        'file': attraction_file,
+                                        'data': full_data,
+                                        'is_route': is_route
+                                    })
+
+                    # Add any remaining categories not in the predefined order
+                    for category, attractions in categorized_attractions.items():
+                        if category not in CATEGORY_ORDER:
+                            for attraction_data in attractions:
+                                attraction_file = self.research_dir / "attractions" / folder_name / f"{attraction_data['slug']}.md"
+                                if attraction_file.exists():
+                                    full_data = self.parse_research_file(attraction_file)
+                                    attractions_list.append({
+                                        'title': attraction_data['title'],
+                                        'slug': attraction_data['slug'],
+                                        'file': attraction_file,
+                                        'data': full_data,
+                                        'is_route': is_route
+                                    })
 
                 attractions_by_folder[folder_name] = attractions_list
 
@@ -1027,6 +1044,28 @@ class TimelineGenerator:
                     if folder_name:
                         route_data_by_folder[folder_name] = route_data
                         journey_refs_by_folder[folder_name] = (journey_ref, journey_title)
+
+        # Reorder route attractions based on route section order (detour levels)
+        for folder_name in route_folders:
+            if folder_name in route_data_by_folder and folder_name in attractions_by_folder:
+                route_data = route_data_by_folder[folder_name]
+                sections = route_data.get('sections', {})
+
+                # Build ordered list from route sections (on_route → short_detour → major_detour)
+                ordered_attractions = []
+                slug_to_attraction = {a['slug']: a for a in attractions_by_folder[folder_name]}
+
+                # Process sections in order
+                for section_key in ['on_route', 'short_detour', 'major_detour']:
+                    section_attractions = sections.get(section_key, [])
+                    for section_attraction in section_attractions:
+                        slug = section_attraction['slug']
+                        if slug in slug_to_attraction:
+                            ordered_attractions.append(slug_to_attraction[slug])
+
+                # Replace the attractions list with the ordered version
+                if ordered_attractions:
+                    attractions_by_folder[folder_name] = ordered_attractions
 
         # Generate _index.md files for all route sections with full route content
         for route_name in route_folders:
@@ -1090,6 +1129,7 @@ class TimelineGenerator:
 
                 # Determine timeline entry reference and output path
                 is_route = attraction.get('is_route', False)
+                route_name = ""
                 if is_route:
                     # Extract route pair from folder name for journey linking
                     route_pair = folder_name.replace('-route', '').replace('-scenic', '').replace('-main', '').replace('-coastal', '')
@@ -1097,6 +1137,7 @@ class TimelineGenerator:
                     timeline_order = journey_order_map.get(route_pair, 1)
                     timeline_ref = f'{timeline_order:02d}-{route_pair}'
                     place_ref = route_pair
+                    route_name = folder_name  # Store the full route folder name for back navigation
 
                     # Route attractions go to /routes/{route-name}/ directory
                     route_output_dir = routes_dir / folder_name
@@ -1110,6 +1151,9 @@ class TimelineGenerator:
 
                     # Destination attractions go to /attractions/ directory
                     attraction_file = attractions_dir / f"{slug}.md"
+
+                # Add route_name for route attractions only
+                route_name_str = f'\nroute_name = "{route_name}"' if route_name else ""
 
                 content = ATTRACTION_TEMPLATE.format(
                     title=escape_toml_string(data['title']),
@@ -1130,6 +1174,7 @@ class TimelineGenerator:
                     previous_title=escape_toml_string(previous_title),
                     next_title=escape_toml_string(next_title),
                     coordinates=coordinates_str,
+                    route_name=route_name_str,
                     content=attraction_content.strip(),
                     source_file=str(research_file.relative_to(self.research_dir))
                 )
