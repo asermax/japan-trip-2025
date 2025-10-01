@@ -1,6 +1,7 @@
 # Lake Yamanaka Cultural Sites Research
 
 **Location:** Yamanakako Village, Minamitsuru District, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4106457,138.8611439)
 **Category:** Cultural heritage area with museums and shrines
 **Cost:** ¥500 adults for literary museums (joint ticket); shrine free
 **Best Time:** Late afternoon for museum visits, early morning for shrine

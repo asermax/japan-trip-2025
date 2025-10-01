@@ -1,6 +1,7 @@
 # Sakurayama Hachimangu Shrine Research
 
 **Location:** 178 Sakuramachi, Takayama, Gifu Prefecture (next to Festival Floats Exhibition Hall)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1484031,137.2601125)
 **Category:** Shinto shrine, festival venue
 **Cost:** Free to shrine grounds; ¥1,000 for adjacent Festival Floats Exhibition Hall
 **Best Time:** Early morning or late afternoon for serene atmosphere; evening for lantern lighting

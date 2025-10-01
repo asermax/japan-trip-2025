@@ -1,6 +1,7 @@
 # Gero Onsen Research
 
 **Location:** Gero City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.8059163,137.2441224)
 **Category:** Historic Hot Spring Resort Town
 **Cost:** Public baths ¥430, Yumeguri pass ¥1,500 for 3 ryokan baths
 **Best Time:** Year-round; October offers pleasant 10-20°C temperatures

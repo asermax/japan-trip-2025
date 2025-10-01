@@ -1,6 +1,7 @@
 # Miyajidake Shrine Research
 
 **Location:** Fukutsu City, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.7664067,130.4896355)
 **Category:** Shinto shrine, major religious and tourist destination
 **Cost:** Free shrine access; Premium Path of Light viewing seats ¥5,000/person
 **Best Time:** Late October for Path of Light phenomenon (around October 20-24)

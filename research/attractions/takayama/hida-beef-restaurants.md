@@ -1,6 +1,7 @@
 # Hida Beef Restaurants Research
 
 **Location:** Multiple locations throughout Takayama city center and near JR station
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Premium beef dining experiences across multiple restaurant types
 **Cost:** Street Food: ¥500-1,500; Casual Dining: ¥2,500-3,500; Mid-Range: ¥5,000-8,000; Premium: ¥10,000-12,000
 **Best Time:** Evening dining 17:30-19:00 for optimal atmosphere; lunch 12:00-13:30 for shorter waits

@@ -1,6 +1,7 @@
 # Canal City Hakata Research
 
 **Location:** 1-2 Sumiyoshi, Hakata-ku, Fukuoka-shi
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5903479,130.4100605)
 **Category:** Large shopping and entertainment complex
 **Cost:** Free entry to complex
 **Best Time:** Late afternoon to evening for fountain shows and illuminations

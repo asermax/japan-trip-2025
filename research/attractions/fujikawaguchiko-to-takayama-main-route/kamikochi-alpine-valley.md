@@ -1,6 +1,7 @@
 # Kamikochi Alpine Valley Research
 
 **Location:** Chubu Sangaku National Park, 1,500 meters above sea level
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.4543841,137.6236372)
 **Category:** High-altitude alpine valley and pristine wilderness area
 **Cost:** Valley access free; Myojin Pond 300 yen; transportation varies by parking location
 **Best Time:** CRITICAL - Accessible until November 15, 2025 closure / Morning arrival (8:00-9:00 AM) for route travelers

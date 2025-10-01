@@ -1,6 +1,7 @@
 # Maizuru Park Research
 
 **Location:** Central Fukuoka (Chuo Ward)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6083338,140.1228024)
 **Category:** Historic park with castle ruins
 **Cost:** Free entry to park grounds
 **Best Time:** Year-round; autumn foliage mid-late November

@@ -1,6 +1,7 @@
 # Asakura Kirin Beer Park Cosmos Festival Research
 
 **Location:** 3601 Mada, Asakura, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.4095073,130.6261872)
 **Category:** Seasonal Festival / Nature Experience
 **Cost:** Free for cosmos viewing, ¥500 for factory tours (ages 20+)
 **Best Time:** Mid-October to early November 2025 (final year)

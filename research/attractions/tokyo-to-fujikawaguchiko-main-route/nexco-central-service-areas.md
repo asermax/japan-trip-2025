@@ -1,6 +1,7 @@
 # NEXCO Central Service Areas (Standard Expressway Facilities)
 
 **Location:** Multiple locations along Chuo Expressway between Tokyo and Kawaguchiko IC
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6749442,139.4125479)
 **Category:** Highway rest area network (service areas and parking areas)
 **Cost:** Free parking and restroom access; food/shopping vary by purchase
 **Best Time:** Off-peak hours (avoid 12:00-13:00 lunch and 18:00-19:00 dinner)

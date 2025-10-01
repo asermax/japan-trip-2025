@@ -1,6 +1,7 @@
 # Subashiri Trail Area Access Research
 
 **Location:** 35.3756° N, 138.8089° E | Subashiri 5th Station, Oyama-cho, Shizuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3657,138.778769)
 **Category:** Mountain trailhead, cultural heritage site, scenic viewpoint
 **Cost:** Free (parking ¥1,000 during season, typically free in October)
 **Best Time:** Early morning (7:00-10:00 AM) for best visibility

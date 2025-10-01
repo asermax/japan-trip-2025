@@ -1,6 +1,7 @@
 # Tsumago-juku Research
 
 **Location:** Tsumago-juku, Nagiso, Kiso District, Nagano Prefecture (35.577°N, 137.5954°E)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5775876,137.5956667)
 **Category:** Historic post town / Living heritage site
 **Cost:** Free to explore; Museums: 300-600 yen
 **Best Time:** Early morning (before 9:00 AM) or late evening; October for autumn foliage

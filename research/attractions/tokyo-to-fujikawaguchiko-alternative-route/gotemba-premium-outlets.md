@@ -1,6 +1,7 @@
 # Gotemba Premium Outlets Research
 
 **Location:** 35.3550° N, 138.9356° E | 1312 Fukasawa, Gotemba-shi, Shizuoka 412-0023
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.31291849999999,138.9566778)
 **Category:** Premium outlet shopping mall
 **Cost:** Free admission, free parking (4,000 spaces)
 **Best Time:** 10:00-11:00 AM arrival for best parking; October offers ideal fall weather and excellent Mount Fuji visibility

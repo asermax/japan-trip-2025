@@ -1,6 +1,7 @@
 # Aokigahara Forest Guided Tours Research
 
 **Location:** Aokigahara Forest, Fujikawaguchiko, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4752183,138.6405014)
 **Category:** Natural monument and UNESCO World Heritage Site component
 **Cost:** Official tours ¥700 per person; Private tours from ¥40,000 for up to 6 people
 **Best Time:** Early morning for mystical mist atmosphere; October for spectacular foliage

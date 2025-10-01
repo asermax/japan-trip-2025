@@ -1,6 +1,7 @@
 # Hida Great Limestone Cave Research
 
 **Location:** Nyukawacho, Takayama, Gifu (20-25 minutes from city center)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Natural limestone cave with art museum
 **Cost:** Adults ¥1,100, Elementary/Junior High ¥550 (includes Ohashi Collection Museum)
 **Best Time:** Early morning (before 10 AM) to avoid crowds; any time suitable due to consistent cave temperature

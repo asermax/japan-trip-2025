@@ -1,6 +1,7 @@
 # Local Festival Documentation Centers Research
 
 **Location:** Takayama Matsuri Yatai Kaikan - 178 Sakuramachi, Takayama, Gifu 506-0858
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1483417,137.2601188)
 **Category:** Cultural Preservation Center and Festival Museum
 **Cost:** Adults ¥1,000, High School ¥600, Elementary/Junior High ¥500
 **Best Time:** Post-festival period (late October) for enhanced cultural atmosphere

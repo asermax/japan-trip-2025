@@ -1,6 +1,7 @@
 # Ichino-yu (一の湯) Research
 
 **Location:** 5-minute walk south of Kinosaki Onsen Station
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.623683,134.8134863)
 **Category:** Historic kabuki theater-style onsen
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Early morning (7:00-9:00 AM) or late evening

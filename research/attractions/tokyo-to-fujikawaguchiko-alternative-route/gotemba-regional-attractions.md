@@ -1,6 +1,7 @@
 # Gotemba Regional Attractions Research
 
 **Location:** Gotemba City, Shizuoka Prefecture (southeastern Mount Fuji)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3087683,138.9347872)
 **Category:** Cultural and historical attractions
 **Cost:** ¥300-500 per attraction; some free
 **Best Time:** Early morning for parks, late afternoon for brewery/distillery

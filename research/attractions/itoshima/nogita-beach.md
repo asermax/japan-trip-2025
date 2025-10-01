@@ -1,6 +1,7 @@
 # Nogita Beach Research
 
 **Location:** Shima-Nogita, Itoshima City, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.6150712,130.1683053)
 **Category:** Natural beach, surfing spot, scenic location
 **Cost:** Free (parking ¥500 weekdays, ¥1,000 weekends)
 **Best Time:** Year-round for sunsets; autumn-winter for surfing; November ideal

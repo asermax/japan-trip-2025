@@ -1,6 +1,7 @@
 # Traditional Japanese House NAKAMURA Research
 
 **Location:** 1045 Kawaguchi, Fujikawaguchiko-machi
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5280548,138.7733244)
 **Category:** Historic café and cultural space
 **Cost:** Free entry; food and beverage purchases required
 **Best Time:** Autumn (October) for Mt. Fuji views and pleasant weather

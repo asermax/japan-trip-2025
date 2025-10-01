@@ -1,6 +1,7 @@
 # Sanmachi Suji Historic District Research
 
 **Location:** 20 Kamisannomachi, Takayama, Gifu
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1413536,137.2592001)
 **Category:** Historic Edo-period preserved district
 **Cost:** Free access to streets; individual attractions have separate fees
 **Best Time:** Early morning (7-8 AM) to avoid crowds

@@ -1,6 +1,7 @@
 # Houtou Fudou Restaurant Chain Research
 
 **Location:** Multiple locations in Fujikawaguchiko (4 branches)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4973138,138.7551994)
 **Category:** Traditional Regional Cuisine
 **Cost:** ¥1,050-¥1,430 per serving
 **Best Time:** Early lunch (11:30 AM) or early dinner (5:00 PM)

@@ -1,6 +1,7 @@
 # Mugiwara Zaiku Workshops Research
 
 **Location:** Kamiya Mingei Workshop & Kinosaki Straw Craft Museum
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6254748,134.8080574)
 **Category:** Traditional Craft Experience
 **Cost:** Workshop experiences ¥1,000-3,000 depending on project
 **Best Time:** Year-round, with potential autumn seasonal motifs

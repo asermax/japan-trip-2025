@@ -1,6 +1,7 @@
 # Kitaguchi Hongu Fuji Sengen Shrine Research
 
 **Location:** 5558 Kamiyoshida, Fujiyoshida City, Yamanashi Prefecture 403-0005
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.47074670000001,138.7923711)
 **Category:** Historic Shinto shrine / UNESCO World Heritage Site component / Pilgrimage starting point
 **Cost:** Free admission; optional donations ¥100-500; parking free
 **Best Time:** Early morning (7:00-9:00 AM) for serene atmosphere; October for autumn colors

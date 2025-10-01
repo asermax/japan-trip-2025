@@ -1,6 +1,7 @@
 # Mount Raizan (雷山) Research
 
 **Location:** Border of Itoshima, Fukuoka Prefecture and Saga, Saga Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5584765,130.1945228)
 **Category:** Sacred mountain, hiking destination, temple complex
 **Cost:** Temple admission ¥400 (includes hiking access)
 **Best Time:** Spring (March-May) and Autumn (September-November), early morning starts

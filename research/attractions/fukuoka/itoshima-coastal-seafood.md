@@ -1,6 +1,7 @@
 # Itoshima Coastal Seafood Research
 
 **Location:** Itoshima Peninsula fishing ports
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5885074,130.1818428)
 **Category:** Seasonal Coastal Cuisine
 **Cost:** ¥1,200-¥2,500 per experience
 **Best Time:** October-March (oyster season)

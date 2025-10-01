@@ -1,6 +1,7 @@
 # Suwako SA (Lake Suwa Service Area) Research
 
 **Location:** 461-1 Minato, Okaya-City, Nagano Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.0267232,138.0760628)
 **Category:** Premium highway service area
 **Cost:** Free (no toll exit required)
 **Best Time:** Morning (9:00-10:00 AM) for optimal light and mountain views

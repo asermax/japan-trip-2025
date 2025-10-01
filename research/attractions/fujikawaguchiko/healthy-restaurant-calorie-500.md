@@ -1,6 +1,7 @@
 # Healthy Restaurant Calorie 500 Research
 
 **Location:** Funatsu district, Fujikawaguchiko
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4898414,138.7631294)
 **Category:** Healthy dining restaurant
 **Cost:** Lunch ¥2,000-¥2,999, Dinner ¥6,000-¥7,999
 **Best Time:** Lunch for casual dining, dinner for full course experience

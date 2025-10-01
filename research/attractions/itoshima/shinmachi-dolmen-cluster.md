@@ -1,6 +1,7 @@
 # Shinmachi Dolmen Cluster (新町支石墓群) Research
 
 **Location:** 71-1 Shima-shinmachi, Itoshima City, Fukuoka Prefecture 819-1304
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5701316,130.1333056)
 **Category:** Archaeological site, National Historic Site
 **Cost:** Free admission
 **Best Time:** Mornings (9:00-11:00), Tuesday-Sunday (closed Mondays)
