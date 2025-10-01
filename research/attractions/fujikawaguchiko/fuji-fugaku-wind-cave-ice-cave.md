@@ -1,6 +1,7 @@
 # Fuji Fugaku Wind Cave & Ice Cave Research
 
 **Location:** Aokigahara Forest, Fujikawaguchiko, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4752183,138.6405014)
 **Category:** Natural lava tube cave system
 **Cost:** ¥350 per cave, Combined ticket ¥600 (saves ¥100)
 **Best Time:** October's mild weather provides comfortable contrast to 3°C cave temperature

@@ -1,6 +1,7 @@
 # Hakata Temple Tour - Special Access Research
 
 **Location:** Hakata Old Town district, Fukuoka City
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5950481,130.4164244)
 **Category:** Cultural Event / Religious Experience
 **Cost:** ¥2,000-2,500 (varies by ticket type and timing)
 **Best Time:** October 31-November 3, 2025 (17:30-21:00)

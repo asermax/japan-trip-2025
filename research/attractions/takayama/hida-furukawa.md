@@ -1,6 +1,7 @@
 # Hida-Furukawa Research
 
 **Location:** Hida City, Gifu Prefecture (15 km north of Takayama)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.2380854,137.1848385)
 **Category:** Historic town and day trip destination
 **Cost:** Free town access; individual attractions vary
 **Best Time:** Early morning or late afternoon for optimal lighting

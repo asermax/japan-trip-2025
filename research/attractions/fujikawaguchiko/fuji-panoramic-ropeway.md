@@ -1,6 +1,7 @@
 # Fuji Panoramic Ropeway Research
 
 **Location:** 1163-1 Azagawa, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0303
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5040053,138.7719898)
 **Category:** Mountaintop aerial tramway and observation deck
 **Cost:** Round trip ¥1,000 adults, ¥500 children; Scenic Swing additional ¥500
 **Best Time:** Early morning (8:30 AM) to avoid crowds; late October for autumn foliage

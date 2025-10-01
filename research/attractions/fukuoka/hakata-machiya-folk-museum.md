@@ -1,6 +1,7 @@
 # Hakata Machiya Folk Museum Research
 
 **Location:** Hakata Old Town, central Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5950481,130.4164244)
 **Category:** Traditional Folk Museum
 **Cost:** ¥200 for adults, free for students
 **Best Time:** Late morning to early afternoon

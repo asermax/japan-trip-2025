@@ -1,6 +1,7 @@
 # Genbudo Park Research
 
 **Location:** 1347 Akaishi, Toyooka, Hyogo Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5869252,134.8073971)
 **Category:** Geological Day Trip
 **Cost:** Adults ¥500 park, ¥800 museum; Children ¥500 museum, ¥400 infants
 **Best Time:** October features special cave illuminations (mid-September to early November)

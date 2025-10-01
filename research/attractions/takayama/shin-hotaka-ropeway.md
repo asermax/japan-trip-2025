@@ -1,6 +1,7 @@
 # Shin-Hotaka Ropeway Research
 
 **Location:** Okuhida Onsengo, Takayama City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1845001,137.557011)
 **Category:** Mountain Aerial Tramway & Observatory
 **Cost:** Adults ¥3,800 round trip, Child ¥1,900
 **Best Time:** Early morning for clearest views; October peak foliage season

@@ -1,6 +1,7 @@
 # Regional Roadside Stations - Gotemba and Subashiri Area Research
 
 **Location:** Multiple Michi-no-Eki along Route 138, Route 246, and Route 139
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4636722,138.8033518)
 **Category:** Highway rest facilities (Michi-no-Eki), cultural hubs, agricultural markets
 **Cost:** Free entry, market prices for purchases
 **Best Time:** Early morning (7:00-9:00 AM) for freshest produce
@@ -23,9 +24,6 @@ Unlike typical highway rest stops, Michi-no-Eki function as regional cultural ce
 
 **Location:** Oyama Town, Shizuoka Prefecture, on Route 246
 **Distance:** Short detour via Route 246 from Route 138
-
-![Michi-no-Eki Fuji Oyama](https://www.cbr.mlit.go.jp/michinoeki/shizuoka/images/shizuoka17_1.jpg)
-*Michi-no-Eki Fuji Oyama with Mount Fuji backdrop. Source: Ministry of Land, Infrastructure, Transport and Tourism*
 
 **Hours:**
 - Direct-Sales Office: 7:00 AM - 8:00 PM daily
@@ -197,13 +195,3 @@ Unlike typical highway rest stops, Michi-no-Eki function as regional cultural ce
 - [Michi-no-Eki Fuji Oyama](https://www.google.com/maps/search/?api=1&query=道の駅ふじおやま+静岡県駿東郡小山町)
 - [Michi-no-Eki Subashiri](https://www.google.com/maps/search/?api=1&query=道の駅すばしり+338-44+Subashiri+Oyama)
 - [Michi-no-Eki Narusawa](https://www.google.com/maps/search/?api=1&query=道の駅なるさわ+8532-63+Narusawa)
-
-## Sources
-
-- Japan National Tourism Organization - Michi-no-Eki Guide: https://www.japan.travel/en/guide/michi-no-eki/
-- Ministry of Land, Infrastructure, Transport and Tourism: https://www.cbr.mlit.go.jp/michinoeki/
-- Michi-no-Eki Official Websites: Fuji Oyama, Subashiri, Narusawa
-- Medium - Michi-no-Eki Cultural Significance: https://medium.com/sharing-food/where-the-road-meets-tradition-discovering-japans-michi-no-eki-484ebad50254
-- Nippon.com - Roadside Community Hubs: https://www.nippon.com/en/japan-topics/g00645/
-
-*Research completed September 30, 2025*

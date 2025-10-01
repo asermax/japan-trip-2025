@@ -1,6 +1,7 @@
 # Eastern Fuji Views - Route 138 Approach Research
 
 **Location:** Kagosaka Pass and Route 138 corridor, Shizuoka/Yamanashi border
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4363375,138.8268582)
 **Category:** Scenic drive with viewing opportunities
 **Cost:** Free (public roadway)
 **Best Time:** Early morning for clearest views
@@ -9,7 +10,7 @@
 
 ## Basic Information
 
-![Mount Fuji showing Hoei Crater from Eastern Side](https://upload.wikimedia.org/wikipedia/commons/d/d2/Mount_Fuji_from_Sagami_Bay.jpg)
+![Mount Fuji showing Hoei Crater from Eastern Side](https://upload.wikimedia.org/wikipedia/commons/e/e3/Mount_Fuji_and_Mount_Hoei.jpg)
 *Mount Fuji viewed from the eastern side showing the distinctive Hoei Crater - the massive scar on the southeastern flank from the 1707 eruption. Source: Wikimedia Commons*
 
 **IMPORTANT NOTE:** This research was originally titled "Izu Peninsula approach views" in the discovery phase, but that name is geographically misleading. The Izu Peninsula is 50-70 minutes one-way from Gotemba (separate half-day excursion), not a route stop. The legitimate attraction is the **eastern Mount Fuji perspectives visible from Route 138**, particularly around Kagosaka Pass.
@@ -129,16 +130,3 @@ All Mount Fuji viewing is heavily weather-dependent. October offers good but not
 Unlike developed observation points with dedicated parking, restaurants, and restrooms, Kagosaka Pass is simply a mountain pass on a public highway with limited pull-off areas. Plan accordingly for minimal facilities.
 
 **Location:** [Kagosaka Pass on Google Maps](https://www.google.com/maps/search/?api=1&query=籠坂峠+静岡県御殿場市)
-
-## Sources
-
-- Japan National Tourism Organization - Mount Fuji Viewing Spots: https://www.japan.travel/en/fuji-guide/views-of-fuji/
-- Explore Shizuoka Official - Mount Fuji Viewpoints: https://exploreshizuoka.jp/en/mtfuji/view-points/
-- Wikipedia - Hoei Eruption: https://en.wikipedia.org/wiki/Hōei_eruption
-- Wikipedia - Mount Hoei: https://en.wikipedia.org/wiki/Mount_Hōei
-- Smithsonian Magazine - Mount Fuji Eruption History: https://www.smithsonianmag.com/smart-news/its-been-more-than-300-years-since-japans-breathtaking-mount-fuji-last-erupted-180985613/
-- Hiking Shizuoka - Kagosaka Pass Trail: https://hikeshizuoka.wordpress.com/2016/01/06/kagosaka-touge-籠坂峠-hiking-course/
-- Into Japan Waraku - Hokusai's Mount Fuji Artwork: https://intojapanwaraku.com/rock/art-rock/1588/
-- Rome2Rio - Gotemba to Kagosaka Pass: https://www.rome2rio.com/s/Gotemba-Station/Kagosaka-Pass
-
-*Research completed September 30, 2025*

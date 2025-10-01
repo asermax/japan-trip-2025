@@ -1,6 +1,7 @@
 # Gujo Hachiman Research
 
 **Location:** Kajiya-machi, Hachiman-cho, Gujo City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.7520452,136.956073)
 **Category:** Historic Castle Town & Water City
 **Cost:** Castle ¥400 adults, ¥200 children; Town exploration free
 **Best Time:** Early morning or evening for optimal lighting

@@ -1,6 +1,7 @@
 # Oishi Tsumugi Silk Workshop Research
 
 **Location:** 1438-1 Oishi, Fujikawaguchiko Town, Minamitsuru District, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5239186,138.7451479)
 **Category:** Traditional craft museum and workshop
 **Cost:** Contact for specific pricing (0555-76-8282)
 **Best Time:** Morning hours for optimal lighting and fewer crowds

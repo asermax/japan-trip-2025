@@ -1,6 +1,7 @@
 # Shiraito Falls (白糸の滝) Research
 
 **Location:** 460-6 Shiraito, Itoshima City, Fukuoka Prefecture 819-1154
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.4801994,130.1754495)
 **Category:** Natural waterfall, hiking destination, spiritual power spot
 **Cost:** Free (parking and admission)
 **Best Time:** Early November for autumn foliage, early morning or late afternoon for photography

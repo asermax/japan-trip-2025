@@ -1,6 +1,7 @@
 # Yanagi-yu (柳湯) Research
 
 **Location:** 6-minute walk from station along canal
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.204824,138.252924)
 **Category:** Traditional onsen (smallest of seven)
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Late evening (8:00 PM) for fewer crowds

@@ -1,6 +1,7 @@
 # Mentaiko Specialties Research
 
 **Location:** Hakata Ward and city-wide locations
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5835196,130.4372709)
 **Category:** Regional Specialty Cuisine
 **Cost:** ¥1,200-¥2,000 per meal
 **Best Time:** Year-round availability

@@ -1,6 +1,7 @@
 # Jizo-yu (地蔵湯) Research
 
 **Location:** 8-minute walk from station, 2-minute walk from Yuraku
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=37.93901290000001,139.1097944)
 **Category:** Traditional family-favorite onsen
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Evening hours when local families gather

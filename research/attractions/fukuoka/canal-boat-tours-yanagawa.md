@@ -1,6 +1,7 @@
 # Canal Boat Tours - "Venice of Japan" Experience in Yanagawa Research
 
 **Location:** Yanagawa City, southern Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.1631009,130.4058124)
 **Category:** Traditional waterway tour and cultural heritage experience
 **Cost:** Adults ¥1,500-2,000, Children ¥800-1,000
 **Best Time:** Autumn (October-November) for foliage viewing

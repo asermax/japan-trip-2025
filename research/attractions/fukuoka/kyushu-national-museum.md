@@ -1,6 +1,7 @@
 # Kyushu National Museum Research
 
 **Location:** Dazaifu, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5136238,130.5266668)
 **Category:** National History Museum
 **Cost:** ¥700 permanent exhibition; ¥1000 combination ticket
 **Best Time:** Early morning (9:30 AM); extended Friday/Saturday hours during special exhibitions

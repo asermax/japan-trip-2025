@@ -1,6 +1,7 @@
 # POMME Game Meat Restaurant Research
 
 **Location:** 3681-2 Funatsu, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0301
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4985715,138.7716046)
 **Category:** French-Influenced Game Meat (Gibier) Restaurant
 **Cost:** Lunch from ¥2,000, limited to 30 meals per day
 **Best Time:** Early arrival essential (opens 9:00 AM, 11:30 AM Wednesdays)

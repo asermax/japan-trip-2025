@@ -1,6 +1,7 @@
 # Seven Historic Sake Breweries Research
 
 **Location:** Sanmachi Suji district, Takayama, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1413161,137.2596227)
 **Category:** Traditional craft experience and cultural heritage
 **Cost:** Free entry to breweries; tasting fees 100-500 yen per cup
 **Best Time:** Early morning (before 10 AM) or late afternoon (after 4 PM) to avoid tour groups

@@ -1,6 +1,7 @@
 # Oshino Hakkai Springs Research
 
 **Location:** Oshino Village, Minamitsuru District, Yamanashi
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4597881,138.8471938)
 **Category:** UNESCO World Heritage Site - Eight Sacred Ponds
 **Cost:** Seven ponds free, Sokonashi Pond ¥300 adults/¥150 children
 **Best Time:** Early morning (before 9:00 AM) for serene conditions

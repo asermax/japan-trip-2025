@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Subashiri Trail Fifth Station](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Subashiri_Trail_5th_Station.jpg/1200px-Subashiri_Trail_5th_Station.jpg)
+![Subashiri Trail Fifth Station](https://upload.wikimedia.org/wikipedia/commons/5/59/Mt.Fuji_from_Subashiri_Trail_04.jpg)
 *Subashiri 5th Station viewing area showing the eastern approach to Mount Fuji. Source: Wikimedia Commons*
 
 The Subashiri Trail represents one of Mount Fuji's four historic pilgrimage paths, distinguished by its unique eastern approach through dense forest zones. This trail has served as a traditional climbing route since the Edo period, characterized as the longest, least crowded, and most forested approach to the summit. [🔗](https://www.japan-guide.com/e/e6901.html)
@@ -154,13 +154,3 @@ Consider skipping if:
 - Prefer developed facilities (off-season services very limited)
 
 **Location:** [Subashiri 5th Station on Google Maps](https://maps.app.goo.gl/fujisubashiri5th)
-
-## Sources
-
-- Fujisan Official Climbing Guide: https://www.fujisan-climb.jp/en/trails/subashiri.html
-- Japan Guide - Mount Fuji Routes: https://www.japan-guide.com/e/e6901.html
-- Mt. Fuji Climb - Subashiri Trail: https://www.mtfuji-climb.com/subashiri-trail
-- Fujisan Culture & History: https://www.fujisan-climb.jp/en/culture/
-- Japan Guide - Autumn Travel: https://www.japan-guide.com/e/e2164.html
-
-*Research completed September 30, 2025*

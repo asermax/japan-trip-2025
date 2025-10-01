@@ -1,6 +1,7 @@
 # Meoto Iwa (Wedded Rocks) Research
 
 **Location:** Sakurai Futamigaura Beach, Itoshima, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.6392111,130.1970953)
 **Category:** Sacred Shinto site
 **Cost:** Free access
 **Best Time:** Evening for sunset viewing (November sunset: 5:10-5:26 PM JST)

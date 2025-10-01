@@ -1,6 +1,7 @@
 # Tenjin Underground Mall Research
 
 **Location:** Central Tenjin district, underground levels 1-3
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5906167,130.4019576)
 **Category:** Underground shopping mall and transportation hub
 **Cost:** Free entry
 **Best Time:** Weekday mornings for less crowds, any weather

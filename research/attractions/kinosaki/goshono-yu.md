@@ -1,6 +1,7 @@
 # Goshono-yu (御所の湯) Research
 
 **Location:** Central Kinosaki, 9 minutes from station
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.9510932,139.9047781)
 **Category:** Historic Imperial Palace-style onsen
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Early morning (7-9 AM) to avoid crowds

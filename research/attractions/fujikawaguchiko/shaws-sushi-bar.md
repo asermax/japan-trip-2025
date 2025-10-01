@@ -1,6 +1,7 @@
 # Shaw's Sushi Bar & Dining Research
 
 **Location:** 3632-7 Funatsu, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0301
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4988786,138.7680286)
 **Category:** Premium Sushi Restaurant
 **Cost:** Shaw's Sushi Roll Set ¥2,200
 **Best Time:** 11:30 AM - 2:30 PM lunch, 6:00 PM - 9:30 PM dinner (closed Sundays)

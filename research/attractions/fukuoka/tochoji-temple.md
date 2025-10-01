@@ -1,6 +1,7 @@
 # Tochoji Temple Research
 
 **Location:** Hakata Ward, Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5835196,130.4372709)
 **Category:** Shingon Buddhist Temple
 **Cost:** Temple grounds free; Great Buddha viewing ¥50
 **Best Time:** Early morning (9-10 AM) or during illumination period

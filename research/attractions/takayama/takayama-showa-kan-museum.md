@@ -1,6 +1,7 @@
 # Takayama Shōwa-kan Museum Research
 
 **Location:** 6 Shimoichinomachi, Takayama, Gifu Prefecture 506-0843
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1439748,137.2599215)
 **Category:** Interactive Historical Museum
 **Cost:** Adults ¥800, Junior/Senior High ¥500, Children ¥300
 **Best Time:** Early morning (9:00 AM) for quieter experience

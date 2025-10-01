@@ -1,6 +1,7 @@
 # Nakasu Festival Research
 
 **Location:** Nakasu district, Hakata-ku, Fukuoka (between Naka River and Hakata River)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5835196,130.4372709)
 **Category:** Cultural Festival / Traditional Entertainment
 **Cost:** Free street festival, special events may have separate pricing
 **Best Time:** October 31-November 1, 2025 (evening hours)

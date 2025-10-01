@@ -1,6 +1,7 @@
 # Itchiku Kubota Art Museum Research
 
 **Location:** 2255 Kawaguchi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0304
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5273023,138.7598343)
 **Category:** World-renowned textile art museum
 **Cost:** ¥1,800 per adult
 **Best Time:** Early November for optimal autumn foliage; October offers excellent seasonal beauty

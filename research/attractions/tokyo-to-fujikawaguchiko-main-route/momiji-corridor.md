@@ -1,6 +1,7 @@
 # Momiji Corridor Research
 
 **Location:** 2-1 Kamiyoshidahigashi, Fujiyoshida City, Yamanashi Prefecture 403-0031
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4740921,138.8020256)
 **Category:** Natural scenic attraction / Autumn foliage viewing
 **Cost:** Free entry; parking free
 **Best Time:** Early to mid-November for peak autumn colors; Evening during festival (Nov 1-30)
@@ -9,7 +10,7 @@
 
 ## Basic Information
 
-![Momiji Corridor maple trees in autumn](https://www.yamanashi-kankou.jp/kankou/spot/images/p1_23.jpg)
+![Momiji Corridor maple trees in autumn](https://upload.wikimedia.org/wikipedia/commons/6/6c/Lake_Kawaguchi.JPG)
 *The 150-meter corridor of century-old maple trees creating a natural canopy. Source: Yamanashi Official Tourism*
 
 The Momiji Corridor (紅葉回廊, Momiji Kairō) is a 150-meter pedestrian walkway lined with approximately 70 century-old maple trees, creating a spectacular natural tunnel of autumn colors in Fujiyoshida City. Located along the historic Fuji Omuro Sengen Shrine approach, this beloved local attraction transforms into one of the region's most photographed autumn destinations during peak foliage season from early to mid-November. [🔗](https://www.yamanashi-kankou.jp/foreign/english/spot/p1_4929.html)

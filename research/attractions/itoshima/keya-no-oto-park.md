@@ -1,6 +1,7 @@
 # Keya no Oto Park (Totoro Forest) Research
 
 **Location:** Shimakeya 677, Itoshima City, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.58928300000001,130.1079726)
 **Category:** National Natural Monument, sea cave, forest hiking trail
 **Cost:** Boat tour ¥1,000 (adults), Trail free
 **Best Time:** Mid-March through November for boat tours, year-round for trail

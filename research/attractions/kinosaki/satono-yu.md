@@ -1,6 +1,7 @@
 # Satono-yu (さとの湯) Research
 
 **Location:** 290-36 Kinosakicho Imazu, Toyooka City, Hyogo Prefecture (adjacent to Kinosaki Onsen Station)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6255337,134.8106048)
 **Category:** Modern public onsen bathhouse
 **Cost:** Adults ¥900, Children ¥450 (when operational)
 **Best Time:** Early afternoon for rooftop views (when operational)

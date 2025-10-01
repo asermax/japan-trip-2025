@@ -1,6 +1,7 @@
 # Takayama Traditional Culture & Crafts Square Research
 
 **Location:** 35-1 Kamiichinomachi, Takayama City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1420461,137.2607611)
 **Category:** Traditional crafts demonstration center
 **Cost:** Free admission; workshop costs 500-2000 yen per activity
 **Best Time:** Mid-morning for active demonstrations

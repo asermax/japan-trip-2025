@@ -1,6 +1,7 @@
 # Saiko Wild Bird Forest Park Research
 
 **Location:** 2068 Saiko, Fujikawaguchiko Town, Minamitsuru District, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.498398,138.6536526)
 **Category:** Nature park and bird watching sanctuary
 **Cost:** Free entry
 **Best Time:** Early morning (9:00-11:00) for peak bird activity; late October for autumn foliage

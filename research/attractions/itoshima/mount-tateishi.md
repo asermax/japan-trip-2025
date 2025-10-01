@@ -1,6 +1,7 @@
 # Mount Tateishi (立石山) Research
 
 **Location:** Near Keya Beach, Shimakeya, Itoshima, Fukuoka 819-1335
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5854917,130.1083528)
 **Category:** Beginner-friendly coastal mountain, scenic viewpoint
 **Cost:** Free (parking and admission)
 **Best Time:** Autumn to winter (September-March), early morning or late afternoon

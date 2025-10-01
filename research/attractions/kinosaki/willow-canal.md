@@ -1,6 +1,7 @@
 # Traditional Willow-Lined Canal Research
 
 **Location:** Otani River through Kinosaki town center (Latitude 35.6238°N, Longitude 134.8134°E)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6241637,134.8131005)
 **Category:** Historic streetscape with stone bridges
 **Cost:** Free (public walkway)
 **Best Time:** Early morning (7:30 AM) for peaceful photography, evening for yukata-clad visitors and lantern lighting

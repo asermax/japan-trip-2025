@@ -1,6 +1,7 @@
 # Fujisan World Heritage Center Research
 
 **Location:** Kawaguchiko-town, Yamanashi
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4973138,138.7551994)
 **Category:** Free UNESCO Educational Facility
 **Cost:** Free admission
 **Best Time:** Any time, weather-independent indoor experience

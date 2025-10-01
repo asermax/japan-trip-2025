@@ -1,6 +1,7 @@
 # Mandara-yu (まんだら湯) Research
 
 **Location:** Off the main street in central Kinosaki Onsen
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6241637,134.8131005)
 **Category:** Historic Buddhist-themed onsen
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Early evening for mountain views (15:00-17:00)

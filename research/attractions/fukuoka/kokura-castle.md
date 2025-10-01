@@ -1,6 +1,7 @@
 # Kokura Castle Research
 
 **Location:** Kokurakita-ku, Kitakyushu City (1 hour from central Fukuoka)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5901838,130.4016888)
 **Category:** Historic reconstructed castle with modern museum features
 **Cost:** ¥500 during Takeakari Festival (Oct 24 - Nov 3, 2025)
 **Best Time:** Evening hours during illumination festival

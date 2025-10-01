@@ -1,6 +1,7 @@
 # Fuji Katsuyama Bamboo Workshop Research
 
 **Location:** Katsuyama district, Fujikawaguchiko
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5038173,138.7417347)
 **Category:** Traditional craft workshop
 **Cost:** Unverified
 **Best Time:** October (ideal for craft activities)

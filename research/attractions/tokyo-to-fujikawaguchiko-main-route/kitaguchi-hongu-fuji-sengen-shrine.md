@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kitaguchi Hongu Fuji Sengen Shrine torii gates in forest](https://www.yamanashi-kankou.jp/kankou/spot/images/p1_3.jpg)
+![Kitaguchi Hongu Fuji Sengen Shrine torii gates in forest](https://upload.wikimedia.org/wikipedia/commons/7/7a/Kitaguchi_Hongu_Fuji_Sengen_jinja_20190826d4.jpg)
 *The approach to Kitaguchi Hongu Fuji Sengen Shrine through its sacred forest with towering cryptomeria trees. Source: Yamanashi Official Tourism*
 
 Kitaguchi Hongu Fuji Sengen Shrine (北口本宮冨士浅間神社, Kitaguchi Hongu Fuji Sengen Jinja) is a 1,900-year-old Shinto shrine serving as the traditional northern entrance and spiritual gateway to Mount Fuji. Founded in 788 CE at the northern base of Mount Fuji, this UNESCO World Heritage Site component occupies a 99,000 square meter (24.5 acre) sacred forest containing some of Japan's most impressive cryptomeria trees, several over 1,000 years old. As the starting point for the historic Yoshidaguchi Trail - one of the four main pilgrimage routes to Mount Fuji's summit - the shrine embodies centuries of mountain worship tradition and continues to serve as a spiritual preparation point for climbers and pilgrims. [🔗](https://www.japan-guide.com/e/e6902.html)

@@ -1,6 +1,7 @@
 # Jinya-mae Morning Market Research
 
 **Location:** In front of Takayama Jinya government building, Hachikenmachi, Takayama
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1396312,137.2576045)
 **Category:** Traditional morning market, agricultural market
 **Cost:** Free entry - open-air market
 **Best Time:** Early morning (6:00-7:00 AM) for freshest produce and most active atmosphere

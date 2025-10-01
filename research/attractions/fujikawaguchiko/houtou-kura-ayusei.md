@@ -1,6 +1,7 @@
 # Houtou Kura Ayusei Research
 
 **Location:** 6931 Funatsu, Fujikawaguchiko-cho
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4904394,138.7607593)
 **Category:** Premium Traditional Cuisine Restaurant
 **Cost:** ¥1,430+ per serving (premium "Golden Houtou")
 **Best Time:** Early lunch or dinner, call ahead during busy periods

@@ -1,6 +1,7 @@
 # Kouno-yu (鴻の湯) Research
 
 **Location:** Far end of town near Kinosaki Ropeway entrance
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6241183,134.8010199)
 **Category:** Historic onsen bathhouse
 **Cost:** Adults ¥800, Children ¥400
 **Best Time:** Early morning (7:00-8:00 AM) for solitude

@@ -265,34 +265,3 @@ This stop pairs naturally with:
 **Location:** [Gotemba Premium Outlets on Google Maps](https://www.google.com/maps/search/?api=1&query=35.3550,138.9356)
 
 **Official Website:** https://www.premiumoutlets.co.jp/en/gotemba/
-
-## Sources
-
-**Primary Sources:**
-- Gotemba Premium Outlets Official Website: https://www.premiumoutlets.co.jp/en/gotemba/
-- Japan-Guide.com - Gotemba Premium Outlets: https://www.japan-guide.com/e/e5213.html
-- Wikimedia Commons - Gotemba Premium Outlets: https://commons.wikimedia.org/wiki/Category:Gotemba_Premium_Outlets
-
-**Detailed Information:**
-- Romantabi - Parking Guide: https://romantabi.com/en/gotemba-outlet-parking/
-- Romantabi - Restaurant Guide: https://romantabi.com/en/gotemba-outlet-restaurant/
-- Klook Travel Blog: https://www.klook.com/blog/gotemba-premium-outlets-japan/
-- GOOD LUCK TRIP: https://www.gltjp.com/en/directory/item/11769/
-
-**Visitor Experiences:**
-- TripAdvisor Reviews: https://www.tripadvisor.com/Attraction_Review-g739128-d569053-Reviews-Gotemba_Premium_Outlets-Gotemba_Shizuoka_Prefecture_Tokai_Chubu.html
-- Tourist Japan: https://www.touristjapan.com/5-reasons-to-shop-at-gotemba-premium-outlets/
-- Japan Travel Sights: https://japantravelsights.com/archives/684
-
-**Route Planning:**
-- Rome2Rio - Tokyo to Gotemba: https://www.rome2rio.com/s/Tokyo/Gotemba-Premium-Outlets
-- Rome2Rio - Fujikawaguchiko to Gotemba: https://www.rome2rio.com/s/Fujikawaguchiko/Gotemba
-
-**Seasonal Context:**
-- Magical Trip - Mt. Fuji Fashion 2025: https://www.magical-trip.com/media/ultimate-guide-to-mt-fuji-fashion-2025-what-to-wear-for-every-season-and-scenic-spot/
-- GLTJP - Best Time to Visit: https://www.gltjp.com/en/article/item/20797/
-
-**Cultural Context (Gemini Research):**
-- Gemini research with `-p` flag: Cultural significance, shopping customs, visitor atmosphere
-
-*Research completed September 30, 2025*

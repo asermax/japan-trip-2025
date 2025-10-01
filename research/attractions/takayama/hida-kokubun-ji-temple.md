@@ -1,6 +1,7 @@
 # Hida Kokubun-ji Temple Research
 
 **Location:** 1-83 Souwamachi, Takayama City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1433458,137.2536909)
 **Category:** Buddhist temple, ancient provincial temple (Kokubun-ji)
 **Cost:** Adults ¥300, Elementary/Junior High Students ¥250
 **Best Time:** Early morning (9:00-10:00 AM) for peaceful contemplation; late afternoon (3:00-4:00 PM) for optimal ginkgo tree lighting

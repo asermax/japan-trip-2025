@@ -1,6 +1,7 @@
 # Nakasu Entertainment District Research
 
 **Location:** Island between Naka River and Hakata River, central Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.59275615230992,130.4057800091515)
 **Category:** Entertainment district and yatai food stall area
 **Cost:** Free access to district; individual establishment charges vary
 **Best Time:** Evening after 6:00 PM when yatai stalls open

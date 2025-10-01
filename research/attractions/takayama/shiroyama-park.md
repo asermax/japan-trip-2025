@@ -1,6 +1,7 @@
 # Shiroyama Park Research
 
 **Location:** 1-1 Shiroyama, Takayama City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1397301,137.2628787)
 **Category:** Historical park and castle ruins
 **Cost:** Free admission
 **Best Time:** Late October for peak autumn foliage; early morning for panoramic mountain views

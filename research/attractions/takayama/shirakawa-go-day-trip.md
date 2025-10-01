@@ -1,6 +1,7 @@
 # Shirakawa-go Day Trip Research
 
 **Location:** Ogimachi, Shirakawa-mura, Ono-gun, Gifu Prefecture 501-5627
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.2634642,136.9274719)
 **Category:** UNESCO World Heritage Historic Village
 **Cost:** Village free to explore; individual farmhouse museums ¥300-600 each, parking ¥2,000
 **Best Time:** Early morning weekdays for crowd avoidance; peak foliage mid-October to early November

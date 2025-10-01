@@ -1,6 +1,7 @@
 # Kannabe Highlands Research
 
 **Location:** Hidaka-cho, Toyooka City, Hyogo Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=42.47900130000001,142.0743528)
 **Category:** Volcanic Highland Day Trip
 **Cost:** Free for hiking trails and crater access
 **Best Time:** October for autumn foliage and comfortable weather

@@ -1,6 +1,7 @@
 # Kushida Shrine Research
 
 **Location:** Hakata Ward, Central Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5835196,130.4372709)
 **Category:** Historic Shinto Shrine
 **Cost:** Free entry
 **Best Time:** Early morning (6-8 AM) or late afternoon (4-6 PM)

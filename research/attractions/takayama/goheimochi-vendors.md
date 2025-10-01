@@ -1,6 +1,7 @@
 # Goheimochi Vendors Research
 
 **Location:** Traditional street food vendors throughout Takayama historic districts
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Traditional Street Food
 **Cost:** ¥100-250 per skewer
 **Best Time:** Morning hours (9:00-11:00 AM) for freshest preparation

@@ -1,6 +1,7 @@
 # Izushi Castle Town Research
 
 **Location:** Izushi, Toyooka City, Hyogo Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4817564,134.8702812)
 **Category:** Historic Day Trip & Culinary Experience
 **Cost:** Town exploration free; attractions ¥200-400; soba experiences ¥1,800 tour tokens
 **Best Time:** Early morning or late afternoon; autumn for festivals and foliage

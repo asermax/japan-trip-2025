@@ -1,6 +1,7 @@
 # FUJIYAMA Twin Terrace Research
 
 **Location:** Yamanashi Prefecture, Fuefuki City, Ashigawacho Kamiashigawa (Shindo Pass area)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5461801,138.7310411)
 **Category:** Mountain observation deck and viewing platform
 **Cost:** ¥1,800 round-trip shuttle bus fare (no separate terrace admission fee)
 **Best Time:** Early morning for highest Mount Fuji visibility and fewer crowds

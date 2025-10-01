@@ -1,6 +1,7 @@
 # Hakata Old Town Light-up Walk Research
 
 **Location:** Hakata Old Town district, Fukuoka City
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5950481,130.4164244)
 **Category:** Cultural Event / Festival
 **Cost:** ¥2,500 same-day tickets, ¥2,450 e-tickets (advance tickets ¥200 cheaper)
 **Best Time:** October 31-November 3, 2025 (17:30-21:00)

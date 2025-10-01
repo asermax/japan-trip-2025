@@ -1,6 +1,7 @@
 # Takayama Ramen Shops Research
 
 **Location:** Central Takayama city, concentrated around JR Takayama Station and Sanmachi Suji historic district
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1413161,137.2596227)
 **Category:** Traditional Japanese ramen dining experience, regional specialty cuisine
 **Cost:** ¥800-1,650 per bowl (basic ramen to Hida beef specialty)
 **Best Time:** Late afternoon 2:00-4:00 PM or early evening 5:30-6:30 PM for shorter waits

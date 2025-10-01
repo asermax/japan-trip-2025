@@ -1,6 +1,7 @@
 # Straw Craft Museum (Mugiwara zaiku) Research
 
 **Location:** 376-1 Kinosaki-cho Yushima, Toyooka, Hyogo 669-6101 (riverside in traditional storehouse)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6291643,134.7931026)
 **Category:** Traditional craft museum
 **Cost:** Adults ¥300, Middle/High school ¥200, Elementary and under free; Workshops ¥500-¥3,500
 **Best Time:** Morning (10:00-11:00 AM) for optimal lighting and smaller crowds

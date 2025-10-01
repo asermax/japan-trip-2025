@@ -1,6 +1,7 @@
 # Oishi Park Research
 
 **Location:** 2585 Oishi, Fujikawaguchiko, Minamitsuru District, Yamanashi Prefecture 401-0305
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5306891,138.7241621)
 **Category:** Public park and scenic viewing area with seasonal flower displays
 **Cost:** Free entry to park and all viewing areas
 **Best Time:** Early morning (sunrise to 9 AM) or late afternoon (4-6 PM)

@@ -1,6 +1,7 @@
 # Hakata-ori Textile Workshop Research
 
 **Location:** Chikushino, Fukuoka Prefecture (Nishimura Textile Workshop primary location)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.484521,130.533034)
 **Category:** Traditional textile craft workshop and factory experience
 **Cost:** ¥32,000-40,000 per person (group rates for 2-5 people)
 **Best Time:** Autumn period (October-November) ideal for comfortable indoor workshop activity

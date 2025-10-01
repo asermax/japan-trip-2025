@@ -1,6 +1,7 @@
 # Traditional Sake and Shochu Tasting Research
 
 **Location:** Multiple locations across Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5915905,130.4023522)
 **Category:** Traditional Alcohol Culture
 **Cost:** ¥300-¥2,000 per tasting experience
 **Best Time:** Year-round, October 1st is official Sake Day

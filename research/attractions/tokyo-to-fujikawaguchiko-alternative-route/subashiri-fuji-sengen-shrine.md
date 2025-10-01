@@ -1,6 +1,7 @@
 # Subashiri Fuji Sengen Shrine (Fujisan Higashiguchi Hongu Fuji Sengen Shrine) Research
 
 **Location:** 126 Subashiri, Oyama-cho, Sunto-gun, Shizuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3625496,138.8643113)
 **Category:** Historic Shinto shrine and pilgrimage site
 **Cost:** Free entry to shrine grounds
 **Best Time:** Early morning (6:00-9:00 AM) for morning light and fewer crowds
@@ -131,17 +132,3 @@ Otherwise, Kitaguchi Hongu Fuji Sengen Jinja near Fujikawaguchiko destination pr
 - **Subashiri town:** Traditional pilgrimage village with local restaurants and shops
 
 **Location:** [Subashiri Fuji Sengen Shrine on Google Maps](https://www.google.com/maps/search/?api=1&query=富士山東口本宮冨士浅間神社+126+Subashiri+Oyama)
-
-## Sources
-
-- Official Tourism - Yamanashi Prefecture: https://www.yamanashi-kankou.jp/english/explore-by-area/fujisan-fujigoko/fuji-sengen-shrine.html
-- Subashiri Mt. Fuji Pilgrimage Tour: https://subashiri-fujisan.com/ensengenjinja.html
-- Japan National Tourism Organization - Mount Fuji Guide: https://www.japan.travel/en/fuji-guide/mt-fuji-subashiri-trail/
-- Japan-Guide.com - Subashiri 5th Station: https://www.japan-guide.com/e/e6928.html
-- Magical Trip - Must-Visit Sacred Shrines Around Mt. Fuji: https://www.magical-trip.com/media/8-must-visit-sacred-shrines-around-mt-fuji/
-- Official Mt. Fuji Climbing Website: https://www.fujisan-climb.jp/en/trails/subashiri-trail.html
-- Japan Travel - Shrine & Temple Best Practices: https://www.japan.travel/en/us/blog/shrine-temple-visits-best-practices/
-- Rome2Rio - Gotemba to Subashiri: https://www.rome2rio.com/s/Gotemba/Subashiri
-- Wikimedia Commons - Gate of Subashiri Sengen Shrine: https://commons.wikimedia.org/wiki/File:Gate_of_Subashiri_Sengen_Shrine.JPG
-
-*Research completed September 30, 2025*

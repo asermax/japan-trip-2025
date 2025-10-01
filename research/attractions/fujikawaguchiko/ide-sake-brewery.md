@@ -1,6 +1,7 @@
 # Ide Sake Brewery Research
 
 **Location:** 41 Funatsu, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0301
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5020375,138.7653592)
 **Category:** Traditional sake brewery and cultural heritage site
 **Cost:** Tours ¥1,500; Tastings ¥300-550
 **Best Time:** October (beginning of brewing season)

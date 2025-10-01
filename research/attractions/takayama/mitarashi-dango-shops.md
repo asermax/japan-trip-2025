@@ -1,6 +1,7 @@
 # Mitarashi Dango Shops Research
 
 **Location:** Traditional confectionery shops throughout Takayama historic districts
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Traditional Japanese Confectionery
 **Cost:** ¥80-120 per skewer
 **Best Time:** Early morning (8:00-10:00 AM) before crowds

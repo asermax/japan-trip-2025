@@ -1,6 +1,7 @@
 # Momochi Seaside Park Research
 
 **Location:** 2 Chome-902-1 Momochihama, Sawara Ward, Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.59493750000001,130.351742)
 **Category:** Modern waterfront entertainment district and artificial beach park
 **Cost:** Park free; Fukuoka Tower observation deck ¥800 adults
 **Best Time:** October-November offers ideal weather with clear skies for tower views

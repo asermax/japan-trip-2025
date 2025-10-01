@@ -1,6 +1,7 @@
 # HAKUMAI Premium Japanese Cuisine Research
 
 **Location:** 2-2-5 Asama, Fujiyoshida-shi, Yamanashi
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4920521,138.8041714)
 **Category:** Premium Japanese Restaurant
 **Cost:** Lunch ¥3,000, Dinner ¥4,000
 **Best Time:** Lunch 10:00 AM - 4:00 PM, Dinner 5:30 PM - 8:00 PM (reservations required)

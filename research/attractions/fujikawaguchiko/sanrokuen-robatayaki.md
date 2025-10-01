@@ -1,6 +1,7 @@
 # Sanrokuen Traditional Robatayaki Research
 
 **Location:** 3370-1 Funatsu, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0301
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.49344749999999,138.7676534)
 **Category:** Premium Traditional Japanese Restaurant
 **Cost:** ¥3,000 for Sanroku course
 **Best Time:** 11:00 AM - 5:30 PM (closed Wednesdays)

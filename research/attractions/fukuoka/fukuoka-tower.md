@@ -1,6 +1,7 @@
 # Fukuoka Tower Research
 
 **Location:** Momochi Seaside district, Sawara-ku
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5948706,130.3522402)
 **Category:** Modern observation tower and architectural landmark
 **Cost:** Starting from ¥800 (adults)
 **Best Time:** Late afternoon for sunset views, early morning for fewer crowds

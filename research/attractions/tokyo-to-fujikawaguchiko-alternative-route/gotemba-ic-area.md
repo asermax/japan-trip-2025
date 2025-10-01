@@ -1,6 +1,7 @@
 # Gotemba IC Area Research
 
 **Location:** 35.3° North, 138.933° East | 1097 Higashitanaka, Gotemba, Shizuoka 412-0026
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.2949949,138.9455744)
 **Category:** Highway interchange and regional transition point
 **Cost:** No entry cost (expressway tolls apply)
 **Best Time:** Clear morning hours for optimal Mount Fuji views
@@ -209,38 +210,3 @@ Gotemba IC represents the pivotal moment where your journey transitions from Tok
 3. **Historical Significance:** Ancient Tokaido Road heritage and Gotemba Trail spiritual pilgrimage connection [🔗](gemini research)
 
 **Location:** [📍 Gotemba IC on Google Maps](https://www.google.com/maps/search/?api=1&query=Tomeigotenba-Ic&query_place_id=ChIJfUDRiRN2GWARJVzNYcmD-rg)
-
-## Sources
-
-**Official Transportation Information:**
-- NEXCO Central - Tomei Expressway: https://www.c-nexco.co.jp/en/
-- NEXCO Central - Heavy Snow Guide: https://www.c-nexco.co.jp/en/special/snow/needed.html
-- NEXCO Central - Traffic Information: https://www.c-nexco.co.jp/en/jam/
-
-**Mount Fuji Access:**
-- Official Mt. Fuji Climbing - Gotemba Trail: https://www.fujisan-climb.jp/en/access/access-gotemba-trail.html
-- Japan-Guide.com - Gotemba 5th Station: https://www.japan-guide.com/e/e6929.html
-
-**Geographic References:**
-- Wikipedia - Tomei Expressway: https://en.wikipedia.org/wiki/Tōmei_Expressway
-- Wikipedia - Ashigara Service Area: https://en.wikipedia.org/wiki/Ashigara_Service_Area
-- Wikimedia Commons - Tomei-Gotemba Image: https://commons.wikimedia.org/wiki/File:Tomei-Gotemba.JPG
-
-**Travel Guides:**
-- Japan-Guide.com - Mount Fuji Views: https://www.japan-guide.com/e/e6933.html
-- Japan-Guide.com - Gotemba Premium Outlets: https://www.japan-guide.com/e/e5213.html
-
-**Seasonal Information:**
-- Magical Trip - Mt. Fuji October Events: https://www.magical-trip.com/media/complete-guide-to-mt-fuji-events-october-2025-autumn-festivals-peak-foliage-kawaguchiko-illuminations/
-- Magical Trip - Autumn Foliage Spots: https://www.magical-trip.com/media/top-11-mt-fuji-autumn-foliage-spots-best-places-to-experience-fall-colors-in-2025/
-
-**Route Planning:**
-- Rome2Rio - Fujikawaguchiko to Gotemba: https://www.rome2rio.com/s/Fujikawaguchiko/Gotemba
-
-**Local Services:**
-- TripAdvisor - Sawayaka Gotemba: https://www.tripadvisor.com/Restaurant_Review-g739128-d8867122-Reviews-Sawayaka_Gotemba_Inter-Gotemba_Shizuoka_Prefecture_Tokai_Chubu.html
-
-**Cultural Context (Gemini Research):**
-- Gemini research with `-p` flag: Cultural and historical significance, route comparison, local driving culture, regional character
-
-*Research completed September 30, 2025*

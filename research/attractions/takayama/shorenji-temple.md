@@ -1,6 +1,7 @@
 # Shorenji Temple Research
 
 **Location:** Takayama, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Historic Buddhist Temple (Jodo Shinshu sect)
 **Cost:** Free entry to temple grounds and main hall
 **Best Time:** Early morning (9:00 AM - 3:00 PM) for quieter experience

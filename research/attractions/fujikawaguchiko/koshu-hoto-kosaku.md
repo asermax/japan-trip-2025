@@ -1,6 +1,7 @@
 # Koshu Hoto Kosaku Research
 
 **Location:** 1638-1 Funatsu, Fujikawaguchiko-cho
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4957864,138.7568778)
 **Category:** Traditional Japanese Farmhouse Restaurant
 **Cost:** ¥1,050-¥1,430 per serving, specialty dishes vary
 **Best Time:** Early lunch (11:30 AM) or early dinner (5:00 PM)

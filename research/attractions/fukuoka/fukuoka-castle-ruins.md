@@ -1,6 +1,7 @@
 # Fukuoka Castle Ruins Research
 
 **Location:** Maizuru Park, Central Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5860599,130.3831703)
 **Category:** Historic Castle Ruins
 **Cost:** Free entry
 **Best Time:** Early morning or late afternoon; mid to late November for peak autumn foliage

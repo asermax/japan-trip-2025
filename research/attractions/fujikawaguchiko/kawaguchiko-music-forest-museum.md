@@ -1,6 +1,7 @@
 # Kawaguchiko Music Forest Museum Research
 
 **Location:** 3077-20 Kawaguchi, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0304, Japan
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5219604,138.7692539)
 **Category:** European-style music box museum and theme park
 **Cost:** Weekdays: Adults ¥1,800, University/High School ¥1,300, Elementary/Junior High ¥1,000
 **Best Time:** Mid-morning (10:30-11:30 AM) for optimal lighting and smaller crowds

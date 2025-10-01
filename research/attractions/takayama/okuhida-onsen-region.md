@@ -1,6 +1,7 @@
 # Okuhida Onsen Region Research
 
 **Location:** Takayama city, Gifu Prefecture (45-60 minutes from Takayama by bus)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Collection of five hot spring villages in the Northern Japan Alps
 **Cost:** Public baths ¥300-900; ryokan day-use ¥500-2,000; bus ¥1,600-2,200 one-way
 **Best Time:** Late October for peak autumn foliage with outdoor onsen experiences

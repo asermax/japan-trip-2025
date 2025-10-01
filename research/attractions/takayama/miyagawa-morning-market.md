@@ -1,6 +1,7 @@
 # Miyagawa Morning Market Research
 
 **Location:** Along Miyagawa River between Kajibashi and Yayoibashi bridges, Takayama
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.22859470486414,137.177932728545)
 **Category:** Traditional riverside morning market, cultural heritage site
 **Cost:** Free entry - browse and purchase at leisure
 **Best Time:** 7:00-8:00 AM for quieter experience, freshest produce; avoid 9:00-10:00 AM peak crowds

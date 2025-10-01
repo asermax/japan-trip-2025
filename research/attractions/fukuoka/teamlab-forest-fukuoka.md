@@ -1,6 +1,7 @@
 # TeamLab Forest Fukuoka Research
 
 **Location:** BOSS E・ZO FUKUOKA 5F, Chuo Ward, Fukuoka
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5949436,130.363646)
 **Category:** Interactive Digital Art Museum
 **Cost:** Adults ¥2,400, Students ¥2,000, Children ¥1,000
 **Best Time:** Weekday mornings; autumn season offers seasonal installations

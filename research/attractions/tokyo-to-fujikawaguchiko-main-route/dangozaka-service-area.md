@@ -1,6 +1,7 @@
 # Dangozaka Service Area (EXPASA Facility) Research
 
 **Location:** 4943 Ono, Uenohara City, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.62825180000001,139.0458322)
 **Category:** Premium highway service area (EXPASA designation)
 **Cost:** Free parking and facility access; food and shopping vary by purchase
 **Best Time:** Morning (9:00-10:00 AM) for best Mount Fuji views and fewer crowds

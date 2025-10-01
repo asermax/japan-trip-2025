@@ -1,6 +1,7 @@
 # Keya Beach & Keya no Oto Research
 
 **Location:** 520 Shima-Keya, Itoshima City, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5935653,130.1102386)
 **Category:** Natural basalt cave formation and coastal beach
 **Cost:** Adults ¥1,000, Children (elementary school) ¥500 for boat tour; beach access free
 **Best Time:** March-November operating season; calm weather essential for cave entry

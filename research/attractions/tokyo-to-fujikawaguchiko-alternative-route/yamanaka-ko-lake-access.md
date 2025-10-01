@@ -1,6 +1,7 @@
 # Lake Yamanaka (Yamanaka-ko) Research
 
 **Location:** 35.41667°N, 138.87500°E | Yamanakako Village, Minamitsuru District, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4106457,138.8611439)
 **Category:** Natural scenic attraction, lake viewpoint, Five Lakes entry point
 **Cost:** Free access to lakeside areas and viewing points
 **Best Time:** Early morning (sunrise) for reflections; sunset for Diamond Fuji (Oct-Feb)
@@ -157,15 +158,3 @@ Mount Fuji visibility is highly weather-dependent. October generally offers bett
 - Yamanakako Panorama Viewing Platform: Hill viewpoint at 1,300m elevation
 
 **Location:** [Lake Yamanaka on Google Maps](https://www.google.com/maps/place/35.41667,138.87500)
-
-## Sources
-
-- Wikipedia - Lake Yamanaka: https://en.wikipedia.org/wiki/Lake_Yamanaka
-- Japan Guide - Lake Yamanakako: https://www.japan-guide.com/e/e6908.html
-- Diamond Fuji - Official Yamanashi: https://www.yamanashi-kankou.jp/english/explore-by-area/fujisan-fujigoko/diamond-fuji-lake-yamanakako.html
-- MATCHA - Lake Yamanaka Autumn Foliage: https://matcha-jp.com/en/21838
-- Yuga Kurita Photography - Yamanakako Photo Spots: https://yugakurita.com/blog/2020/01/05/yamanakako/
-- Japan Starts Here - Yamanakako vs Kawaguchiko: https://japanstartshere.com/2025/01/27/yamanakako-vs-kawaguchiko/
-- UNESCO World Heritage: https://whc.unesco.org/en/list/1418/
-
-*Research completed September 30, 2025*

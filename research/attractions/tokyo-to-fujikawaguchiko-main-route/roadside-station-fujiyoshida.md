@@ -1,6 +1,7 @@
 # Roadside Station Fujiyoshida Research
 
 **Location:** 1936-6 Araya, Fujiyoshida City, Yamanashi Prefecture 403-0006
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4593459,138.8019867)
 **Category:** Government-designated roadside station / Cultural facility
 **Cost:** Free entry; food and shopping vary by purchase
 **Best Time:** 9:30-11:00 AM on weekdays to avoid crowds

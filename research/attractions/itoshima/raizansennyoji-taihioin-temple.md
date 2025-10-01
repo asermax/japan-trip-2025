@@ -1,6 +1,7 @@
 # Raizansennyoji Taihioin Temple Research
 
 **Location:** 626 Raizan, Itoshima, Fukuoka 819-1145, Japan
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.4944452,130.2287089)
 **Category:** Historic Buddhist temple complex
 **Cost:** ¥400 for adults (includes hiking charge); ¥100 garden-only option available during autumn
 **Best Time:** Mid to late November for peak autumn foliage; early morning recommended

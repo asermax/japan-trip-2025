@@ -1,6 +1,7 @@
 # Dazaifu Tenmangu Shrine Research
 
 **Location:** Dazaifu, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5136238,130.5266668)
 **Category:** Major Shinto Shrine
 **Cost:** Free entry; Museum fees ¥500-1000
 **Best Time:** Early morning (6:30 AM); mid-November to early December for autumn foliage

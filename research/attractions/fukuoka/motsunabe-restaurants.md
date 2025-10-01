@@ -1,6 +1,7 @@
 # Motsunabe Restaurants Research
 
 **Location:** Hakata Ward and city-wide locations
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5835196,130.4372709)
 **Category:** Traditional Hot Pot Cuisine
 **Cost:** ¥3,200-¥6,000 per person
 **Best Time:** October-March (hot pot season)

@@ -1,6 +1,7 @@
 # Mizutaki Cuisine Research
 
 **Location:** Hakata Ward and Chuo Ward locations
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=34.6751147,135.5063249)
 **Category:** Traditional Chicken Hot Pot
 **Cost:** ¥3,000-¥6,600 per person
 **Best Time:** October-March (hot pot season)

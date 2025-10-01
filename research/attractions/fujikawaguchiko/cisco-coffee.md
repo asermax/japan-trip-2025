@@ -1,6 +1,7 @@
 # CISCO COFFEE Research
 
 **Location:** 927-1 Kodachi, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0302
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5108426,138.7530539)
 **Category:** American-Style Third Wave Coffee Shop
 **Cost:** Hand-drip coffee ¥600, Boston Cream Pie ¥650, lunch ¥1,000-¥1,499
 **Best Time:** Weekday mornings 9:00-11:00 AM (closed Wednesdays)

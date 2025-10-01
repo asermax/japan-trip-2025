@@ -1,6 +1,7 @@
 # Gokayama Research
 
 **Location:** Nanto City, Toyama Prefecture (2-3 hours from Takayama via bus)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.5628915,136.9701231)
 **Category:** UNESCO World Heritage Site featuring traditional gassho-zukuri farmhouse villages
 **Cost:** Free village access; parking conservation fee ¥500-1,000
 **Best Time:** Late October for peak autumn colors; early morning for fewer crowds

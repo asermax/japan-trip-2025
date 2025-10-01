@@ -1,6 +1,7 @@
 # Roadside Station Narusawa (Michi-no-Eki Narusawa)
 
 **Location:** 8532-63 Narusawa-mura, Minamitsuru-gun, Yamanashi Prefecture 401-0320
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4154766,138.6990679)
 **Category:** Government-designated rest area / Cultural facility
 **Cost:** Free (all facilities including museum)
 **Best Time:** Early morning (9:00-10:00 AM) for Mount Fuji views

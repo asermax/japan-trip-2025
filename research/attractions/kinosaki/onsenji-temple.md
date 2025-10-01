@@ -1,6 +1,7 @@
 # Onsenji Temple Research
 
 **Location:** 985-2 Kinosakicho Yushima, Toyooka, Hyogo 669-6101 (Mount Daishi mountainside)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6291643,134.7931026)
 **Category:** Buddhist temple (Koyasan Shingon sect)
 **Cost:** ¥300 temple, ¥400 temple + museum, ¥750 ropeway round trip
 **Best Time:** Morning for fewer crowds, late October for autumn foliage

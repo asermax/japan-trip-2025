@@ -1,6 +1,7 @@
 # Takayama Museum of History & Art Research
 
 **Location:** 75 Kamiichinomachi, Takayama City, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1421288,137.2616065)
 **Category:** City history museum
 **Cost:** Free admission
 **Best Time:** Morning hours (9:00-11:00 AM) before exploring Sanmachi Suji

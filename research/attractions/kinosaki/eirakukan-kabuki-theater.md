@@ -1,6 +1,7 @@
 # Eirakukan Kabuki Theater Research
 
 **Location:** 17-2 Izushichoyanagi, Toyooka, Hyogo Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4619851,134.8715533)
 **Category:** Historic Cultural Theater
 **Cost:** Adults ¥400, Students ¥240, Children under 12 free
 **Best Time:** Year-round for tours; potential autumn programming

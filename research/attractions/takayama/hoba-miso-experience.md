@@ -1,6 +1,7 @@
 # Hoba Miso Experience Research
 
 **Location:** Multiple restaurant locations throughout historic Takayama district
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Traditional regional cuisine experience, mountain survival dish
 **Cost:** Individual dishes ¥2,500-3,500; breakfast sets from ¥1,200
 **Best Time:** Lunch (11:00 AM-2:00 PM) or early dinner (6:00-7:00 PM) for October visit

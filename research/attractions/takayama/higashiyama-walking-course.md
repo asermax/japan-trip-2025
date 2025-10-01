@@ -1,6 +1,7 @@
 # Higashiyama Walking Course Research
 
 **Location:** Tenshojimachi, Takayama City, Gifu Prefecture (Higashiyama Temple Area)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1438942,137.2672244)
 **Category:** Temple district walking course / Cultural heritage trail
 **Cost:** Free for walking course and most temple grounds
 **Best Time:** Early morning (8-10 AM) or late afternoon (3-5 PM) for optimal lighting

@@ -1,6 +1,7 @@
 # Tomei Expressway Service Areas Research
 
 **Location:** Multiple service areas along Tomei Expressway from Tokyo to Gotemba IC
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6764225,139.650027)
 **Category:** Highway service areas and parking areas
 **Cost:** Free access (fuel and purchases separate)
 **Best Time:** Ebina SA (40-45 min from Tokyo) or Ashigara SA (80 km from Tokyo) for extended breaks
@@ -242,38 +243,3 @@ After continuing from service areas through Gotemba IC:
 - [Ebina Service Area on Google Maps](https://www.google.com/maps/place/35.431556,139.400139)
 - [Ashigara Service Area on Google Maps](https://www.google.com/maps/search/Ashigara+Service+Area+Tomei+Expressway)
 - [Komakado PA on Google Maps](https://www.google.com/maps/search/Komakado+PA+Tomei+Expressway)
-
-## Sources
-
-**General Tomei Expressway Information:**
-- Wikipedia - Tomei Expressway: https://en.wikipedia.org/wiki/T%C5%8Dmei_Expressway
-- NEXCO Central Official Site: https://www.c-nexco.co.jp/en/
-- Japan-guide.com - Japanese Expressways: https://www.japan-guide.com/e/e2354.html
-
-**Ebina Service Area:**
-- Wikipedia - Ebina Service Area: https://en.wikipedia.org/wiki/Ebina_Service_Area
-- NEXCO Central - Ebina Facility Information: https://globalsapa.c-nexco.co.jp/en/sapa/9/
-- Wikimedia Commons - Ebina Service Area: https://commons.wikimedia.org/wiki/Category:Ebina_Service_Area
-
-**Ashigara Service Area:**
-- Wikipedia - Ashigara Service Area: https://en.wikipedia.org/wiki/Ashigara_Service_Area
-- NEXCO Central - Ashigara Facility Information: https://globalsapa.c-nexco.co.jp/en/sapa/3/
-- Wikimedia Commons - Ashigara Service Area: https://commons.wikimedia.org/wiki/Category:Ashigara_Service_Area
-
-**Service Area Facilities:**
-- NEXCO Central - Facilities and Services: https://globalsapa.c-nexco.co.jp/en/sapa/facilities/
-- NEXCO Central - EXPASA Concept: https://www.c-nexco.co.jp/en/corporate/operation/service_area/
-
-**Komakado PA:**
-- IWASAKI Electric - Komakado PA Project: https://www.eye.co.jp/projects/examples/detail/id/rsa17/cid/1/sid/2/
-- TripAdvisor - Komakado PA Reviews: https://www.tripadvisor.com/Attraction_Review-g739128-d9751978-Reviews-Komakado_Parking_Area_Down_Line-Gotemba_Shizuoka_Prefecture_Tokai_Chubu.html
-
-**Cultural Context:**
-- Nippon.com - Service Areas: https://www.nippon.com/en/features/jg00002/
-- Japan Times - Gourmet Rest Stops: https://www.japantimes.co.jp/life/2014/08/26/food/refuel-refresh-japans-gourmet-motoring-rest-stops/
-- Bill's Blog - Highway Rest Stops: https://billkralovec.com/2015/12/31/quirky-japan-highway-rest-stops/
-
-**October Travel Conditions:**
-- UME Travel - Japan Weather in October: https://www.umetravel.com/weather-in-japan/japan-weather-october-travel-tips-fall-foliage.html
-
-*Research completed September 30, 2025*

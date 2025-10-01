@@ -1,6 +1,7 @@
 # Lake Kawaguchi Shoreline Research
 
 **Location:** 35.514999° N, 138.756668° E, Fujikawaguchiko Town, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4973138,138.7551994)
 **Category:** Scenic lakeshore with multiple viewpoints, UNESCO World Heritage site
 **Cost:** Free access to shoreline walking trail and most viewpoints
 **Best Time:** Early morning (sunrise to 8 AM) for calm water reflections and optimal lighting

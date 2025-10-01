@@ -1,6 +1,7 @@
 # Munakata Taisha Shrine Research
 
 **Location:** Munakata City, Fukuoka Prefecture (three shrine complex)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.8055433,130.5410298)
 **Category:** UNESCO World Heritage Shinto shrine complex
 **Cost:** Free shrine access; Shinpokan Museum ¥800 (General), ¥500 (Students), ¥400 (Children)
 **Best Time:** Early morning or late afternoon; post-festival autumn period

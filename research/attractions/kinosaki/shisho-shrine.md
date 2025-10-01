@@ -1,6 +1,7 @@
 # Shisho Shrine Research
 
 **Location:** 447 Yushima, Kinosaki-cho, Toyooka City, Hyogo Prefecture (next to Goshono-Yu bathhouse)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6259467,134.8073683)
 **Category:** Shinto shrine, guardian shrine of hot springs
 **Cost:** Free (standard for Shinto shrines)
 **Best Time:** Early morning (6-8 AM) for peaceful atmosphere, late afternoon for golden hour photography

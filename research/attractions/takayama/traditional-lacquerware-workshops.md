@@ -1,6 +1,7 @@
 # Traditional Lacquerware Workshops Research
 
 **Location:** Various studios in central Takayama
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Traditional craft workshop experience
 **Cost:** ¥25,000 for premium workshop experience with designated craftsperson
 **Best Time:** By advance reservation, year-round availability

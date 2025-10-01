@@ -1,6 +1,7 @@
 # Traditional Mountain Vegetable Cuisine Research
 
 **Location:** Traditional kaiseki restaurants and Buddhist establishments throughout Takayama
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)
 **Category:** Traditional Buddhist Vegetarian Cuisine
 **Cost:** Multi-course kaiseki meals range from 5-20 courses, reservations essential
 **Best Time:** October peak harvest season for autumn mountain vegetables

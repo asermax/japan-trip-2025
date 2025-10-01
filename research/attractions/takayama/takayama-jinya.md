@@ -1,6 +1,7 @@
 # Takayama Jinya Research
 
 **Location:** 1-5 Hachikenmachi, Takayama City, Gifu Prefecture 506-0012
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1397245,137.2573861)
 **Category:** Historical government complex / Cultural heritage site
 **Cost:** Adults ¥440, high school students and younger free
 **Best Time:** Early morning (9:00-10:00 AM) or late afternoon for optimal lighting

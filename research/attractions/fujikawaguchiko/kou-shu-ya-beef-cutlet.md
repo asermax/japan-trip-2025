@@ -1,6 +1,7 @@
 # Kou Shu Ya Beef Cutlet Specialist Research
 
 **Location:** 3753-1 Funatsu, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0301
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5006096,138.7683686)
 **Category:** Premium Beef Cutlet Specialist
 **Cost:** Varies by cut and size, premium beef cutlet dishes
 **Best Time:** 10:30 AM - 8:00 PM daily

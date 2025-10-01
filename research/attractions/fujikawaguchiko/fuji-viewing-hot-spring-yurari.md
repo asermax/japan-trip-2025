@@ -1,6 +1,7 @@
 # Fuji Viewing Hot Spring Yurari Research
 
 **Location:** Narusawa Village, Yamanashi Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4807038,138.7047409)
 **Category:** Premium hot spring facility
 **Cost:** Adults ¥1,300-1,700 (depending on day/time)
 **Best Time:** Early morning for clearest Mount Fuji views

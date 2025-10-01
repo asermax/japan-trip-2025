@@ -1,6 +1,7 @@
 # Saiko Iyashi-no-Sato Nenba Research
 
 **Location:** 2710 Saiko Nenba, Fujikawaguchiko-machi, Minamitsuru-gun, Yamanashi 401-0332
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5050023,138.6614772)
 **Category:** Traditional reconstructed village/Open-air museum
 **Cost:** Adults 500 yen, Students 250 yen; Workshops 600-1,100 yen
 **Best Time:** Early morning (9:00-10:00 AM) for optimal Mt. Fuji views and fewer crowds

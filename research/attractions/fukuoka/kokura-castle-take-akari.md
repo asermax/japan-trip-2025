@@ -1,6 +1,7 @@
 # Kokura Castle Take-Akari Research
 
 **Location:** Kokura Castle, 2-1 Jonai, Kokurakita Ward, Kitakyushu City, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.8844357,130.8742541)
 **Category:** Cultural Event / Illumination Festival
 **Cost:** ¥1,000 (junior high+), free for elementary and below
 **Best Time:** October 24-November 3, 2025 (17:30-21:00)

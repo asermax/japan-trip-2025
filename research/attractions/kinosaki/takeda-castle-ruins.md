@@ -1,6 +1,7 @@
 # Takeda Castle Ruins Research
 
 **Location:** Mount Shiroyama, Asago City, Hyogo Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.3397832,134.8523483)
 **Category:** Historic Day Trip
 **Cost:** Adults ¥500, Groups (20+) ¥450, Junior high and below free
 **Best Time:** October-November sunrise (6:00-6:30 AM) for sea of clouds

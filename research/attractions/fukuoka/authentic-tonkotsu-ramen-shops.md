@@ -1,6 +1,7 @@
 # Authentic Tonkotsu Ramen Shops Research
 
 **Location:** Multiple locations throughout Fukuoka city
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5901838,130.4016888)
 **Category:** Culinary culture experience - authentic regional specialty dining
 **Cost:** ¥550-850 per bowl (yatai stalls around ¥550)
 **Best Time:** Late morning (11:00 AM) or mid-afternoon (2:00-4:00 PM) to avoid crowds

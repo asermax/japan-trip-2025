@@ -1,6 +1,7 @@
 # Hakoshima Jinja (箱島神社) Research
 
 **Location:** 86 Nijo Hamakubo, Itoshima City, Fukuoka Prefecture 819-1614
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5166038,130.140176)
 **Category:** Shinto shrine, coastal spiritual site, power spot
 **Cost:** Free (parking ¥200-300)
 **Best Time:** Low tide, sunset (year-round), early morning for solitude

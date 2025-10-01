@@ -1,6 +1,7 @@
 # Takayama Festival Floats Exhibition Hall (Matsuri Yatai Kaikan) Research
 
 **Location:** 178 Sakuramachi, Takayama, Gifu Prefecture (next to Sakurayama Hachiman Shrine)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1484031,137.2601125)
 **Category:** Cultural museum and exhibition hall
 **Cost:** ¥1,000 (includes adjacent Nikkokan hall with Toshogu Shrine models)
 **Best Time:** Morning (9:00-11:00 AM) for optimal lighting and fewer crowds

@@ -1,6 +1,7 @@
 # Kinosaki Heritage Museum (KINOBUN) Research
 
 **Location:** 357-1 Yushima, Kinosaki-cho, Toyooka City, Hyogo Prefecture 669-6101
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6249129,134.8129755)
 **Category:** Literary heritage museum
 **Cost:** Adults ¥500, High school/junior high students ¥300, Elementary and younger free
 **Best Time:** Morning hours for quieter experience, autumn season for thematic resonance

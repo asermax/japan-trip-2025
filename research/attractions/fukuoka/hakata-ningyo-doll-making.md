@@ -1,6 +1,7 @@
 # Hakata Ningyo Doll Making Research
 
 **Location:** Multiple workshop locations throughout Fukuoka City
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5901838,130.4016888)
 **Category:** Traditional Japanese clay doll craft workshop experience
 **Cost:** From ¥2,160 (basic painting) to ¥66,000 (comprehensive workshop)
 **Best Time:** October-November ideal for comfortable indoor workshop activity

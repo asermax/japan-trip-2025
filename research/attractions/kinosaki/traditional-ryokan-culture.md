@@ -1,6 +1,7 @@
 # Traditional Ryokan Stay Culture Research
 
 **Location:** Throughout Kinosaki Onsen traditional accommodations
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6241637,134.8131005)
 **Category:** Cultural Experience
 **Cost:** Included with traditional ryokan accommodation
 **Best Time:** Year-round, optimal during autumn visit

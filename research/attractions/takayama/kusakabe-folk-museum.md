@@ -1,6 +1,7 @@
 # Kusakabe Folk Museum Research
 
 **Location:** 1-52 Oshinmachi, Takayama, Gifu 506-0851
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1464128,137.2581485)
 **Category:** Folk art museum housed in preserved Edo-period merchant residence
 **Cost:** Adults ¥500, Children ¥300, Groups (30+) ¥450/¥250
 **Best Time:** Early morning (9:00-10:30 AM) for fewer crowds and optimal lighting

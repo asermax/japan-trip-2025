@@ -1,6 +1,7 @@
 # Hida Takayama Crafts Experience Center Research
 
 **Location:** 436 Kamiokamotomachi, Takayama-shi, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1332812,137.2313263)
 **Category:** Traditional craft experience center
 **Cost:** ¥800-¥3,000 depending on activity (Sarubobo making: ¥2,500, Rice crackers: ¥800)
 **Best Time:** Mornings for quieter experience, no reservations required

@@ -1,6 +1,7 @@
 # Sake Brewery Tours - Traditional Brewing in Itoshima Area Research
 
 **Location:** Itoshima Peninsula, Fukuoka Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.5885074,130.1818428)
 **Category:** Traditional cultural experience and brewery tours
 **Cost:** Free entry to special events; private tours by arrangement
 **Best Time:** October-March brewing season; special events in February and April

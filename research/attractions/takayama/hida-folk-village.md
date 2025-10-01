@@ -1,6 +1,7 @@
 # Hida Folk Village (Hida no Sato) Research
 
 **Location:** 1-590 Kamiokamotomachi, Takayama, Gifu Prefecture
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1319956,137.2370143)
 **Category:** Open-air museum and cultural heritage site
 **Cost:** ¥700 adults, ¥200 children (6-15 years), free under 6
 **Best Time:** Morning hours (9:00-11:00 AM) for craft demonstrations

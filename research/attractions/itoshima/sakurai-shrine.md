@@ -1,6 +1,7 @@
 # Sakurai Shrine Research
 
 **Location:** 4227 Shima-Sakurai, Itoshima City, Fukuoka 819-1304
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=33.6282558,130.1919945)
 **Category:** Shinto shrine
 **Cost:** Free entry
 **Best Time:** Weekdays to avoid crowds, sunset hours for nearby Futamigaura views

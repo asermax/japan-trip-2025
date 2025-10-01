@@ -1,6 +1,7 @@
 # Momijidai Rest House Research
 
 **Location:** 8527 Narusawa, Narusawa-mura, Minamitsuru-gun, Yamanashi 401-0320
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.480071,138.70133)
 **Category:** Observation deck and rest house
 **Cost:** Free access to grounds; fee required for second-floor observation deck
 **Best Time:** Late October to early November for peak autumn foliage
