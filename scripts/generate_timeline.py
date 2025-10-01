@@ -8,11 +8,12 @@ import os
 import sys
 import re
 import unicodedata
+import json
 from pathlib import Path
 from datetime import datetime, timedelta
 import argparse
 import markdown
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any, Optional, Tuple
 
 # Category mapping for organizing attractions
 CATEGORY_GROUPS = {
@@ -80,6 +81,44 @@ def escape_toml_string(text: str) -> str:
     text = text.replace('\r', '\\r')
     text = text.replace('\t', '\\t')
     return text
+
+
+def extract_coordinates(content: str) -> Optional[Tuple[float, float]]:
+    """Extract latitude and longitude from Google Maps URL in content.
+
+    Looks for patterns like:
+    - https://www.google.com/maps?q=35.501354,138.80154
+    - https://maps.google.com/maps?q=35.501354,138.80154
+    - (35.501354, 138.80154)
+
+    Returns:
+        Tuple of (latitude, longitude) or None if not found
+    """
+    # Try Google Maps URL pattern first
+    maps_pattern = r'maps\.google\.com/maps\?q=([-+]?\d+\.?\d*),([-+]?\d+\.?\d*)'
+    match = re.search(maps_pattern, content)
+
+    if match:
+        try:
+            lat = float(match.group(1))
+            lng = float(match.group(2))
+            return (lat, lng)
+        except ValueError:
+            pass
+
+    # Try parentheses pattern as fallback
+    coords_pattern = r'\((\d+\.\d+),\s*(\d+\.\d+)\)'
+    match = re.search(coords_pattern, content)
+
+    if match:
+        try:
+            lat = float(match.group(1))
+            lng = float(match.group(2))
+            return (lat, lng)
+        except ValueError:
+            pass
+
+    return None
 
 
 # Timeline entry template
@@ -382,16 +421,26 @@ class TimelineGenerator:
                 # Check if attraction file exists
                 attraction_file = self.research_dir / "attractions" / route_folder_name / f"{attraction_slug}.md"
                 if attraction_file.exists():
-                    sections[section_key].append({
+                    attraction_info = {
                         'title': attraction_title,
                         'slug': attraction_slug,
                         'file_path': attraction_file
-                    })
+                    }
+
+                    # Extract coordinates from attraction file
+                    with open(attraction_file, 'r', encoding='utf-8') as f:
+                        file_content = f.read()
+                        coordinates = extract_coordinates(file_content)
+                        if coordinates:
+                            attraction_info['lat'] = coordinates[0]
+                            attraction_info['lng'] = coordinates[1]
+
+                    sections[section_key].append(attraction_info)
 
         return sections
 
     def get_attraction_data(self, destination_slug: str) -> List[Dict]:
-        """Get attraction data with category information for a destination."""
+        """Get attraction data with category information and coordinates for a destination."""
         attractions_data = []
         attraction_dir = self.research_dir / "attractions" / destination_slug
 
@@ -408,13 +457,24 @@ class TimelineGenerator:
                 category_text = attraction_data.get('category', '')
                 category_group = self.categorize_attraction(category_text)
 
-                attractions_data.append({
+                # Extract coordinates from file content
+                file_content = attraction_data.get('content', '')
+                coordinates = extract_coordinates(file_content)
+
+                attraction_info = {
                     'title': attraction_title,
                     'slug': slug,
                     'category': category_group,
                     'original_category': category_text,
                     'file_path': str(attraction_file)
-                })
+                }
+
+                # Add coordinates if found
+                if coordinates:
+                    attraction_info['lat'] = coordinates[0]
+                    attraction_info['lng'] = coordinates[1]
+
+                attractions_data.append(attraction_info)
 
         return attractions_data
 
@@ -446,6 +506,35 @@ class TimelineGenerator:
 
         return ordered_categories
 
+    def build_map_data(self, attractions_data: List[Dict], base_url_prefix: str = "/attractions") -> str:
+        """Build JSON map data for attractions with coordinates.
+
+        Args:
+            attractions_data: List of attraction dictionaries with lat/lng
+            base_url_prefix: URL prefix for attraction links (/attractions or /routes/{route-name})
+
+        Returns:
+            JSON string containing map markers data
+        """
+        markers = []
+
+        for attraction in attractions_data:
+            # Only include attractions with valid coordinates
+            if 'lat' in attraction and 'lng' in attraction:
+                marker = {
+                    'title': attraction['title'],
+                    'lat': attraction['lat'],
+                    'lng': attraction['lng'],
+                    'url': f"{base_url_prefix}/{attraction['slug']}/"
+                }
+                markers.append(marker)
+
+        # Return empty array if no coordinates found
+        if not markers:
+            return "[]"
+
+        return json.dumps(markers)
+
     def generate_timeline_entry(self, data: Dict, entry_type: str, order: int,
                               date: datetime, timeline_entries: List[Dict],
                               routes_data: Optional[List[Dict]] = None) -> str:
@@ -465,6 +554,11 @@ class TimelineGenerator:
             # Build extra fields with place
             destination_slug = create_url_slug(data["title"])
             extra_fields = f'place = "{destination_slug}"'
+
+            # Get attraction data and build map data
+            attractions_data = self.get_attraction_data(destination_slug)
+            map_data = self.build_map_data(attractions_data, "/attractions")
+            extra_fields += f'\nmap_data = \'\'\'{map_data}\'\'\''
 
             # Generate content from research sections
             content = self.generate_destination_content(data)
@@ -1023,6 +1117,7 @@ sort_by = "weight"
         # Read the full route research file
         route_content = route_data.get('content', '')
         route_title = route_data.get('title', 'Route')
+        route_folder = route_data.get('route_folder', '')
         metadata = route_data.get('metadata', {})
 
         # Extract route overview paragraph (first paragraph after Route Overview heading)
@@ -1046,6 +1141,15 @@ sort_by = "weight"
         distance = metadata.get('route_distance', 'N/A')
         drive_time = metadata.get('base_drive_time', 'N/A')
 
+        # Collect all route attractions from sections and build map data
+        sections = route_data.get('sections', {})
+        all_attractions = []
+        for section_attractions in sections.values():
+            all_attractions.extend(section_attractions)
+
+        # Build map data for route attractions
+        map_data = self.build_map_data(all_attractions, f"/routes/{route_folder}")
+
         route_page_content = f"""+++
 title = "{escape_toml_string(route_title)}"
 description = "Complete guide for {escape_toml_string(route_title)}"
@@ -1059,6 +1163,7 @@ route_type = "{escape_toml_string(route_type)}"
 transportation = "{escape_toml_string(transportation)}"
 distance = "{escape_toml_string(distance)}"
 drive_time = "{escape_toml_string(drive_time)}"
+map_data = '''{map_data}'''
 +++
 
 {main_content.strip()}

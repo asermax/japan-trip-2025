@@ -71,6 +71,7 @@ The site uses automated content generation from research files:
 - Automatic timeline entry creation with cross-linking
 - Generated place guides and attraction pages
 - Index page with timeline overview
+- Interactive Google Maps with clickable attraction markers
 
 ## Content Templates
 
@@ -395,6 +396,100 @@ Route-specific attractions follow the same structure as destination attractions 
 2. Leverage Zola's taxonomies (tags, categories, regions)
 3. Build and test locally with `zola serve`
 4. Deploy using `zola build`
+
+## Google Maps Integration
+
+The site includes interactive Google Maps on destination and route pages, displaying all attractions with clickable markers.
+
+### Features
+- **Automatic Coordinate Extraction**: The generation script extracts GPS coordinates from attraction files
+- **Clickable Markers**: Each attraction appears as a numbered pin on the map
+- **Navigation**: Clicking a pin redirects to the attraction's detail page
+- **Auto-fit Bounds**: Maps automatically zoom to show all attractions
+- **Responsive Design**: Mobile-friendly with touch controls
+- **Info Windows**: Hover over markers to see attraction names
+
+### Setup Requirements
+
+**1. Google Maps API Key**
+- Visit [Google Cloud Console](https://console.cloud.google.com/google/maps-apis)
+- Enable the "Maps JavaScript API"
+- Create an API key
+- Add key to `site/config.toml`:
+  ```toml
+  [extra]
+  google_maps_api_key = "YOUR_API_KEY_HERE"
+  ```
+
+**2. API Key Restrictions (Recommended)**
+- Restrict key to your domain (e.g., `japan2025.asermax.com/*`)
+- Enable only "Maps JavaScript API" to limit usage
+- Set daily usage quotas to prevent unexpected charges
+
+### Coordinate Format in Research Files
+
+Attraction files must include Google Maps coordinates in this format:
+```markdown
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.501354,138.80154)
+```
+
+The generation script automatically:
+1. Extracts coordinates using regex pattern matching
+2. Builds JSON arrays of markers with titles, coordinates, and URLs
+3. Embeds map data in timeline entry and route frontmatter
+4. Templates load the data and initialize Google Maps
+
+### Generated Files
+
+**Destination Timeline Entry** (e.g., `02-fujikawaguchiko.md`):
+```toml
+[extra]
+place = "fujikawaguchiko"
+map_data = '''[{"title": "Chureito Pagoda", "lat": 35.501354, "lng": 138.80154, "url": "/attractions/chureito-pagoda/"}, ...]'''
+```
+
+**Route Section Index** (e.g., `routes/tokyo-to-fujikawaguchiko-main-route/_index.md`):
+```toml
+[extra]
+map_data = '''[{"title": "Roadside Station", "lat": 35.123, "lng": 138.456, "url": "/routes/tokyo-to-fujikawaguchiko-main-route/roadside-station/"}, ...]'''
+```
+
+### Implementation Files
+
+**JavaScript**: `site/static/js/maps.js`
+- `TripMap` class for map initialization
+- Marker creation and info windows
+- Event handlers for click navigation
+- Automatic bounds fitting
+
+**CSS**: `site/static/css/maps.css`
+- Map container styling (responsive heights)
+- Info window formatting
+- Loading states and error messages
+- Dark mode support
+
+**Templates**:
+- `site/templates/timeline-entry.html`: Destination maps
+- `site/templates/route.html`: Route maps
+- Both conditionally load Google Maps API and custom JS/CSS
+
+### Troubleshooting
+
+**Maps not appearing:**
+- Verify API key is correct in `config.toml`
+- Check browser console for API errors
+- Ensure coordinates exist in attraction files
+- Regenerate content with `uv run python scripts/generate_timeline.py`
+
+**Markers missing:**
+- Check attraction files have valid Google Maps URLs
+- Verify coordinate format matches expected pattern
+- Look for `map_data` in generated frontmatter
+
+**API quota exceeded:**
+- Set daily usage limits in Google Cloud Console
+- Consider restricting API key to specific domains
+- Monitor usage in Google Cloud Console
 
 ## Python Environment
 

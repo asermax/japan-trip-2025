@@ -1,0 +1,127 @@
+/**
+ * Map Styles for Japan Trip 2025
+ * Styling for Google Maps integration on destination and route pages
+ */
+
+/* Map Section Container */
+.map-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.map-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Map Container */
+.map-container {
+  width: 100%;
+  height: 500px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #e9ecef;
+}
+
+/* Map Helper Text */
+.map-help {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Map Error and No Data Messages */
+.map-no-data,
+.map-error {
+  padding: 2rem;
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.map-error {
+  color: #dc3545;
+}
+
+/* Info Window Styling */
+.map-info-window {
+  padding: 0.5rem;
+  max-width: 250px;
+}
+
+.map-info-window h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.map-info-window p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.map-info-window a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.map-info-window a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .map-container {
+    height: 350px;
+  }
+
+  .map-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+  }
+
+  .map-section h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container {
+    height: 300px;
+  }
+
+  .map-section {
+    margin: 1rem 0;
+    padding: 0.75rem;
+  }
+}
+
+/* Loading State */
+.map-container[data-loading="true"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #e9ecef 25%, #f8f9fa 50%, #e9ecef 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+

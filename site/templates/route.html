@@ -8,6 +8,15 @@
   display: none !important;
 }
 </style>
+
+{% if section.extra.map_data %}
+<!-- Map Styles -->
+<link rel="stylesheet" href="/css/maps.css">
+<!-- Custom Maps JavaScript - Load before Google Maps API -->
+<script src="/js/maps.js"></script>
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key={{ config.extra.google_maps_api_key }}&callback=initMap&libraries=&v=weekly" async defer></script>
+{% endif %}
 {% endblock extra_head %}
 
 {% block content %}
@@ -38,6 +47,14 @@
     {% endif %}
 
     {{ section.content | safe }}
+
+    {% if section.extra.map_data %}
+    <div class="map-section">
+      <h2>🗺️ Route Stops Map</h2>
+      <div id="route-map" class="map-container" data-map-markers="{{ section.extra.map_data }}"></div>
+      <p class="map-help">Click on any pin to visit the stop's detail page</p>
+    </div>
+    {% endif %}
   </div>
 
   <div class="post-footer">

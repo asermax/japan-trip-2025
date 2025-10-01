@@ -30,6 +30,11 @@ trip_year = 2025
 trip_duration = "2-3 weeks"
 trip_start_date = "2025-04-01"
 
+# Google Maps API Configuration
+# For local development: copy to config.local.toml and add your API key
+# For GitHub Pages: Set GOOGLE_MAPS_API_KEY secret in repository settings
+google_maps_api_key = "PLACEHOLDER_WILL_BE_REPLACED_BY_WORKFLOW"
+
 # Anatole theme configuration
 [extra.social]
 github = ""
