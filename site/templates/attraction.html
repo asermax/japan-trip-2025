@@ -3,6 +3,41 @@
 {% block title %}{{ page.title }} | {{ config.title }}{% endblock title %}
 
 {% block extra_head %}
+{% if page.extra.latitude and page.extra.longitude %}
+<!-- Map Styles -->
+<link rel="stylesheet" href="/css/maps.css">
+<!-- Custom Maps JavaScript - Load before Google Maps API -->
+<script src="/js/maps.js"></script>
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key={{ config.extra.google_maps_api_key }}&callback=initMap&libraries=&v=weekly" async defer></script>
+<script>
+window.initMap = function() {
+  const location = { lat: {{ page.extra.latitude }}, lng: {{ page.extra.longitude }} };
+  const map = new google.maps.Map(document.getElementById('attraction-map'), {
+    zoom: 15,
+    center: location,
+    mapTypeControl: true,
+    streetViewControl: true,
+    fullscreenControl: true
+  });
+
+  const marker = new google.maps.Marker({
+    position: location,
+    map: map,
+    title: "{{ page.title | escape }}"
+  });
+
+  const infoWindow = new google.maps.InfoWindow({
+    content: '<div style="padding: 8px;"><strong>{{ page.title | escape }}</strong></div>'
+  });
+
+  marker.addListener('click', () => {
+    infoWindow.open(map, marker);
+  });
+}
+</script>
+{% endif %}
+
 <script>
 // Override back button to go to timeline entry page
 document.addEventListener('DOMContentLoaded', function() {
@@ -56,6 +91,13 @@ document.addEventListener('DOMContentLoaded', function() {
     {% endif %}
 
     {{ page.content | safe }}
+
+    {% if page.extra.latitude and page.extra.longitude %}
+    <div class="map-section">
+      <h2>📍 Location Map</h2>
+      <div id="attraction-map" class="map-container"></div>
+    </div>
+    {% endif %}
   </div>
 
   <div class="post-footer">

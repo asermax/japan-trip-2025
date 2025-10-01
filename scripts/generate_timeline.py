@@ -165,7 +165,7 @@ duration = "{visit_duration}"
 previous_attraction = "{previous_attraction}"
 next_attraction = "{next_attraction}"
 previous_title = "{previous_title}"
-next_title = "{next_title}"
+next_title = "{next_title}"{coordinates}
 +++
 
 {content}
@@ -1049,6 +1049,13 @@ class TimelineGenerator:
                 else:
                     attraction_content = "## About\n\nAttraction information not available."
 
+                # Extract coordinates from the original content
+                coordinates = extract_coordinates(original_content)
+                coordinates_str = ""
+                if coordinates:
+                    lat, lng = coordinates
+                    coordinates_str = f'\nlatitude = {lat}\nlongitude = {lng}'
+
                 # Determine timeline entry reference and output path
                 is_route = attraction.get('is_route', False)
                 if is_route:
@@ -1090,6 +1097,7 @@ class TimelineGenerator:
                     next_attraction=next_attraction,
                     previous_title=escape_toml_string(previous_title),
                     next_title=escape_toml_string(next_title),
+                    coordinates=coordinates_str,
                     content=attraction_content.strip(),
                     source_file=str(research_file.relative_to(self.research_dir))
                 )
