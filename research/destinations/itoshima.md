@@ -1,7 +1,7 @@
 # Itoshima Research
 
-**Visit Period:** November 1-2, 2025
-**Duration:** 2-day stay
+**Visit Period:** November 1, 2025
+**Duration:** Day trip
 **Research Completed:** September 29, 2025
 **Discovery State:** research/state/itoshima-discovery-state.md
 

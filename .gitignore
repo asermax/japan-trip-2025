@@ -37,6 +37,7 @@ tasks/
 research/destinations-todo.md
 research/routes-todo.md
 research/recommendations-base.md
+research/tokyo-todo.md
 
 # Environment variables (API keys)
 .env
