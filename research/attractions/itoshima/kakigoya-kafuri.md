@@ -24,16 +24,24 @@ Oyster farming in Itoshima follows a traditional six-month cycle: fishermen atta
 ## The Two Kafuri Huts
 
 ### Sumiyoshi-maru (住吉丸)
-**Season:** October 12, 2024 - May 10, 2025
-**Hours:** 9:00-17:00 (Last Order 16:15) - Opens earliest of all huts
+**Season:** October 19, 2024 - May 4, 2025
+**Hours:** 9:00-17:00 (Last Order 16:15) - Opens earliest of all Itoshima huts
 **Contact:** 092-323-0325
+**November 1-2 Status:** Confirmed operational both days
 
 **Distinctive Features:**
 - Two areas: traditional charcoal grills and gas barbecues
 - Whole-oyster steamed dumplings (unique preparation)
-- Wild clams from Kafuri Bay (November-March exclusive)
+- **Wild clams from Kafuri Bay (November-March exclusive) - Available during visit**
 - Fishing boat tours available (board Sumiyoshi Maru to visit offshore oyster racks)
 - English menus available
+- **Advance reservations strongly recommended** (especially for November 2 weekend)
+
+**November Visit Advantages:**
+- Early season (just opened mid-October) with abundant oyster inventory
+- Wild Kafuri Bay clams in season (November marks start of November-March exclusive season)
+- Prime oyster quality at sweetest and creamiest point
+- 9:00 AM opening allows earliest access of all Itoshima huts
 
 [🔗](https://www.fukuoka-now.com/en/itoshima-kakigoya-oyster-hut-guide/) [🔗](https://www.tripadvisor.com/Restaurant_Review-g1769308-d9658173-Reviews-Kakigoya_Sumiyoshimaru-Itoshima_Fukuoka_Prefecture_Kyushu.html) [🔗](https://itoshima-now.com/en/uotabi03/)
 
@@ -42,10 +50,16 @@ Oyster farming in Itoshima follows a traditional six-month cycle: fishermen atta
 **Hours:** Weekdays 10:00-17:00, Weekends/Holidays 10:00-18:00
 **Contact:** 090-5295-3020
 **Website:** https://hirochankaki.com/
+**November 1-2 Status:** Confirmed operational both days
 
 **Distinctive Features:**
 - Oysters sourced from waters enriched by Nagano River (Mount Raiyama plankton)
-- Weekend/holiday reservations for first 10 groups only
+- Weekend/holiday reservations for first 10 groups only (call 090-5295-3020)
+
+**November Visit Strategy:**
+- **November 1 (Friday):** Walk-ins generally accommodated on weekdays
+- **November 2 (Saturday):** Reserve in advance (first 10 groups only policy)
+- Early arrival (10:00 AM opening) recommended for best selection
 
 [🔗](https://www.fukuoka-now.com/en/itoshima-kakigoya-oyster-hut-guide/) [🔗](https://hirochankaki.com/)
 
@@ -92,10 +106,13 @@ Lively, informal atmosphere with families and groups gathered around grills. Com
 - **Prime Oyster Quality:** Early-to-mid season, oysters at sweetest and creamiest
 - **Wild Kafuri Clams:** November-March specialty available
 - **Weekday Benefits:** Minimal crowds if Nov 1-2 fall on weekdays
-- **Pleasant Weather:** Cooler temperatures enhance charcoal grilling experience
+- **Pleasant Weather:** November temperatures (15.3°C/59.5°F average, 11-17°C range) create ideal conditions for semi-outdoor kakigoya dining—comfortable with warm layers and charcoal grill heat, avoiding summer's oppressive heat [🔗](https://wanderlog.com/weather/672/11/itoshima-weather-in-november)
+- **Layered Comfort:** Morning temperatures (11-13°C) require jacket and layers, but charcoal grills provide warmth; midday heating (17-20°C) allows shedding outer layers [🔗](https://en.climate-data.org/asia/japan/fukuoka-prefecture/itoshima-764681/t/november-11/)
 - **Morning Light:** Best natural lighting for photography (9:00-11:00 AM at Sumiyoshi-maru)
 
-**Optimal Timing:** Arrive 9:00-10:00 AM November 1 (especially weekdays) for 1.5-2 hours leisurely grilling, avoiding midday crowds and ensuring oyster availability before potential early sellout.
+**Weather Preparation:** Dress in warm, washable layers (11-17°C range) that you don't mind getting smoky. [🔗](https://livejapan.com/en/article-a0002012/) Vinyl tent structures provide wind protection but are semi-outdoor—charcoal grills add warmth to the dining area. Coastal wind exposure means bring a wind-resistant outer layer. [🔗](https://www.fukuoka-now.com/en/itoshima-kakigoya-oyster-hut-guide/)
+
+**Optimal Timing:** Arrive 9:00-10:00 AM November 1 (especially weekdays) for 1.5-2 hours leisurely grilling during warmest midday period, avoiding midday crowds and ensuring oyster availability before potential early sellout.
 
 ## Practical Visiting Tips
 
