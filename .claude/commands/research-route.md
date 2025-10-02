@@ -151,6 +151,13 @@ For each assigned item, research:
 
 ## Research Instructions
 
+**Research Approach:**
+- **TRUSTED RESOURCES FIRST**: Always consult `research/trusted-resources.md` before conducting research - prioritize these authoritative sources
+- **WebSearch + gemini**: Use WebSearch for current information and official sources, gemini for cultural deep-dives
+- **Cross-reference**: Validate information between WebSearch and gemini findings
+- Use multiple research tools in parallel when possible
+- Verify information across multiple trusted sources
+
 **For Full Research Items (New Attractions):**
 - **COMPLETE ATTRACTION RESEARCH**: Provide comprehensive details for all sections of the attraction template
 - **Cultural & Historical Context**: Research significance, background, and cultural importance
@@ -169,18 +176,27 @@ For each assigned item, research:
 - **Route Integration Focus**: Research for integration into route overview and stop context
 - **Cultural Topics**: Findings for route cultural overview and relevant stop cultural context
 - **Practical Topics**: Research for route practical considerations and stop driving tips
-- Use multiple research tools in parallel when possible
-- Verify information across multiple sources
-- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself - only use images you have actually found from your research sources
+
+**Source & Media Requirements:**
+- **SOURCE CITATION**: Include inline source citations `[🔗](actual-URL)` immediately after relevant content in your report
+- **NO TOOL CITATIONS**: Never cite "gemini research" or "Gemini research" as sources - use actual website URLs
+- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself
 - **IMAGE VALIDATION**: All images must be extracted from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
 - **LOCATION PINS**: Include Google Maps location links in your research report
 - **PHOTO SOURCING**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
+
+**Content Scope:**
 - Note seasonal considerations and optimal visiting conditions for route
 - Cross-reference with route context from discovery phase
 - Document all available information regardless of detour time constraints
 - Focus on car accessibility and driving visitor experience
 - Use existing location researcher capabilities adapted for route context
 - **COMPREHENSIVE REPORTING**: Provide all findings in your research report - the main command will organize information into route overviews and detailed stop files
+
+**CRITICAL - Do NOT Include in Research Reports:**
+- **NO research process metadata**: Do NOT include "Research Process Notes", "Discovery Phase", "Batch X", "Status:", "Sources Consulted:", "Last Updated:", or workflow details
+- **NO agent tracking**: Do NOT mention "Research Agents Deployed", "Discovery Agents Used", or batch information
+- Focus only on research content - the main command handles all workflow tracking
 
 ## Agent Report Processing
 

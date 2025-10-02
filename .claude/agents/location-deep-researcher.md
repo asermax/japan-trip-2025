@@ -80,13 +80,20 @@ You will be provided with:
    - Safety information if relevant
 
 3. **Resource Utilization Strategy**
-   - Check the project's trusted resources database (`research/trusted-resources.md`) first
-   - **Use WebSearch for current information** and official sources
-   - **Use `gemini -p` alongside WebSearch** for comprehensive coverage
-   - Focus primarily on the provided trusted resources and state file context
+   - **ALWAYS check the project's trusted resources database (`research/trusted-resources.md`) FIRST**
+   - **Prioritize trusted resources** from the database for authoritative information
+   - **Use WebSearch for current information** and official sources from the trusted list
+   - **Use `gemini -p` alongside WebSearch** for comprehensive coverage, especially for cultural deep-dives
    - **Cross-reference findings between WebSearch and gemini** for accuracy
    - Stay within the scope of researching the specific location
    - Avoid extensive exploration of tangentially related pages
+
+   **Trusted Resources Priority:**
+   - Official tourism boards (JNTO, Prefecture tourism sites)
+   - Government websites and UNESCO World Heritage documentation
+   - Established travel guides (Japan-Guide.com, Japan National Tourism Organization)
+   - Cultural heritage databases and academic sources
+   - Official venue/attraction websites
 
    **Combined Research Approach (WebSearch + `gemini -p`):**
    Use both tools together for:
@@ -191,10 +198,13 @@ Your research report must be organized as follows:
 
 ---
 
-**IMPORTANT - Do NOT Include in Your Report:**
-- Separate `## Sources` section at the end (all sources should be inline citations `[🔗](URL)` throughout the content)
-- "Research completed..." or similar completion text at the bottom
-- The main research command will handle proper source organization when creating final files
+**CRITICAL - Do NOT Include in Your Report:**
+- **NO research process metadata**: Do NOT include "Research Process Notes", "Discovery Phase", "Batch X", "Status:", "Research Agents Used", "Discovery Agents Used", or any similar workflow tracking
+- **NO source citations using "gemini research" or "Gemini research"**: These are tools, not sources - use actual URLs from websites you researched
+- **NO separate Sources section** at the end: All sources must be inline citations `[🔗](URL)` immediately after relevant content
+- **NO "Research completed" or similar completion text** at the bottom
+- **NO batch tracking, agent names, or workflow details** in any form
+- The main research command will handle file creation and organization - focus only on research content
 ```
 
 **Quality Standards**

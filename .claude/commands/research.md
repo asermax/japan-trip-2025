@@ -115,26 +115,42 @@ For EVERY specific location discovered:
 - Comprehensive practical tips for international visitors
 
 ## Research Instructions
+
+**Research Approach:**
+- **TRUSTED RESOURCES FIRST**: Always consult `research/trusted-resources.md` before conducting research - prioritize these authoritative sources
+- **WebSearch + gemini**: Use WebSearch for current information and official sources, gemini for cultural deep-dives
+- **Cross-reference**: Validate information between WebSearch and gemini findings
+- Use multiple research tools in parallel when possible
+- Verify information across multiple trusted sources
+
+**Research Output:**
 - **RETURN COMPREHENSIVE REPORTS**: Provide detailed findings for all assigned items in your research report
 - **LOCATION RESEARCH**: For every specific location, restaurant, district area, day trip, activity - provide comprehensive details that will become individual attraction files
 - **TOPIC INTEGRATION**: Research topics should be thoroughly researched with findings that will enhance destination and attraction context
 - **Cultural Topics**: Provide comprehensive findings that will be integrated into destination cultural overview and relevant attraction cultural context
 - **Practical Topics**: Provide detailed research that will be integrated into destination practical considerations and attraction visiting tips
-- Use multiple research tools in parallel when possible
-- Verify information across multiple sources
-- **SOURCE CITATION**: Include source references and URLs in your research report
-- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself - only use images you have actually found from your research sources
-- **IMAGE VALIDATION**: All images must be extracted from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
-- **LOCATION PINS**: Include Google Maps location links in your research report
-- **PHOTO SOURCING**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
-- Note seasonal considerations and optimal visiting conditions
-- Cross-reference with cultural context from discovery phase
-- Document all available information regardless of trip duration constraints
-- Use Gemini research for cultural deep-dives when needed
 - **Research Topic Handling**: When assigned cultural research topics (e.g., "Mount Fuji worship traditions"), research the topic thoroughly and provide findings for integration into relevant destination/attraction sections
 - **Event/Festival Research**: When assigned event/festival topics, research current details, cultural significance, and visitor impact
 - **Practical Topic Research**: When assigned practical topics (e.g., "transportation etiquette"), research comprehensively for integration into destination practical sections and relevant attraction visiting tips
 - **COMPREHENSIVE REPORTING**: Provide all findings in your research report - the main command will organize information into destination summaries and detailed attraction files
+
+**Source & Media Requirements:**
+- **SOURCE CITATION**: Include inline source citations `[🔗](actual-URL)` immediately after relevant content in your report
+- **NO TOOL CITATIONS**: Never cite "gemini research" or "Gemini research" as sources - use actual website URLs
+- **IMAGE REQUIREMENTS**: Extract valid image URLs from the websites you research OR perform separate image searches to find representative images. Do NOT construct image URLs yourself
+- **IMAGE VALIDATION**: All images must be extracted from legitimate sources you've visited during research (official websites, tourism boards, Wikipedia) or found through dedicated image searches
+- **LOCATION PINS**: Include Google Maps location links in your research report
+- **PHOTO SOURCING**: Extract images directly from official tourism sites, Wikipedia pages, or perform targeted web searches to find actual available images
+
+**Content Scope:**
+- Note seasonal considerations and optimal visiting conditions
+- Cross-reference with cultural context from discovery phase
+- Document all available information regardless of trip duration constraints
+
+**CRITICAL - Do NOT Include in Research Reports:**
+- **NO research process metadata**: Do NOT include "Research Process Notes", "Discovery Phase", "Batch X", "Status:", "Sources Consulted:", "Last Updated:", or workflow details
+- **NO agent tracking**: Do NOT mention "Research Agents Deployed", "Discovery Agents Used", or batch information
+- Focus only on research content - the main command handles all workflow tracking
 
 ## Agent Report Processing
 
@@ -308,13 +324,6 @@ Files are created and updated throughout the process:
 
 ## Regional Connections
 {How locations connect within the region and complement each other}
-
-## Research Process Notes
-- **Discovery Agents Used:** Location Scavenger + Location Discovery (gemini)
-- **Research Agents Deployed:** {Number} agents across {Number} batches
-- **Sources Consulted:** {Primary source types}
-- **Last Updated:** {Date}
-- **Status:** Research completed, ready for future itinerary planning
 ```
 
 ### 5. Per-Batch Progress Updates
