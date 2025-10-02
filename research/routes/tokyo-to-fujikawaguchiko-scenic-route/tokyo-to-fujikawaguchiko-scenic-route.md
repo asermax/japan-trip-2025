@@ -583,13 +583,4 @@ Day 2:
 - Overnight at Lake Kawaguchi area
 - Early morning viewing opportunities both days
 
-## Research Process Notes
-
-- **Discovery Agents Used:** Route Scavenger + Route Discovery (gemini)
-- **Research Agents Deployed:** 3 agents across 1 batch for initial on-route stops and short detours
-- **Sources Consulted:** Official tourism boards, UNESCO World Heritage Centre, Japan Guide, TripAdvisor reviews, photography blogs, Wikimedia Commons
-- **Duplication Handling:** 8 existing attractions copied from Fujikawaguchiko destination research to scenic route folder with route-specific context additions
-- **Last Updated:** 2025-09-29
-- **Status:** Partial route research completed (on-route, short detours, and some major detours); ready for additional detailed research if needed
-
 **Location:** [View Route 139 on Google Maps](https://www.google.com/maps/dir/Tokyo/Fujikawaguchiko/data=!4m8!4m7!1m2!1m1!1s0x605d1b87f02e57e7:0x2e01618b22571b89!1m2!1m1!1s0x60196b8b1e9c9e47:0x62a61e02a5f10fa4!3e0)

@@ -420,13 +420,4 @@ The main route naturally flows into the northern shore Lake Kawaguchi area, wher
 **Timing with Check-In:**
 Consider accommodation check-in time when planning stops. Most Japanese accommodations allow check-in from 3:00-4:00 PM. Earlier stops allow relaxed exploration; later stops may require choosing between afternoon attractions and timely check-in.
 
-## Research Process Notes
-
-- **Discovery Phase:** Route Scavenger + Route Discovery agents identified 3 route options; this is the main/fastest route
-- **Research Phase:** Location Researcher agents deployed for each stop category
-- **Duplicate Detection:** 5 attractions copied from scenic route research (Roadside Station Narusawa, Oishi Park, Chureito Pagoda, Oshino Hakkai, Momijidai) with route-specific context added
-- **Sources Consulted:** Official tourism boards (JNTO, Yamanashi Prefecture, Visit Fujiyoshida), NEXCO Central expressway information, UNESCO World Heritage documentation, visitor reviews and experiences
-- **Last Updated:** September 30, 2025
-- **Status:** Route research completed and ready for itinerary planning and content generation
-
 **Map:** [View Chuo Expressway Route on Google Maps](https://www.google.com/maps/dir/Tokyo/Fujikawaguchiko,+Yamanashi/@35.6176,138.9547,10z/data=!4m14!4m13!1m5!1m1!1s0x60188b857628235d:0xcdd8aef709a2b520!2m2!1d139.6917!2d35.6762!1m5!1m1!1s0x60196c4f5f6c6b8d:0x7cfa0c0d6b8a0b0!2m2!1d138.7623!2d35.4959!3e0)

@@ -13,7 +13,7 @@
 ![Mount Fuji showing Hoei Crater from Eastern Side](https://upload.wikimedia.org/wikipedia/commons/e/e3/Mount_Fuji_and_Mount_Hoei.jpg)
 *Mount Fuji viewed from the eastern side showing the distinctive Hoei Crater - the massive scar on the southeastern flank from the 1707 eruption. Source: Wikimedia Commons*
 
-**IMPORTANT NOTE:** This research was originally titled "Izu Peninsula approach views" in the discovery phase, but that name is geographically misleading. The Izu Peninsula is 50-70 minutes one-way from Gotemba (separate half-day excursion), not a route stop. The legitimate attraction is the **eastern Mount Fuji perspectives visible from Route 138**, particularly around Kagosaka Pass.
+**IMPORTANT NOTE:** The Izu Peninsula is 50-70 minutes one-way from Gotemba (separate half-day excursion), not a route stop. This page focuses on the **eastern Mount Fuji perspectives visible from Route 138**, particularly around Kagosaka Pass, which are accessible as part of the driving route.
 
 The eastern approach along Route 138 between Gotemba and Lake Yamanakako offers genuinely unique Mount Fuji views distinguished by clear visibility of the **Hoei Crater** - a massive parasitic crater on the mountain's southeastern flank that is completely invisible from the northern Fuji Five Lakes perspectives. [🔗](https://en.wikipedia.org/wiki/Mount_Hōei)
 

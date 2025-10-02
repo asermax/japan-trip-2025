@@ -1,11 +1,10 @@
-# Yamanakako Panorama Dai Research
+# Yamanakako Panorama Dai
 
 **Location:** Hirano 506-296, Yamanakako-mura, Minamitsuru-gun, Yamanashi Prefecture
 **Category:** Natural scenic viewpoint
 **Cost:** Free entrance
 **Best Time:** Early morning for clearest Mount Fuji views; autumn for pampas grass
 **Duration:** 30-60 minutes
-**Research Completed:** September 19, 2025
 
 ## Basic Information
 

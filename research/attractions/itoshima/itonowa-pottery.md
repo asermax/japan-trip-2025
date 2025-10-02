@@ -29,7 +29,7 @@ Japanese pottery embraces wabi-sabi philosophy—finding beauty in imperfection,
 - Uneven textures add character
 - "Mistakes" become unique features
 - Kiln firing creates unpredictable variations ("keshiki" or landscapes)
-- Each piece tells the story of its creation [🔗](Gemini research)
+- Each piece tells the story of its creation
 
 ## Visiting Information
 

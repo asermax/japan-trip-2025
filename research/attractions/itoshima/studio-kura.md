@@ -88,7 +88,7 @@ The facilities themselves showcase renovated traditional Japanese architecture:
 - No flash photography
 - No food or drink in gallery areas
 - Show genuine interest when speaking with artists
-- Respectful bow is appropriate greeting [🔗](Gemini research)
+- Respectful bow is appropriate greeting
 
 ### Language Considerations
 

@@ -289,7 +289,7 @@ Gotemba sits midway on the Tokyo to Fujikawaguchiko route. Visiting 2-3 attracti
 **Best Time:** Early morning for clearest views
 **Visit Duration:** 15-30 minutes for dedicated photo stops
 
-**Important:** Originally named "Izu Peninsula approach views" in discovery phase, but that name is geographically misleading. The Izu Peninsula proper is 50-70 minutes south of Gotemba (separate half-day excursion). The legitimate attraction is eastern Mount Fuji perspectives from Route 138, particularly around Kagosaka Pass.
+**Important:** The Izu Peninsula proper is 50-70 minutes south of Gotemba (separate half-day excursion). This section focuses on eastern Mount Fuji perspectives from Route 138, particularly around Kagosaka Pass, which are accessible as part of the driving route.
 
 **The Eastern Perspective:**
 The defining feature is clear visibility of the **Hoei Crater** - a massive parasitic crater from the 1707 eruption on Mount Fuji's southeastern flank. This prominent geological feature (2,693m elevation, 1.3 km diameter) is completely invisible from northern Fuji Five Lakes perspectives, making the eastern view genuinely unique.
@@ -394,13 +394,5 @@ The Tomei Expressway is heavily traveled year-round with some sections exceeding
 
 **Fujikawaguchiko Arrival:**
 Plan to arrive before sunset (around 5:00-5:30 PM in late October) to maximize accommodation time and evening activities around the lake.
-
-## Research Process Notes
-
-- **Discovery Agents Used:** Route Scavenger + Route Discovery (gemini)
-- **Research Agents Deployed:** 3 agents across Batch 1 (in progress)
-- **Sources Consulted:** NEXCO Central official resources, Wikipedia, Japan-Guide.com, trusted travel guides
-- **Last Updated:** September 30, 2025
-- **Status:** Route research in progress
 
 **Location:** [View route on Google Maps](https://www.google.com/maps/dir/Tokyo/Gotemba+IC/Fujikawaguchiko/)

@@ -21,11 +21,11 @@ Kamikochi is designated as one of Japan's National Cultural Assets on the list o
 
 ## Cultural & Historical Significance
 
-The Azusa River valley holds deep cultural significance in Japanese mountain worship traditions (*Sangaku Shinkō*). The valley's pristine natural state and protection as a UNESCO heritage component reflect Japan's reverence for sacred mountain landscapes. The name "Kamikochi" itself contains the character for "god" (神), emphasizing the spiritual importance of this alpine sanctuary. [🔗](gemini research)
+The Azusa River valley holds deep cultural significance in Japanese mountain worship traditions (*Sangaku Shinkō*). The valley's pristine natural state and protection as a UNESCO heritage component reflect Japan's reverence for sacred mountain landscapes. The name "Kamikochi" itself contains the character for "god" (神), emphasizing the spiritual importance of this alpine sanctuary.
 
 Kamikochi has only been moderately developed, with half a dozen hotels, a few souvenir shops, mountain huts, and well-maintained hiking trails along both sides of the river. This careful balance between accessibility and preservation demonstrates Japanese environmental stewardship principles. The valley represents a gateway to the Northern Alps' sacred peaks, including Mount Hotaka, one of Japan's 100 Famous Mountains (*Hyakumeizan*). [🔗](https://www.japan-guide.com/e/e6040.html)
 
-The Taisho Pond's formation in 1915 created a landscape feature that has become iconic in Japanese alpine imagery—dead trees reflected on the mirror-like surface create a haunting aesthetic that represents both natural power and ephemeral beauty. [🔗](gemini research)
+The Taisho Pond's formation in 1915 created a landscape feature that has become iconic in Japanese alpine imagery—dead trees reflected on the mirror-like surface create a haunting aesthetic that represents both natural power and ephemeral beauty.
 
 ## Visiting Information
 

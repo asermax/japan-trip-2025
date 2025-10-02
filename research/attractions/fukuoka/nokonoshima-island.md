@@ -20,7 +20,7 @@ The island's transformation from a traditional fishing community to a flower tou
 
 Historically, Nokonoshima has significant cultural importance. Archaeological discoveries include pottery dating back to the Yayoi period (10th century BC to 3rd century AD), and during the Edo period, the island flourished through the shipping industry. In ancient times, the island served as a military guard post called "sakimori" and was even mentioned in the Manyoshu collection of poetry, cementing its place in Japanese literature and culture. [🔗](https://gofukuoka.jp/articles/detail/778c0459-a30a-4b13-be48-a5d87fae6176)
 
-The cosmos flowers hold cultural significance in Japan as "akizakura" (autumn cherry blossom), symbolizing harmony, peace, and the autumn season. The island maintains its traditional fishing community identity alongside tourism development, with local restaurants serving fresh daily catches from surrounding waters. [🔗](Gemini research)
+The cosmos flowers hold cultural significance in Japan as "akizakura" (autumn cherry blossom), symbolizing harmony, peace, and the autumn season. The island maintains its traditional fishing community identity alongside tourism development, with local restaurants serving fresh daily catches from surrounding waters.
 
 ## Visiting Information
 
@@ -45,7 +45,7 @@ The flowers sway in the sea breeze with views of azure waters and Hakata Bay isl
 
 **Photography Guidelines:** Arrive early morning for best lighting and fewer crowds. Use the specially created passages through cosmos fields for immersive photos. Visit the famous swing by the early-blooming field for iconic shots. Best photo timing: late afternoon when cosmos fields are backlit. [🔗](https://www.fukuoka-now.com/en/nokonoshima-in-the-fall-an-island-of-beautiful-cosmos/)
 
-**Cultural Preparation:** Respect the working fishing community areas, stay on designated paths through flower fields, be mindful of photography in traditional village areas, and support local economy through restaurants and shops. [🔗](Gemini research)
+**Cultural Preparation:** Respect the working fishing community areas, stay on designated paths through flower fields, be mindful of photography in traditional village areas, and support local economy through restaurants and shops.
 
 **Logistics:** Keep ferry timetable for return journey planning. Bring layers for sea breezes and changing weather. Comfortable walking shoes for hilly terrain. Ferry services operate year-round but confirm schedule. Consider visiting Shirahige Shrine if Okunti festival is occurring during your visit period (traditional autumn festival). [🔗](https://gofukuoka.jp/articles/detail/778c0459-a30a-4b13-be48-a5d87fae6176)
 

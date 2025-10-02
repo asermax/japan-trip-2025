@@ -21,11 +21,11 @@ The pass's identity today is split between two distinct routes: the **old Anbo P
 
 Before modern engineering, Anbo Pass was a formidable natural obstacle that shaped the distinct cultural identities of the regions it connected. As a classic *toge* (峠) - the Japanese term for mountain pass - it signifies not just a physical journey's peak, but a spiritual and cultural transition between two distinct places.
 
-**The Legend of Nichiren:** A popular legend attributes the pass's name to the famous Buddhist monk Nichiren (1222-1282). During his travels, he is said to have crossed the pass and named it "Anbo" in homage to his birthplace, Awa (安房), giving the location a deep-seated cultural and spiritual narrative. [🔗](gemini research)
+**The Legend of Nichiren:** A popular legend attributes the pass's name to the famous Buddhist monk Nichiren (1222-1282). During his travels, he is said to have crossed the pass and named it "Anbo" in homage to his birthplace, Awa (安房), giving the location a deep-seated cultural and spiritual narrative.
 
 **Pre-Tunnel Era:** For centuries, the old mountain road was the only route for traders, pilgrims, and travelers. The pass was notorious for its difficulty - during busy tourist seasons before the tunnel opened, it could take over 5 hours to cross, with buses and trucks struggling to navigate its tight hairpin turns. This isolation for nearly half the year (closed mid-November to mid-May due to snow) preserved distinct regional cultures. [🔗](https://drivejapan.net/abo-toge-abo-pass/)
 
-In Japanese tradition, mountain passes hold deep symbolic significance beyond their geographical function. The character "峠" is a uniquely Japanese creation (*kokuji*), combining elements meaning "mountain," "up," and "down." Passes were viewed as spiritual boundaries between the known and unknown, often marked by shrines to **Dōsojin** deities who protect travelers and ward off evil spirits. Anbo Pass embodies this tradition, serving as a sacred gateway between the lowlands and the formidable Northern Alps domain. [🔗](gemini research)
+In Japanese tradition, mountain passes hold deep symbolic significance beyond their geographical function. The character "峠" is a uniquely Japanese creation (*kokuji*), combining elements meaning "mountain," "up," and "down." Passes were viewed as spiritual boundaries between the known and unknown, often marked by shrines to **Dōsojin** deities who protect travelers and ward off evil spirits. Anbo Pass embodies this tradition, serving as a sacred gateway between the lowlands and the formidable Northern Alps domain.
 
 ## Visiting Information
 

@@ -1453,12 +1453,4 @@ Route 158 provides direct access to Takayama's historic districts, with arrival 
 - Fire/Ambulance: 119
 - JAF: #8139 (English interpretation available)
 
-## Research Process Notes
-
-- **Discovery Agents Used:** Route Scavenger + Route Discovery (gemini)
-- **Research Agents Deployed:** 3 agents per batch across multiple batches (stops, cultural research, practical topics)
-- **Sources Consulted:** Official highway authorities (NEXCO), tourism boards, visitor reviews, cultural resources, seasonal guides, JMA weather, JAF roadside assistance, attraction official sites
-- **Research Dates:** September 30, 2025 (initial batches), October 1, 2025 (practical research completion)
-- **Status:** All research completed - on-route stops, short detours, major detours, cultural context, seasonal factors, practical route information
-
 **Location:** [View route on Google Maps](https://www.google.com/maps/dir/Fujikawaguchiko,+Yamanashi/Takayama,+Gifu/@35.8956127,137.3661837,9z/)

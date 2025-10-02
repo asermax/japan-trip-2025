@@ -19,7 +19,7 @@ The facility showcases 4 of the 11 autumn festival floats at any given time, rot
 
 ## Cultural & Religious Significance
 
-Each float serves as yorishiro (sacred vessels for Shinto deities) and himorogi (sacred objects where divine spirits reside), making them active spiritual artifacts rather than historical displays. The karakuri puppet performances are primarily spiritual offerings to kami, not entertainment, representing the synthesis of craftsmanship and religious devotion that characterizes Japanese festival culture. [🔗](Gemini research findings)
+Each float serves as yorishiro (sacred vessels for Shinto deities) and himorogi (sacred objects where divine spirits reside), making them active spiritual artifacts rather than historical displays. The karakuri puppet performances are primarily spiritual offerings to kami, not entertainment, representing the synthesis of craftsmanship and religious devotion that characterizes Japanese festival culture.
 
 The floats demonstrate masterful integration of multiple traditional arts: intricate Ichii Itto-bori wood carving using Japanese yew, transparent Hida Shunkei lacquerware revealing natural wood grain beneath glossy urushi coating, sophisticated metalwork, and elaborate karakuri ningyo mechanical puppets requiring multiple skilled operators. These represent the pinnacle of Hida region craftsmanship traditions maintained across centuries.
 

@@ -21,7 +21,7 @@ Located directly at Keya Fishing Port with excellent oceanfront position, Shirah
 
 ### The Hamayaki Tradition
 
-Hamayaki (浜焼き), literally "beach grill," is a traditional Japanese culinary custom deeply rooted in fishing port culture. Originating with fishermen who would grill their fresh catch for quick, hearty meals, this simple practice has evolved into a significant cultural tradition embedded in the identity of Japan's coastal communities. The tradition represents a direct and unpretentious connection between the community and the sea, celebrating the day's catch and the hard work of local fishermen. [🔗](Gemini research)
+Hamayaki (浜焼き), literally "beach grill," is a traditional Japanese culinary custom deeply rooted in fishing port culture. Originating with fishermen who would grill their fresh catch for quick, hearty meals, this simple practice has evolved into a significant cultural tradition embedded in the identity of Japan's coastal communities. The tradition represents a direct and unpretentious connection between the community and the sea, celebrating the day's catch and the hard work of local fishermen.
 
 In Itoshima, hamayaki and kakigoya culture has become vital to the local economy and cultural identity. The peninsula's 26 seasonal oyster huts across five fishing ports attract tourists from across Japan during winter. Itoshima oysters have achieved registered trademark status, signifying their importance to regional identity. [🔗](https://www.fukuoka-now.com/en/itoshima-kakigoya-oyster-hut-guide/)
 
@@ -91,12 +91,12 @@ The restaurant's prime oceanfront location offers spectacular views of the Genka
 5. Flip to flat side down, grill another 3-4 minutes
 6. Oyster is ready when it pops open slightly
 7. Use provided knife to pry shell fully open
-8. Safety: Occasionally oysters "explode" if steam builds up [🔗](Gemini research)
+8. Safety: Occasionally oysters "explode" if steam builds up
 
 **Mochikomi (Bring-Your-Own) System:**
 - Can bring: Drinks, special condiments (butter, lemon, garlic, cheese)
 - Cannot bring: Other seafood or competing food items
-- Etiquette: Purchase at least one drink from restaurant if bringing your own [🔗](Gemini research)
+- Etiquette: Purchase at least one drink from restaurant if bringing your own
 
 ### Best Photo Spots
 
@@ -125,7 +125,7 @@ The restaurant's prime oceanfront location offers spectacular views of the Genka
 - DIY grilling is central; embrace hands-on participation
 - This is leisurely meal; take time, enjoy process and views
 - Use "Sumimasen" (excuse me) to get staff attention
-- Say "Gochisousama deshita" (thank you for the meal) when leaving [🔗](Gemini research)
+- Say "Gochisousama deshita" (thank you for the meal) when leaving
 - Use provided bucket for empty shells
 - Wear casual clothes (smoke lingers)
 

@@ -15,21 +15,21 @@
 
 Gotemba Interchange (IC) on the Tomei Expressway serves as the primary southern gateway to Mount Fuji, marking the transition from high-speed expressway travel to scenic regional roads toward the Fujikawaguchiko area. This interchange is particularly notable as the highest point on the Tomei Expressway at 454 meters elevation, making it prone to severe snowfall and climate changes during winter months (though October conditions are typically mild). [🔗](https://www.c-nexco.co.jp/en/special/snow/needed.html)
 
-Gotemba IC represents the pivotal moment where your journey transitions from Tokyo's urban expressway network to the scenic regional roads of the Mount Fuji area. This southern approach offers dramatic views of Mount Fuji's massive southern base and volcanic flows, showcasing a different character than the resort-like atmosphere of Kawaguchiko. [🔗](gemini research)
+Gotemba IC represents the pivotal moment where your journey transitions from Tokyo's urban expressway network to the scenic regional roads of the Mount Fuji area. This southern approach offers dramatic views of Mount Fuji's massive southern base and volcanic flows, showcasing a different character than the resort-like atmosphere of Kawaguchiko.
 
 ## Cultural & Historical Significance
 
-Gotemba's role as a gateway is deeply rooted in Japan's transportation history. Situated on the ancient Tokaido Road that connected Edo (Tokyo) and Kyoto, the area has long served as a transit point for travelers. Its importance grew significantly with the opening of Gotemba Station in 1889, solidifying its status as a base for accessing Mount Fuji. [🔗](gemini research)
+Gotemba's role as a gateway is deeply rooted in Japan's transportation history. Situated on the ancient Tokaido Road that connected Edo (Tokyo) and Kyoto, the area has long served as a transit point for travelers. Its importance grew significantly with the opening of Gotemba Station in 1889, solidifying its status as a base for accessing Mount Fuji.
 
 The Tomei Expressway, which began operations on May 26, 1969, established Gotemba IC as a critical access point for the southern approach to Mount Fuji. [🔗](https://en.wikipedia.org/wiki/Ashigara_Service_Area)
 
-For centuries, climbing Mount Fuji has been a spiritual pilgrimage, and Gotemba serves as the starting point for the **Gotemba Trail**, the longest and least crowded of the four main climbing routes. This trail starts at the lowest elevation, offering a more traditional and physically demanding ascent. [🔗](gemini research)
+For centuries, climbing Mount Fuji has been a spiritual pilgrimage, and Gotemba serves as the starting point for the **Gotemba Trail**, the longest and least crowded of the four main climbing routes. This trail starts at the lowest elevation, offering a more traditional and physically demanding ascent.
 
 ### Regional Character
 
-The Gotemba area feels more "local" and less polished than the resort-like atmosphere of Kawaguchiko. It's a working town with a deep connection to the mountain, featuring more agricultural land and residential areas than the tourist-centric Five Lakes region. [🔗](gemini research) The town presents a mix of older Japanese buildings and modern roadside stores, all under the ever-present gaze of Mount Fuji.
+The Gotemba area feels more "local" and less polished than the resort-like atmosphere of Kawaguchiko. It's a working town with a deep connection to the mountain, featuring more agricultural land and residential areas than the tourist-centric Five Lakes region. The town presents a mix of older Japanese buildings and modern roadside stores, all under the ever-present gaze of Mount Fuji.
 
-Mount Fuji can be seen from almost anywhere in Gotemba, including from the city's popular outlet shopping mall. [🔗](https://www.japan-guide.com/e/e6933.html) The views from this southern approach are dramatic and expansive, showcasing the mountain's massive base and volcanic flows. [🔗](gemini research)
+Mount Fuji can be seen from almost anywhere in Gotemba, including from the city's popular outlet shopping mall. [🔗](https://www.japan-guide.com/e/e6933.html) The views from this southern approach are dramatic and expansive, showcasing the mountain's massive base and volcanic flows.
 
 ## Visiting Information
 
@@ -53,7 +53,7 @@ Mount Fuji can be seen from almost anywhere in Gotemba, including from the city'
 **Weather Considerations for October:**
 - October typically offers excellent visibility of Mount Fuji with clear, dry weather [🔗](https://www.magical-trip.com/media/complete-guide-to-mt-fuji-events-october-2025-autumn-festivals-peak-foliage-kawaguchiko-illuminations/)
 - Reduced humidity provides optimal viewing conditions without summer haze
-- Snow unlikely on main roads in October, but mountain weather is unpredictable [🔗](gemini research)
+- Snow unlikely on main roads in October, but mountain weather is unpredictable
 - Autumn foliage enhances the landscape, with mid-to-late October representing peak colors [🔗](https://www.magical-trip.com/media/complete-guide-to-mt-fuji-events-october-2025-autumn-festivals-peak-foliage-kawaguchiko-illuminations/)
 
 ### Nearby Service Areas
@@ -81,54 +81,54 @@ Popular family restaurant specializing in hamburg steak
 The choice between Gotemba (southern route via Tomei Expressway) and Kawaguchiko (northern route via Chuo Expressway) fundamentally shapes your Mount Fuji experience:
 
 **Gotemba Approach:**
-- Less tourist-centric and generally less crowded atmosphere [🔗](gemini research)
-- Blend of quiet rural town, bustling shopping district, and solemn mountain presence [🔗](gemini research)
+- Less tourist-centric and generally less crowded atmosphere
+- Blend of quiet rural town, bustling shopping district, and solemn mountain presence
 - **No private vehicle restrictions** at Gotemba 5th Station during climbing season [🔗](https://www.fujisan-climb.jp/en/access/access-gotemba-trail.html)
-- Steeper mountain roads that can be more challenging for smaller vehicles [🔗](gemini research)
-- Focus: More direct, less-developed mountain experience [🔗](gemini research)
+- Steeper mountain roads that can be more challenging for smaller vehicles
+- Focus: More direct, less-developed mountain experience
 
 **Kawaguchiko Approach:**
-- Main tourist hub with vibrant, busy atmosphere [🔗](gemini research)
-- **Strict private vehicle restrictions** on Fuji Subaru Line during climbing season (requires park-and-ride shuttle) [🔗](gemini research)
-- Significantly more traffic, especially weekends and peak seasons [🔗](gemini research)
-- Focus: Classic scenic experience centered around lakes with wide variety of attractions [🔗](gemini research)
+- Main tourist hub with vibrant, busy atmosphere
+- **Strict private vehicle restrictions** on Fuji Subaru Line during climbing season (requires park-and-ride shuttle)
+- Significantly more traffic, especially weekends and peak seasons
+- Focus: Classic scenic experience centered around lakes with wide variety of attractions
 
 ### Transition Experience
 
 When exiting the Tomei Expressway at Gotemba IC, the driving culture shifts from high-speed efficiency to regional attentiveness:
 
 **Driving Culture:**
-- Japanese drivers are generally courteous and follow rules strictly [🔗](gemini research)
-- Prepare for narrower two-lane roads after exiting the expressway [🔗](gemini research)
-- Local tendency to yield and be patient with tourist drivers [🔗](gemini research)
-- Pace is unhurried; locals are accustomed to tourist drivers [🔗](gemini research)
+- Japanese drivers are generally courteous and follow rules strictly
+- Prepare for narrower two-lane roads after exiting the expressway
+- Local tendency to yield and be patient with tourist drivers
+- Pace is unhurried; locals are accustomed to tourist drivers
 
 **Navigation Tips:**
-- In-car GPS is highly reliable [🔗](gemini research)
-- **Local practice:** Input the phone number of destinations into GPS for more accurate results than searching by name [🔗](gemini research)
-- If driving slowly to enjoy scenery, pull over (where safe) to let faster local traffic pass [🔗](gemini research)
+- In-car GPS is highly reliable
+- **Local practice:** Input the phone number of destinations into GPS for more accurate results than searching by name
+- If driving slowly to enjoy scenery, pull over (where safe) to let faster local traffic pass
 
 ## Practical Visiting Tips
 
 ### Navigation and Driving Strategy
 
-1. **GPS Input Method:** Use phone numbers of destinations for most accurate GPS navigation (local practice) [🔗](gemini research)
-2. **Route Choice:** Route 138 offers stunning, up-close views of Fuji's eastern flank as you drive alongside the base of the mountain [🔗](gemini research)
-3. **Pacing:** Don't rush through—the drive itself is part of the experience [🔗](gemini research)
-4. **Passing Courtesy:** Pull over safely to let faster local traffic pass if you're driving slowly for scenery [🔗](gemini research)
+1. **GPS Input Method:** Use phone numbers of destinations for most accurate GPS navigation (local practice)
+2. **Route Choice:** Route 138 offers stunning, up-close views of Fuji's eastern flank as you drive alongside the base of the mountain
+3. **Pacing:** Don't rush through—the drive itself is part of the experience
+4. **Passing Courtesy:** Pull over safely to let faster local traffic pass if you're driving slowly for scenery
 
 ### Photography Opportunities
 
 1. **Immediate Views:** Mount Fuji visible from many vantage points around the interchange area [🔗](https://www.japan-guide.com/e/e6933.html)
 2. **Elevated Positions:** Elevated locations south of Gotemba city offer charming views at dusk [🔗](https://www.japan-guide.com/e/e6933.html)
 3. **Morning Light:** Best photography conditions in morning hours for optimal lighting and potential lake reflections [🔗](http://travelingwolf.com/ten-best-photo-spots-mount-fuji-japan/)
-4. **October Advantage:** Clear, dry weather provides unobstructed views without summer haze [🔗](gemini research)
+4. **October Advantage:** Clear, dry weather provides unobstructed views without summer haze
 
 ### Cultural Considerations
 
-1. **Regional Gateway Heritage:** Respect the area's historical significance as a gateway on the ancient Tokaido Road [🔗](gemini research)
-2. **Local Driving Etiquette:** Follow local driving customs—patience, yielding, and strict rule-following [🔗](gemini research)
-3. **Less Touristy Atmosphere:** Appreciate the more authentic, working-town character compared to resort areas [🔗](gemini research)
+1. **Regional Gateway Heritage:** Respect the area's historical significance as a gateway on the ancient Tokaido Road
+2. **Local Driving Etiquette:** Follow local driving customs—patience, yielding, and strict rule-following
+3. **Less Touristy Atmosphere:** Appreciate the more authentic, working-town character compared to resort areas
 
 ### Practical Timing
 
@@ -141,9 +141,9 @@ When exiting the Tomei Expressway at Gotemba IC, the driving culture shifts from
 ### Seasonal Considerations
 
 **Optimal Viewing Conditions:**
-- October provides some of the best, unobstructed views of Mount Fuji all year [🔗](gemini research)
-- Clear skies and stable weather offer excellent photography opportunities [🔗](gemini research)
-- Have camera ready for potential stunning views immediately after exiting the expressway [🔗](gemini research)
+- October provides some of the best, unobstructed views of Mount Fuji all year
+- Clear skies and stable weather offer excellent photography opportunities
+- Have camera ready for potential stunning views immediately after exiting the expressway
 
 **Autumn Foliage:**
 - Mid-to-late October represents peak autumn colors in the Mount Fuji area [🔗](https://www.magical-trip.com/media/top-11-mt-fuji-autumn-foliage-spots-best-places-to-experience-fall-colors-in-2025/)
@@ -152,7 +152,7 @@ When exiting the Tomei Expressway at Gotemba IC, the driving culture shifts from
 **Traffic Considerations:**
 - **Weekend Traffic Alert:** Gotemba Premium Outlets is very popular on weekends and national holidays, causing traffic delays in the surrounding area [🔗](https://www.japan-guide.com/e/e5213.html)
 - Can sometimes cause delays getting onto the highway [🔗](https://www.japan-guide.com/e/e5213.html)
-- **Autumn Festival Impact:** The Fuji Kawaguchiko Autumn Leaves Festival often starts in late October, expect significant traffic and potentially expensive parking as you approach Lake Kawaguchiko area [🔗](gemini research)
+- **Autumn Festival Impact:** The Fuji Kawaguchiko Autumn Leaves Festival often starts in late October, expect significant traffic and potentially expensive parking as you approach Lake Kawaguchiko area
 - **Recommendation:** Allow extra time during busy periods, especially on October 23 (Thursday) which may be less crowded than weekends [🔗](https://www.japan-guide.com/e/e5213.html)
 
 ### Route Options from Gotemba IC
@@ -160,8 +160,8 @@ When exiting the Tomei Expressway at Gotemba IC, the driving culture shifts from
 **Primary Route: Route 138 toward Fujikawaguchiko**
 - Total distance: 25 miles (40 km) [🔗](https://www.rome2rio.com/s/Fujikawaguchiko/Gotemba)
 - Base drive time: Approximately 41 minutes [🔗](https://www.rome2rio.com/s/Fujikawaguchiko/Gotemba)
-- Character: Scenic regional road with stunning up-close views of Fuji's eastern flank [🔗](gemini research)
-- Route: Gotemba IC → Route 138 → Lake Yamanakako → Lake Kawaguchiko [🔗](gemini research)
+- Character: Scenic regional road with stunning up-close views of Fuji's eastern flank
+- Route: Gotemba IC → Route 138 → Lake Yamanakako → Lake Kawaguchiko
 
 **Alternative Exit Option:**
 - **Ashigara Smart IC** (requires ETC card): 10-minute drive to Gotemba area facilities [🔗](https://romantabi.com/en/gotemba-outlet-parking/)
@@ -173,9 +173,9 @@ When exiting the Tomei Expressway at Gotemba IC, the driving culture shifts from
 
 Gotemba IC represents the pivotal moment where your journey transitions from Tokyo's urban expressway network to the scenic regional roads of the Mount Fuji area. This southern approach offers:
 
-1. **Different Perspective:** Views of Mount Fuji's massive southern base and volcanic flows [🔗](gemini research)
-2. **Less Crowded Alternative:** Compared to the heavily-touristed northern Kawaguchiko approach [🔗](gemini research)
-3. **Gateway Significance:** Historical connection to the ancient Tokaido Road and Gotemba Trail [🔗](gemini research)
+1. **Different Perspective:** Views of Mount Fuji's massive southern base and volcanic flows
+2. **Less Crowded Alternative:** Compared to the heavily-touristed northern Kawaguchiko approach
+3. **Gateway Significance:** Historical connection to the ancient Tokaido Road and Gotemba Trail
 4. **Flexibility:** No vehicle restrictions for continuing toward Gotemba 5th Station if desired [🔗](https://www.fujisan-climb.jp/en/access/access-gotemba-trail.html)
 
 ### Logical Next Stops After Gotemba IC
@@ -185,28 +185,28 @@ Gotemba IC represents the pivotal moment where your journey transitions from Tok
 - Gotemba city views of Mount Fuji [🔗](https://www.japan-guide.com/e/e6933.html)
 
 **En Route to Fujikawaguchiko (Route 138):**
-- **Oshino Hakkai** (between Lake Yamanakako and Lake Kawaguchiko): Eight ponds fed by Fuji's snowmelt, beautiful and culturally significant [🔗](gemini research)
+- **Oshino Hakkai** (between Lake Yamanakako and Lake Kawaguchiko): Eight ponds fed by Fuji's snowmelt, beautiful and culturally significant
 - Lake Yamanakako northern shore for less-developed Mount Fuji views [🔗](https://www.japan-guide.com/e/e6908.html)
-- Various photography stops along Route 138 for eastern flank views [🔗](gemini research)
+- Various photography stops along Route 138 for eastern flank views
 
 ## Important Notes
 
 ### Weather and Safety
 
-1. **Mountain Weather Unpredictability:** While October snow is unlikely on main roads, check road conditions for any early-season closures on higher elevation scenic routes [🔗](gemini research)
+1. **Mountain Weather Unpredictability:** While October snow is unlikely on main roads, check road conditions for any early-season closures on higher elevation scenic routes
 2. **Elevation Consideration:** Gotemba IC at 454m elevation is the highest point on the Tomei Expressway, making it prone to weather changes [🔗](https://www.c-nexco.co.jp/en/special/snow/needed.html)
 3. **Current Road Status:** Always check NEXCO Central traffic information for real-time conditions [🔗](https://www.c-nexco.co.jp/en/jam/)
 
 ### Traffic Management
 
 1. **Peak Period Awareness:** Gotemba Premium Outlets creates significant traffic on weekends and holidays [🔗](https://www.japan-guide.com/e/e5213.html)
-2. **Autumn Festival Impact:** Late October Kawaguchiko Autumn Leaves Festival increases traffic toward destination [🔗](gemini research)
+2. **Autumn Festival Impact:** Late October Kawaguchiko Autumn Leaves Festival increases traffic toward destination
 3. **Alternative Route:** Consider Ashigara Smart IC if traffic is heavy (requires ETC card) [🔗](https://romantabi.com/en/gotemba-outlet-parking/)
 
 ### Cultural Context
 
-1. **Military Presence:** The area serves as a base for Japan Ground Self-Defense Force and US Marine Corps, adding unique local character [🔗](gemini research)
-2. **Working Town Character:** Less polished than resort areas—expect authentic regional atmosphere [🔗](gemini research)
-3. **Historical Significance:** Ancient Tokaido Road heritage and Gotemba Trail spiritual pilgrimage connection [🔗](gemini research)
+1. **Military Presence:** The area serves as a base for Japan Ground Self-Defense Force and US Marine Corps, adding unique local character
+2. **Working Town Character:** Less polished than resort areas—expect authentic regional atmosphere
+3. **Historical Significance:** Ancient Tokaido Road heritage and Gotemba Trail spiritual pilgrimage connection
 
 **Location:** [📍 Gotemba IC on Google Maps](https://www.google.com/maps/search/?api=1&query=Tomeigotenba-Ic&query_place_id=ChIJfUDRiRN2GWARJVzNYcmD-rg)

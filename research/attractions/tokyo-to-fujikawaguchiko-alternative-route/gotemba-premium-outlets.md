@@ -19,15 +19,15 @@ The outlet's location near Mount Fuji, a UNESCO World Heritage site, adds cultur
 
 ## Cultural & Historical Significance
 
-In Japan, premium outlets represent more than just shopping centers - they are cultural destinations that blend modern retail with traditional Japanese aesthetics. Gotemba exemplifies this by incorporating Japanese gardens and occasional cultural exhibits alongside its retail offerings. [🔗](gemini research)
+In Japan, premium outlets represent more than just shopping centers - they are cultural destinations that blend modern retail with traditional Japanese aesthetics. Gotemba exemplifies this by incorporating Japanese gardens and occasional cultural exhibits alongside its retail offerings.
 
-The mall's open-air layout resembles a small town, creating a more relaxed and spacious atmosphere compared to the often-crowded shopping districts in major Japanese cities. [🔗](gemini research) This design philosophy allows visitors to shop while enjoying the natural environment and mountain air, with the snow-capped peak of Mount Fuji serving as a constant backdrop. [🔗](https://imageearthtravel.com/2025/03/25/mt-fuji-or-shopping-in-gotemba/)
+The mall's open-air layout resembles a small town, creating a more relaxed and spacious atmosphere compared to the often-crowded shopping districts in major Japanese cities. This design philosophy allows visitors to shop while enjoying the natural environment and mountain air, with the snow-capped peak of Mount Fuji serving as a constant backdrop. [🔗](https://imageearthtravel.com/2025/03/25/mt-fuji-or-shopping-in-gotemba/)
 
 ### Shopping Categories
 
 The outlet features an elite East Zone housing high-priced luxury brands like Louis Vuitton, Prada, Boss, Dunhill, and Armani. [🔗](https://www.touristjapan.com/5-reasons-to-shop-at-gotemba-premium-outlets/) The Hill Side and West Zone offer mid-range international brands including Banana Republic, Burberry, Calvin Klein, Coach, Gucci, and Lacoste. [🔗](https://www.gltjp.com/en/directory/item/11769/) Sporting goods stores, kid-friendly shops, and various specialty retailers round out the selection.
 
-Prices typically range from 30% to 70% off retail prices, with discounts better on average than regular retail shops in Japan. [🔗](gemini research) The value proposition is particularly strong when combined with the 10% tax-free discount available to international tourists. [🔗](https://www.agoda.com/travel-guides/japan/gotemba/shop-til-you-drop-gotemba-premium-outlets-reviews-treats/)
+Prices typically range from 30% to 70% off retail prices, with discounts better on average than regular retail shops in Japan. The value proposition is particularly strong when combined with the 10% tax-free discount available to international tourists. [🔗](https://www.agoda.com/travel-guides/japan/gotemba/shop-til-you-drop-gotemba-premium-outlets-reviews-treats/)
 
 ## Visiting Information
 
@@ -205,7 +205,7 @@ Continuing to Fujikawaguchiko requires approximately 30 minutes driving time. Pl
 - **Handling merchandise:** Handle items with care; refold clothing after examining
 - **Politeness:** Greet staff with "konnichiwa" and thank with "arigato gozaimasu"
 - **Noise levels:** Maintain quiet voices; Japanese shopping culture values peaceful atmosphere
-- **Tax-free process:** Be patient with paperwork; staff must document passport details [🔗](gemini research)
+- **Tax-free process:** Be patient with paperwork; staff must document passport details
 
 ### Facilities for Driving Visitors
 

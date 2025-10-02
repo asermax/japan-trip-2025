@@ -54,9 +54,9 @@ The shrine offers multiple remarkable experiences centered around its "Three Bes
 
 **Path of Light Preparation:** Arrive before 2:00 PM during Path of Light periods to secure viewing tickets. The road closes at 3:00 PM, requiring early planning for optimal positioning. Weather conditions are crucial - even sunny days may not produce the effect if clouds obstruct the sunset. [🔗](https://www.tripadvisor.com/ShowTopic-g1022383-i50611-k13688594-Miyajidake_shrine_path_of_light_autumn_viewing-Fukutsu_Fukuoka_Prefecture_Kyushu.html)
 
-**Photography Guidelines:** Tripods prohibited on main approach stairs during Path of Light events. Portrait orientation recommended for capturing full path length. Camera settings: f/5-f/10, ISO 500-1000, enhanced color temperature for golden tones. No photography inside shrine buildings or of priests/ceremonies. [🔗](Gemini research)
+**Photography Guidelines:** Tripods prohibited on main approach stairs during Path of Light events. Portrait orientation recommended for capturing full path length. Camera settings: f/5-f/10, ISO 500-1000, enhanced color temperature for golden tones. No photography inside shrine buildings or of priests/ceremonies.
 
-**Cultural Etiquette:** Perform purification ritual at temizuya before approaching main shrine. Follow "two bows, two claps, one bow" prayer sequence. Avoid walking in center of paths (reserved for deities). Remove hats and maintain respectful silence during prayers. [🔗](Gemini research)
+**Cultural Etiquette:** Perform purification ritual at temizuya before approaching main shrine. Follow "two bows, two claps, one bow" prayer sequence. Avoid walking in center of paths (reserved for deities). Remove hats and maintain respectful silence during prayers.
 
 **Crowd Management:** Visit early morning (6:00-8:00 AM) for peaceful shrine experience. Weekday visits typically less crowded than weekends. During Path of Light events, shrine approaches become viewing areas with restricted access from 3:00 PM. [🔗](https://travel.gaijinpot.com/miyajidake-shrine/)
 

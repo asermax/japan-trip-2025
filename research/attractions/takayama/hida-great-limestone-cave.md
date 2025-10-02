@@ -17,9 +17,9 @@ The Hida Great Limestone Cave stands as Japan's most elevated limestone cave sys
 
 ## Cultural & Religious Significance
 
-While lacking ancient mythological connections due to its recent discovery, the cave inherits profound spiritual importance from its location within the sacred geography of the Hida Mountains. The region embodies the legendary realm of Ryomen Sukuna, the two-faced, four-armed cultural hero revered locally as a benevolent deity despite imperial chronicles depicting him as a rebel. This duality reflects Hida's historical resistance to central authority and its unique cultural identity. [🔗](Gemini research)
+While lacking ancient mythological connections due to its recent discovery, the cave inherits profound spiritual importance from its location within the sacred geography of the Hida Mountains. The region embodies the legendary realm of Ryomen Sukuna, the two-faced, four-armed cultural hero revered locally as a benevolent deity despite imperial chronicles depicting him as a rebel. This duality reflects Hida's historical resistance to central authority and its unique cultural identity.
 
-The cave's location places it within the spiritual landscape of Shugendo mountain worship, where caves traditionally represent the "womb of the mountain" - sacred spaces for ascetic practices simulating death and rebirth. Mount Ontake worship, central to Hida spirituality, views mountains as sources of human spirits, lending deeper meaning to the cave's position in this sacred geography. [🔗](Gemini research)
+The cave's location places it within the spiritual landscape of Shugendo mountain worship, where caves traditionally represent the "womb of the mountain" - sacred spaces for ascetic practices simulating death and rebirth. Mount Ontake worship, central to Hida spirituality, views mountains as sources of human spirits, lending deeper meaning to the cave's position in this sacred geography.
 
 ## Visiting Information
 

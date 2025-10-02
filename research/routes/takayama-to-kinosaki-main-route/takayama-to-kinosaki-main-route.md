@@ -926,12 +926,4 @@ Weather-related road closures rare in late October on major expressways. Heavy r
 
 **Total Route Estimate:** Approximately ¥5,000-7,000 in tolls for full Takayama to Kinosaki expressway journey (exact cost varies by route).
 
-## Research Process Notes
-
-- **Discovery Agents Used:** Route Scavenger + Route Discovery (gemini)
-- **Research Agents Deployed:** 3 agents for Batch 1 (Shirakawa-go route integration, Expressway Service Areas full research, Cultural transition research)
-- **Sources Consulted:** UNESCO World Heritage documentation, NEXCO Central/East/West official sites, Japan Travel guides, tourism boards, cultural resources
-- **Last Updated:** October 1, 2025
-- **Status:** Batch 1 completed (on-route stops), subsequent batches pending for short/major detour stops
-
 **Location:** [View route on Google Maps](https://www.google.com/maps/dir/Takayama,+Gifu,+Japan/Kinosaki+Onsen,+Toyooka,+Hyogo,+Japan)
