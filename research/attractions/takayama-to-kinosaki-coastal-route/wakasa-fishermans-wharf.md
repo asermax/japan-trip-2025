@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Wakasa Fisherman's Wharf](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Wakasa_Fishermans_Wharf.JPG/1920px-Wakasa_Fishermans_Wharf.JPG)
+![Wakasa Fisherman's Wharf](https://upload.wikimedia.org/wikipedia/commons/7/7f/Wakasa_Fishermans_Wharf.JPG)
 *Wakasa Fisherman's Wharf complex along Obama Bay - Source: Wikimedia Commons*
 
 Wakasa Fisherman's Wharf serves as a modern gateway to experiencing the ancient fishing traditions of Obama and Wakasa Bay. This market complex represents the continuation of Obama's historic role as a "miketsukuni" (food country) that supplied seafood to Japan's imperial court for centuries. [🔗](https://artsandculture.google.com/story/wakasa-obama-how-nature-supports-japanese-food-culture-obama/IAWxHnHsUWdYLw?hl=en)

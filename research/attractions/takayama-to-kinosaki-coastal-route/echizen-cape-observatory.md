@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Echizen Cape Observatory](https://www.town-echizen.jp/en/)
+![Echizen Cape Observatory](https://upload.wikimedia.org/wikipedia/commons/2/2a/%E8%B6%8A%E5%89%8D%E6%B5%B7%E5%B2%B81_-_panoramio.jpg)
 *Echizen Cape offers dramatic panoramic views of the Sea of Japan coastline with the historic lighthouse perched 130 meters above sea level. Source: Echizen Tourism Navi*
 
 Echizen Cape Observatory (越前岬展望台, Echizen-misaki Tenbōdai) is a scenic coastal viewpoint located at the northernmost tip of Echizen Town in Fukui Prefecture, jutting dramatically into the Sea of Japan. [🔗](https://japantravel.navitime.com/en/area/jp/spot/02301-3800125/) The observatory sits atop a hill 130 meters above sea level, offering panoramic views of the rugged Echizen Coast and some of the most spectacular sunsets in Japan. [🔗](https://en.japantravel.com/fukui/echizen-cape-observation-deck/17531)

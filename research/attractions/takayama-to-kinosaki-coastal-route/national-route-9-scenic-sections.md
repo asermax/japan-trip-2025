@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Route 9 on the Sea of Japan shore in Tottori](https://upload.wikimedia.org/wikipedia/en/1/15/Japan_National_Route_9_-04.jpg)
+![Route 9 on the Sea of Japan shore in Tottori](https://upload.wikimedia.org/wikipedia/commons/8/86/Japan_National_Route_9_in_Takezaki-cho%2C_Shimonoseki%2C_Yamaguchi.JPG)
 *National Route 9 coastal section along the Sea of Japan in Tottori Prefecture, showcasing the dramatic interface between highway and coastline.*
 
 National Route 9 (国道9号, Kokudō Kyū-gō) is Japan's second-longest national highway at 638.4 kilometers, offering one of the most dramatic coastal driving experiences along the Sea of Japan. The route connects the prefectural capitals of Kyoto, Tottori, Matsue (Shimane Prefecture), and Yamaguchi across the Kansai and Chūgoku regions. [🔗](https://en.wikipedia.org/wiki/Japan_National_Route_9)

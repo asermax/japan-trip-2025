@@ -10,7 +10,7 @@
 
 ## Basic Information
 
-![Michi-no-Eki Kisofukushima](https://commons.wikimedia.org/wiki/File:Michinoeki_Kisofukushima.JPG)
+![Michi-no-Eki Kisofukushima](https://upload.wikimedia.org/wikipedia/commons/1/12/Michinoeki_Kisofukushima.JPG)
 *Representative Kiso Valley michi-no-eki building. Source: Wikimedia Commons*
 
 Route 19 (National Route 19, 国道19号) through the Kiso Valley features a comprehensive network of michi-no-eki (roadside stations, 道の駅) that provide essential services, local products, and cultural experiences for travelers. These rest stops are strategically located along the approximately 60km valley, offering free parking, restrooms, regional specialties, and opportunities to experience Kiso Valley's rich cultural heritage. [🔗](https://www.japan.travel/en/guide/michi-no-eki/)

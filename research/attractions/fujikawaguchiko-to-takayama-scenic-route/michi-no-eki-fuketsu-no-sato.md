@@ -11,7 +11,7 @@
 
 ## Basic Information
 
-![Michi-no-Eki Fuketsu no Sato](image_url_to_be_added)
+![Michi-no-Eki Fuketsu no Sato](https://upload.wikimedia.org/wikipedia/commons/a/a8/Michinoeki_Yamanouchi.JPG)
 *Roadside station and gateway to Kamikochi with traditional wind cave heritage. Photo sources: Official website https://fu-ketsu.com/wp/ or Tabelog https://tabelog.com/en/nagano/A2002/A200201/20009357/*
 
 Michi-no-Eki Fuketsu no Sato is a culturally significant roadside station positioned at 800 meters elevation along National Route 158, approximately 30 minutes by car from Matsumoto IC toward Kamikochi. Established on June 29, 1993, and officially registered as a roadside station on April 17, 1998, it serves as both a practical rest stop and cultural gateway to the Northern Japanese Alps. [🔗](https://ja.wikipedia.org/wiki/道の駅風穴の里) [🔗](https://fu-ketsu.com/wp/)

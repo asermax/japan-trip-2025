@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Yuda Onsen hot spring district](https://www.visit-jy.com/media/cache/original/tourism_information/spot_images/35203aa0000003811_1.jpg)
+![Yuda Onsen hot spring district](https://upload.wikimedia.org/wikipedia/commons/c/c1/Kintaikyo_Onsen_Iwakuni_Kokusai_Kanko_Hotel.jpg)
 *Yuda Onsen hot spring district in Yamaguchi City, known for its alkaline beautifying baths and white fox legend. Source: Yamaguchi Japan Travel Guide*
 
 Yuda Onsen is a historic hot spring resort town in Yamaguchi City with over 800 years of history, producing an impressive 2,000 tons of natural hot spring water daily from seven different sources. [🔗](https://www.visit-jy.com/en/spots/12262) Located just one train stop (2.5 km) from Yamaguchi City center, this compact onsen district offers convenient day-use bathing options for route travelers, featuring alkaline simple hot springs celebrated as "bijin no yu" (beautifying bath) for their skin-smoothing properties. [🔗](https://www.ana.co.jp/en/us/japan-travel-planner/yamaguchi/0000011.html)

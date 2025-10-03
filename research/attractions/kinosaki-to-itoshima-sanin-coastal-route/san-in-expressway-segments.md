@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![San-in Expressway Coastal View](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/San-in_Expressway_at_Izumo_City.jpg/800px-San-in_Expressway_at_Izumo_City.jpg)
+![San-in Expressway Coastal View](https://upload.wikimedia.org/wikipedia/commons/1/14/Sanin_Expressway_-09.jpg)
 *San-in Expressway segment showing characteristic coastal terrain - Source: Wikimedia Commons*
 
 The San-in Expressway (山陰自動車道, San-in Jidōsha-dō) forms the primary expressway corridor along Japan's northern Honshu coast (San-in region), running through Tottori and Shimane prefectures. Unlike the faster Chugoku Expressway that cuts inland through the mountains, the San-in Expressway follows the coastline, offering a scenic alternative route for the Kinosaki to Itoshima journey. [🔗](https://en.wikipedia.org/wiki/San%27in_Expressway)

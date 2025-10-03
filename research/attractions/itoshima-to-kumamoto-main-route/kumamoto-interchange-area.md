@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kyushu Expressway near Kita-Kumamoto Service Area](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kyushu_Expressway_near_Kita-Kumamoto_Service_Area.jpg/1280px-Kyushu_Expressway_near_Kita-Kumamoto_Service_Area.jpg)
+![Kyushu Expressway near Kita-Kumamoto Service Area](https://upload.wikimedia.org/wikipedia/commons/f/f2/Kyushu_EXP_Kumamoto_Shirakawa.jpg)
 *Kyushu Expressway approaching the Kumamoto area, showing the modern toll highway infrastructure. Photo: Wikimedia Commons*
 
 Kumamoto Interchange represents the primary entry point to Kumamoto city from the Kyushu Expressway, marking the southern terminus of the drive from Fukuoka and Itoshima. Opened on June 30, 1971, as part of the first section of the Kyushu Expressway in Kumamoto Prefecture, this interchange has served as the main gateway to Japan's castle town for over five decades. [🔗](https://en.wikipedia.org/wiki/Kyushu_Expressway)

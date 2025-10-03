@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Hiroshima Peace Memorial (Atomic Bomb Dome)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Atomic_Bomb_Dome_2023.jpg/1200px-Atomic_Bomb_Dome_2023.jpg)
+![Hiroshima Peace Memorial (Atomic Bomb Dome)](https://upload.wikimedia.org/wikipedia/commons/7/77/Genbaku_Dome04-r.JPG)
 *The Atomic Bomb Dome, the only structure left standing near the hypocenter, preserved exactly as it appeared after the August 6, 1945 bombing. Source: Wikimedia Commons*
 
 Hiroshima represents one of the most profound stops possible along any Japan journey - a city that encompasses both unimaginable tragedy and remarkable resilience. This combined visit offers two complementary perspectives on Hiroshima's identity: the Peace Memorial Park complex documenting the atomic bombing and its aftermath, and Hiroshima Castle representing the city's 400-year feudal heritage that was destroyed in 1945 and subsequently rebuilt.
@@ -18,7 +18,7 @@ Hiroshima represents one of the most profound stops possible along any Japan jou
 
 The surrounding Peace Memorial Park was established between 1950-1964 on the ground where the bomb detonated. The park contains numerous monuments including the Children's Peace Monument (honoring child victims, particularly Sadako Sasaki), the Cenotaph for the A-bomb Victims (aligned with the Dome and Peace Flame), and the Peace Memorial Museum. The museum houses personal artifacts, survivor testimonies, and graphic documentation that together create what visitors describe as "one of the most emotional experiences of their lives." The focus is intensely personal - clothing, belongings, and individual stories that put human faces to the tragedy. [🔗](https://hpmmuseum.jp/?lang=eng) [🔗](https://www.japan-guide.com/e/e3400.html)
 
-![Hiroshima Castle](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hiroshima_Castle_2008.jpg/1200px-Hiroshima_Castle_2008.jpg)
+![Hiroshima Castle](https://upload.wikimedia.org/wikipedia/commons/5/50/HiroshimaCastle.jpg)
 *Hiroshima Castle's reconstructed main keep rising above the moat, symbolizing the city's feudal heritage and post-war resilience. Source: Wikimedia Commons*
 
 **Hiroshima Castle** (also called Carp Castle) provides essential historical context for understanding what was lost. Originally built between 1589-1599 by powerful feudal lord Mōri Terumoto, this flatland castle controlled both land and sea routes via the Seto Inland Sea. The city of Hiroshima grew around it as a planned castle town with samurai residences, merchant quarters, and temples. The castle served as the region's administrative and economic center for centuries, even hosting the Imperial General Headquarters during the First Sino-Japanese War (1894-1895) and being designated a National Treasure in 1931. [🔗](https://en.wikipedia.org/wiki/Hiroshima_Castle) [🔗](https://www.japan.travel/en/spot/146/)

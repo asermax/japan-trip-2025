@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Echizen Coast along Route 305](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Etizenkaigan.jpg/1024px-Etizenkaigan.jpg)
+![Echizen Coast along Route 305](https://upload.wikimedia.org/wikipedia/commons/3/38/%E6%BC%81%E7%81%AB%E8%A1%97%E9%81%93_-_panoramio_-_Yobito_KAYANUMA.jpg)
 *Echizen Coast scenic view showing the dramatic Sea of Japan coastline along Route 305.*
 
 Route 305 (国道305号) is a scenic coastal highway running approximately 70km along the Echizen Coast in Fukui Prefecture, from Kanazawa City in Ishikawa Prefecture to Minamiechizen Town. The route passes through the Echizen-Kaga Kaigan Quasi-National Park, designated in 1968 for its strikingly oddly shaped rocks and scenic coastal features. [🔗](https://centrip-japan.com/article/1682.html)
@@ -46,7 +46,7 @@ The Echizen Coast represents an important part of Fukui's maritime heritage, wit
 
 ### 1. Kochomon (Kocho Gate) Parking Area
 
-![Kochomon natural rock arch](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Kochomon2015.jpg/1024px-Kochomon2015.jpg)
+![Kochomon natural rock arch](https://upload.wikimedia.org/wikipedia/commons/2/2d/Kochomon2015_2.jpg)
 *Kochomon (Inviting Birds Gate), a massive natural rock arch carved by the sea.*
 
 Kochomon (呼鳥門), literally meaning "Inviting Birds Gate," is a natural rock arch eroded by winds and waves over countless years into the shape of a gate. This massive rock arch carved by the sea was once known as a natural tunnel because National Highway 305 used to pass directly beneath it, though a new tunnel has now been built for safety. [🔗](https://centrip-japan.com/article/1682.html)

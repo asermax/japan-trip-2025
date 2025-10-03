@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kita-Alps Ohashi Bridge](https://content.fun-japan.jp/renewal-prod/cms/articles/content/dacb35d9d95c6ed77c80277fe50ae29427ce6e1d.jpg)
+![Kita-Alps Ohashi Bridge](https://upload.wikimedia.org/wikipedia/commons/e/ea/Yatsugatake_Echo_Line_Tsukinoki_Ohashi_Bridge.jpg)
 *The red arch bridge spanning the valley with Northern Alps in background - Source: Fun Japan official article*
 
 The Kita-Alps Ohashi Bridge (北アルプス大橋), completed in 1998, represents a modern gateway to the Northern Japanese Alps in the heart of Okuhida hot spring region. This dramatic red arch bridge connects the Shin-Hotaka Onsen's Nakao Highland area with the Nabedaira resort area, creating both a vital transportation link and one of the region's most celebrated viewpoints. [🔗](https://hidasanmyaku-gifu.jp/investigate/spot/north_alps_bridge-en/)

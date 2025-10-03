@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kintaikyo Bridge showing five wooden arches](https://upload.wikimedia.org/wikipedia/commons/9/98/Iwakuni%2C_ponte_kintai-kyo%2C_03%2C_0.jpg)
+![Kintaikyo Bridge showing five wooden arches](https://upload.wikimedia.org/wikipedia/commons/6/6f/Kintaikyou_bridge.JPG)
 *The five graceful wooden arches of Kintaikyo Bridge crossing the Nishiki River in Iwakuni - Source: Wikimedia Commons*
 
 Kintaikyo Bridge is a masterpiece of traditional Japanese wooden architecture - a 350-year-old pedestrian bridge spanning the Nishiki River with five elegant wooden arches. [🔗](https://en.wikipedia.org/wiki/Kintai_Bridge) This National Important Cultural Property represents one of Japan's three most famous bridges and showcases rare worldwide wooden arch engineering. The bridge measures 193.3 meters long and 5 meters wide, composed of five sequential wooden arch bridges on four stone piers plus two wooden piers on the dry riverbed at each end. [🔗](https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202309/202309_04_en.html)

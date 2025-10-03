@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Itoshima Peninsula landscape with artisan community](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Itoshima_Peninsula_from_Kaya_Island.jpg/1280px-Itoshima_Peninsula_from_Itoshima_Peninsula_from_Kaya_Island.jpg)
+![Itoshima Peninsula landscape with artisan community](https://upload.wikimedia.org/wikipedia/commons/a/a1/Itoshima_Peninsula_and_Genkaijima_Island_from_Obaru_Beach_1.jpg)
 *Itoshima Peninsula landscape - the creative community is spread across this coastal region. Source: Wikimedia Commons*
 
 Itoshima Peninsula in Fukuoka Prefecture has evolved into an internationally recognized creative hub, home to over 120 craft studios and galleries scattered throughout its coastal and mountain landscapes. [🔗](https://kanko-itoshima.jp/spot/craft-kobo/) The peninsula attracts artisans working in pottery, woodworking, leathercraft, textiles, glass art, and metalwork, creating a thriving artistic community that blends international creators with local Japanese traditions. [🔗](https://asia.nikkei.com/life-arts/life/how-japan-s-itoshima-became-an-international-hub-for-creators)

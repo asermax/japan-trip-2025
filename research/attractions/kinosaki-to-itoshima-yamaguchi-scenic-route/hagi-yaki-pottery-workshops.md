@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Hagi-yaki pottery workshop](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Potter%27s_wheel.jpg/800px-Potter%27s_wheel.jpg)
+![Hagi-yaki pottery workshop](https://upload.wikimedia.org/wikipedia/commons/7/7a/NSRW_Japanese_potter_at_his_wheel.jpg)
 *Traditional pottery wheel technique - pottery workshops in Hagi offer hands-on wheel throwing and hand-building experiences with 400-year-old ceramic traditions*
 
 Hagi city is home to over 100 active pottery kilns continuing the 400-year tradition of Hagi-yaki (萩焼), one of Japan's most respected ceramic styles particularly valued in tea ceremony culture. [🔗](https://www.japan-guide.com/e/e6157.html) The pottery tradition was established when Korean potters arrived in Hagi following the late 16th-century military campaigns, bringing advanced kiln technology including noborigama (climbing kilns) capable of reaching 1,400°C temperatures. [🔗](https://en.wikipedia.org/wiki/Hagi_ware)

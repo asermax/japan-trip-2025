@@ -10,7 +10,7 @@
 
 ## Basic Information
 
-![Kiso River passing through Kiso Fukushima](https://commons.wikimedia.org/wiki/File:Kiso_River_passing_through_Kiso_Fukushima_(%E6%9C%A8%E6%9B%BD%E7%A6%8F%E5%B3%B6).jpg)
+![Kiso River passing through Kiso Fukushima](https://upload.wikimedia.org/wikipedia/commons/b/bd/Kiso_River_and_Kiso_no_kakehashi.jpg)
 *The Kiso River flowing through Kiso Fukushima, showing the distinctive cliff houses. Source: Wikimedia Commons*
 
 Kiso Fukushima was the 37th and most important post town (shukuba) along the 69-station Nakasendo highway during the Edo period, serving as the political, economic, and transport center of the Kiso Valley. It housed one of only four major checkpoints (sekisho) on the entire Nakasendo route, making it a critical control point between Edo (Tokyo) and Kyoto. [🔗](https://en.wikipedia.org/wiki/Fukushima-juku)
