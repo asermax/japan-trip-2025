@@ -18,7 +18,7 @@ The park's cultural significance extends beyond mere entertainment - it represen
 
 ## Cultural & Religious Significance
 
-Features multiple themed areas including Thomas Land, attractions themed to popular anime like Mobile Suit Gundam, Hamtaro, and Neon Genesis Evangelion, and the Naruto-themed Fuji Hidden Leaf Village. The park incorporates traditional elements like the Fujisan Sengen Shrine within its grounds, dedicated to Princess Konohanasakuya, the Shinto deity of Mount Fuji. [🔗](https://www.japan-travel/en/spot/1332/)
+Features multiple themed areas including Thomas Land, attractions themed to popular anime like Mobile Suit Gundam, Hamtaro, and Neon Genesis Evangelion, and the Naruto-themed Fuji Hidden Leaf Village. The park incorporates traditional elements like the Fujisan Sengen Shrine within its grounds, dedicated to Princess Konohanasakuya, the Shinto deity of Mount Fuji. [🔗](https://en.wikipedia.org/wiki/Fuji-Q_Highland)
 
 The Haunted Hospital is recognized as the world's largest haunted attraction, and the Fujiyama Museum houses art inspired by Mount Fuji, connecting modern entertainment with cultural appreciation. [🔗](https://www.thrill-data.com/waits/park/additional-parks-asia/fuji-q-highland/)
 

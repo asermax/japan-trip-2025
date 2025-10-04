@@ -29,6 +29,6 @@ Spectacular Fugaku 360 exhibit featuring 15-meter Mount Fuji model made from tra
 
 ## Practical Visiting Tips
 
-Ideal cultural preparation before exploring Mount Fuji area attractions. Weather-independent indoor experience perfect for any conditions. English support available through technology. Allow 60-90 minutes for comprehensive educational experience. October timing provides excellent preparation for autumn foliage season context. [🔗](https://www.japan-guide.com/e/e6924/)
+Ideal cultural preparation before exploring Mount Fuji area attractions. Weather-independent indoor experience perfect for any conditions. English support available through technology. Allow 60-90 minutes for comprehensive educational experience. October timing provides excellent preparation for autumn foliage season context. [🔗](https://www.japan-guide.com/e/e6914.html)
 
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=6663-1+Funatsu,+Kawaguchiko-town,+Yamanashi+401-0301,+Japan)
