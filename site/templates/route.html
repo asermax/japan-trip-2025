@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- Custom Maps JavaScript - Load before Google Maps API -->
 <script src="/js/maps.js"></script>
 <!-- Google Maps API -->
-<script src="https://maps.googleapis.com/maps/api/js?key={{ config.extra.google_maps_api_key }}&callback=initMap&libraries=&v=weekly" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{ config.extra.google_maps_api_key }}&callback=initMap&libraries=marker&v=weekly&loading=async"></script>
 {% endif %}
 {% endblock extra_head %}
 

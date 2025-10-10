@@ -1,6 +1,7 @@
 /**
  * Google Maps integration for Japan Trip 2025
  * Displays attraction markers on destination and route pages with clickable pins
+ * Uses AdvancedMarkerElement (v3.56+) for improved performance and features
  */
 
 class TripMap {
@@ -14,7 +15,7 @@ class TripMap {
   /**
    * Initialize the Google Map with markers
    */
-  init() {
+  async init() {
     const container = document.getElementById(this.containerId);
 
     if (!container) {
@@ -27,6 +28,11 @@ class TripMap {
       return;
     }
 
+    // Import the marker library for AdvancedMarkerElement
+    const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
+    this.AdvancedMarkerElement = AdvancedMarkerElement;
+    this.PinElement = PinElement;
+
     // Calculate bounds from all markers
     const bounds = new google.maps.LatLngBounds();
     this.markers.forEach(marker => {
@@ -34,13 +40,15 @@ class TripMap {
     });
 
     // Initialize map centered on bounds
+    // mapId is required for AdvancedMarkerElement
+    // Note: Custom styles cannot be set when mapId is present
     this.map = new google.maps.Map(container, {
       center: bounds.getCenter(),
       zoom: 12,
+      mapId: 'JAPAN_TRIP_MAP',  // Required for advanced markers
       mapTypeControl: true,
       streetViewControl: false,
-      fullscreenControl: true,
-      styles: this.getMapStyles()
+      fullscreenControl: true
     });
 
     // Fit map to show all markers
@@ -56,30 +64,29 @@ class TripMap {
     this.map.fitBounds(bounds, paddingOptions);
 
     // Create markers
-    this.createMarkers();
-
-    // Add marker clustering if many markers
-    if (this.markers.length > 10) {
-      this.addMarkerClusterer();
-    }
+    await this.createMarkers();
   }
 
   /**
-   * Create map markers for each attraction
+   * Create map markers for each attraction using AdvancedMarkerElement
    */
-  createMarkers() {
+  async createMarkers() {
     this.markers.forEach((markerData, index) => {
-      const marker = new google.maps.Marker({
-        position: { lat: markerData.lat, lng: markerData.lng },
+      // Create a custom pin with label
+      const pinElement = new this.PinElement({
+        glyph: String(index + 1),
+        glyphColor: 'white',
+        background: '#d63384',
+        borderColor: '#9c1f6a',
+        scale: 1.2
+      });
+
+      // Create advanced marker
+      const marker = new this.AdvancedMarkerElement({
         map: this.map,
+        position: { lat: markerData.lat, lng: markerData.lng },
         title: markerData.title,
-        animation: google.maps.Animation.DROP,
-        label: {
-          text: String(index + 1),
-          color: 'white',
-          fontSize: '12px',
-          fontWeight: 'bold'
-        }
+        content: pinElement.element
       });
 
       // Create info window
@@ -88,16 +95,19 @@ class TripMap {
       });
 
       // Show info window on hover
-      marker.addListener('mouseover', () => {
-        infoWindow.open(this.map, marker);
+      marker.addListener('gmp-mouseover', () => {
+        infoWindow.open({
+          map: this.map,
+          anchor: marker
+        });
       });
 
-      marker.addListener('mouseout', () => {
+      marker.addListener('gmp-mouseout', () => {
         infoWindow.close();
       });
 
       // Navigate to attraction page on click
-      marker.addListener('click', () => {
+      marker.addListener('gmp-click', () => {
         window.location.href = markerData.url;
       });
 
@@ -117,60 +127,30 @@ class TripMap {
     `;
   }
 
-  /**
-   * Add marker clustering for better performance with many markers
-   */
-  addMarkerClusterer() {
-    if (typeof MarkerClusterer !== 'undefined') {
-      new MarkerClusterer(this.map, this.markerObjects, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
-        maxZoom: 15
-      });
-    }
-  }
-
-  /**
-   * Custom map styling for better visibility
-   */
-  getMapStyles() {
-    return [
-      {
-        featureType: 'poi',
-        elementType: 'labels',
-        stylers: [{ visibility: 'off' }]
-      },
-      {
-        featureType: 'transit',
-        elementType: 'labels',
-        stylers: [{ visibility: 'off' }]
-      }
-    ];
-  }
 }
 
 /**
  * Initialize map when Google Maps API is loaded
  */
-function initMap() {
+async function initMap() {
   // Find all map containers on the page
   const mapContainers = document.querySelectorAll('[data-map-markers]');
 
-  mapContainers.forEach(container => {
+  for (const container of mapContainers) {
     const markersJson = container.getAttribute('data-map-markers');
 
     try {
       const markers = JSON.parse(markersJson);
       const map = new TripMap(container.id, markers);
-      map.init();
+      await map.init();
     } catch (error) {
-      console.error('Error parsing map markers:', error);
+      console.error('Error initializing map:', error);
       container.innerHTML = '<p class="map-error">Error loading map data.</p>';
     }
-  });
+  }
 }
 
 // Make initMap available globally for Google Maps callback
-// Set immediately to ensure it's available before Google Maps API loads
 if (typeof window !== 'undefined') {
   window.initMap = initMap;
 }

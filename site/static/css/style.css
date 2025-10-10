@@ -1,6 +1,7 @@
 /* Basic styling for Japan Trip 2025 site */
 
-* {
+/* Exclude Google Maps elements from global reset to prevent control issues */
+*:not([class^="gm-"]):not([class*=" gm-"]) {
     margin: 0;
     padding: 0;
     box-sizing: border-box;

@@ -36,9 +36,9 @@
   -ms-transition: none;
 }
 
-/* Images and Captions */
-.post-content img,
-.content img {
+/* Images and Captions - exclude map images */
+.post-content img:not(.map-container img):not(.map-container *),
+.content img:not(.map-container img):not(.map-container *) {
   max-width: 60%;
   height: auto;
   display: block;
@@ -88,9 +88,9 @@ html.theme--dark .pagination {
     width: 100%;
   }
 
-  /* Full width images on mobile */
-  .post-content img,
-  .content img {
+  /* Full width images on mobile - exclude map images */
+  .post-content img:not(.map-container img):not(.map-container *),
+  .content img:not(.map-container img):not(.map-container *) {
     max-width: 100%;
   }
 }
