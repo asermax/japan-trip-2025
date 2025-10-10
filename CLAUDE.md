@@ -556,6 +556,10 @@ uv run python scripts/generate_timeline.py --research research --output site/con
 uv run python scripts/find_broken_images.py  # Check for broken images
 /fix-images                                   # Automated image fixing with parallel agents
 
+# Fix orphaned attractions
+uv run python scripts/find_orphaned_attractions.py  # Discover orphaned attractions
+/fix-orphaned-attractions                           # Fix all orphaned attractions with parallel agents
+
 # Local development
 cd site
 zola serve          # Local development server (default port 1111)
