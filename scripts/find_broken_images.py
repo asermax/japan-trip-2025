@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Quick broken image finder for Japan Trip 2025 attractions."""
+"""Quick broken image finder for Japan Trip 2025 attractions, destinations, and routes.
+
+Usage examples:
+  python find_broken_images.py                       # Check all files
+  python find_broken_images.py osaka                 # Check specific destination
+  python find_broken_images.py kinosaki-to-itoshima  # Check specific route pair
+"""
 
 import argparse
 import os
@@ -43,26 +49,47 @@ def is_broken_image(url):
 
 def main():
     parser = argparse.ArgumentParser(description='Find broken images in research files')
-    parser.add_argument('destination', nargs='?', help='Specific destination to check (optional)')
+    parser.add_argument('target', nargs='?', help='Specific destination or route pair (e.g., kinosaki-to-itoshima) (optional)')
     args = parser.parse_args()
 
     attractions_dir = Path('research/attractions')
     destinations_dir = Path('research/destinations')
+    routes_dir = Path('research/routes')
 
-    if args.destination:
+    if args.target and '-to-' in args.target:
+        # Check specific route pair (e.g., kinosaki-to-itoshima)
+        # Find all route folders matching this pattern
+        route_folders = [d for d in routes_dir.iterdir() if d.is_dir() and d.name.startswith(args.target)]
+        attraction_folders = [d for d in attractions_dir.iterdir() if d.is_dir() and d.name.startswith(args.target)]
+
+        route_files = []
+        for folder in route_folders:
+            route_files.extend(list(folder.glob('*.md')))
+
+        route_attraction_files = []
+        for folder in attraction_folders:
+            route_attraction_files.extend(list(folder.glob('*.md')))
+
+        all_files = route_files + route_attraction_files
+        print(f"Checking {args.target} routes...")
+        print(f"Found {len(route_folders)} route folders with {len(route_files)} route files")
+        print(f"Found {len(attraction_folders)} attraction folders with {len(route_attraction_files)} route attraction files")
+    elif args.target:
         # Check specific destination
-        attraction_files = list((attractions_dir / args.destination).glob('*.md')) if (attractions_dir / args.destination).exists() else []
-        destination_file = destinations_dir / f'{args.destination}.md'
+        attraction_files = list((attractions_dir / args.target).glob('*.md')) if (attractions_dir / args.target).exists() else []
+        destination_file = destinations_dir / f'{args.target}.md'
         destination_files = [destination_file] if destination_file.exists() else []
-        print(f"Checking {args.destination}...")
+        all_files = attraction_files + destination_files
+        print(f"Checking {args.target}...")
+        print(f"Found {len(attraction_files)} attraction files and {len(destination_files)} destination files")
     else:
-        # Check all files
+        # Check all files (destinations, attractions, and routes)
         attraction_files = list(attractions_dir.rglob('*.md'))
         destination_files = list(destinations_dir.rglob('*.md'))
+        route_files = list(routes_dir.rglob('*.md'))
+        all_files = attraction_files + destination_files + route_files
         print(f"Checking all files...")
-
-    all_files = attraction_files + destination_files
-    print(f"Found {len(attraction_files)} attraction files and {len(destination_files)} destination files")
+        print(f"Found {len(attraction_files)} attraction files, {len(destination_files)} destination files, and {len(route_files)} route files")
 
     all_images = []
     for file_path in all_files:
