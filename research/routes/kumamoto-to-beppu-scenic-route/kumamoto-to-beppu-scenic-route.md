@@ -141,6 +141,12 @@ The Yamanami Highway (Route 11) is one of Kyushu's most celebrated scenic drives
 
 ---
 
+### Mount Yufu Viewpoint/Trailhead
+
+[Research File: research/attractions/kumamoto-to-beppu-scenic-route/mount-yufu-viewpoint.md]
+
+---
+
 ## Short Detour Stops (15-30 minutes)
 
 ### Milk Road Scenic Drive
@@ -186,29 +192,6 @@ The Yamanami Highway (Route 11) is one of Kyushu's most celebrated scenic drives
 
 ---
 
-### Mount Yufu Viewpoint/Trailhead
-
-[Research File: research/attractions/kumamoto-to-beppu-scenic-route/mount-yufu-viewpoint-trailhead.md]
-
-- **Detour Time:** None for observatory viewpoint (Sagiridai directly on Route 11); 20 minutes for trailhead
-- **Type:** Observatory viewpoint / Mountain hiking trailhead
-- **Elevation:** Observatory at 680m; summit at 1,583m
-- **Cost:** Free, no permits required
-- **Visit Duration:** 15-30 minutes for observatory stop; 4-6 hours round trip for hiking
-- **Key Features:** Sagiridai Observatory (on-route), Jakoshi Observatory, twin-peaked volcano summit hike
-
-**Route Context:** Mount Yufu (由布岳, Yufudake) is a 1,583.3-meter active volcano affectionately called "Bungo Fuji" featuring distinctive twin peaks creating an elegant, conical silhouette reminiscent of Mount Fuji. Holds profound cultural significance with mentions in the *Manyoshu* (Japan's oldest poetry collection). According to folklore preserved at Unaguhime Shrine, the mountain deity Unaguhime ordered the shore of an ancient lake to be kicked open, draining the water and creating the fertile land where Yufuin town now sits - establishing Mount Yufu as a protective presence watching over the town and its famous hot springs.
-
-**Driving Visitor Experience:** Sagiridai Observatory offers the quintessential Yamanami Highway photo opportunity without leaving your vehicle. From 680 meters elevation, panoramic view encompasses the entire Yufuin Basin with Mount Yufu's twin peaks rising majestically in the background. The observatory's name literally translates to "mist stand," referring to the spectacular morning fog (asagiri) that fills the valley below from autumn through winter. November timing exceptional - contrast between vivid autumn foliage, Mount Yufu's slopes covered in Japanese silver grass (susuki), and early morning mist creates otherworldly photography conditions. Best time: early morning (sunrise to 9 AM) on cool, clear days for mist phenomenon.
-
-For hiking: the trail (rated easy to moderate) starts in open grasslands before entering forested switchbacks, climbing to Matae saddle point between twin peaks. East Peak more accessible with moderate scrambling and incredible 360-degree views. West Peak slightly higher (1,548m) but more challenging with chains and steep rocky sections. November offers peak autumn foliage, comfortable hiking temperatures, and morning mist season. Requires early start (7-8 AM) for daylight return.
-
-**Route Integration:** Mount Yufu serves as major landmark for Yamanami Highway travelers. Observatory visit (recommended for all): Sagiridai requires zero detour directly on Route 11, 15-30 minute stop captures iconic mountain views, essential for morning mist photography enthusiasts. Full hiking experience (for active travelers): requires 20-minute detour to trailhead, plan minimum 5-6 hours total, best incorporated as half-day activity when staying in Yufuin, transforms route from scenic drive to active mountain adventure. The mountain's position near Yufuin makes it ideal stop when transitioning between the highway's dramatic volcanic landscapes and coastal hot spring culture of Beppu. Traditional post-hike reward: soaking in Yufuin's famous onsen with views of the mountain just conquered.
-
-**Sources:** [🔗](https://en.wikipedia.org/wiki/Mount_Yufu) [🔗](https://www.japan.travel/en/spot/711/) [🔗](https://drivejapan.co.jp/media/spot/areas/kyushu/spots/sagiridai-observatory) [🔗](https://www.hikemasterjapan.com/mt-yufu)
-
----
-
 ## Major Detour Stops (30+ minutes)
 
 ### Kuju Mountain Range Hiking Trails
@@ -250,6 +233,24 @@ For hiking: the trail (rated easy to moderate) starts in open grasslands before 
 **Route Integration:** This major detour from the Yamanami Highway provides significant cultural contrast - transitioning from dramatic volcanic highlands and grasslands of Aso-Kuju National Park to an intimate traditional onsen village experience. Represents authentic mountain hot spring culture that predates modern resort towns, offering contemplative and traditional hot spring experience before reaching more developed Beppu onsen resort city. Bridges volcanic geology of Mount Aso with hot spring culture of Beppu destination. Requires commitment: total detour time ~90-120 minutes driving plus 3-4 hours village visit. Best incorporated when: (1) Starting early from Kumamoto with time buffer, (2) Overnight near Aso allowing full day for route, or (3) Splitting Yamanami Highway drive across two days. Alternative: Skip this detour and experience more developed (and conveniently located) Yufuin hot springs directly on route, or save onsen immersion for Beppu destination.
 
 **Sources:** [🔗](https://www.japan-guide.com/e/e4575.html) [🔗](https://travelswithelle.com/japan/kurokawa-onsen-guide/) [🔗](https://www.kurokawaonsen.or.jp/eng_new/)
+
+---
+
+### Lake Kinrinko (Kinrin Lake)
+
+[Research File: research/attractions/kumamoto-to-beppu-scenic-route/lake-kinrinko.md]
+
+---
+
+### Yufuin Hot Spring Town
+
+[Research File: research/attractions/kumamoto-to-beppu-scenic-route/yufuin-hot-spring-town.md]
+
+---
+
+### Kokonoe Yume Otsurihashi (Dream Suspension Bridge)
+
+[Research File: research/attractions/kumamoto-to-beppu-scenic-route/kokonoe-yume-otsurihashi.md]
 
 ---
 

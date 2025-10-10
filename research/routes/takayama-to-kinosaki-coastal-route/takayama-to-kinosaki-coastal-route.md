@@ -745,6 +745,24 @@ For travelers comfortable with 1.5 days in Kinosaki and seeking maximum coastal 
 
 ---
 
+### Echizen Pottery Village
+
+[Research File: research/attractions/takayama-to-kinosaki-coastal-route/echizen-pottery-village.md]
+
+---
+
+### Ichijodani Asakura Clan Historic Ruins
+
+[Research File: research/attractions/takayama-to-kinosaki-coastal-route/ichijodani-asakura-ruins.md]
+
+---
+
+### Echizen Ono Castle Town
+
+[Research File: research/attractions/takayama-to-kinosaki-coastal-route/echizen-ono-castle-town.md]
+
+---
+
 ## Cultural Context & Heritage
 
 ### Echizen Cultural Corridor

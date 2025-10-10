@@ -188,6 +188,18 @@ This created a remarkable trade loop: lacquer tappers from coastal areas travele
 
 ---
 
+### Genbudo Park & Museum
+
+[Research File: research/attractions/takayama-to-kinosaki-main-route/genbudo-park-museum.md]
+
+---
+
+### Izushi Castle Town
+
+[Research File: research/attractions/takayama-to-kinosaki-main-route/izushi-castle-town.md]
+
+---
+
 ## Major Detour Stops (30+ minutes)
 
 ### Takeda Castle Ruins
@@ -247,6 +259,12 @@ This created a remarkable trade loop: lacquer tappers from coastal areas travele
 **Driving Visitor Experience:** Consensus: "Best way to see Ine is from the sea." Boat tours essential - large sightseeing boats (25-min loop, ¥1,200, every 30 min) or sea taxis (guided by local fishermen, ¥1,000/person, more intimate). Walking/cycling 5km coastal route (1-2 hours) with free bicycle rental available. Funaya no Sato Park observation deck offers panoramic views and sunset photography. INE CAFE in converted funaya provides photogenic interior with bay views. Almost all funaya are private residences - exterior viewing only without permission. [🔗](https://www.japan-guide.com/e/e3996.html)
 
 **Route Integration:** 15 km (30-40 minutes) north of Amanohashidate, commonly combined for full-day eastern detour. From Kinosaki: 1.5 hours to Amanohashidate, then 40 minutes to Ine. Total detour: 5+ hours round trip if combining both. Best sequence: Funaya no Sato Park (orientation) → Boat tour → Walk/cycle coastline → Lunch at funaya cafe. Most justified for travelers with strong interest in traditional architecture and cultural preservation who can dedicate full day to eastern detour from main route. [🔗](https://kyoto-ocean.com/en/3days-in-amanohashidate-and-ine/)
+
+---
+
+### Chirihama Nagisa Driveway
+
+[Research File: research/attractions/takayama-to-kinosaki-main-route/chirihama-nagisa-driveway.md]
 
 ---
 

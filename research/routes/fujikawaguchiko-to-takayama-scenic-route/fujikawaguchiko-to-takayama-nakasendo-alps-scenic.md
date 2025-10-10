@@ -178,6 +178,12 @@ This scenic route offers a journey through Japan's cultural and natural heritage
 
 ---
 
+### Alps Kaido Hirayu
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/alps-kaido-hirayu.md]
+
+---
+
 ## Short Detour Stops (15-30 minutes)
 
 ### Torii Pass Trail

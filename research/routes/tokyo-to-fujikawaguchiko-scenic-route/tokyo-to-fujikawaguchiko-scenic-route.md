@@ -137,6 +137,8 @@ National Route 139, designated the **Fuji Panorama Line**, circles Mount Fuji an
 
 ### Roadside Station Narusawa
 
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/roadside-station-narusawa.md]
+
 - **Detour Time:** Direct access from Route 139, no significant detour
 - **Type:** Government-designated rest area with museum and facilities
 - **Cost:** Free admission (museum, parking, facilities)
@@ -198,6 +200,8 @@ National Route 139, designated the **Fuji Panorama Line**, circles Mount Fuji an
 
 ### Lake Kawaguchi Shoreline
 
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/lake-kawaguchi-shoreline.md]
+
 - **Detour Time:** 15-20 minutes from central Route 139
 - **Type:** Multiple access points for traditional Mount Fuji viewing and photography
 - **Cost:** Free access; some facilities have admission fees
@@ -215,9 +219,29 @@ National Route 139, designated the **Fuji Panorama Line**, circles Mount Fuji an
 
 ---
 
+### Oishi Park
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/oishi-park.md]
+
+---
+
+### Kawaguchi Asama Shrine
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/kawaguchi-asama-shrine.md]
+
+---
+
 ## Major Detour Stops (30+ minutes)
 
+### Arakura Fuji Sengen Shrine
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/arakura-fuji-sengen-shrine.md]
+
+---
+
 ### Chureito Pagoda
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/chureito-pagoda.md]
 
 - **Detour Time:** 30-40 minutes from Route 139 via local roads near Fujiyoshida
 - **Significance:** Iconic five-story pagoda with Mount Fuji backdrop, one of Japan's most photographed views
@@ -235,6 +259,8 @@ National Route 139, designated the **Fuji Panorama Line**, circles Mount Fuji an
 ---
 
 ### Oshino Hakkai Springs
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/oshino-hakkai-springs.md]
 
 - **Detour Time:** 30-40 minutes from Route 139 via local roads
 - **Significance:** Eight sacred ponds with deep cultural significance and Mount Fuji spiritual context
@@ -290,6 +316,12 @@ National Route 139, designated the **Fuji Panorama Line**, circles Mount Fuji an
 **Driving Visitor Experience:** The shrine network offers flexibility for spiritual and cultural stops throughout the Route 139 journey. Each shrine has distinct characteristics while sharing common Mount Fuji worship traditions. Most feature traditional architecture, sacred trees, and peaceful grounds ideal for contemplative stops.
 
 **Route Integration:** Rather than a single major detour, the Fuji Sengen Shrine network provides multiple opportunities for cultural stops integrated throughout the route. Travelers can visit one or several shrines depending on interest level and time available, creating a spiritual dimension to complement the scenic driving experience.
+
+---
+
+### Saiko Iyashi-no-Sato Nenba
+
+[Research File: research/attractions/tokyo-to-fujikawaguchiko-scenic-route/saiko-iyashi-no-sato-nenba.md]
 
 ---
 

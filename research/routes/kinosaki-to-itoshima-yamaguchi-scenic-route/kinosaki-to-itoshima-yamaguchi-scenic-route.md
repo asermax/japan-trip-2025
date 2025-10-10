@@ -77,6 +77,66 @@
 
 **Route Integration:** Positioned perfectly between Akiyoshidai (morning) and Shimonoseki/coastal areas (afternoon/evening). Lunch timing aligns with 12:00-1:00 PM window. Provides essential cultural context - Muromachi period heritage before Meiji Restoration history at coastal sites. Maintains route momentum while experiencing authentic "Kyoto of the West" atmosphere without crowds.
 
+---
+
+### Coastal Peninsula Drives (Tsunoshima to Hagi)
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/coastal-peninsula-drives.md]
+
+---
+
+## Short Detour Stops (15-30 minutes)
+
+### Yuda Onsen
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/yuda-onsen.md]
+
+---
+
+### Motonosumi-jinja Shrine
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/motonosumi-jinja-shrine.md]
+
+---
+
+### Akiyoshido Cave
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/akiyoshido-cave.md]
+
+---
+
+### Ruriko-ji Temple Five-Storied Pagoda
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/ruriko-ji-temple-five-storied-pagoda.md]
+
+---
+
+## Major Detour Stops (30+ minutes)
+
+### Shoin Jinja Shrine
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/shoin-jinja-shrine.md]
+
+---
+
+### Hagi-yaki Pottery Workshops
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/hagi-yaki-pottery-workshops.md]
+
+---
+
+### Horiuchi Samurai Quarter
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/horiuchi-samurai-quarter.md]
+
+---
+
+### Hagi Historic Samurai Town
+
+[Research File: research/attractions/kinosaki-to-itoshima-yamaguchi-scenic-route/hagi-historic-samurai-town.md]
+
+---
+
 ## Route-Specific Considerations
 
 ### Seasonal Factors (for Travel Date)

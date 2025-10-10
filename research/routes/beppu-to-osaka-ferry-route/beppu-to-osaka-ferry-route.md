@@ -88,6 +88,24 @@
 
 ## On-Route Stops (No Detour)
 
+### Beppu Ferry Terminal
+
+[Research File: research/attractions/beppu-to-osaka-ferry-route/beppu-ferry-terminal.md]
+
+---
+
+### Ferry Crossing Experience - Beppu to Yawatahama
+
+[Research File: research/attractions/beppu-to-osaka-ferry-route/ferry-crossing-experience.md]
+
+---
+
+### Yawatahama Port & Ferry Terminal
+
+[Research File: research/attractions/beppu-to-osaka-ferry-route/yawatahama-port-ferry-terminal.md]
+
+---
+
 ### Ozu City (Iyo-Ozu)
 
 [Research File: research/attractions/beppu-to-osaka-ferry-route/ozu-city.md]

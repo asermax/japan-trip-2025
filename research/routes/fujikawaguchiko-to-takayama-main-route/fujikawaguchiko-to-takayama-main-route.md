@@ -24,6 +24,8 @@ The journey marks a significant transition from Mount Fuji worship culture to th
 
 ### Suwako SA (Lake Suwa Service Area)
 
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/suwako-sa.md]
+
 - **Type:** Premium highway service area
 - **Location:** Chuo Expressway (E20), Okaya-City, Nagano Prefecture [🔗](https://globalsapa.c-nexco.co.jp/en/sapa/119/)
 - **Distance from Fujikawaguchiko:** ~100-120 km (1.5-2 hours driving)
@@ -65,6 +67,8 @@ Visitor consensus emphasizes the exceptional views as the primary draw, with som
 ---
 
 ### Enakyo SA (Ena Gorge Service Area)
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/enakyo-sa.md]
 
 - **Type:** Premium highway service area
 - **Location:** Chuo Expressway (E19), Ena City, Gifu Prefecture [🔗](https://sapa.c-nexco.co.jp/sapa?sapainfoid=107)
@@ -239,6 +243,8 @@ E-tickets (¥100 cheaper than paper tickets) can be reserved up to 3 months in a
 
 ### Matsumoto City Center
 
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/matsumoto-city-center.md]
+
 - **Type:** Historic merchant district, downtown shopping and cultural area
 - **Location:** Nakamachi district (central Matsumoto), Nagano Prefecture
 - **Distance from Route:** On-route through Matsumoto (direct access from Route 158)
@@ -387,6 +393,8 @@ Exit at Azumino IC on the Nagano Expressway, drive straight for approximately 10
 ---
 
 ### Nawate Street (Matsumoto)
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-main-route/nawate-street.md]
 
 - **Detour Time:** 15-30 minutes off expressway route to Takayama (located in Matsumoto city center)
 - **Type:** Traditional shopping street with cultural/historical significance
