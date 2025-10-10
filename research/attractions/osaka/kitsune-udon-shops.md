@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kitsune Udon](https://upload.wikimedia.org/wikipedia/commons/e/ef/Kitsune_udon.JPG)
+![Kitsune Udon](https://upload.wikimedia.org/wikipedia/commons/1/13/Kitsune_udon.JPG)
 *A traditional bowl of Kitsune Udon with sweet aburaage topping. Image from Wikimedia Commons (CC BY-SA 2.5)*
 
 Kitsune Udon is Osaka's signature noodle dish and an essential culinary experience for visitors. This comforting "soul food" consists of thick wheat udon noodles in a light dashi broth made from kombu (kelp) and mackerel flakes, topped with sweet, savory aburaage (deep-fried tofu pockets). The dish originated in 1893 at Matsubaya in Osaka's Funamachi district and has since become one of the city's most beloved dishes. [🔗](https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/4612/index.html)

@@ -201,6 +201,82 @@ This scenic route offers a journey through Japan's cultural and natural heritage
 
 ---
 
+## Major Detour Stops (30+ minutes)
+
+### Kamikochi Alpine Valley
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/kamikochi-alpine-valley.md]
+
+### Shinhotaka Ropeway
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/shinhotaka-ropeway.md]
+
+### Shosenkyo Gorge
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/shosenkyo-gorge.md]
+
+### Narai-juku Detailed Exploration
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/narai-juku-detailed-exploration.md]
+
+### Magome-Tsumago Walking Trail
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/magome-tsumago-walking-trail.md]
+
+### Post Town Dining Experiences
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/post-town-dining-experiences.md]
+
+### Hida Folk Village (Hida no Sato)
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/hida-no-sato.md]
+
+### Hida Folk Craft Experiences
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/hida-folk-craft-experiences.md]
+
+### Craft Experience Centers
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/craft-experience-centers.md]
+
+### Shirakaba Lake
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/shirakaba-lake.md]
+
+### Kaida Kogen Highland
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/kaida-kogen-highland.md]
+
+### Azusa River Valley
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/azusa-river-valley.md]
+
+### Hirayu Folk Museum
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/hirayu-folk-museum.md]
+
+### Hirayu Pass
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/hirayu-pass.md]
+
+### Anbo Pass
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/anbo-pass.md]
+
+### Northern Alps Bridge
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/northern-alps-bridge.md]
+
+### Korobokkuru Hutte
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/korobokkuru-hutte.md]
+
+### Fukuji Onsen
+
+[Research File: research/attractions/fujikawaguchiko-to-takayama-scenic-route/fukuji-onsen.md]
+
+---
+
 ## Route-Specific Considerations
 
 ### Seasonal Factors (October 24, 2025)

@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Assorted Sashimi](https://upload.wikimedia.org/wikipedia/commons/5/50/Assorted_sashimi.jpg)
+![Assorted Sashimi](https://upload.wikimedia.org/wikipedia/commons/e/e4/Sashimi_Moriawase.JPG)
 *Traditional Japanese sashimi presentation showcasing the variety of fresh seafood typical of Beppu Bay - Source: Wikimedia Commons*
 
 Beppu Bay represents one of Kyushu's premier seafood destinations, where nutrient-rich waters from the Seto Inland Sea meet the Pacific Ocean, creating exceptionally rich fisheries. The region offers fresh local fish and shellfish through morning markets, traditional sashimi preparations, and grilled seafood specialties that reflect centuries of fishing culture.

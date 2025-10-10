@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kumano Magaibutsu Stone Buddha Carving](https://upload.wikimedia.org/wikipedia/commons/a/a3/Kumano-magaibutsu.jpg)
+![Kumano Magaibutsu Stone Buddha Carving](https://upload.wikimedia.org/wikipedia/commons/e/e9/Dainichi-nyorai_of_Kumano_Magaibutsu.jpg)
 *Kumano Magaibutsu - Japan's largest Buddhist stone carvings carved into a cliff face on the Kunisaki Peninsula*
 
 The Kunisaki Peninsula juts into the Seto Inland Sea from northern Oita Prefecture, creating a rugged, mountainous landscape dominated by Mount Futago (721 meters) at its center. This remote region is the birthplace of Rokugo-Manzan, a unique religious culture with over 1,300 years of history that synthesized Buddhism brought from China, indigenous Shinto beliefs, and ancient mountain worship practices into a distinctive spiritual tradition. [🔗](https://www.visit-kyushu.com/en/blogs/spiritual-trek-kunisak-rokugo-manzan-temples/) [🔗](https://voyapon.com/oita-mountain-worship/)

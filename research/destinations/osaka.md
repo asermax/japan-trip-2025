@@ -7,7 +7,7 @@
 
 ## Basic Information
 
-![Osaka cityscape](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Osaka_Night_View.jpg/1280px-Osaka_Night_View.jpg)
+![Osaka cityscape](https://upload.wikimedia.org/wikipedia/commons/9/9c/Osaka_-_Night_View.jpg)
 *Osaka's vibrant cityscape blending historic temples with modern urban energy. Photo: Wikimedia Commons*
 
 Osaka, Japan's third-largest city and the cultural heart of the Kansai region, is renowned for its unique blend of deep historical significance and contemporary urban vitality. The city's Buddhist and Shinto heritage dates back over 1,400 years, with Shitennoji Temple (593 CE) representing Japan's first officially state-built Buddhist temple and Sumiyoshi Taisha Shrine (3rd century) exemplifying pre-Buddhist indigenous architecture. [🔗](https://www.japan-guide.com/e/e4011.html) [🔗](https://en.wikipedia.org/wiki/Sumiyoshi-taisha)
