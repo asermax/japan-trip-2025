@@ -1,4 +1,4 @@
-# Suwa Taisha Shrines Research
+# Suwa Taisha Shrines
 
 **Location:** Four shrine complex around Lake Suwa - Kamisha (Suwa City) and Shimosha (Shimosuwa-machi), Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.0695678,138.0801295)

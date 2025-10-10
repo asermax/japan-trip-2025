@@ -1,4 +1,4 @@
-# Norikura Skyline Research
+# Norikura Skyline
 
 **Location:** Tatamidaira Bus Terminal (36.1127° N, 137.5517° E), Border of Takayama City and Matsumoto City
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1248978,137.5543847)

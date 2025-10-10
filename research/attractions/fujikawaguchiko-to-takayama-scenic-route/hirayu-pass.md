@@ -1,4 +1,4 @@
-# Hirayu Pass Research
+# Hirayu Pass
 
 **Location:** Takayama City, Gifu Prefecture (36°10'51"N, 137°31'50"E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1461317,137.252159)

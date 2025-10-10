@@ -1,4 +1,4 @@
-# Lake Suwa Rest Stop (Suwako Service Area) Research
+# Lake Suwa Rest Stop (Suwako Service Area)
 
 **Location:** Suwa City (upbound) / Okaya City (downbound), Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.0670021,138.0493709)

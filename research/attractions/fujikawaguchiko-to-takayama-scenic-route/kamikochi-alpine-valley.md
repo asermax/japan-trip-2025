@@ -1,4 +1,4 @@
-# Kamikochi Alpine Valley Research
+# Kamikochi Alpine Valley
 
 **Location:** Chubu Sangaku National Park, 1,500 meters above sea level
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.4543841,137.6236372)

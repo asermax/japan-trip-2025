@@ -1,4 +1,4 @@
-# Enakyo SA (Ena Gorge Service Area) Research
+# Enakyo SA (Ena Gorge Service Area)
 
 **Location:** Ooi-cho Funayama 1120-206, Ena City, Gifu Prefecture 509-7201
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4492931,137.4128453)

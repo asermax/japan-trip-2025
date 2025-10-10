@@ -1,4 +1,4 @@
-# Suwako SA (Lake Suwa Service Area) Research
+# Suwako SA (Lake Suwa Service Area)
 
 **Location:** 461-1 Minato, Okaya-City, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.0267232,138.0760628)

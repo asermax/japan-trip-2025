@@ -1,4 +1,4 @@
-# Tateishi Park Research
+# Tateishi Park
 
 **Location:** 10399 Kamisuwa, Suwa City, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.0609252,138.131564)

@@ -1,4 +1,4 @@
-# Nawate Street Research
+# Nawate Street
 
 **Location:** 3-3-1 Ote, Matsumoto, Nagano 390-0874, Japan
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.235034,137.9700987)

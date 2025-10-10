@@ -1,4 +1,4 @@
-# Tsumago-juku Research
+# Tsumago-juku
 
 **Location:** Tsumago-juku, Nagiso, Kiso District, Nagano Prefecture (35.577°N, 137.5954°E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5775876,137.5956667)

@@ -1,4 +1,4 @@
-# Michi-no-Eki Fuketsu no Sato (Road Station Wind Cave Village) Research
+# Michi-no-Eki Fuketsu no Sato (Road Station Wind Cave Village)
 
 **Location:** 3528-1 Azumi, Matsumoto City, Nagano Prefecture 390-1520
 **Category:** Roadside Station (Michi-no-Eki) / Cultural Heritage Site / Gateway Facility

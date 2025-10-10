@@ -1,4 +1,4 @@
-# Azusa River Valley (Kamikochi) Research
+# Azusa River Valley (Kamikochi)
 
 **Location:** Kamikochi, Matsumoto City, Nagano Prefecture (36.25° N, 137.633° E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1937325,137.9702455)

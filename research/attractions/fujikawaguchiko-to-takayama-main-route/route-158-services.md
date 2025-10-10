@@ -1,4 +1,4 @@
-# Service Areas Along Route 158 Research
+# Service Areas Along Route 158
 
 **Location:** National Route 158, Matsumoto to Takayama section (Nagano/Gifu Prefectures)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1794909,137.781633)

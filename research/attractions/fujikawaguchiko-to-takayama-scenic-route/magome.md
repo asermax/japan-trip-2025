@@ -1,4 +1,4 @@
-# Magome-juku Research
+# Magome-juku
 
 **Location:** 4300-1 Magome, Nakatsugawa 508-0502, Gifu Prefecture (35.5247°N, 137.5583°E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.5285073,137.5697216)

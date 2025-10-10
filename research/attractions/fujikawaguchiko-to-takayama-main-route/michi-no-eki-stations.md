@@ -1,4 +1,4 @@
-# Michi-no-Eki Roadside Stations Research
+# Michi-no-Eki Roadside Stations
 
 **Location:** Various locations between Fujikawaguchiko and Takayama via Chuo Expressway and Route 158
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4701808,137.6525)

@@ -1,4 +1,4 @@
-# Kiso Fukushima Research
+# Kiso Fukushima
 
 **Location:** Kiso-machi, Kiso District, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.8424988,137.6915171)

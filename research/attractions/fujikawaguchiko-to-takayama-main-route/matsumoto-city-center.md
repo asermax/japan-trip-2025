@@ -1,4 +1,4 @@
-# Matsumoto City Center Research
+# Matsumoto City Center
 
 **Location:** Nakamachi district (central Matsumoto), Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.2337121,137.9721685)

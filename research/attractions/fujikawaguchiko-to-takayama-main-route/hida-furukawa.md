@@ -1,4 +1,4 @@
-# Hida Furukawa Research
+# Hida Furukawa
 
 **Location:** Hida City, Gifu Prefecture, approximately 15km north of Takayama
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.2380854,137.1848385)

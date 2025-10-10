@@ -1,4 +1,4 @@
-# Hirayu Onsen Village Research
+# Hirayu Onsen Village
 
 **Location:** Okuhida Onsengo Hirayu, Takayama, Gifu Prefecture 506-1433
 **Category:** Historic onsen village / Traditional rest stop

@@ -1,4 +1,4 @@
-# Daio Wasabi Farm Research
+# Daio Wasabi Farm
 
 **Location:** 3640 Hotaka, Azumino, Nagano Prefecture 399-8303, Japan
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.3387774,137.9090712)

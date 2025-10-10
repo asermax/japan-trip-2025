@@ -1,4 +1,4 @@
-# Shosenkyo Gorge (Mitake Shosenkyo) Research
+# Shosenkyo Gorge (Mitake Shosenkyo)
 
 **Location:** Northern Kofu, Yamanashi Prefecture (10 km north of Kofu city center)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6964003,138.5302355)

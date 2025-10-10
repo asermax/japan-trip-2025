@@ -1,4 +1,4 @@
-# Torii Pass Trail Research
+# Torii Pass Trail
 
 **Location:** Between Yabuhara and Narai, Kiso Valley, Nagano Prefecture
 **Category:** Historic mountain pass trail / Edo-period hiking route

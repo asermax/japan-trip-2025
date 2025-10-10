@@ -1,4 +1,4 @@
-# Anbo Pass (安房峠 Abo-toge) Research
+# Anbo Pass (安房峠 Abo-toge)
 
 **Location:** Between Takayama (Gifu Prefecture) and Matsumoto (Nagano Prefecture) on Route 158 (36.194°N, 137.584°E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1794909,137.781633)

@@ -1,4 +1,4 @@
-# Narai-juku Research
+# Narai-juku
 
 **Location:** Narai, Shiojiri City, Nagano Prefecture (35.9592°N, 137.8068°E)
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.9095563,137.8328517)

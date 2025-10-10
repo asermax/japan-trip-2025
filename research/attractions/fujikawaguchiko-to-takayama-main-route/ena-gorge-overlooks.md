@@ -1,4 +1,4 @@
-# Ena Gorge Overlooks Research
+# Ena Gorge Overlooks
 
 **Location:** Nakatsugawa City and Ena City, Gifu Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.4492931,137.4128453)

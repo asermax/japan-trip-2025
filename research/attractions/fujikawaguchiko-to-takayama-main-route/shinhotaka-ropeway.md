@@ -1,4 +1,4 @@
-# Shin-Hotaka Ropeway Research
+# Shin-Hotaka Ropeway
 
 **Location:** Okuhida Onsengo, Takayama City, Gifu Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1845001,137.557011)

@@ -1,4 +1,4 @@
-# Hida Folk Village (Hida no Sato) Research
+# Hida Folk Village (Hida no Sato)
 
 **Location:** 1-590 Kamiokamotomachi, Takayama, Gifu Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.1319956,137.2370143)

@@ -1,4 +1,4 @@
-# Venus Line (ビーナスライン) Research
+# Venus Line (ビーナスライン)
 
 **Location:** Chino City to Utsukushigahara Plateau, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.225797,138.107442)

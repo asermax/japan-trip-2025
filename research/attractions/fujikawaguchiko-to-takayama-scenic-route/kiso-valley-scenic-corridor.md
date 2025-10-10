@@ -1,4 +1,4 @@
-# Kiso Valley Scenic Corridor (Route 19) Research
+# Kiso Valley Scenic Corridor (Route 19)
 
 **Location:** Route 19 through Kiso Valley, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=35.8615758,137.7273463)

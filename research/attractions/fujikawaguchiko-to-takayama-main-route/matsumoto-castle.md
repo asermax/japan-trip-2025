@@ -1,4 +1,4 @@
-# Matsumoto Castle Research
+# Matsumoto Castle
 
 **Location:** 4-1 Marunouchi, Matsumoto City, Nagano Prefecture
 **Location:** [View on Google Maps](https://maps.google.com/maps?q=36.23812660000001,137.9707787)
