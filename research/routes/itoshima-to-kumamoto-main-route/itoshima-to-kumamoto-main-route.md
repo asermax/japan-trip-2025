@@ -1,6 +1,6 @@
 # Itoshima to Kumamoto - Main Route Research
 
-![Kyushu Expressway](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kyushu_Expressway_near_Kita-Kumamoto_Service_Area.jpg/1280px-Kyushu_Expressway_near_Kita-Kumamoto_Service_Area.jpg)
+![Kyushu Expressway](https://upload.wikimedia.org/wikipedia/commons/f/f2/Kyushu_EXP_Kumamoto_Shirakawa.jpg)
 *Caption: Kyushu Expressway approaching Kumamoto - modern toll highway connecting northern and central Kyushu*
 
 **Travel Date:** November 1, 2025
