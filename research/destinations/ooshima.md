@@ -1,4 +1,4 @@
-# Ooshima (Izu Islands) Research
+# Ooshima Research
 
 **Visit Period:** November 9-18, 2025 (day trip from Tokyo/Shibuya)
 **Duration:** Day trip
