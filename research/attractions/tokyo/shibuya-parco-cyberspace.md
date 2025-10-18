@@ -14,7 +14,7 @@
 
 ## Cultural Significance
 
-The 6th floor "Cyberspace Shibuya" houses Nintendo Tokyo, Pokémon Center Shibuya, Jump Shop, and Capcom Store Tokyo in one concentrated area, creating comprehensive destination for fans of Japanese gaming and shonen anime franchises. This clustering strategy represents modern character retail—multiple major franchises under one roof for efficient shopping. [🔗](https://mihoshappylife.com/2023/03/11/shibuya-parco-cyberspace-otaku-paradise/)
+The 6th floor "Cyberspace Shibuya" houses Nintendo Tokyo, Pokémon Center Shibuya, Jump Shop, and Capcom Store Tokyo in one concentrated area, creating comprehensive destination for fans of Japanese gaming and shonen anime franchises. This clustering strategy represents modern character retail—multiple major franchises under one roof for efficient shopping. [🔗](https://japantravel.navitime.com/en/area/jp/guide/NTJnews0177-en/)
 
 ## Shops & Attractions
 
@@ -47,7 +47,7 @@ The 6th floor "Cyberspace Shibuya" houses Nintendo Tokyo, Pokémon Center Shibuy
 
 **Hours:** 10:00–21:00
 
-**What Makes It Special:** Official store for Weekly Shonen Jump franchises: Naruto, One Piece, Demon Slayer, Dragon Ball, Jujutsu Kaisen, and others. Rotating collaborations and limited-edition items based on current serializations. [🔗](https://mihoshappylife.com/2023/03/11/shibuya-parco-cyberspace-otoku-paradise/)
+**What Makes It Special:** Official store for Weekly Shonen Jump franchises: Naruto, One Piece, Demon Slayer, Dragon Ball, Jujutsu Kaisen, and others. Rotating collaborations and limited-edition items based on current serializations. [🔗](https://japantravel.navitime.com/en/area/jp/guide/NTJnews0177-en/)
 
 **Visiting Tips:**
 - New releases timed with manga volumes and anime episodes
@@ -59,7 +59,7 @@ The 6th floor "Cyberspace Shibuya" houses Nintendo Tokyo, Pokémon Center Shibuy
 
 **Hours:** 10:00–21:00
 
-**What Makes It Special:** Official Capcom merchandise featuring Street Fighter, Monster Hunter, Resident Evil, Mega Man, and other franchises. Exclusive items not available at general retailers. [🔗](https://mihoshappylife.com/2023/03/11/shibuya-parco-cyberspace-otaku-paradise/)
+**What Makes It Special:** Official Capcom merchandise featuring Street Fighter, Monster Hunter, Resident Evil, Mega Man, and other franchises. Exclusive items not available at general retailers. [🔗](https://japantravel.navitime.com/en/area/jp/guide/NTJnews0177-en/)
 
 ## Visiting Information
 
@@ -83,7 +83,7 @@ The 6th floor "Cyberspace Shibuya" houses Nintendo Tokyo, Pokémon Center Shibuy
 
 ## Sources
 
-- Mihoshappylife Shibuya Parco Guide: [🔗](https://mihoshappylife.com/2023/03/11/shibuya-parco-cyberspace-otaku-paradise/)
+- Japan Travel NAVITIME - Shibuya Parco Anime & Game Floor Guide: [🔗](https://japantravel.navitime.com/en/area/jp/guide/NTJnews0177-en/)
 - Shibuya Parco Official: [🔗](https://shibuya.parco.jp/en/)
 - Japan Travel NAVITIME: [🔗](https://japantravel.navitime.com/en/area/jp/guide/NTJnews0174-en/)
 
