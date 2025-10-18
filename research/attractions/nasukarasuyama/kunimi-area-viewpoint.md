@@ -9,11 +9,11 @@
 
 ## Basic Information
 
-![Sea of clouds from mountain viewpoint](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sea_of_clouds_from_Mount_Fuji.jpg/1024px-Sea_of_clouds_from_Mount_Fuji.jpg)
-*Representative sea of clouds (unkai) phenomenon similar to what can be seen at Kunimi Pass viewpoint. Source: Wikimedia Commons*
+![Sea of clouds from mountain viewpoint](https://upload.wikimedia.org/wikipedia/commons/9/99/A_sea_of_clouds_from_Kitadake-sansou_01.jpg)
+*Representative sea of clouds (unkai) phenomenon similar to what can be seen at Kunimi Pass viewpoint*
 
-![Satsuma mandarin oranges](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Satsuma_mandarin.jpg/800px-Satsuma_mandarin.jpg)
-*Satsuma mandarin oranges (mikan), the variety cultivated at Japan's northernmost commercial production area in Kunimi. Source: Wikimedia Commons*
+![Satsuma mandarin oranges](https://upload.wikimedia.org/wikipedia/commons/1/10/Chenpi%2C%E9%99%B3%E7%9A%AE%2CCitrus_unshiu_5026687.JPG)
+*Satsuma mandarin oranges (mikan), the variety cultivated at Japan's northernmost commercial production area in Kunimi*
 
 The Kunimi Area Viewpoint is a scenic mountain observation deck at approximately 266 meters elevation in Nasukarasuyama City, Tochigi Prefecture, approximately 2 hours north of Tokyo. The site is renowned for two unique seasonal phenomena: the winter sea of clouds (unkai) and Japan's northernmost commercial mandarin orange cultivation. [🔗](https://www.tochinavi.net/spot/home/?id=18956)
 

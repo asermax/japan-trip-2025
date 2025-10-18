@@ -9,8 +9,8 @@
 
 ## Basic Information
 
-![Yakumo Shrine](https://commons.wikimedia.org/wiki/Category:Yakumo-jinja_(Nasukarasuyama))
-*Yakumo Shrine, the spiritual heart of Nasukarasuyama's UNESCO Heritage Yama-age Festival. Photo: Wikimedia Commons*
+![Yakumo Shrine](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg/1200px-Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg)
+*Representative Japanese shrine architecture*
 
 Yakumo Shrine (八雲神社, Yakumo-jinja) is a historic Shinto shrine established in 1560 when Nasu Sukitane, lord of Karasuyama Castle, enshrined Gozu Tenno (牛頭天王) at Nakamachi Jumonji to pray for the elimination of epidemics, bountiful harvests, and peace throughout the world. [🔗](https://www.trip.com/moments/theme/destination-nasukarasuyama-56726-attractions-993137/) In 1870, Gozu Tenno Shrine was renamed Yakumo Shrine. [🔗](https://japanguides.net/tochigi/nasukarasuyama-karasuyama-yama-age-festival/)
 

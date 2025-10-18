@@ -9,8 +9,8 @@
 
 ## Basic Information
 
-![Washi traditional paper texture](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Washi%28Sugihara_paper%29.JPG/800px-Washi%28Sugihara_paper%29.JPG)
-*Traditional washi paper showing the characteristic texture and quality of Japanese handmade paper. Source: Wikimedia Commons*
+![Washi traditional paper texture](https://upload.wikimedia.org/wikipedia/commons/5/5f/Washi%28Sugihara_paper%29.JPG)
+*Traditional washi paper showing the characteristic texture and quality of Japanese handmade paper*
 
 Karasuyama Washi Workshop (Washi-no-Sato / 和紙の里), operated by Fukuda Paper Mill, represents the last surviving producer of Karasuyama washi, a 1,200-year-old papermaking tradition dating to the Nara period (710-794 AD). [🔗](https://www.visit-tochigi.com/plan-your-trip/things-to-do/1339/) This hands-on cultural experience allows visitors to learn traditional Japanese papermaking techniques that have been designated as a national intangible cultural property since 1977. [🔗](https://tochigi-dentoukougeihin.info/en/othercrafts/karasuyama-tesuki-washi.html)
 

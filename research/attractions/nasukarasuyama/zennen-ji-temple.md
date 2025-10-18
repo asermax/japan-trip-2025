@@ -9,8 +9,8 @@
 
 ## Basic Information
 
-![Buddhist temple architecture in Nasukarasuyama](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Jigan-ji_%28Nasukarasuyama%29.JPG/1024px-Jigan-ji_%28Nasukarasuyama%29.JPG)
-*Buddhist temple architecture in Nasukarasuyama, representative of the area's temple heritage (Jigan-ji Temple). Photo: Wikimedia Commons*
+![Buddhist temple architecture](https://upload.wikimedia.org/wikipedia/commons/2/2f/T%C5%8Ddai-ji_Kon-d%C5%8D.jpg)
+*Representative Buddhist temple architecture in Japan*
 
 Zennen-ji Temple (善念寺, Kakazan Shintaiin Zennen-ji) is a historic Jodo sect (Pure Land Buddhism) temple established in 1593 in the heart of Nasukarasuyama's former castle town. [🔗](https://zennenji.jp/about/) The temple serves as an important cultural repository, housing a Kamakura-period wooden Amida Buddha statue designated as a municipal cultural property, and preserving the graves of notable historical figures including Edo-period haiku poet Tokiwa Tanboku. [🔗](https://www.city.nasukarasuyama.lg.jp/page/page001648.html)
 
