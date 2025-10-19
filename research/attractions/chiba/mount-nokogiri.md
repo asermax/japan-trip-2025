@@ -218,4 +218,4 @@ The November visit period allows comparison between early-stay Tokyo exploration
 - Temple's connection to Tokugawa Shogunate explains persecution during Emperor restoration
 - Site represents both Buddhist devotion and Japan's complex relationship with religious institutions during modernization
 
-**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.501354,138.80154)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.1562,139.8378)
