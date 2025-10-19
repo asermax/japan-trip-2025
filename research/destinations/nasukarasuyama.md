@@ -1,7 +1,7 @@
 # Nasukarasuyama Research
 
-**Visit Period:** Day trip from Tokyo (flexible timing)
-**Duration:** Full day or half day
+**Visit Period:** November 11, 2025
+**Duration:** Day trip from Tokyo
 **Research Completed:** 2025-10-17
 **Discovery State:** research/state/nasukarasuyama-discovery-state.md
 

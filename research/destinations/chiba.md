@@ -1,6 +1,6 @@
 # Chiba Research
 
-**Visit Period:** November 9-18, 2025 (Tokyo final stay)
+**Visit Period:** November 18-19, 2025
 **Duration:** Day trip destinations from Tokyo
 **Research Completed:** 2025-10-17
 **Discovery State:** research/state/chiba-discovery-state.md

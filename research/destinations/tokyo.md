@@ -1,5 +1,8 @@
 # Tokyo
 
+**Visit Period:** November 10-17, 2025
+**Duration:** 7 nights
+
 ## Basic Information
 
 Tokyo serves as Japan's premier destination for anime, otaku culture, and specialty shopping experiences. As the world's largest metropolitan area and cultural epicenter of Japanese pop culture, Tokyo offers unparalleled access to character goods, vintage collectibles, craft supplies, and immersive themed experiences. [🔗](https://www.gotokyo.org/en/)
