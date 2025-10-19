@@ -1,7 +1,7 @@
 # Yukata and Traditional Clothing Culture Research
 
 **Location:** Throughout Kinosaki Onsen streets and establishments
-**Location:** [View on Google Maps](https://maps.google.com/maps?q=36.204824,138.252924)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.6238,134.8134)
 **Category:** Cultural Experience
 **Cost:** Yukata typically provided with ryokan accommodation
 **Best Time:** Year-round with seasonal layering adaptations

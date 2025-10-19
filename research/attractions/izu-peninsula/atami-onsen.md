@@ -171,4 +171,4 @@ The name "Atami" literally translates to "hot ocean," referencing the town's leg
 **Yugawara:**
 - Adjacent onsen town on JR Tokaido Line [🔗](https://matcha-jp.com/en/3938)
 
-**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.783889,139.017778)
+**Location:** [View on Google Maps](https://maps.google.com/maps?q=35.0894,139.0686)
