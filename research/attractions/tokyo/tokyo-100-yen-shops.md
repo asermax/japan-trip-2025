@@ -1,6 +1,6 @@
 # Tokyo 100-Yen Shops (Budget Stationery & Crafts)
 
-## Overview
+## Basic Information
 
 100-yen shops offer excellent sticker selections perfect for budget-friendly souvenirs. Major chains include Daiso, Seria, Watts, and Can Do with thousands of locations across Tokyo. [🔗](https://tinytotintokyo.com/100-yen-dollar-store-in-japan-affordable-souvenirs-and-more)
 
