@@ -1,4 +1,4 @@
-# Kinosaki to Itoshima - Main Expressway Route Research
+# Kinosaki to Fukuoka - Main Expressway Route Research
 
 ![Kanmon Straits and Bridge](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kanmonkyo_bridge.jpg/1200px-Kanmonkyo_bridge.jpg)
 *The iconic Kanmon Bridge spanning the strait between Honshu and Kyushu islands - a key highlight of this route. Source: Wikimedia Commons*
@@ -9,7 +9,7 @@
 **Route Distance:** ~568 km (353 miles)
 **Base Drive Time:** 7-8 hours without stops
 **Research Completed:** October 2, 2025 (Batch 9 - includes practical route research: traffic patterns, expressway passes, toll calculations)
-**Discovery State:** research/state/kinosaki-to-itoshima-main-route-state.md
+**Discovery State:** research/state/kinosaki-to-fukuoka-main-route-state.md
 
 ## Route Overview
 

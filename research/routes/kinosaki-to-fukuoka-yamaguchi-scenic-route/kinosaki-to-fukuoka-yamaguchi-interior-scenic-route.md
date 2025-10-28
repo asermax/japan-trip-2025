@@ -1,4 +1,4 @@
-# Kinosaki to Itoshima - Yamaguchi Interior Scenic Route Research
+# Kinosaki to Fukuoka - Yamaguchi Interior Scenic Route Research
 
 ![Route overview image](https://upload.wikimedia.org/wikipedia/commons/2/29/Tsunoshima_ohashi.JPG)
 *Tsunoshima Bridge crossing the turquoise Sea of Japan - iconic gateway to the Yamaguchi coastal scenic corridor*
@@ -9,7 +9,7 @@
 **Route Distance:** Moderate detour from main expressway, approximately 568 km base + scenic additions
 **Estimated Additional Time:** 1-3 hours beyond main route depending on stops
 **Research Completed:** October 2, 2025 (Batch 2/18 - In progress)
-**Discovery State:** research/state/kinosaki-to-itoshima-yamaguchi-scenic-route-state.md
+**Discovery State:** research/state/kinosaki-to-fukuoka-yamaguchi-scenic-route-state.md
 
 ## Route Overview
 

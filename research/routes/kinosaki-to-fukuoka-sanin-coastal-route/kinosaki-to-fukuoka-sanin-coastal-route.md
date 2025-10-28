@@ -1,4 +1,4 @@
-# Kinosaki to Itoshima - San'in Coastal Scenic Route Research
+# Kinosaki to Fukuoka - San'in Coastal Scenic Route Research
 
 ![Uradome Coast](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Uradome_Coast_Sengan-Matsushima.JPG/800px-Uradome_Coast_Sengan-Matsushima.JPG)
 *Caption: Uradome Coast showcasing the dramatic ria coastline with white granite cliffs and emerald waters characteristic of the San'in Kaigan Geopark*
@@ -10,7 +10,7 @@
 **Base Drive Time:** 8-10 hours (without stops)
 **Estimated Additional Time:** 2-4 hours beyond main route depending on stops
 **Research Completed:** October 2, 2025 (Batch 7/21 completed)
-**Discovery State:** research/state/kinosaki-to-itoshima-sanin-coastal-route-state.md
+**Discovery State:** research/state/kinosaki-to-fukuoka-sanin-coastal-route-state.md
 
 ## Route Overview
 
