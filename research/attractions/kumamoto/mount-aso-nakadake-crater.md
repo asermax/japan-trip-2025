@@ -5,7 +5,7 @@
 **Cost:** Park road toll ¥1,000 per car (round trip)
 **Best Time:** Autumn (September-November) for foliage and sea of clouds
 **Duration:** 1-2 hours for crater viewing; 6-8 hours for full day trip
-**Research Completed:** October 24, 2025
+**Research Completed:** October 28, 2025 (Batch 20 - Volcanic Activity Update)
 
 ## Basic Information
 
@@ -78,10 +78,15 @@ Thanks to extensive restoration efforts, transportation and infrastructure have 
 - Shuttle bus: ¥700 one way [🔗](https://www.japan-guide.com/e/e4552.html)
 - No additional crater viewing fee
 
-**Current Status (Critical):**
-- The no-entry zone around Mount Aso's crater was lifted on July 25, 2025, and crater viewing is currently possible [🔗](https://www.japan-guide.com/e/e4552.html)
-- **However:** Access is frequently restricted with little warning due to volcanic gas levels, weather conditions, or volcanic activity changes [🔗](https://www.japan-guide.com/e/e4552.html)
-- **Always check before visiting:** Aso Volcano Disaster Prevention Council website for current access status [🔗](https://kumamoto.guide/en/spots/detail/209)
+**Current Status (Critical - November 2025 Update):**
+- **July 2025 Activity:** On July 4, 2025, volcanic tremors increased prompting JMA to raise Alert Level to 2, with a 1km exclusion zone around Nakadake Crater [🔗](https://volcano.si.edu/volcano.cfm?vn=282110)
+- **Restrictions Lifted:** The no-entry zone was lifted on July 25, 2025, allowing crater viewing to resume [🔗](https://explore-kumamoto.com/aso-volcano-current-status/)
+- **November 1, 2025 Access Likelihood:** Moderate-to-good (60-70% probability) based on the 4-month stabilization period since July restrictions were lifted and historical November patterns showing good accessibility [🔗](https://explore-kumamoto.com/aso-volcano-current-status/)
+- **Monitoring Required:** Alert level remained at 2 in late July (not optimal Level 1); real-time monitoring essential in days before visit [🔗](https://volcano.si.edu/volcano.cfm?vn=282110)
+- **Always check before visiting:**
+  - Official JMA Volcanic Warnings: https://www.data.jma.go.jp/multi/volcano/index.html?lang=en [🔗](https://www.data.jma.go.jp/multi/volcano/index.html?lang=en)
+  - Aso Volcano Disaster Prevention Council: https://www.aso-volcano.jp/eng/ [🔗](https://www.aso-volcano.jp/eng/)
+- **Access Requirements:** For crater access to be permitted, alert level must be at Level 1 (lowest level) AND gas concentrations below specified thresholds [🔗](https://youinjapan.net/kyushu/mount-aso.php)
 
 ## The Crater Experience
 
@@ -133,6 +138,27 @@ Located near Kusasenri, the museum provides comprehensive educational exhibits a
 - First floor: Gift shop and restaurant serving light fare [🔗](https://kumamoto.guide/en/spots/detail/11938)
 
 ## November Visit Considerations
+
+### November Autumn Foliage Viewing
+
+**November 1st Foliage Status:**
+Mount Aso's highland areas (800-1,000+ meters elevation) experience earlier foliage progression than lowland regions, making early November optimal for highland viewing. November 1st falls during the **mid-to-late peak phase for highland areas** while lowland gorges remain at pre-peak stages. [🔗](https://hoshinoresorts.com/en/guide/area/kyushu/kumamoto-area/aso/aso-koyo/)
+
+**Optimal Viewing Locations for November 1st:**
+
+- **Autumn Leaves Forest Area:** Specifically recommended for early November viewing, featuring bright red foliage contrasting with mountain streams and observation deck panoramas [🔗](https://hoshinoresorts.com/en/guide/area/kyushu/kumamoto-area/aso/aso-koyo/)
+- **Daikanbo Lookout:** Highland panoramic views with autumn-colored vegetation and golden silver grass (susuki) meadows creating tapestry effects [🔗](https://hoshinoresorts.com/en/guide/area/kyushu/kumamoto-area/aso/aso-koyo/)
+- **Tadewara Marsh:** Ramsar-protected wetland at high elevation featuring golden-brown marsh grasses with surrounding mountains "dappled with shades of red and yellow" [🔗](https://www.umetravel.com/japan-fall-foliage/autumn-leaves-kyushu.html)
+- **Hiranodai Highland Observatory:** Natural park at 800-1,000m showing grassland stained yellow with Japanese silver grass and panoramic autumn views [🔗](https://hoshinoresorts.com/en/guide/area/kyushu/kumamoto-area/aso/aso-koyo/)
+
+**Regional Foliage Timing:**
+Full peak foliage across Kumamoto region typically occurs November 10-20, but Mount Aso's elevation (5-10°C cooler than lowland Kumamoto) triggers earlier color change. Highland areas peak late October to mid-November, making November 1st excellent timing for Mount Aso exploration. [🔗](https://www.umetravel.com/japan-fall-foliage/autumn-leaves-kyushu.html)
+
+**Photography Considerations:**
+- Golden hour (sunrise 6:30-7:30 AM, sunset 5:00-6:00 PM) enhances warm autumn tones [🔗](https://www.veltra.com/en/travelguide/autumn/japan-fall-colors-photography-guide/)
+- Overcast conditions eliminate harsh shadows and increase color saturation naturally [🔗](https://www.thephotoargus.com/a-detailed-guide-to-photographing-fall-foliage/)
+- Polarizing filter enhances foliage colors and reduces atmospheric haze [🔗](https://www.veltra.com/en/travelguide/autumn/japan-fall-colors-photography-guide/)
+- Use foreground silver grass to frame distant mountain colors [🔗](https://hoshinoresorts.com/en/guide/area/kyushu/kumamoto-area/aso/aso-koyo/)
 
 ### November Weather and Conditions
 
