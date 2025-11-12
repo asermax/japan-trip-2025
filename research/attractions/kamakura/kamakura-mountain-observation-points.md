@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Kamakura Hiking Trail View](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Kamakura_view_from_Tenen_hiking_trail.jpg/1280px-Kamakura_view_from_Tenen_hiking_trail.jpg)
+![Kamakura Hiking Trail View](https://upload.wikimedia.org/wikipedia/commons/8/8e/Kamakura_view_from_Tenen_hiking_trail.jpg)
 *Caption: Panoramic view from the Ten-en hiking trail overlooking Kamakura and Sagami Bay. Source: Wikimedia Commons*
 
 Kamakura's mountain observation points offer spectacular panoramic views across the historic city, Sagami Bay, and Mount Fuji on clear days. Multiple viewpoints accessible via hiking trails through the mountains northeast and east of Kamakura Station provide diverse perspectives of this ancient capital. [🔗](https://www.japan-guide.com/e/e3113.html) The trail system, known collectively as the Kamakura Alps, connects various atmospheric temples while offering visitors a unique blend of nature, history, and breathtaking vistas. [🔗](https://www.nippon.com/en/guide-to-japan/gu024007/)
