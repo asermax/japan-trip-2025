@@ -9,7 +9,7 @@
 
 ## Basic Information
 
-![Genjiyama Park on Daibutsu Hiking Trail](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Genjiyama_Park_%40_Daibutsu_Hiking_Trail_%40_Kamakura_%2813897687631%29.jpg/1280px-Genjiyama_Park_%40_Daibutsu_Hiking_Trail_%40_Kamakura_%2813897687631%29.jpg)
+![Genjiyama Park on Daibutsu Hiking Trail](https://upload.wikimedia.org/wikipedia/commons/9/9d/Genjiyama_Park_%40_Daibutsu_Hiking_Trail_%40_Kamakura_%2813897687631%29.jpg)
 *Caption: Forest path through Genjiyama Park along the Daibutsu Hiking Trail. Source: Wikimedia Commons*
 
 The AllTrails network in Kamakura consists of 63 scenic trails offering diverse hiking experiences: 61 walking trails, 60 hiking trails, and 14 running trails with varying difficulty levels. [🔗](https://www.alltrails.com/japan/kanagawa/kamakura) The trails traverse forested hills, connect historic temples, and provide stunning coastal views.

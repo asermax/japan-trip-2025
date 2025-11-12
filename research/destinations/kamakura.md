@@ -5,7 +5,7 @@
 
 ## Basic Information
 
-![Kamakura overview](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tsurugaoka_Hachimangu_Shrine.JPG/1280px-Tsurugaoka_Hachimangu_Shrine.JPG)
+![Kamakura overview](https://upload.wikimedia.org/wikipedia/commons/e/e4/Tsurugaoka_Hachimangu_Shrine.JPG)
 *Caption: Tsurugaoka Hachimangu Shrine, the spiritual heart of Kamakura where the city developed around in 1180*
 
 Kamakura stands as one of Japan's most historically significant cities, serving as the seat of the first shogunate from 1185-1333 and giving its name to an entire period of Japanese history. [🔗](https://www.japan-guide.com/e/e2166.html) Located just an hour south of Tokyo along the scenic Shonan Coast, this coastal town blends samurai heritage with Buddhist spirituality through its numerous temples and shrines. The city's compact size and efficient Enoden railway make it ideal for day trips, with major attractions accessible within walking distance or short train rides. Kamakura is particularly renowned for its Five Great Zen Temples (Kamakura Gozan), the iconic Great Buddha statue, and seasonal beauty including cherry blossoms in spring and over 10,000 hydrangeas blooming across temple grounds in June. [🔗](https://www.japan.travel/en/spot/1577/)
